@@ -1,8 +1,19 @@
-# doctrine mirrors — never push live
+# Runtime / agent state — doctrine never lives here (R12)
 .DSH/
 .config/dsh/
+.dsh/
+
+# Secrets
 *.env
+.env
 VPNs/vpn_creds.txt
+
+# Local-only tooling
 local/
 .cache/
 .local/share/
+Archive/
+
+# Transient
+*.log.tmp
+*.swp

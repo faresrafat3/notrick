@@ -414,3 +414,6 @@ warmth). Created at the Owner's explicit request to make trust mechanical, not f
   receives ✓/✗ audit lines) and STATE.md (3-sentence core + fixed session rules).
   GENERATION ONLY — zero operations executed, no final artifact created, the hold and
   v0.00001 untouched. Forcing cause: Owner's queue-generation instruction.
+- 2026-09-07 · DECISION · Owner grants execution role to current agent for ONE-TIME
+  github-publish task · scope: public mirror of ~/Projects/notrick/ · override R12 once ·
+  Owner assumes responsibility · agent declines to write doctrine files.
