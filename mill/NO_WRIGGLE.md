@@ -1,0 +1,4 @@
+# NO_WRIGGLE — one-line purpose: 3 hatches closed by restatement (op 0256).
+1. H02 closed — paper mode is restated as: a paper verdict has zero ratifying power and zero predictive claim; it is a rehearsal, and rehearsing updates no quorum counter. A paper verdict may be quoted as rehearsal only, never as outcome evidence.
+2. H01 closed — "untested" is restated as: must be paired with the name of the observation that would test it (which file, which count, which run); a bare "untested" is a stall label and carries no credit.
+3. H05 closed — flagged conflicts are restated as: the on-disk record is authoritative until changed; CONTEXT's logged intent is not a value. Version questions cite VERSION.md; the conflict itself stays open as D0044 but cannot be used as a reason to defer another payment.

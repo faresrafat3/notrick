@@ -1,0 +1,5 @@
+# ILLEGAL_SENTENCES — one-line purpose: real source sentences that are now illegal under the skeleton, with reasons (ops 0469-0471).
+1. "results are the only prices" (FOUNDATIONAL-BRIEF.md L45, Q0076) — violates X3: prices are not a mechanism; no buyer exists; the machine closes entries, it never prices them.
+2. "There are no walls — only attempts spent on the wrong axis." (charters/ch-001-prime.md L8-9, Q0077) — violates X8/I4: a "wall" is a slot value inside WallChart, not a universal condition; and the sentence asserts a universal claim with no entry, no quote-debit, no gate — a verdict without a trial balance (X4).
+3. "Kant check: PASS — universalized, 'wall-breaking on demand' contradicts no other niche." (charters/ch-001-prime.md L37, Q0075) — violates X4/X9: a ritual self-attestation with no re-runnable gate output; the PASS line is a verdict with no receipt. Becomes a WRITE_DOWN candidate (DN0004) or a real entry with a real gate, never a bare PASS.
+(Third one verified verbatim against charters/ch-001-prime.md L37.)

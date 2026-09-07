@@ -1,0 +1,12 @@
+# CLAIM_INDEX — one-line purpose: claims grouped by object, not by file (op 0136).
+- Verification / gate machinery: C0001, C0013, C0015, C0019, C0020, C0025, C0040
+- Coordination medium (documents, no orchestrator): C0008, C0017, C0023, C0018
+- Economics of fate (results-as-prices, falsifiers): C0007, C0021, C0022, C0029, C0047
+- Birth, death, forging: C0004, C0005, C0006, C0030, C0031, C0032
+- Roles and identity: C0003, C0024, C0026, C0027, C0028, C0033, C0034, C0035
+- Ownership and ratification: C0044, C0045, C0046, C0047, C0034
+- Integrity and the record: C0036, C0037, C0038, C0048, C0049
+- Runtime boundary (what never runs): C0039, C0040, C0042, C0043, C0050
+- Hypotheses (pre-registered): C0010, C0011, C0012
+- Imports and their landing: C0009, C0016
+- Duplicates/kills: C0041 (KILLED, dup of C0039)

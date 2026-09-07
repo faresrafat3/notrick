@@ -1,0 +1,3 @@
+# ONE_SENTENCE — one-line purpose: the current theoretical object in one sentence, anchored terms only.
+NOTRICK is a bookkeeping discipline: every claim is an evidence debit paired with an outward receipt credit, and until the gate's trial balance closes, the claim stands in suspense — UNVERIFIED, never called true.
+P03 verdict (op 0343): rewritten under R4 (double-entry). All nouns TERMS-anchored under the new object (bookkeeping discipline=VERDICT doctrine, claim=C0040, evidence=C0020, receipt=T0007, gate=T0004, trial balance=VERDICT object, suspense=VERDICT doctrine). The pre-verdict sentence's "results-as-prices" term (T0008) is exiled (C0007 killed); TERMS will re-entry T0008 as a write-down reference in P04.

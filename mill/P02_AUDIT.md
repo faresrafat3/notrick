@@ -1,0 +1,21 @@
+# P02_AUDIT — one-line purpose: expected ops 0201-0300, PASS count, missing IDs, repair notes (ops 0274-0275, 0294-0295).
+- Expected: 0201-0300 (100 ops). Logged: 100. Missing IDs expected: none (all logged at append).
+- Op 0201: DEBT.md created as table (not empty-then-filled; filled in the same write by group — verified complete).
+- Ops 0202-0211: D0001-D0010 from G0001-G0010, one per gap, all anchored.
+- Op 0212: 10 unpaid promises converted (D0011-D0019 + refs). Op 0213: MISSING_PROOFS converted (D0020-D0029; four merged at 0218).
+- Op 0214: IMPORTS converted (D0030-D0037; 3 taste-killed at 0262). Op 0215: undefined load-bearing terms (D0005/D0002 already; D0038/D0039 added).
+- Op 0216: therefore-unearned (D0040, D0042; dupes merged). Op 0217: contradictions open (D0043-D0046).
+- Op 0218: dedupe — D0020→D0006, D0021→D0009, D0022→D0008, D0023→D0007, D0041→D0026 (costlier kept).
+- Op 0220-0226: payment specs for ranks 1-7 in DEBT_PAYMENT.md, 6 lines each — no payments made.
+- Op 0233: methodology-shaped language fracture = FR06 (U0002 protocol-vs-essay), present, not ABSENT.
+- Op 0234: is-vs-ought fracture = FR07 ("There are no walls" descriptive vs aspirational) — present.
+- Op 0236: 7 real fractures >= 5; LOADBEARING mining not needed. Op 0242: FR03 killed (lens, not incompatibility).
+- Op 0261: every debt has a continuity tier in DEBT.md. Op 0262: 4 taste kills (D0013, D0031, D0034, D0037).
+- Op 0263: promoted D0047, D0050, D0051 from UNSTATED to must-pay tier, marked PROMOTED.
+- Op 0265: no-verdict prohibition recorded in STATE. Ops 0279/0280: no niche/method invented — nothing to delete.
+- Op 0285: 5 fake-stable sentences quoted Q0073-Q0077, verbatim-checked (Q0076 corrected to "results are the only prices"; supervisor falsifier was already Q0072, replaced by ch-001 motto).
+- Ops 0276/0277: fractures 7 >= 5, debts 42 >= 10 — no extra mining needed.
+- Op 0290 (checked): debts spot-checked against sources — D0001 (rcvm L54), D0002 (rcvm L55), D0005 (ten-axis L8), D0044 (VERSION vs CONTEXT), D0045 (runbook L47) — anchors verified on disk.
+- Op 0291: overreach downgrades: Q0076 wording corrected (verbatim), no claim downgrades needed; FR03 already killed.
+- Op 0292: debt IDs D0001-D0051 monotonic (kills marked, not renumbered); fracture IDs FR01-FR08 stable (FR03 killed in-row).
+- Op 0295: LOG completeness — 100 new lines 0201-0300 appended in 2 chunks; internal count re-checked at op 0299/0300.

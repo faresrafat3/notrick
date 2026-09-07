@@ -1,0 +1,23 @@
+# P04_AUDIT — one-line purpose: expected ops 0401-0500, PASS count, missing IDs, repair notes (ops 0479-0480, 0490-0491).
+- Expected: 0401-0500 (100 ops). Logged: 100 (all appended; count verified at 0499).
+- FORMALIZER/SKEPTIC subagents unavailable (auth environment failure, proven in P03): operator embodied FORMALIZER (builds skeleton) + SKEPTIC (attacks P1-P8 + invariants in SKEPTIC.md) per mill law #7; logged.
+- Ops 0402-0416: PRIMITIVES_PROBE.md — P1-P8 proposed + break-tested; P7/P8 justified in 4 lines; costume nouns killed (price/stigmergy/VM/obituary/lesson-heir). Propose count: 8; probes: 8.
+- Op 0417: PRIMITIVES.md final — 8 primitives frozen. Ops 0418-0422: DERIVED.md D1-D5 with building steps. Op 0423: D4 flagged view-only; no pure-label derived objects kept.
+- Ops 0424-0429: RELATIONS.md R1-R6 (arity+meaning). Ops 0430-0436: OPS.md O1-O6 (input/output/fails-when).
+- Ops 0437-0442: INVARIANTS.md I1-I5. Op 0482: +I6 (honoring-cost), +I7 (gate ownership) — both mechanical teeth, not restatements.
+- Ops 0443-0451: FORBIDDEN.md X1-X8. Op 0483: +X9 (unrecorded gate), +X10 (self-receipt) — real temptations, not jokes.
+- Ops 0452-0453: STATE_SCHEMA.md — exactly 6 fields. Ops 0454-0457: EX1 (V-001 fits; 3 snags), EX2 (signature does NOT fit; D0052 debt recorded; no force-fit).
+- Op 0458: CLAIM_MAP.md — 9 canonical claims mapped; none unmapped, none silently demoted.
+- Ops 0460-0465: SKEPTIC.md — 8 primitive attacks (2 accepted+repaired: P1 digest, P8 machine-owned; 6 rejected with reasons); invariant tautology check found I5 restatable — I5 reworded to append-only mechanics.
+- Op 0466: SKELETON_SUB.md — spine survives bland renaming → not branding.
+- Op 0468: JARGON_KILL.md — crossword/grid-flavor/prices/obituary/attractor/protocol/wall-romantic deleted or re-cashed.
+- Ops 0469-0471: ILLEGAL_SENTENCES.md — 3 real sentences now illegal (Q0076, Q0077, and Kant-PASS line) with reasons.
+- Op 0472-0473: INTERFACE.md — 6 hooks, no generator, no inference; "not executable" honesty rule added (from FAKE_MATH repair).
+- Op 0474: primitives = 8 ≤ 8. Op 0475: definitions inspectable; no metaphor (each is one dry sentence). Op 0476: EX1 uses V-001 real fragment. Op 0477: EX2 snag honest (no fake gate).
+- Op 0481: skeleton-not-glossary check — ops O1-O6 and relations R1-R6 provide transitions; a glossary has none. Pass.
+- Op 0484: primitive names frozen. Op 0485: TERMS pointer appended (pointer only). Op 0486: FENCE +F0031-F0034 (fake symbols).
+- Op 0490: no poetry in definitions (dry-sentence rule enforced in PRIMITIVES.md); no strip needed. Op 0491: IDs unique (P, D, R, O, I, X, EX sections, D0052).
+- Op 0496: verdict still holds — skeleton enforces BINDING 1-4 + C0025 via I1-I7/X1-X10; no KILL_REASON issued; BINDING not rewritten.
+- Ops 0497/0498: no attractor talk, no protocol talk — JARGON_KILL deletes attractor/protocol; HANDOFF_P05 line 12 codifies the protocol ban.
+- Op 0494-0495: FAKE_MATH.md — 8-line hostile attack; partially true (gate executability + honoring-cost ruler) repaired in INTERFACE.md and I6 note; rest rejected with reasons.
+- Op 0499: internal 0401-0500 count verified. Op 0500: stop; artifacts on disk.

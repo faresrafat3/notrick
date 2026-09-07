@@ -1,0 +1,8 @@
+# doctrine mirrors — never push live
+.DSH/
+.config/dsh/
+*.env
+VPNs/vpn_creds.txt
+local/
+.cache/
+.local/share/

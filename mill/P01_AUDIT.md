@@ -1,0 +1,13 @@
+# P01_AUDIT — one-line purpose: expected ops 0101-0200, PASS count, missing IDs, repair notes (ops 0179-0187).
+- Expected: 0101-0200 (100 ops). Logged: 100. Missing IDs: none. FAILs: none.
+- Batch execution note: ops executed via shared artifact writes (e.g., one TERMS edit covers 0119-0129); every op maps to a verifiable artifact row/section; nothing skipped.
+- Op 0157: N/A-marked PASS — notation exists (NOTATION.md), so the "no notation" branch did not apply; nothing invented.
+- Op 0186: hostile downgrades applied — C0001 (ASSERTED→ARGUED, G0006), C0002 (ASSERTED→ARGUED, untested formal claim), C0044 (ASSERTED→ARGUED, X0002 unresolved).
+- Op 0187: hostile scan of LOADBEARING terms (T0001, T0006, T0008, T0003, T0013, T0011, T0015, T0016, T0004, T0007, T0019) found ZERO ornamental terms — recorded honestly as 0 demotions rather than forcing 3; forcing would require breaking a load-bearing claim.
+- Op 0171: no NEW-tagged claims present — all 50 claims carry quote IDs.
+- Op 0172: TERMS spot-check — all definitions are local usage; no Wikipedia content found.
+- Op 0176: duplicate-quote scan (sort|uniq -d) returned 0 duplicates; no kills needed.
+- Ops 0181/0182: claims 49 alive ≥20; terms 20 ≥10 — no forced extraction loops needed.
+- Ops 0195: no FAIL lines exist in LOG range 0101-0200; nothing to repair cheaply.
+- Op 0188: FENCE = 25 rows, all project-specific (each names a file/ID/field).
+- Op 0196/0197: CLAIMS and TERMS IDs verified unique and monotonic via sort|uniq -d (empty output).

@@ -1,0 +1,23 @@
+# BOOT_COUNTS — one-line purpose: canon size and first 20 canon paths, from CANON_SOURCES.md.
+n_sources: 34
+first 20:
+1. CONTEXT.md
+2. FOUNDATIONAL-BRIEF.md
+3. INTEGRITY.md
+4. RULES.md
+5. SUPERVISOR-CHIP.md
+6. ZERO-DAY-RUNBOOK.md
+7. ZERO-READINESS.md
+8. charters/ch-001-prime.md
+9. charters/ch-002-council.md
+10. charters/ch-003-maker.md
+11. charters/ch-004-chief-of-staff.md
+12. mics/mic-07-budget-counter.md
+13. mics/mic-11-id-formatter.md
+14. mics/mic-23-gate-runner.md
+15. mics/mic-31-axis-tagger.md
+16. research/adversarial-audit.md
+17. research/arc-protocol.md
+18. research/crossword-engine.md
+19. research/decision-review.md
+20. research/hypotheses-ledger.md

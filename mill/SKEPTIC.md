@@ -1,0 +1,12 @@
+# SKEPTIC — one-line purpose: attacks on every primitive and invariant; repairs or replacements (ops 0460-0465).
+| target | attack | verdict | repair or keep |
+|---|---|---|---|
+| P1 QUOTE | "a string with a hash is not an atom; the file is the atom" | accepted, repaired | QUOTE redefined as (path, line, text, digest) with the digest binding it to the file's content — the file is referenced, the quadruple is the atom |
+| P2 RECEIPT | "the receipt can be forged by a lying executor" | rejected with constraint | I2 + X10: the receipt must match the gate output and be written by the executor's run, not the claimer; a forged run leaves a digest mismatch trace |
+| P3 GATE | "a self-written criterion is a formality" | accepted, repaired | I7 + X9: gate text is frozen before OPEN and must be independently recorded; claimer ownership is a relation check, not a promise |
+| P4 ENTRY | "entry is just a pair; it is the relation, not a thing" | rejected | SUSPENSE (P5) and WRITE_DOWN (P7) have no subject without a row; removing P4 empties the store — break-test at 0409 stands |
+| P5 SUSPENSE | "an open flag is a greeting, not a primitive" | rejected | C0040's entire discipline hangs on the state being countably assignable to rows; no flag → no verdict discipline |
+| P6 CHART | "a set is math, not a machine atom" | rejected | CHART carries refusal (I4) — an enforcement bound, not a description; without it slot values float |
+| P7 WRITE_DOWN | "a deletion with a note is still a deletion" | rejected | O4 requires reason+violation; WRITE_DOWN is itself an entry — the removal is recorded as a row, so it is not silent (I3, X5) |
+| P8 STALE | "conflict is two entries misbehaving, not a state of the machine" | accepted, repaired | P8 redefined as the machine's owned predicate: RE_ENTER (O6) fires only on the machine's STALE detection, never on a claimer's say-so |
+| I1-I7 tautology check | "invariants restate definitions; a tautology has no teeth" | 3 tautologies found | I1 restates R1 (keep — it is the load-bearing rule that row counts match quotes); I4 restates P6 (keep — enforcement text); I5 was ADDED as append-only teeth, replacing the tautological "no silent mutation" phrasing with a mechanical action (new entry, old stays) |

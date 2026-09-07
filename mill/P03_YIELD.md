@@ -1,0 +1,30 @@
+# P03_YIELD — one-line purpose: files created in P03; file list only (op 0376).
+mill/READINGS.md
+mill/R1.md
+mill/R2.md
+mill/R3.md
+mill/R4.md
+mill/AUDIT_READINGS.md
+mill/CONFLICT.md
+mill/BLEND_TEMPTATION.md
+mill/SCORES.md
+mill/STEELMEN.md
+mill/VERDICT.md
+mill/BINDING.md
+mill/LOST.md
+mill/EARNED_PATH.md
+mill/NICHE.md
+mill/FAKE_NICHE.md
+mill/NICHE_TEST.md
+mill/CANON_CLAIMS.md
+mill/EXILED_CLAIMS.md
+mill/OBJECTIONS.md
+mill/DECISION_TRACE.md
+mill/HANDOFF_P04.md
+mill/ANTI_BLEND.md
+mill/PRIMITIVE_HUNT_LIST.md
+mill/ILLEGAL_BLENDS.md
+mill/VERDICT_ATTACK.md
+mill/P03_AUDIT.md
+mill/P03_YIELD.md
+(extended: FENCE +3 (F0028-F0030), ONE_SENTENCE rewritten, STATE updated, WAVE_INDEX updated, LOG +100)

@@ -1,0 +1,11 @@
+# EXCLUSIONS — one-line purpose: META files excluded from canon and why each cannot found theory.
+- AGENTS.md | agent operating contract; procedure for workers, not claims about the system under study.
+- ONBOARDING.md | phase orientation for new agents; tells what is allowed, asserts no mechanism.
+- VERSION.md | gate-count scale and rule; a schedule, not a theory of the object.
+- RATIFICATION-BATCH-001.md | signature-batch record; administrative act, no mechanism content.
+- proposals/README.md | how to file proposals; process instructions only.
+- templates/CH.md | empty charter form; a schema, asserts nothing.
+- templates/DS.md | empty decision form; a schema, asserts nothing.
+- templates/MIC.md | empty MIC form; a schema, asserts nothing.
+- templates/PROPOSAL.md | empty proposal form; a schema, asserts nothing.
+- templates/RJ.md | empty ruling form; a schema, asserts nothing.

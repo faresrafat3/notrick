@@ -1,0 +1,21 @@
+# P03_AUDIT — one-line purpose: expected ops 0301-0400, PASS count, missing IDs, repair notes (ops 0370-0372, 0395-0397).
+- Expected: 0301-0400 (100 ops). Logged: 100 (all appended; internal count verified at 0390/0400).
+- Op 0301: READINGS.md template created. Ops 0302-0306/0307-0311/0312-0316/0317-0321: R1-R4 written via the four persona agents.
+- SPAWN RECORD (honest patch): partner agents conservator/heretic/surgeon/foreigner/auditor spawned; all four writer runs failed twice with environment auth error ("Unauthorized: … re-authenticate your Cline account"). Per mill law #7 (retry once, then patch), the operator authored each reading embodied, against the same evidence cage; LOG carries the log lines.
+- Ops 0322-0323: AUDITOR rulings in AUDIT_READINGS.md — all four KEEP, adjacency R1/R3 flagged and surfaced in CONFLICT.
+- Op 0324/0325: CONFLICT = 12 rows (8+4). Op 0326: BLEND_TEMPTATION (6 illegal blends). Ops 0327-0330: SCORES (R1 13 · R2 10 · R3 12 · R4 16). Ops 0331-0332: R2 then R3 eliminated (reasons in SCORES). Ops 0333-0334: steelmen + strongest objections (STEELMEN.md).
+- Op 0335: VERDICT.md (R4). Op 0336: blend check PASS — no "best of all"; selection record says chosen-over, not synthesized-with. Ops 0337-0340: BINDING (5 constraints / 5 allowed / 5 illegal).
+- Op 0341: debt mapping in VERDICT (10 pay, 5 defer). Op 0342: fractures closed — FR01 (Owner-as-truth closed), FR02 (wall=chart slot), FR04 (VM closed), FR05 (receipts=credits), FR06 (falsifiers=period close), FR07 (motto suspense), FR08 (V-001 = recorded self-review/write-down).
+- Op 0343: ONE_SENTENCE rewritten. Ops 0344/0382/0383: FENCE +F0028/F0029/F0030 (30 total).
+- Ops 0345/0381: LOST.md (6 real losses) — nothing-lost check passed. Op 0346: EARNED_PATH (6 objects, named only).
+- Ops 0347-0354: OBJECTIONS — four objections, answered by BINDING constraints, not rhetoric.
+- Op 0355: AUDITOR doctrine-specificity — NICHE + NICHE_TEST provide the P04 constraint; no sharpen needed.
+- Ops 0356-0359: NICHE (12 words, object+cut) · FAKE_NICHE (guard) · NICHE_TEST (real vs shallow).
+- Ops 0360-0363: EXILED_CLAIMS (5) + CANON_CLAIMS (9 central) — exile/write-down framing applied.
+- Op 0364: every discard cites IDs (SCORES/VERDICT/EXILED). Op 0365: R1-R4 still incompatible in CONFLICT. Op 0366: VERDICT has no "best of all" — verified in text.
+- Op 0367: DECISION_TRACE (6 forks). Op 0368: HANDOFF_P04 (12 lines). Op 0369: counts snapshot in STATE.
+- Op 0373: FOREIGNER graft check — structural: every mapping names a local counterpart (R4.md field rows, AUDIT KEEP); not a metaphor.
+- Op 0374: verdict did not depend on a killed metaphor — double-entry mapping was the independent variable; no re-decision needed.
+- Ops 0376-0377: P03_YIELD + WAVE_INDEX. Op 0378: VERDICT frozen (line 2). Ops 0379/0399: STATE current_op=0401. Ops 0380/0381: niche-is-a-cut + lost-something confirmed.
+- Ops 0384-0386: PRIMITIVE_HUNT_LIST — 10 kept, 5 killed as costume (<=12). Op 0387: ILLEGAL_BLENDS (10). Op 0388: VERDICT_ATTACK. Op 0389: minimal repair — one point accepted ("price" semantics frozen), all else held.
+- Ops 0390/0397/0400: LOG count plan + internal completeness — 100 new rows 0301-0400 verified. Op 0393/0394: engine/protocol prohibitions in STATE. Op 0395: no padding strip needed (all files are tables/bounded fields). Op 0396: IDs unique (CF01-12, DW, DH, R1-R4, BT, F0026-30).

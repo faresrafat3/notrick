@@ -1,0 +1,21 @@
+# ANCHOR_MAP — one-line purpose: term -> claim IDs -> quote IDs -> paths (op 0145).
+- T0001 K-line -> C0001 -> Q0001, Q0022, Q0023 -> rcvm L63; crossword-engine L12, L18
+- T0002 grid -> C0001 -> Q0001 -> rcvm L24, L63
+- T0003 burrow -> C0024, C0010 -> Q0034, Q0010, Q0014 -> ch-001 L6; hypotheses-ledger L8-9; adversarial-audit L25-29
+- T0004 gate -> C0025, C0040, C0013 -> Q0035, Q0050, Q0028 -> ch-001 L14; runbook L50; RULES L25
+- T0005 axis tag -> C0001 -> Q0001, Q0068, Q0069 -> rcvm L54, L124; mic-31 L7-8
+- T0006 obituary -> C0004, C0005 -> Q0004, Q0005 -> arc-protocol L7, L10-13
+- T0007 receipts -> C0019, C0020 -> Q0019, Q0020 -> proposal-cross-exam L57-59, L73-75
+- T0008 results-as-prices -> C0007, C0023 -> Q0007, Q0033 -> ten-axis L8; decision-review L18-19
+- T0009 paper mode -> C0018 -> Q0018 -> rj-001 L17; proposal-cross-exam L50-52
+- T0010 wall -> C0001, C0024 -> Q0001, Q0034 -> rcvm L55; ch-001 L6
+- T0011 falsification criterion -> C0021, C0022, C0023 -> Q0031, Q0032, Q0033 -> decision-review L2-3, L10-11, L18-19
+- T0012 masterpiece gate -> C0031 -> Q0041 -> ch-003 L13
+- T0013 NO NICHE call -> C0030, C0032 -> Q0040, Q0042 -> ch-003 L9, L26
+- T0014 burrow map -> C0033, C0035 -> Q0043, Q0045 -> ch-004 L7, L38-39
+- T0015 Owner-by-right fields -> C0034, C0045 -> Q0044, Q0055 -> ch-004 L19; batch file L2
+- T0016 hash pin -> C0036, C0048 -> Q0046, Q0058 -> INTEGRITY L5-6; violations L5
+- T0017 re-pin -> C0037 -> Q0047 -> INTEGRITY L14-16
+- T0018 boot gate -> C0048 (nearest claim) -> Q0070, Q0050 -> SUPERVISOR-CHIP L9; runbook L50
+- T0019 quorum -> C0019, C0029 -> Q0019, Q0039 -> cross-exam L57-59; ch-002 L26; pr-002 L14-19
+- T0020 honoring-cost -> C0019 -> Q0019 (no direct quote; design-only) -> pr-005 L24-34

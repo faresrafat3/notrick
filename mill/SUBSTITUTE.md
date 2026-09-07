@@ -1,0 +1,4 @@
+# SUBSTITUTE — one-line purpose: 3 slogans with a substituted noun to test whether content survives (op 0258).
+1. "There are no walls — only attempts spent on the wrong axis" (ch-001 L8-9) -> "Every block has an angle worth trying" — same slogan energy, zero content change -> COSTUME (FR07 B).
+2. "We are four seats, not one voice" (ch-002 L8-9) -> "We are four invented points of view, not one opinion" — the gravitas dies; the claim was the gravitas -> COSTUME (MIMIC 1).
+3. "sovereignty is the product, not a bug" (decision-review D-05) -> "one person's final say is what we make, not a flaw" — the sentence becomes a plain governance claim; "the product" framing was adornment -> survives as governance, COSTUME as product-claim.

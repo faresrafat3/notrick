@@ -1,0 +1,13 @@
+# PROMISES — one-line purpose: promises of later results in the sources, paid/unpaid (ops 0159-0160).
+- D-02: "re-evaluate R1 with Coase numbers" — UNPAID (no numbers anywhere).
+- D-06: "phase B is DEMANDED by evidence, build it" — UNPAID (conditional; trigger never fired).
+- D-07: "revisit the form, not the content" — UNPAID (conditional).
+- RJ-001 cond.3: smoke call output logged verbatim — UNPAID (HOLD).
+- ZERO-READINESS D: threshold fills DS-001 at zero — UNPAID (Owner-by-right).
+- Open item 5: Curator born on backlog demand — UNPAID (deliberately not invented early).
+- PR-002: header insertion into both ledgers — UNPAID (proposed-in-file).
+- PR-005: three independent approve-or-kill Owner lines — UNPAID.
+- crossword-engine header: "the derivation" — UNPAID (never performed; G0008).
+- arc-protocol falsifier: measured over first 3 real tasks — UNPAID (no tasks exist).
+- RATIFICATION-BATCH-001 Part 4: TEXT-UNTIL-THEN reaffirmed — PAID (P4 filled 2026-09-06).
+- RATIFICATION-BATCH-001 Part 1: KEEP AS FILES — PAID (P1 filled 2026-09-06).
