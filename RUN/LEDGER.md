@@ -123,3 +123,13 @@ line that is not an append is a hidden fix.
   (p05-generator-machine.md, 78 lines) already exists while QUEUE R9=false and no R009
   receipt exists — the goal-loop is writing ahead of its own queue flips again; left
   unclosed (its lane), flagged here.
+- 2026-09-08 · R9 · AUDIT (executor lane) · research/p05-generator-machine.md (86 lines,
+  spec-class "DESIGN — no code, no build, no run", GO-gated) verified by command: the 6
+  schema fields it claims to consume (ENTRY.id·QUOTE·GATE·RECEIPT·SLOTS·VERDICT) byte-match
+  mill/STATE_SCHEMA.md:3-9; "7 unpinned doctrine-class files" cross-checks as 1 UNPINNED
+  row in RUN/PIN_TRIAL.md + 6 files in protocols/ (1+6=7, both commands run this session);
+  6 pipeline stages / 6 header fields / 5 recipe fields / 5 refusals all countable in-text;
+  refusals 1-2 are P-001's two clauses mechanized; refusal 4 correctly extends gate-triads
+  F-1 to recipes. Obituary field: present (appended R8 audit, C136-C137 lane). B6.3/B6.1
+  clean. Round close itself (QUEUE flip, R009) is the goal-loop's live lane — left to it
+  (two-writer protocol; do not flip another writer's queue).
