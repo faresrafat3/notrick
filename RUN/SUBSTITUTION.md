@@ -20,6 +20,13 @@
   deleted row, the escalation is unanchored. → DEGRADES. RESTORED: `grep -c '^| S-01'` = 1.
   The row is load-bearing: STALE.md is the evidence register and pr-010 its demand.
 
+- R2 · proposals/pr-012-four-deliverables-completion.md · OLD (executed 2026-09-08): deleted
+  the one-sentence proposal demand ("The four OPS_QUEUE deliverables now exist...") →
+  `grep -c` 1 → 0 → the file retains evidence + an Owner-ruling slot but states NO request:
+  an Owner reading it cannot tell what is being asked — it stops being a proposal. →
+  DEGRADES. RESTORED: sentence back (grep = 1). The demand line is load-bearing: evidence
+  without an ask is a memo, not a proposal.
+
 ## Substitution method (reused by later rounds)
 1. Copy the artifact. 2. Delete the candidate line. 3. Ask: does the artifact still mean
 what it must mean? 4. Record YES-degrades (keep) or NO-degrades (decoration → rewrite).

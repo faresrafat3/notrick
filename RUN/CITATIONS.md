@@ -64,6 +64,23 @@
 | C057 | mill/PRIMITIVES.md:11 | `\| P8 \| STALE \| A predicate over two entries differing on one settled slot; marks both until one is re-entered. \| D0044 \|` | `sed -n '11p' mill/PRIMITIVES.md` | R1 |
 | C058 | OPS_QUEUE.md:4 | `> المخرجات النهائية: ... research/reconstruction-v2.md · research/assault-plan.md · research/lineage-audit.md · research/verdict-master.md` | `grep -n 'reconstruction-v2\|assault-plan\|lineage-audit\|verdict-master' OPS_QUEUE.md \| head -6` | R1 |
 | C059 | RATIFICATION-BATCH-001.md:14-15 | `## Part 2 — Charter batch signature (CH-001..004, v1, refining)` / `P2: all four — CH-001, CH-002, CH-003, CH-004 — SIGNED into active law 2026-09-06. Instrument: typed Owner line in the governing planning chat` | `sed -n '14,15p' RATIFICATION-BATCH-001.md` | R1 |
+| C060 | research/assault-plan.md:9 | `المعايير مجمّدة قبل أي تنفيذ + 2026-09-07. أي اختبار مكتوب بعد هذا السطر = باطل.` | `sed -n '9p' research/assault-plan.md` | R2 |
+| C061 | research/assault-plan.md:17 | `\| X-09 · تسميم ذاكرة السجل \| **T-01: تأليف مدخل مفبرك في violations.md** \| ...` | `sed -n '17p' research/assault-plan.md` | R2 |
+| C062 | research/assault-plan.md:53 | `المعايير مجمّدة قبل أي تنفيذ + 2026-09-07. لا اختبار يُضاف أو يُعدَّل بعد هذا السطر.` | `sed -n '53p' research/assault-plan.md` | R2 |
+| C063 | research/reconstruction-v2.md:98 | `## §د-4 — سجل التغييرات v1→v2` | `sed -n '98p' research/reconstruction-v2.md` | R2 |
+| C064 | research/reconstruction-v2.md:102 | `\| CL-01 \| ... \| تكرار نمط 3×/2 سيشن يجمد في مستند **مشروط بقياس كلفة Coase** ... \| A-01 \|` | `sed -n '102p' research/reconstruction-v2.md` | R2 |
+| C065 | research/lineage-audit.md:136 | `> **الحصيلة الحقيقية:** ليست في الادعاءات الفردية (كلها منقول) بل في التوليف ...` | `sed -n '136p' research/lineage-audit.md` | R2 |
+| C066 | research/verdict-master.md:2 | `> سيشن S2-20260908-01 · 2026-09-08 · قانون التجميع: **نسخ الأقسام لا تلخيصها** ...` | `sed -n '2p' research/verdict-master.md` | R2 |
+| C067 | research/verdict-master.md:127 | `## ز-6 — طابور قرارات المالك (OP-053)` | `sed -n '127p' research/verdict-master.md` | R2 |
+| C068 | RULES.md:27 | `## R7 — Birth on demand (niche law; per RJ-001, progressive birth is strategy, not law)` | `grep -n 'RJ-001' RULES.md \| head -3` | R2 |
+| C069 | mill/VERDICT.md:21 | `Chosen: R4 (foreigner, double-entry), by the scores in SCORES.md (16 vs R1's 13) ...` | `sed -n '21p' mill/VERDICT.md` | R2 |
+| C070 | mill/BINDING.md:7 | `5. THE VERDICT TEXT IS FROZEN (op 0378); reopening a killed reading requires a KILL_REASON logged in CONTRA.` | `sed -n '7p' mill/BINDING.md` | R2 |
+| C071 | research/decision-review.md:5 | `## D-01 — Niche law (every entity is a niche or not born)` | `grep -n 'D-0' research/decision-review.md` | R2 |
+| C072 | research/decision-review.md:21 | `## D-03 — Results-as-prices (fate decided by documented outcomes, not opinions)` | same command | R2 |
+| C073 | well/TRUE_STOPS.md:5 | `## Stop 1 — R6 (gate ownership)` | `grep -n '^## Stop' well/TRUE_STOPS.md` | R2 |
+| C074 | violations.md:5 | `- V-001 · 2026-09-06 · Buffy ... FABRICATED HASH PIN: ... · Owner ruling: __________ (empty-by-right)*` | `sed -n '5,6p' violations.md` | R2 |
+| C075 | research/lineage-audit.md:140 | `## تدقيق خارجي (R6 — harness-run session 2026-09-08، غير منفذ الأقسام أعلاه)` | `sed -n '140p' research/lineage-audit.md` | R2 |
+| C076 | four deliverables existence+lines | `wc -l: reconstruction-v2 118 · assault-plan 53 · lineage-audit 154 · verdict-master 146` | `for f in ...; do wc -l < "$f"; done` (resume command this round) | R2 |
 
 ---
 obituary: this register dies the moment a quote is registered without its producing

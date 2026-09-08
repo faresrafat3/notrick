@@ -1,12 +1,12 @@
 # STATE — SERIES 2 run pointer (updated after every round)
 
 - series: NOTRICK SERIES 2 (R0..R14)
-- next_round: R2
-- current_burrow: none (R2 targets research/ deliverables — build-or-kill, Omega-5 lane)
-- outstanding_debt: none (R1 receipt R001 complete)
+- next_round: R3
+- current_burrow: none (R3 targets INTEGRITY.md pins — recompute + trial, RUN/PIN_TRIAL.md)
+- outstanding_debt: none (R2 receipt R002 complete)
 - status: OPEN
-- one_line_note: R1 DONE 2026-09-08 — 23 STALE rows (5 ESCALATE-OWNER via pr-010, rest RE-ENTER/STALE-HELD), verifier clean; R2 = THE MISSING FOUR (two of four deliverables now EXIST — treat as inputs, R2's queue lines may be partially satisfied; verify by test -f first)
-- last_receipt: RUN/receipts/R001.json (complete)
+- one_line_note: R2 DONE 2026-09-08 — all four deliverables EXIST (P17 wrote them mid-R1); audited as BUILD 4 / KILL 0; gaps (4 obituaries, verdict-master's missing master table, assault-plan 53-vs-60 under its own freeze law) escalated in proposals/pr-012-four-deliverables-completion.md; master ruling table compiled into LEDGER. R3 = THE PIN TRIAL (<= 50 ops, <= 4 files; zero writes to INTEGRITY.md)
+- last_receipt: RUN/receipts/R002.json (complete)
 - last_receipt_status: complete
 
 ## Read order on resume (B1)

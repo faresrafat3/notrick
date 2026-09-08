@@ -1,0 +1,33 @@
+{
+  "round": "R2",
+  "name": "THE MISSING FOUR",
+  "date": "2026-09-08",
+  "status": "complete",
+  "head_at_close": "see close-out commit (parent fe2a6e1; P17 session concurrently writing research/ + proposals/)",
+  "boot_gate": "v0.00001 quoted; operator-named executor for ROUND 2; wall stated",
+  "budget": { "ops_stated": 90, "ops_spent_approx": 36, "files_stated": 8, "files_created": "1 (proposals/pr-012-four-deliverables-completion.md); 0 new RUN/ files — rulings went to LEDGER per the R2 stray-artifact lesson" },
+  "premise_shift": "round designed to build-or-kill four MISSING deliverables; parallel session (P17) wrote all four during R1 (S-09b deleted on exactly this); R2 executed as audit-and-escalate instead",
+  "built": 4,
+  "killed": 0,
+  "ruling_detail": {
+    "reconstruction-v2.md": "BUILD — 118 ln; v1 = research/claims-v1.md, §د-4 names the v1→v2 differences per CL (spec satisfied); gap: no obituary",
+    "assault-plan.md": "BUILD — 53 ln, 6 frozen tests T-01..T-06 with thresholds + disinterested measurers; 53<60 BUT self-frozen by its own law (any test written after the freeze line is void — C060/C062), so the shortfall is declared unpatchable-by-its-own-law, not silently accepted; coverage question (5 open wounds vs X-01..X-18) escalated",
+    "lineage-audit.md": "BUILD — 154 ln; 24 claims × 4 tables; 0 original / 24 derivative-honest; decoration question answered (mirror-only ancestors escalated to Owner queue in verdict-master §ز-6 row 4); gap: no obituary",
+    "verdict-master.md": "BUILD — 146 ln compilation with source stamps + §ز-6 Owner queue; MISSING the spec's master ruling table — compiled by executor into RUN/LEDGER.md (RJ-001 RULES.md:27,29 · R4 FOREIGNER mill/VERDICT.md:21 + BINDING.md:7 FROZEN · TRUE STOPS R6/R7/R8/R10/R3/R9 well/TRUE_STOPS.md:5,14,22,31,40,48 · D-01..07 decision-review.md:5..50 · V-001/2 violations.md:5-6 · X0001..4 CONTRA · CF01..12) ready to move in via pr-012"
+  },
+  "obituary_demands": 4,
+  "proposal_filed": "proposals/pr-012-four-deliverables-completion.md (P-012; renamed from colliding pr-011 — P17 had filed pr-011-regency.md; logged pre-record)",
+  "verifier": { "blind": true, "sample": "6 of 17 R2 citations (deterministic ~35%)", "match": 6, "mismatch": 0, "unresolvable": 0, "brief": "RUN/briefs/r2-verifier.md (written early per new failure-pattern rule)" },
+  "subagent_failures": "4 of 5 readers failed pre-brief-write (5 across R1-R2, same shape); executor Pass-A covered all zones; findings from closing messages logged with both positions; skeptic's strong form (nobody reads the four) FALSE (30+ refs), narrow form (boot chain never reaches them) TRUE — CONTEXT.md:5-7",
+  "citations": { "registered_this_round": "C060-C076 (17)", "verified": "6/6 blind re-derivation + all Pass-A seds", "unverified": 0 },
+  "fill_rate": "17/17 registered R2 citations cross >= 2 existing repo entries (each quote pairs a deliverable with its ruling source; computed by construction of the citation rows)",
+  "kills": 0,
+  "failure_mode_named": "premise rot: the round text described a repo state that had stopped existing before the round opened (four missing files) — series rounds must re-establish their own premises by command at boot (R2 did: test -f in the resume batch)",
+  "negative_results": "3 entries (premise expired mid-flight; subagent brief-write failures; filed != readable — boot-chain invisibility)",
+  "substitution_test": "executed on pr-012: demand sentence deleted -> file degrades to evidence-without-ask -> restored (RUN/SUBSTITUTION.md R2 entry)",
+  "anti_stub_scan": "zero hits on pr-012 + r2-verifier brief",
+  "ops_queue_status": "OP-035..058's four deliverables: all four EXIST as of 2026-09-08 08:03-08:28 (P17); ☑-count now 58/58 per command this round; recorded HERE in LEDGER/receipt per round rule, NOT edited into OPS_QUEUE.md",
+  "next_round": "R3 — THE PIN TRIAL; opens RUN/STATE.md; <= 50 ops, <= 4 files; zero writes to INTEGRITY.md; S-03 + S-04 feed it",
+  "not_done": "no edits to the four deliverables (P17's lane; gaps escalated via pr-012); no edit to OPS_QUEUE.md; no verdict authored (tables only, from sources); no ruling filled in any Owner field",
+  "obituary": "this receipt dies the moment a later round finds a R2 citation that fails re-derivation, or a deliverable obituary that was demanded but never supplied without a logged reason; the R14 GHOST re-derives 20% of all citations."
+}

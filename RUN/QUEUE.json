@@ -14,7 +14,7 @@
   "rounds": [
     { "id": "R0",  "name": "THE RUN — install machinery",              "passes": true },
     { "id": "R1",  "name": "THE STALE SWEEP — P8 across rot clusters",  "passes": true },
-    { "id": "R2",  "name": "THE MISSING FOUR — build or kill",          "passes": false },
+    { "id": "R2",  "name": "THE MISSING FOUR — build or kill",          "passes": true },
     { "id": "R3",  "name": "THE PIN TRIAL — INTEGRITY recompute",       "passes": false },
     { "id": "R4",  "name": "THE WELL REGRESS — payable whys",           "passes": false },
     { "id": "R5",  "name": "DOC-TRUST / X-07 — injection redteam",      "passes": false },

@@ -1,25 +1,33 @@
 # NEXT — what the next round opens first
 
-Round 2 (R2 — THE MISSING FOUR) must open, in this exact order:
-1. `RUN/STATE.md` — round pointer (reads next_round: R2 after R1 commits).
-2. `RUN/QUEUE.json` — confirm R2's `passes` is false.
-3. `RUN/receipts/R001.json` — the previous receipt; must be present and complete, else R2
+Round 3 (R3 — THE PIN TRIAL) must open, in this exact order:
+1. `RUN/STATE.md` — round pointer (reads next_round: R3 after R2 commits).
+2. `RUN/QUEUE.json` — confirm R3's `passes` is false.
+3. `RUN/receipts/R002.json` — the previous receipt; must be present and complete, else R3
    is IN DEBT (cap 40 ops, log repairs to RUN/LEDGER.md).
 4. `RUN/NEXT.md` — this file.
-5. `RUN/WALL.md` — ten walls; W10 (budget law) governs R2's 90-op cap.
-6. `RUN/STALE.md` — R1's output. Two of R2's four deliverables (reconstruction-v2.md,
-   assault-plan.md) EXIST as of R1 (S-09a) — R2 must `test -f` all four FIRST and treat
-   existing files as INPUTS to audit, not build targets; the R1 finding on this is the
-   round's opening fact.
+5. `RUN/WALL.md` — ten walls; R3's rule: ZERO writes to INTEGRITY.md (F-RUN-03 temptation).
+6. `RUN/LEDGER.md` — the R2 RULINGS entry contains the compiled MASTER RULING TABLE (RJ-001,
+   R4, TRUE STOPS, D-01..07, V-001/2, X0001..4, CF01..12) that pr-012 wants moved into
+   verdict-master.md by an Owner moment — R3's repin proposal (pr-0NN-repin) can reference it.
 
-Then: `RUN/briefs/r1-verifier.md` (R1's verifier result) and `RUN/briefs/r1-*.md` for the
-reader finds; `OPS_QUEUE.md:62-67` for the OP-035..040 deliverable spec lines.
+R3 specifics: recompute sha256 of every pinned file by command; settle 42/44/43 by command;
+every MISMATCH -> ledger entry + proposal if covered / violations.md if not; proposals use
+templates/PROPOSAL.md exactly. The R1 findings feed R3 directly: S-03 (42/44/43), S-04
+(violations.md pin mismatch — live hash c39f54c0 vs pinned 868d35aa), INTEGRITY.md:24.
+
+## R2 hand-off state (written 2026-09-08)
+- All four deliverables exist: reconstruction-v2 118 ln · assault-plan 53 (self-frozen, no
+  test may be added) · lineage-audit 154 · verdict-master 146. BUILD 4 / KILL 0.
+- proposals/: pr-011-regency.md (P17's) AND pr-012-four-deliverables-completion.md (this
+  series; renamed from a colliding pr-011, logged) — check numbering before filing new ones.
+- Subagent brief-write failures: 5 across R1-R2 — write briefs incrementally during reads.
+- Live-tree drift continues: P17 wrote regency-doctrine.md + harness-run/OWNER-QUEUE-DRAFT.md
+  at 08:34-08:35. Counts stay timestamp-bound.
 
 ## R1 hand-off state (written 2026-09-08)
-- R1 closed with 23 STALE rows; 5 ESCALATE-OWNER consolidated in proposals/pr-010-stale-reentry.md.
-- Live-tree drift during R1: CONTEXT.md 419→434 lines; file tree 422→455 (P17 active).
-  Count-type STALE rows (S-07/S-25) are timestamp-bound — re-sed before citing.
-- R2 write lane: research/ + proposals/ + RUN/ only (<= 8 files, <= 90 ops).
+- R1 closed with 22 STALE rows standing; 5 ESCALATE-OWNER consolidated in pr-010.
+- R1 artifacts partially inside P17's commit f45736e (boundary: git diff 07ed2c4..f45736e).
 
 ## R0 hand-off state (written 2026-09-08)
 - HEAD 58762edc634247f9cfad9b7385dc7cd4f54526ae (R0 baseline commit = HEAD + RUN/).

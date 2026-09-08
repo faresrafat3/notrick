@@ -32,6 +32,24 @@
   Subagent quotes are evidence-class only after independent re-derivation — which is
   exactly what the blind verifier exists for.
 
+## R2 — THE MISSING FOUR (2026-09-08)
+- Negative result: **the round's premise expired mid-flight.** R2 was designed to build-or-kill
+  four deliverables that did not exist; the parallel session (P17) wrote all four during R1
+  (S-09b was deleted precisely because two landed mid-sweep). The round became an audit of
+  someone else's fresh output — and the honest audit found the files SUBSTANTIVE (verdict
+  compilation, frozen test plan, 24×4 lineage tables) but obituary-less, with verdict-master
+  missing its actual master ruling table. "Build or kill" had no clean answer for work that
+  arrived between the promise and the deadline.
+- Negative result: **subagent brief-writes keep failing at the last step.** 5 pre-write
+  failures across R1-R2 (deep read completes, brief write never happens). The round ran on
+  executor Pass-A instead. Until the pattern is understood, every subagent brief must be
+  written incrementally during the read — and the executor must plan to own the zone.
+- Negative result: **the deliverables are invisible to the boot chain.** 30+ files reference
+  them (sessions consume them as inputs) yet the Owner-ruled read order (CONTEXT → AGENTS →
+  BRIEF → task-named files, CONTEXT.md:5-7) never reaches them. Filed ≠ readable. The
+  completion demand (pr-012) includes this gap; the Owner decides whether the four ever
+  enter a read order.
+
 ---
 obituary: this file dies the moment a round ends with it EMPTY; a completed round with no
 recorded negative result is treated as a hidden failure, and the series' own obituary
