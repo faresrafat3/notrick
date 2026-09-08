@@ -23,3 +23,8 @@
 - 4 reasons died in W01 (none at the claim level).
 - 3 claims DEMOTE-tagged (LB04 / LB07 / LB09) — load-bearing as legal reasons, but with caveats the records have not yet closed.
 - 0 UNPAID-WHY (every reason could fill BECAUSE / INSTEAD-OF / IF-FALSE).
+## W03 kills (2026-09-08, SERIES 2 R4)
+### Killed claim #1 (first at claim level) — LB07
+- Original: "No live orchestrator; structure + budgets + results-as-prices" (C0017, Q0017) — BECAUSE row carried KEEP with CHL-WALLS-SELF-ATTESTED caveat (W01 DEMOTE).
+- Died because: W03 attempted UW02's fill and failed it — the only wall candidates in the records are a described-but-absent artifact (out-of-band baseline, adversarial-audit.md L123) or an unbuilt patch (P-005, X-FUTURE); T-ANCHOR + T-COLLAPSE fail; the claim's walls remain self-attested (X0004 open) with no standing external wall.
+- Heir: D-02 keeps the claim at doctrine level with its own falsifier (H2, untested); the LEDGER-level load shifts to LB08/LB02 (budgets, death-records) which hold their own TRUE-STOP reductions. Revival condition recorded in well/KILL_EDIT.md W03.

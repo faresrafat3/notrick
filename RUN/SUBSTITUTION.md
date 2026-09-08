@@ -51,5 +51,12 @@ what it must mean? 4. Record YES-degrades (keep) or NO-degrades (decoration → 
   the same shape.
 
 ---
+
+- R4 · well/BECAUSE.md · OLD (executed 2026-09-08): deleted the W03 addendum's LB07 KILL
+  header (the round's only claim-level verdict) → `grep -c 'LB07 — KILLED'` 1 → 0 while the
+  addendum still describes fills → the ledger shows two retirements and no decision about
+  the one claim that died; a regress that kills nothing is a re-read (R6). → DEGRADES.
+  RESTORED: header back, grep = 1. The kill line is load-bearing: it is the round's yield.
+
 obituary: this file dies if a round records a substitution test without actually deleting
 and restoring the line; the test is a ritual unless it changes the file twice.

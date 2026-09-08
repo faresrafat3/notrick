@@ -93,6 +93,16 @@
 | C086 | violations mtime | 2026-09-06 23:03:38 (post-pin change moment) | `stat -c '%y' violations.md` | R3 |
 
 ---
+| C087 | VERSION.md:14-17 | `- **v0.1** — Zero day complete: fate decisions made from results (expand/refine/retire); the system is now versioned by its own outcomes` / `- **v1.0** — deliberately NOT defined by us. v1.0 is what the RESULTS say it is` | `sed -n '14,17p' VERSION.md` | R4 |
+| C088 | VERSION.md:23 | `- Only the Owner moves the version. The agent may PROPOSE a move with evidence.` | `sed -n '23p' VERSION.md` | R4 |
+| C089 | RULES.md:20-22 | `## R5 — K-line completeness (Minsky)` / `Every result record carries a K-line (active charters · axis · wall · gate outcome).` | `sed -n '20,22p' RULES.md` | R4 |
+| C090 | RULES.md:33-35 | `## R8 — Owner ratification (the loop-breaker)` / `The Owner is the terminus of every appeal chain ... overturned only by the Owner IN WRITING, never silently.` | `sed -n '33,35p' RULES.md` | R4 |
+| C091 | research/adversarial-audit.md:123 | `stopped only by the out-of-band baseline. This is a REAL limit, not a solved problem.` | `sed -n '123p' research/adversarial-audit.md` | R4 |
+| C092 | research/hypotheses-ledger.md:7-11 | `## H1 — Niche beats generalist on scope discipline` / `- Claim: a niche-constrained agent produces FEWER out-of-burrow actions than a generalist on the same task.` / `- Verdict rule: >=2 of the first 3 paired tasks confirm` | `sed -n '7,11p' research/hypotheses-ledger.md` | R4 |
+| C093 | mics/mic-31-axis-tagger.md:1-3 | `# MIC CARD — MIC-31` / `a micro-agent: one trigger, one act, one refusal.` | `head -3 mics/mic-31-axis-tagger.md` | R4 |
+| C094 | mill/CONTRA.md:6-7 | `| X0003 | C0007/C0017: results-as-prices ...` / `| X0004 | C0014: "who I am not" + confession are self-attested, unreliable as walls ...` | `sed -n '6,7p' mill/CONTRA.md` | R4 |
+| C095 | research/reconstruction-v2.md:114 | `| X-09 ...` (the X-09 wound row carrying the P-005 external-copy reference) | `sed -n '114p' research/reconstruction-v2.md` | R4 |
+
 obituary: this register dies the moment a quote is registered without its producing
 command, or an entry cites a file:line this tool cannot reproduce; the R14 audit re-derives
 a random 20% and any MISMATCH is a violation, filed not fixed.

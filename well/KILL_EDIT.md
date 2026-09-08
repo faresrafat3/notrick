@@ -43,3 +43,10 @@
 
 ## What the reopen actually found
 Three of the four "weakest KEEPs" survived as legal reasons but with **legibility caveats** the first pass missed. The caveats are not UNPAID-WHY — the claims are load-bearing — but the *defenses* of those claims are not yet finished in the records. W02's first job is to close LB04's fence-vs-mechanism fence, LB07's X0004 external-wall gap, and LB09's same-task operator.
+---
+
+## W03 kill — LB07 (UW02 attempt, 2026-09-08, SERIES 2 R4)
+- **Attempt**: name a non-self-attested external wall for the dead orchestrator. The records hold exactly two candidates: (a) the out-of-band baseline — adversarial-audit.md L123: "pins stop accidents and lazy tampering; a determined adversary with write access is stopped only by the out-of-band baseline. This is a REAL limit, not a solved problem." — which names a MISSING artifact, not a standing one; (b) the P-005 external-copy patch (reconstruction-v2.md L10/L15/L114) — proposed, untested, unbuilt; citing it as the standing wall is X-FUTURE (REASON_LAW auto-FAIL).
+- **Tests**: T-ANCHOR FAIL (the anchor describes an absent artifact) · T-COLLAPSE FAIL (nothing in the tree fires today). Attempt made, test failed → KILL per HANDOFF_W03's binary.
+- **Verdict: LB07 KILLED** (first claim-level kill in the ledger). The claim "no live orchestrator" survives ONLY as D-02's own doctrine claim with its own pre-registered falsifier (hypotheses-ledger H2) — it is no longer load-bearing IN THIS LEDGER, because a claim whose walls are self-attested (X0004, open) and whose external wall does not exist cannot carry load.
+- **Revival condition**: an Owner moment that forges or adopts the external wall (P-013 option [A] / the P-005 ruling); on that moment LB07 re-enters via a new because-clause quoting the wall's artifact and hash.

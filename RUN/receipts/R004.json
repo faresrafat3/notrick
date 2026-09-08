@@ -1,0 +1,43 @@
+{
+ "round": "R4",
+ "name": "THE WELL REGRESS",
+ "date": "2026-09-08",
+ "status": "complete",
+ "executed_by": "S2-20260908-01 goal-loop (self-executed; writer lane was on G5/G6; claim logged before work)",
+ "boot_gate": "v0.00001 quoted; burrow law B3.1 honored - well/ runtime files absent, so well's own law set (REASON_LAW.md verbatim taxonomy) governed; walls stated",
+ "budget": {
+  "ops_stated": "<=50 self-cap (round text cap unavailable)",
+  "ops_spent_approx": 22,
+  "files_stated": 4,
+  "files_created": "well/LOG.md lines, well/BECAUSE.md W03 addendum, well/KILL_EDIT+KILLED_WHYS W03 sections, well/UNPAID_WHY dispositions, well/STATE advance, RUN/receipts/R004.json"
+ },
+ "uw_dispositions": {
+  "UW01_LB04": "RETIRED - filled: positive form = results PROPOSE, Owner RATIFIES (VERSION.md:14-17,23 + RULES.md:33-35); five tests ok; also names X0003's joint",
+  "UW02_LB07": "ATTEMPT FAILED -> LB07 KILLED (first claim-level kill): only wall candidates are described-but-absent (adversarial-audit.md:123) or unbuilt P-005 (X-FUTURE); T-ANCHOR+T-COLLAPSE fail; revival Owner-gated",
+  "UW03_LB09": "RETIRED - filled: same-task operator = axis tag (MIC-31) + input-bind (INPUT_BIND.md) + K-line criterion (RULES.md:20-22); five tests ok; stamped UNTESTED until first paired runs"
+ },
+ "reconciliations": "W01/W02 ran unlogged - logged as UNLOGGED-RETRO (W03-00, E-BREAK) with artifact list + forward rule; nothing back-dated",
+ "costumes": "#2/#4/#5 retired-filled; #3 dead with LB07; #1/#6 kept as costume with caveat (arbitrary constant Owner-owned; honoring-cost unmeasured F0017)",
+ "reduces_to": "11/11 surviving LBs stop at >=1 TRUE STOP (R3/R6/R7/R8/R9/R10); 0 costume claims at claim level",
+ "kills": 1,
+ "kills_named": "LB07 - heir: D-02 keeps the claim at doctrine level with its own falsifier (H2, untested)",
+ "verifier": {
+  "blind": false,
+  "note": "no second-pass verifier this round - the well's own T-tests (mechanical, from REASON_LAW) applied; S6 re-derivation of anchors done by command (C087-C095 all captured live before registering)",
+  "anchor_checks": 9,
+  "anchor_fail": 0
+ },
+ "citations": {
+  "registered_this_round": "C087-C095 (9, each captured live by command before registering)",
+  "verified": "all 9 anchors quoted into the register with producing commands",
+  "unverified": 0
+ },
+ "fill_rate": "7/7 load-bearing claims cross >=2 repo entries: LB07 kill (CONTRA X0004 + adversarial-audit:123 + KILL_EDIT + KILLED_WHYS + BECAUSE + UNPAID_WHY) / LB04 joint (VERSION.md:14-17 + :23 + RULES:33-35 + CONTRA X0003) / LB09 operator (mic-31 + RULES:20-22 + hypotheses-ledger:7-11) / reconciliation (4 artifact paths) / costume dispositions (PRIMITIVE_AUDIT rows + BECAUSE) / REDUCES-TO (12 rows vs HANDOFF_W03 stack) / negative results (adversarial-audit:123 + reconstruction-v2:114)",
+ "negative_results": "2 (the wall was unpayable so the claim died instead of being decorated; two of three fills cost nothing - flagged for re-attack at W04)",
+ "substitution_test": "executed on well/BECAUSE.md W03 addendum: LB07 KILL header deleted -> ledger shows fills with no decision -> DEGRADES -> restored (grep 1). Recorded in RUN/SUBSTITUTION.md",
+ "anti_stub_scan": "grep -rnE 'TODO|FIXME|placeholder|lorem|TBD|coming soon' over well/ edits + R004 - zero hits (this receipt's own pattern string excluded)",
+ "failure_mode_named": "a fill that assembles entirely from existing anchors costs nothing - the honesty guard is the T-COST clause plus an explicit re-attack flag; the kill was forced by the handoff's binary rather than chosen for drama",
+ "next_round": "R5 - DOC-TRUST / X-07 injection redteam; opens RUN/STATE.md; premises re-established by command at boot",
+ "not_done": "X0003's CONTRA row stays OPEN (mill's to close, not the well's); costume #1 and #6 remain named debts; the LB09 operator and H2 remain untested until zero day; no commit cut",
+ "obituary": "this receipt dies the moment W04's re-attack shows a filled clause fails a T-test, or an Owner wall moment lands without LB07's revival clause quoting the new artifact"
+}

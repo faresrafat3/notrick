@@ -68,6 +68,11 @@
 
 - Negative result (closer, S2-20260908-01): **the register paradox - filing a violation re-breaks the pin.** V-003's append changed violations.md from c39f54c0… (comptroller-computed 08:53, byte-identical to the mirror commit) to c46f161a… (post-V-003, this session). An append-only violation register can never be pin-stable while it records its own violations: pins on violations.md are timestamps, not walls - each audit re-runs sha256sum and attributes drift to the logged filings between stamps; MISMATCH alone is not tampering evidence.
 
+
+## R4 — THE WELL REGRESS (2026-09-08)
+- Negative result: **the well could not pay the dead-orchestrator wall — so it killed the claim instead of decorating it.** LB07 (C0017) carried KEEP on a self-attested-walls caveat since W01; W03's fill attempt found the records hold only a described-but-absent artifact (out-of-band baseline, adversarial-audit.md L123) or an unbuilt patch (P-005). T-ANCHOR + T-COLLAPSE failed; HANDOFF_W03's binary forced KILL, not a softer DEMOTE. First claim-level kill of the ledger; revival is Owner-gated (P-013 [A] / P-005 ruling).
+- Negative result: **two of three debts were fillable from existing records, and that is the suspicious part.** UW01's joint (results PROPOSE, Owner RATIFIES) and UW03's operator (axis tag + input-bind + K-line criterion) assembled entirely from anchors already on disk — the well did not need a new source. The honesty guard: both fills carry T-COST forbidding their strongest misreading, and the operator is stamped UNTESTED until the first paired runs; a fill that costs nothing should be re-attacked at W04.
+
 ---
 obituary: this file dies the moment a round ends with it EMPTY; a completed round with no
 recorded negative result is treated as a hidden failure, and the series' own obituary

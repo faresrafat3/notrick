@@ -110,3 +110,76 @@
 - **UNPAID-WHY**: 0.
 
 This is suspicious (see Op 16). Op 16 reopens LB04, LB07, LB09, LB11 and attempts to kill each.
+---
+
+## W03 ADDENDUM (2026-09-08 · SERIES 2 R4 · executor S2-20260908-01 goal-loop)
+> Appended per HANDOFF_W03 + UNPAID_WHY retirement rule. Rows above are annotated by
+> reference; nothing above this line was edited.
+
+### LB04 — positive form (UW01 fill; retires UW01)
+- **BECAUSE (positive form):** results-as-prices permits exactly one act — fate decisions
+  (expand/refine/retire) that cite a documented result record, ratified in writing by the
+  Owner. VERSION.md:14-17 ("fate decisions made from results"; "v1.0 is what the RESULTS
+  say it is") + VERSION.md:23 ("Only the Owner moves the version. The agent may PROPOSE a
+  move with evidence") + RULES.md:33-35 (R8, terminus IN WRITING). The joint that X0003
+  demanded: **results PROPOSE, the Owner RATIFIES** — neither source alone is the price.
+- **INSTEAD-OF:** fate by unbound authority (Owner fiat without record). Loses on
+  VERSION.md:23 binding even the Owner's version-move to the scale + evidence, and on R8's
+  in-writing requirement — the rival has no artifact it may point to.
+- **IF-FALSE:** if ratification alone is the price, X0003 fires — fates detach from
+  outcomes and R5 K-lines stop indexing decisions; if records alone are the price, R8
+  collapses and the appeal terminus vanishes.
+- **T-COST:** forbids both "the Owner prices by taste" and "records execute fates without
+  the Owner".
+- **tests:** ok/ok/ok/ok/ok. **verdict (LB04):** DEMOTE→ARGUED-UNTIL-PRICING-MECHANISM-
+  SPECIFIED upgraded to PAID-AS-FENCE-AND-JOINT (fence reading intact; the positive form is
+  the propose/ratify joint, not a price function — T0008 stays slippery, honestly).
+
+### LB09 — same-task operator (UW03 fill; retires UW03)
+- **Operator (W03):** two tasks are the SAME iff (1) identical axis tag (MIC-31's emitted
+  tag), (2) identical input-bind (well/INPUT_BIND.md structure: same bound MILL files +
+  same bound claim), (3) identical success criterion (the K-line's wall+gate fields per R5,
+  RULES.md:20-22). Anchors: mics/mic-31-axis-tagger.md · RULES.md:20-22 ·
+  research/hypotheses-ledger.md:7-11 (H1's paired design).
+- **INSTEAD-OF:** "same = the experimenter's judgment call" — loses because it lets the
+  falsifier fire-or-not by dispute, which is exactly the X-CIRCULAR UW03 named.
+- **IF-FALSE:** if the three-field match is wrong, the ≥3 counter can never legitimately
+  reach 3 — D-01's falsifier never fires and niche-law re-forge becomes unreachable by
+  evidence (a record-level death, not prose).
+- **T-COST:** forbids calling two tasks "same" without the three-field match.
+- **tests:** ok/ok/ok/ok/ok. **verdict (LB09):** DEMOTE→SAME-TASK-OPERATOR-UNDEFINED
+  upgraded to PAID-OPERATOR-UNTESTED (defined and anchored; untested until the first
+  paired runs — the ledger's own declared pre-zero state).
+
+### LB07 — KILLED (UW02 attempt failed; retires UW02 by kill)
+- Attempt and failure recorded in well/KILL_EDIT.md W03 + well/KILLED_WHYS.md W03.
+- **verdict (LB07): KEEP → KILLED** — no standing external wall exists in the tree;
+  walls self-attested (X0004 open). D-02 keeps the claim at doctrine level with its own
+  falsifier (H2). Revival: Owner-forged external wall (P-013 [A] / P-005 ruling).
+
+### REDUCES-TO (re-test of LB01..LB12 against the 6 TRUE STOPS: R3/R6/R7/R8/R9/R10)
+| LB | reduces to | note |
+|----|-----------|------|
+| LB01 | R6 | gate ownership conjunction (rcvm.md L63) |
+| LB02 | R3 | pre-registered kill (arc-protocol.md L24-25) |
+| LB03 | R3+R8 | mortality + Owner terminus |
+| LB04 | R10+R8 | evidence-crossing + ratification joint (W03 fill) |
+| LB05 | R7+R10 | niche + crossword (D-01) |
+| LB06 | R7 | niche law (RULES.md L28) |
+| LB07 | — | KILLED (no stop holds a walled claim without a wall) |
+| LB08 | R6+R3 | unowned gate + budget wall |
+| LB09 | R7+R3 | demand + kill-predicate (operator paid, untested) |
+| LB10 | R7 | documented demand (ch-003 L18) |
+| LB11 | R8 | Owner signature record (RATIFICATION L15, quoted provenance) |
+| LB12 | R7 | demand + doctrine-vs-runtime (R12 is an operative derivative) |
+- Result: 11/11 surviving LBs reduce to ≥1 TRUE STOP — 0 costume claims at claim level.
+
+### PRIMITIVE-COSTUME dispositions (6, per PRIMITIVE_AUDIT.md)
+- #1 (T0005, 3× promotion): KEEP as costume with caveat — an arbitrary numeric constant,
+  Owner-owned by right (R8-adjacent); naming it constant-of-nature is the hallucination.
+- #2 (T0008): retired as debt — filled by the LB04 joint (above).
+- #3 (T0010, wall ledger): dead with LB07's kill (UW02).
+- #4 (T0011, niche-law instance): retired as debt — filled by the LB09 operator.
+- #5 (T0019, quorum): retired as debt — filled by the LB09 operator (same gap).
+- #6 (T0020, honoring-cost): KEEP as costume with caveat — concept stable, measurement
+  absent (F0017); feeds LB08's economic leg, remains an open measurement debt.

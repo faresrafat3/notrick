@@ -1,25 +1,41 @@
 # NEXT — what the next round opens first
 
-Round 4 (R4 — THE WELL REGRESS) must open, in this exact order:
-1. `RUN/STATE.md` — round pointer (reads next_round: R4 after R3 commits).
-2. `RUN/QUEUE.json` — confirm R4's `passes` is false.
-3. `RUN/receipts/R003.json` — the previous receipt; must be present and complete, else R4
-   is IN DEBT (cap 40 ops, log repairs to RUN/LEDGER.md). NOTE: R003 was written as a
-   debt-close by the S6 goal-loop, not by the R3 executor — its re-derivation claims were
-   spot-verified by the executor at close (LEDGER R3 RECEIVED entry).
+Round 5 (R5 — DOC-TRUST / X-07 injection redteam) must open, in this exact order:
+1. `RUN/STATE.md` — round pointer (reads next_round: R5 after R4 closes).
+2. `RUN/QUEUE.json` — confirm R5's `passes` is false.
+3. `RUN/receipts/R004.json` — the previous receipt; must be present and complete, else R5
+   is IN DEBT (B1.3: finish the previous round first, hard cap 40 repair ops, log to LEDGER).
 4. `RUN/NEXT.md` — this file.
-5. `RUN/WALL.md` — ten walls; R4 is a burrow round: well/STATE.md + well/INPUT_BIND.md
-   govern operation and the WNN-NN stdout format (B3.1).
-6. `RUN/LEDGER.md` — R3 tail carries: V-003 + the register paradox (c39f54c0→c46f161a),
-   the pin-provenance gap, the skeptic's adopted baseline practice, S6's P-012
-   double-booking finding (next filing takes P-014+).
+5. `RUN/WALL.md` — ten walls; W10 (budget law) governs; the redteam targets the record
+   surface, so every planted probe must itself be logged (no unlogged test writes).
+6. `RUN/FENCE_RUN.md` — F-RUN rows; an injection redteam is where fake-claims get invented.
+7. `research/hardening-pass.md` — the prior DOC-TRUST pass (0 injection hits on its sample,
+   verified earlier); R5 must go BEYOND its sample or state why the same scope repeats.
 
-R4 specifics (from the round text, re-establish each by command at boot — R2 lesson):
-well/LOG.md ends at W00-14 while W01-W03 artifacts exist → the honesty repair FIRST (dated
-RECONCILIATION block, UNLOGGED-RETRO, forward rule stated); then UW01/UW02/UW03
-pay-or-kill (attempt the missing record piece from sources with quotes BEFORE any
-UNFILLABLE-BY-DELEGATE; difficulty is not a failed attempt — show commands); kills via
-well/KILL_EDIT.md + KILLED_WHYS.md format; REDUCES-TO rows in well/BECAUSE.md.
+## R4 hand-off state (written 2026-09-08 by the S6 goal-loop executor)
+- Executed under well/ burrow law (well/runtime/ absent → REASON_LAW.md verbatim taxonomy
+  governed); claim logged before work; well/LOG.md now carries the W03 line block.
+- Honesty repair DONE first: W01/W02 unlogged work reconciled as UNLOGGED-RETRO (W03-00,
+  E-BREAK kind) with the artifact list; nothing back-dated; forward rule stated.
+- UW01/LB04 RETIRED by fill: the positive form = results PROPOSE, Owner RATIFIES
+  (VERSION.md:14-17 + :23; RULES.md:33-35) — names X0003's joint, but the CONTRA row stays
+  open for the mill to close. All five T-tests ok.
+- UW02/LB07: attempt FAILED (only wall candidates: described-but-absent out-of-band
+  baseline (adversarial-audit.md:123) or unbuilt P-005 → X-FUTURE) → LB07 KILLED — first
+  claim-level kill of the ledger; revival Owner-gated (P-013 [A] / P-005 ruling). Heir:
+  D-02 keeps the claim at doctrine level with its own falsifier (H2, untested).
+- UW03/LB09 RETIRED by fill: same-task operator = axis tag (MIC-31) + input-bind
+  (INPUT_BIND.md) + K-line criterion (RULES.md:20-22); five T-tests ok; stamped UNTESTED
+  until the first paired runs.
+- REDUCES-TO: 11/11 surviving LBs stop at ≥1 TRUE STOP; 0 costume claims. Costumes #1/#6
+  kept with caveat (named debts); #2/#4/#5 retired-filled; #3 dead with LB07.
+- Citations C087-C095 registered, each anchor captured live by command BEFORE registering.
+- Negative results ×2 in RUN/NEGATIVE_RESULTS.md (unpayable wall → kill, not decoration;
+  two fills cost nothing → flagged for W04 re-attack).
+- Owner decisions still pending: P-013 re-pin ([A]/[B]) · P-012 ×2 rename · §ز-6 rows ·
+  HANDBACK items — none touched.
+- R5 write lane: research/ + proposals/ + RUN/; every probe write must be logged in the
+  same turn (W03-00's forward rule, now series-wide).
 
 ## R3 hand-off state (written 2026-09-08)
 - Pin trial: 44 hash lines vs header claim 42 (S-03 confirmed); 43 OK / 1 FAILED
@@ -55,7 +71,7 @@ well/KILL_EDIT.md + KILLED_WHYS.md format; REDUCES-TO rows in well/BECAUSE.md.
   version v0.00001 (VERSION.md:1) vs v0.0001 claim (X0002) · hept LOG L1 '270 files'.
 
 ---
-obituary: this file dies the moment a round starts without reading it, or when the R0
-hand-off facts it records are quoted by a later round whose commands cannot reproduce
-them (live-tree drift makes file counts timestamp-bound; the STABLE numbers above are
-the ones to trust).
+obituary: this file dies the moment a round starts without reading it, or when the R4
+hand-off facts it records are quoted by a later round whose commands cannot reproduce them
+(the well's T-test verdicts are anchored to file:line — re-run the citation commands before
+citing; the STABLE numbers above are the ones to trust).

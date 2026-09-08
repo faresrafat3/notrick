@@ -1,0 +1,14 @@
+# r4-hunter-uw01
+
+## hits
+- mill/DEBT_PAYMENT.md:19-25 — "D0005 (rank 3) — price mechanism, 6 lines · 1. Say who the payer and payee are… 2. Say what a price unit is — a number a result record actually carries… 5. Resolve X0003… 6. Payment done when 'results are the prices' is a sentence with a checkable noun." → **partial**: a spec OF a legal positive pricing claim, but names no unit; D0005 still must-pay (mill/DEBT.md:8).
+- mill/VERDICT.md:14,20 (FROZEN op 0378; mtime 05:03 — AFTER well/UNPAID_WHY.md 04:55) — "D0005 (pay: price replaced by balance function)" · "C0007 (market/price reading — no buyer exists; replaced by balance)" · op-0389: "the word 'price' survives ONLY as the name of the killed reading (C0007). No sentence may give 'price' new semantics; any new semantics is a blend (ILLEGAL_BLENDS.1)." → **partial, superseding**: answers "what the fence permits" NEGATIVELY — a positive pricing claim is now illegal by frozen rule; the form moved to a balance function that has no definition on disk (only mill/STEELMEN.md:11 "a claim is settled when its entries match"; mill/CONFLICT.md:10-11 CF07/CF08 "the same debt has two incompatible governors").
+- mill/TERMS.md:11,32 (T0008) — "results-as-prices | outcomes, not words, allocate attention/fuel across the swarm. | slippery (metaphor-level; no pricing mechanism specified)" → **no**: T0008 NOT stabilized; the promised P04 re-entry (ONE_SENTENCE.md:3) never landed; TERMS.md:35 pointer list excludes T0008.
+- research/rcvm.md:40,79,121 — "FILL(ds-id, attempt, K-line) → Unit" · "PRIME(wall, axis, budget) → K-line" · MIC-07 BUDGET_ECHO → **no**: routes BUDGETS, not prices; no unit a result record carries; nothing prices outcomes.
+- Owner/decision-log: **none** — CONTEXT.md / RULES.md / ZERO-DAY-RUNBOOK.md / OPS_QUEUE.md contain no positive pricing ruling; X0003 still open (mill/CONTRA.md:6; DEBT.md D0045 must-pay). LB04/BECAUSE/REGRESS fence reading (well/LB04.md:24-26 "it specifies a *non-source*") is the pre-VERDICT state well/ still holds.
+
+## verdict
+PIECE-FOUND (partial + superseding): mill/VERDICT.md:14,20 (ops 0341/0378/0389) with mill/DEBT_PAYMENT.md:19-25. The literal slot — what "price" concretely denotes (fuel/budget-routes/outcome-costs) or an Owner positive-form statement — is **NOTHING** (searched: price, prices, pricing, fuel, T0008, p(attempt), price function, balance function, fate, D0005 across well/ mill/ research/ CONTEXT.md RULES.md OPS_QUEUE.md ZERO-DAY-RUNBOOK.md). Key flag: well/ W03 artifacts (04:55-04:57) predate the VERDICT freeze (05:03) — well is ruling on a term the newest record has exiled.
+
+## one-line
+A KEEP-row survives T-CONTRAST only by demoting the positive pricing form as illegal (VERDICT op-0389 / ILLEGAL_BLENDS.1) and re-aiming UW01 at the undefined balance function — a KEEP-row asserting any positive pricing form does NOT survive (spec-of-a-spec: DEBT_PAYMENT D0005 unpaid, CF07/CF08 two-governor conflict, X0003 open).

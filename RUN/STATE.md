@@ -1,12 +1,12 @@
 # STATE — SERIES 2 run pointer (updated after every round)
 
 - series: NOTRICK SERIES 2 (R0..R14)
-- next_round: R4
-- current_burrow: well/ (R4 targets the well regress — payable whys; burrow law B3.1 governs)
-- outstanding_debt: none (R3 receipt R003 complete)
+- next_round: R5
+- current_burrow: none (R5 targets the record surface - DOC-TRUST / X-07 injection redteam; no burrow)
+- outstanding_debt: none (R4 receipt R004 complete)
 - status: OPEN
-- one_line_note: R3 DONE 2026-09-08 (closed as debt by S2-20260908-01 goal-loop) — pins 44/42 claim, 43 OK, 1 FAILED (violations.md; V-003 filed; V-002 post-pin change unlogged; as-of-pin bytes unrecoverable); register paradox recorded (V-003 filing re-broke the pin c39f54c0→c46f161a); 7 unpinned doctrine-class files; P-013 re-pin demand filed. R4 = THE WELL REGRESS (القانون: B3.1 burrow law — WNN-NN log format; premises re-established by command at boot)
-- last_receipt: RUN/receipts/R003.json (complete)
+- one_line_note: R4 DONE 2026-09-08 (self-executed, well burrow law honored) — UW01/UW03 retired by fill (results propose / Owner ratifies; same-task = axis+bind+criterion), UW02 attempt failed T-ANCHOR+T-COLLAPSE → LB07 KILLED (first claim-level kill; revival Owner-gated), W01/W02 unlogged work reconciled as UNLOGGED-RETRO, REDUCES-TO 11/11, citations C087-C095 captured live. R5 = DOC-TRUST / X-07 injection redteam
+- last_receipt: RUN/receipts/R004.json (complete)
 - last_receipt_status: complete
 
 ## Read order on resume (B1)

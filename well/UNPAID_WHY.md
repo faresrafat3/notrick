@@ -15,3 +15,7 @@
 ## How an entry is retired
 - Re-attempt with the missing field filled; the retried because-clause lives in the matching
   LB-NN file (not here) and the UW row is annotated `→ retired, see LB-NN`.
+## W03 dispositions (2026-09-08, SERIES 2 R4)
+- UW01 | → retired, see well/BECAUSE.md W03 addendum (LB04 positive form: results propose, Owner ratifies) — T-CONTRAST/T-NONCIRC/T-COLLAPSE/T-ANCHOR/T-COST all ok.
+- UW02 | → attempt FAILED (no standing external wall in tree; adversarial-audit.md:123 names a missing artifact; P-005 unbuilt = X-FUTURE) → LB07 KILLED per HANDOFF_W03 binary; see well/KILLED_WHYS.md W03 + well/KILL_EDIT.md W03. Revival: Owner-forged external wall.
+- UW03 | → retired, see well/BECAUSE.md W03 addendum (LB09 same-task operator: axis tag + input-bind + K-line criterion) — all five tests ok; operator untested until first paired runs (declared).
