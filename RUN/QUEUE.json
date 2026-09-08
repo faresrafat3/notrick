@@ -13,7 +13,7 @@
   },
   "rounds": [
     { "id": "R0",  "name": "THE RUN — install machinery",              "passes": true },
-    { "id": "R1",  "name": "THE STALE SWEEP — P8 across rot clusters",  "passes": false },
+    { "id": "R1",  "name": "THE STALE SWEEP — P8 across rot clusters",  "passes": true },
     { "id": "R2",  "name": "THE MISSING FOUR — build or kill",          "passes": false },
     { "id": "R3",  "name": "THE PIN TRIAL — INTEGRITY recompute",       "passes": false },
     { "id": "R4",  "name": "THE WELL REGRESS — payable whys",           "passes": false },
