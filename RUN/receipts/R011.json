@@ -1,0 +1,17 @@
+{
+  "round": "R11",
+  "name": "PRIMITIVE INDEPENDENCE — matrix",
+  "status": "complete",
+  "executed_by": "SERIES 2 executor lane (glm-5.3-flash, goal-round 11) · artifact research/primitive-independence.md",
+  "matrix": "8x8 dependency matrix from verbatim definitions",
+  "dag": "zero cycles; topological order P1,P6 → P3 → P2 → P4 → {P5,P7,P8} computed",
+  "roots": ["P1 QUOTE", "P6 CHART"],
+  "hub": "P4 ENTRY — 4 deps, 3 dependents (= R10's one object)",
+  "minimal_basis": "8/8 elements load-bearing (each drop breaks a named state or hook)",
+  "structure_vs_legality": "independence in structure; legality rides R6 + I1-I7 outside the frozen set",
+  "substitution": "P4 row deletion → hub + 3 dependents dangle → DEGRADES → restored (RUN/SUBSTITUTION.md)",
+  "verifier": "blind subagent failed pre-write twice; covered by command verification (3/3 byte-fragments match, edge census run) — deviation logged, independent MATCH owed at R14 GHOST",
+  "anchor_honesty": "6/8 source-anchors UNVERIFIED one level deeper (resolve to mill records, not original op texts) — stated in-artifact",
+  "not_done": "no QUEUE flip; no doctrine write; TERM_GRAPH T-layer not duplicated",
+  "failure_mode_named": "rubber-stamping — countered by logging the substitute-verification limit instead of claiming a blind MATCH"
+}

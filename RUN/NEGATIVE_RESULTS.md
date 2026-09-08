@@ -144,3 +144,13 @@ recorded negative result is treated as a hidden failure, and the series' own obi
   load-bearing rather than decorative). Auditor review pending at write time — freeze
   only after its CLEAN/REFUSED line (ANTI_BLEND:8); a REFUSED verdict is a finding, logged
   both positions.
+
+## R11 — PRIMITIVE INDEPENDENCE, matrix (2026-09-08)
+- Negative result: **the primitive set is NOT independent — it is a 2-root DAG, and its
+  legality is external.** 6 of 8 primitives are definitionally dependent (P4 ENTRY hangs on
+  4; only P1 QUOTE and P6 CHART are atoms); zero cycles (topological order computed); and
+  every edge's legality rides doctrine the set does not carry (R6 ownership for P3, I1-I7
+  for the rows) — independence holds in structure, not in law. Also on record: 6 of 8
+  definition source-anchors are UNVERIFIED one level deeper (they resolve to mill records,
+  not to their original op texts) — the matrix says so in its own anchor-resolution note
+  instead of passing the freeze silently.

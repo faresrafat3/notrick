@@ -108,3 +108,8 @@ and restoring the line; the test is a ritual unless it changes the file twice.- 
   a row" with no artifact shown to reduce) — exactly the blend-syntax risk the auditor
   checks, since unsupported ONE-object claims are how BT05 hides. → DEGRADES. RESTORED:
   6 anchored rows (grep-verified).
+- R11 · research/primitive-independence.md · OLD (executed 2026-09-08): deleted the P4 ENTRY
+  matrix row (the hub with 4 dependencies + 3 dependents) → P5/P7/P8's dependency anchors
+  dangle (they point at a removed row) and the DAG's center of mass vanishes — the matrix
+  shows an impossible order and "P4 = the one object" loses its row. → DEGRADES. RESTORED:
+  P4 row present (grep 0 → 1, before/after recorded).

@@ -1,0 +1,14 @@
+{
+  "round": "R10",
+  "name": "THE ONE OBJECT — anti-blend verdict",
+  "status": "complete",
+  "executed_by": "SERIES 2 executor lane (glm-5.3-flash, goal-round 10) · artifact research/one-object-verdict.md (71 lines)",
+  "one_object": "6-field STATE_SCHEMA row (mill/STATE_SCHEMA.md:3-9)",
+  "demoted": "K-line 4-tuple (rcvm.md:48-58) object → production",
+  "readings_killed_with_ids": ["C0001 crossword", "C0003/FR04 VM", "C0007/LB04 prices", "C0008 stigmergy", "growing-mind"],
+  "auditor": "blind (B5) — 5 checks: 4 PASS / 1 FAIL → OVERALL CLEAN, not refused-for-blend; 2 off-by-one anchors caught + fixed pre-freeze (C143)",
+  "substitution": "reduction-table deletion → 0 anchored claims → DEGRADES → restored (RUN/SUBSTITUTION.md)",
+  "note": "receipt filed one goal-round late by the same lane that executed the round — B6.6 gap closed now; the round's own final-message JSON was the in-flight record",
+  "not_done": "no QUEUE flip (R10 passes stays false until the queue-owning writer advances); no doctrine write",
+  "failure_mode_named": "premature-victory risk on ONE-object claims — countered by the auditor's independent sed re-derivation"
+}

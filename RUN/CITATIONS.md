@@ -162,3 +162,7 @@ a random 20% and any MISMATCH is a violation, filed not fixed.| C125 | arc-proto
 | C141 | LOST.md:1-6 | the mill verdict's six losses (mind-story, prices, stigmergy, crossword, Owner-oracle, VM) | `cat mill/LOST.md` | R10 |
 | C142 | BLEND_TEMPTATION.md BT01-06 | standing blend vocabulary incl. BT05 "keeps all four readings as modalities" | `head -20 mill/BLEND_TEMPTATION.md` | R10 |
 | C143 | r10-auditor.md (blind) | 5 checks: 4 PASS / 1 FAIL (2 off-by-one anchors, quotes real) → OVERALL CLEAN, not refused-for-blend | `cat RUN/briefs/r10-auditor.md` | R10 |
+| C144 | PRIMITIVES.md (whole) | P1-P8 frozen: `Count: 8 ≤ 8 (0474)` + 8 definitions with anchors | `cat mill/PRIMITIVES.md` | R11 |
+| C145 | INVARIANTS.md I1-I7 | legality layer over the DAG: `I2 No ENTRY is CLOSED without a RECEIPT matching its GATE (R2)` … | `head -12 mill/INVARIANTS.md` | R11 |
+| C146 | TERM_GRAPH.md | 15 T-rows, zero P-rows — T-layer ≠ P-layer, matrix is new ground | `grep -c '^| T0' mill/TERM_GRAPH.md` | R11 |
+| C147 | CONFLICT.md:4 | anchor resolution example: `C0036 C0048` cited in mill records, not CONTEXT | `grep -rn 'C0036' mill/ CONTEXT.md | head -3` | R11 |

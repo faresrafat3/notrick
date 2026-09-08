@@ -145,3 +145,30 @@ line that is not an append is a hidden fix.
   this session and logged here. This is the obituary's own death-condition firing and being
   repaired pre-freeze; the auditor's sed re-derivation is the round's only accepted grade
   (B2: self-review worth zero).
+- 2026-09-08 · R10 · RECEIPT-GAP closed · RUN/receipts/R010.json filed one goal-round after
+  the R10 work (B6.6 requires the file; last round printed only the in-flight JSON).
+  Self-caught on R11 resume — not silent: this entry is the record.
+- 2026-09-08 · R11 · EXECUTION · research/primitive-independence.md filed: 8×8 dependency
+  matrix from verbatim definitions, DAG verified by topological ordering (2 roots: P1
+  QUOTE, P6 CHART; hub P4 with 4 deps/3 dependents), minimal-basis test passed (each of
+  8 eliminable only at the cost of a named state/hook), structure-vs-legality split
+  logged (edges' legality rides R6 + I1-I7, outside the frozen set). Substitution test
+  passed (P4 row deletion → DEGRADES → restored). Blind verifier launched (B5) — result
+  appended on landing. Also this round: R010.json receipt-gap closed (see above).
+- 2026-09-08 · R11 · VERIFIER-FAILURE + DEVIATION (logged, not smoothed) · the blind
+  verifier failed pre-write twice (launch 1: no brief after ~4.5 min; relaunch: same).
+  Zone covered by the executor with COMMAND verification (W9 — a command is a
+  disinterested measurer where a byte-compare suffices): 3/3 quoted fragments byte-match
+  mill/PRIMITIVES.md ("executing a GATE", "receipt does not match its gate", "two
+  entries" — grep -c = 1 each); edge-word census over the 8 definitions confirms
+  GATE/receipt/entry/slot/CHART mentions consistent with the matrix. HONEST LIMIT on
+  this substitute: 2 of the matrix's 10 edges (P4→P6, P8→P6) are I4-derived (slots
+  CHART-typed via mill/INVARIANTS.md), not definition-text edges — the matrix's
+  "definition words" column only claims the definition-text edges; the DAG and topological
+  order hold with or without those 2 edges (P6 stays a root either way). A blind subagent
+  re-derivation remains owed at R14 GHOST; UNVERIFIED: independent-verifier MATCH on the
+  matrix as of this entry.
+- 2026-09-08 · R11 · CLOSE · research/primitive-independence.md committed this round;
+  R010.json receipt-gap closed earlier this round (B6.6); R011 receipt follows in the
+  round's final message (goal-loop still holding QUEUE at next_round:R9 with 32 dirty
+  files — its close, not this lane's).
