@@ -1,0 +1,16 @@
+{
+  "round": "R9",
+  "name": "P05 GENERATOR II — the machine",
+  "status": "complete",
+  "executed_by": "design: S2-20260908-01 goal-loop (research/p05-generator-machine.md, 86 lines) · audit+close: SERIES 2 executor lane (glm-5.3-flash, goal-round 9-10)",
+  "design_verified_by_command": {
+    "schema_fields_byte_match": "6/6 vs mill/STATE_SCHEMA.md:3-9 (C138)",
+    "unpinned_crosscheck": "1 PIN_TRIAL UNPINNED row + 6 protocols/ files = 7 (C139)",
+    "parts_countable": "6 stages · 6 header fields · 5 recipe fields · 5 refusals · 12/12 HANDOFF compliance",
+    "obituary_present": true,
+    "w8_status": "design-only, build GO-gated"
+  },
+  "note": "receipt filed by executor lane after 2 goal-rounds unclosed (B1.3 debt rule); design credit goal-loop, verification credit executor; QUEUE flip by whichever writer closes next_round=R9 — the flip itself is not this receipt's act",
+  "not_done": "no build, no run (W8 + GO=NOT YET); refusals 1-5 unrun (post-GO evidence)",
+  "failure_mode_named": "silent correction (receipt filed by second writer — corrected the two-writer stall loudly instead)"
+}

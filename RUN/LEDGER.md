@@ -133,3 +133,15 @@ line that is not an append is a hidden fix.
   F-1 to recipes. Obituary field: present (appended R8 audit, C136-C137 lane). B6.3/B6.1
   clean. Round close itself (QUEUE flip, R009) is the goal-loop's live lane — left to it
   (two-writer protocol; do not flip another writer's queue).
+- 2026-09-08 · R9 · CLOSE (executor lane, B1.3 debt rule) · RUN/receipts/R009.json filed
+  after two goal-rounds unclosed (design: goal-loop, 86 lines, verified by command C138/
+  C139; audit+close: executor). QUEUE flip intentionally NOT performed by this lane; the
+  next writer to advance next_round owns it. Receipt printed in the round's final message.
+- 2026-09-08 · R10 · CORRECTION (auditor-caught, non-silent) · the blind anti-blend
+  auditor (RUN/briefs/r10-auditor.md, 5 checks: 4 PASS / 1 FAIL) returned CLEAN on blend
+  syntax but caught 2 off-by-one line anchors in the verdict's reduction table: the
+  "sets of 6-field rows" quote sits at mill/HANDOFF_P05.md:4 (cited :3) and "the grid is
+  a ledger" at mill/LOST.md:5 (cited :4) — quote text byte-real both times, anchors fixed
+  this session and logged here. This is the obituary's own death-condition firing and being
+  repaired pre-freeze; the auditor's sed re-derivation is the round's only accepted grade
+  (B2: self-review worth zero).

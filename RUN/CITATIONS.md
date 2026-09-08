@@ -158,3 +158,7 @@ a random 20% and any MISMATCH is a violation, filed not fixed.| C125 | arc-proto
 | C137 | p05-generator-machine.md:43 | `may contain only field placeholders and literal punctuation` — anti-stub false positive, design vocabulary | `sed -n '43p' research/p05-generator-machine.md` | R9 |
 | C138 | STATE_SCHEMA.md:3-9 | 6 fields: `ENTRY.id · QUOTE (path·line·digest) · GATE · RECEIPT · SLOTS · VERDICT` | `sed -n '3,9p' mill/STATE_SCHEMA.md` | R9 |
 | C139 | PIN_TRIAL + protocols/ | unpinned doctrine-class = 1 row (`grep -c UNPINNED-BUT-DOCTRINE`) + 6 files (`ls protocols/*.md`) = 7, matching machine design's claim | `grep -c UNPINNED-BUT-DOCTRINE RUN/PIN_TRIAL.md; ls protocols/*.md | wc -l` | R9 |
+| C140 | rcvm.md:44,48-58 | `Every valid state transition is a K-line production. K-line = 4-tuple crossing proof` + `K = (A, D, W, G)` + WF(K) predicate | `sed -n '44p;48,58p' research/rcvm.md` | R10 |
+| C141 | LOST.md:1-6 | the mill verdict's six losses (mind-story, prices, stigmergy, crossword, Owner-oracle, VM) | `cat mill/LOST.md` | R10 |
+| C142 | BLEND_TEMPTATION.md BT01-06 | standing blend vocabulary incl. BT05 "keeps all four readings as modalities" | `head -20 mill/BLEND_TEMPTATION.md` | R10 |
+| C143 | r10-auditor.md (blind) | 5 checks: 4 PASS / 1 FAIL (2 off-by-one anchors, quotes real) → OVERALL CLEAN, not refused-for-blend | `cat RUN/briefs/r10-auditor.md` | R10 |

@@ -133,3 +133,14 @@ recorded negative result is treated as a hidden failure, and the series' own obi
   machinery. HEIR clause now written into RUN/OBITUARY.md (heir = the record + the B1
   resume protocol; orphan branch declares to the Owner). Answered 6 PASS / 1 NO→written,
   with quotes, in research/arc-harvest.md Part 5.
+
+## R10 — THE ONE OBJECT, anti-blend verdict (2026-09-08)
+- Negative result: **the one object is the 6-field row, and the cost is the algebra.**
+  research/one-object-verdict.md elects STATE_SCHEMA's row (mill/STATE_SCHEMA.md:3-9) and
+  demotes the K-line 4-tuple (rcvm.md:48-58) from object to production — the K-line
+  algebra's elegance is the verdict's named loss (LOST section, real sacrifice per
+  ANTI_BLEND:4). Four readings killed with IDs (crossword, VM, prices, stigmergy — all
+  already dead in mill/LOST.md / well/KILLED_WHYS.md; the verdict makes their death
+  load-bearing rather than decorative). Auditor review pending at write time — freeze
+  only after its CLEAN/REFUSED line (ANTI_BLEND:8); a REFUSED verdict is a finding, logged
+  both positions.

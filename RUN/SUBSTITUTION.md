@@ -102,3 +102,9 @@ and restoring the line; the test is a ritual unless it changes the file twice.- 
   the highest-value-missing-gate section loses its evidence chain (wall-ledger priority
   rests on the told lie + the P-09 slip). → DEGRADES. RESTORED: count 3 (grep-verified
   before/after).
+- R10 · research/one-object-verdict.md · OLD (executed 2026-09-08): deleted the reduction
+  table (6 rows mapping receipts/gates/emitter/K-lines/ledgers/crossword → the 6-field row)
+  → artifact anchored claims drop 6 → 0; the verdict becomes assertion-only ("everything is
+  a row" with no artifact shown to reduce) — exactly the blend-syntax risk the auditor
+  checks, since unsupported ONE-object claims are how BT05 hides. → DEGRADES. RESTORED:
+  6 anchored rows (grep-verified).
