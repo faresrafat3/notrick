@@ -124,3 +124,8 @@ and restoring the line; the test is a ritual unless it changes the file twice.- 
   H5's instrumentation section prices nothing (its "triple" references dangle) and the
   DW08/FAKE_MATH debt goes unpriced — the spec becomes a restatement of the debt it was
   filed to discharge. → DEGRADES. RESTORED: 3 unit names present (grep-verified).
+- R13 · RUN/FUNERALS.md · OLD (executed 2026-09-08): deleted the W9 count section (rite
+  census + kill-class keyword counts) → 12 rites become an uncounted narrative, the
+  GHOST's R14 diff loses its author-side baseline, and the file stops being a ledger
+  object (Omega-5 duty 5 unmeetable). → DEGRADES. RESTORED: count computed by command,
+  grep-verified before commit.

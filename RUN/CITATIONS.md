@@ -172,3 +172,6 @@ a random 20% and any MISMATCH is a violation, filed not fixed.| C125 | arc-proto
 | C151 | FAKE_MATH.md repair | `(5) honoring-cost has no ruler: I6 records the field's emptiness as a debt-residual (D0039 remapped as min-debt, not a runtime claim)` | `sed -n '10,16p' mill/FAKE_MATH.md` | R12 |
 | C152 | DEAD_WEIGHT.md DW08 | `DN0008 honoring-cost | never measured, in no template (T0020) | measured once (D0039), or dropped` | `sed -n '11p' mill/DEAD_WEIGHT.md` | R12 |
 | C153 | hypotheses-ledger.md H5 | `a task hitting a prior K-line (same axis/charters) completes cheaper than the original` + verdict rule `no cost difference across 3 hits → memory is constellation theater` | `sed -n '30,37p' research/hypotheses-ledger.md` | R12 |
+| C154 | arc-protocol.md:30-38 | Omega-5 five duties: `VERDICT … LESSON … BURIAL … HEIR … LEDGER … No silent exits` | `sed -n '30,38p' research/arc-protocol.md` | R13 |
+| C155 | OBITUARY.md:7-10 | the series-killing clause: `If, by R14, the series has produced ZERO kills … retires itself via Omega-5` | `sed -n '7,10p' RUN/OBITUARY.md` | R13 |
+| C156 | FUNERALS.md (whole) | 12 rites, author-side count computed by command; GHOST diffs at R14 | `grep -cE '^## Rite|^## Rites' RUN/FUNERALS.md` (+ numbered-rite count) | R13 |

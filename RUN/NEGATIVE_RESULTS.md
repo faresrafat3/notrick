@@ -163,3 +163,12 @@ recorded negative result is treated as a hidden failure, and the series' own obi
   byte-comparability but stays UNTESTED (zero runs; no claim of confirmation is legal).
   R000-R011 receipts predate the ruler and stay UNPRICED forever — the series measured its
   own work in budgets, never in the machine's units, and cannot retroactively convert.
+
+## R13 — OMEGA funerals (2026-09-08)
+- Negative result: **the series' kills are almost all RE-exports.** Of the 12 rites, 10
+  bury things killed by EARLIER rounds or by the mill's own pre-series records
+  (mill/LOST.md, well/KILLED_WHYS.md, the R4/R5/R6/R7 verdicts); the series' genuinely
+  first-order deaths are 3 — the K-line demotion (R10, the one-object verdict), the
+  D0039 unit-space illegality (R12), and the 91.7% refutation of the doctrine's
+  injection-catching self-image (R5). A funeral file that mostly re-files old graves is
+  honest bookkeeping, not new destruction — and the R14 GHOST should weight it that way.

@@ -1,0 +1,15 @@
+{
+  "round": "R13",
+  "name": "OMEGA — run the funerals",
+  "status": "complete",
+  "executed_by": "SERIES 2 executor lane (glm-5.3-flash, goal-round 13) · artifact RUN/FUNERALS.md (90 lines, anti-stub clean)",
+  "rites_filed": 12,
+  "rite_breakdown": {"demotion": 1, "dead_readings": 5, "decorative_gates": 3, "illegal_unit_space": 1, "supersession": 1, "refutation_at_rate": 1},
+  "count_status": "AUTHOR-SIDE ONLY — official count belongs to the R14 GHOST (RUN/OBITUARY.md names it); diff is R14's business",
+  "negative_result": "10 of 12 rites re-export earlier kills (mill/LOST.md, well/KILLED_WHYS.md, R4-R7 verdicts); first-order series deaths = 3 (K-line demotion, D0039 unit-space, 91.7% injection refutation)",
+  "omega5_duties": "all five per rite (arc-protocol.md:30-38); no silent exits; no narrative exits — each verdict cites its firing clause",
+  "self_caught": "count section first written empty (W9 violation in-artifact) — filled by command before commit, LEDGER entry is the record",
+  "substitution": "count section removal → keyword census + rite breakdown unrecoverable → DEGRADES → restored (RUN/SUBSTITUTION.md)",
+  "not_done": "no QUEUE flip (goal-loop lane, still next_round:R9, 33 dirty files); no doctrine write; no R14 GHOST run (that round's own lane)",
+  "failure_mode_named": "demo-not-product — countered by citing each rite's firing clause verbatim instead of narrating deaths"
+}

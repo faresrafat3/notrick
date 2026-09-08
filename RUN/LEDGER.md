@@ -209,3 +209,11 @@ line that is not an append is a hidden fix.
   passed. Blind verifier for this round: deferred to R14 GHOST per series verifier-failure
   pattern (5 pre-write failures logged); the spec's checkable core is the triple's
   derivability — any reader can re-derive it from STATE_SCHEMA + the cited lines.
+- 2026-09-08 · R13 · EXECUTION · RUN/FUNERALS.md filed: 12 Omega-5 rites over the
+  series' dead (K-line demotion; 5 readings C0001/C0003/C0007/C0008/mind; 3 decorative
+  gates; D0039 unit-space; T1 supersession; P-09 refutation-at-rate) — each rite
+  VERDICT/LESSON/BURIAL/HEIR/LEDGER, one doctrine/one object per ANTI_BLEND. Author-side
+  count computed by command; the OFFICIAL count belongs to the R14 GHOST (obituary names
+  it) — the diff is R14's business. Self-caught mid-round: the count section was first
+  written EMPTY (W9 violation in-artifact) — filled by command before commit; no silent
+  pass, this entry is the record.
