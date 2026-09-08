@@ -119,3 +119,8 @@ and restoring the line; the test is a ritual unless it changes the file twice.- 
   consequence) and the verifier's catch stops justifying the matrix's own
   structure-vs-legality thesis at edge level. → DEGRADES. RESTORED: line present,
   grep-verified.
+- R12 · research/cost-ruler-spec.md · OLD (executed 2026-09-08): deleted the COST RULER
+  section (the three legal units + the illegal-units clause) → unit names drop 3 → 0,
+  H5's instrumentation section prices nothing (its "triple" references dangle) and the
+  DW08/FAKE_MATH debt goes unpriced — the spec becomes a restatement of the debt it was
+  filed to discharge. → DEGRADES. RESTORED: 3 unit names present (grep-verified).

@@ -154,3 +154,12 @@ recorded negative result is treated as a hidden failure, and the series' own obi
   definition source-anchors are UNVERIFIED one level deeper (they resolve to mill records,
   not to their original op texts) — the matrix says so in its own anchor-resolution note
   instead of passing the freeze silently.
+
+## R12 — COST RULER + H5 instrumentation (2026-09-08)
+- Negative result: **cost is a triple, not a number — and the series' own receipts can
+  never be priced.** The ruler spec (research/cost-ruler-spec.md) defines honoring-cost as
+  a machine-countable triple (row-units, quote-debits, gate-runs); elapsed time, tokens,
+  "effort", and money are D0039-class fake units and stay illegal. H5 is instrumented to
+  byte-comparability but stays UNTESTED (zero runs; no claim of confirmation is legal).
+  R000-R011 receipts predate the ruler and stay UNPRICED forever — the series measured its
+  own work in budgets, never in the machine's units, and cannot retroactively convert.

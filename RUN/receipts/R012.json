@@ -1,0 +1,15 @@
+{
+  "round": "R12",
+  "name": "INSTRUMENT H5 AND THE COST RULER",
+  "status": "complete",
+  "executed_by": "SERIES 2 executor lane (glm-5.3-flash, goal-round 12) · artifact research/cost-ruler-spec.md (60 lines, spec-class, W8-safe)",
+  "cost_ruler": "honoringCost = triple (ROW-UNITS, QUOTE-DEBITS, GATE-RUNS) — machine-countable over STATE_SCHEMA rows only",
+  "illegal_units": ["elapsed time", "token counts", "effort", "money — all D0039-class"],
+  "h5_status": "UNTESTED — instrumented to byte-comparability, zero runs, no claim of confirmation",
+  "series_receipts": "R000-R011 stay UNPRICED forever (predate ruler; I6 applies at CLOSE time)",
+  "discharge_path": "DEAD_WEIGHT DW08 'measured once (D0039)' becomes runnable at zero day",
+  "substitution": "COST RULER section deletion → 0 unit names, H5 dangles → DEGRADES → restored",
+  "verifier": "deferred to R14 GHOST (5 subagent pre-write failures this session, logged); triple derivability is reader-checkable from cited lines",
+  "not_done": "no ruler built, no H5 run, no cost numbers anywhere (W8 + GO=NOT YET + W3)",
+  "failure_mode_named": "premature victory — the spec prepares legality for future costs and claims none"
+}

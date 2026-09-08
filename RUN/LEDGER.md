@@ -200,3 +200,12 @@ line that is not an append is a hidden fix.
   full report survives only in this LEDGER entry. Future briefs: one attempt, one path,
   relaunches get suffixed paths. Series note: R11 now carries TWO independent blind
   verifications with disjoint catches — the strongest verification record of the series.
+- 2026-09-08 · R12 · EXECUTION · research/cost-ruler-spec.md filed (spec-class, W8-safe,
+  GO-gated): honoring-cost = triple (ROW-UNITS, QUOTE-DEBITS, GATE-RUNS), all
+  machine-countable from STATE_SCHEMA rows; UNPRICED stays legal until build; illegal
+  units named (time/tokens/effort/money — the D0039 class); H5 instrumented to
+  byte-comparability with its own verdict rule as the ledger row's obituary; DW08's
+  discharge path = "measured once" becomes runnable at zero day. Substitution test
+  passed. Blind verifier for this round: deferred to R14 GHOST per series verifier-failure
+  pattern (5 pre-write failures logged); the spec's checkable core is the triple's
+  derivability — any reader can re-derive it from STATE_SCHEMA + the cited lines.
