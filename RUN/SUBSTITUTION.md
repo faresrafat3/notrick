@@ -38,6 +38,13 @@
   falsification instead of deletion. Both tests recorded; deletion variant is the canonical
   B6.5 form.
 
+- R5 · research/doc-trust-redteam/RESULTS.md · OLD (executed 2026-09-08): deleted the P-09
+  SLIPPED row (the round's only non-CAUGHT verdict) → table 12 → 11 rows, catch_rate would
+  read 12/12 clean, SLIPPED count 0 → the round's entire yield (the fence-reframe hole that
+  justifies R13 DOC-TRUST) vanishes; a clean sweep would even trigger the suspicious-100%
+  clause instead of exposing the hole. → DEGRADES. RESTORED: 12 rows / SLIPPED 1 (grep=1).
+  The slip row is load-bearing: it is the redteam's one true finding.
+
 ## Substitution method (reused by later rounds)
 1. Copy the artifact. 2. Delete the candidate line. 3. Ask: does the artifact still mean
 what it must mean? 4. Record YES-degrades (keep) or NO-degrades (decoration → rewrite).
@@ -57,6 +64,28 @@ what it must mean? 4. Record YES-degrades (keep) or NO-degrades (decoration → 
   addendum still describes fills → the ledger shows two retirements and no decision about
   the one claim that died; a regress that kills nothing is a re-read (R6). → DEGRADES.
   RESTORED: header back, grep = 1. The kill line is load-bearing: it is the round's yield.
+
+
+- R5 · research/x07-injection-redteam.md · OLD (executed 2026-09-08): deleted the Probe F
+  verdict line (the report's only structural finding) → the file still shows six probes and
+  five CLEAN verdicts → the round reads as a pure pass with no yield; a redteam whose only
+  deliverable is reassurance is theater (R6). → DEGRADES. RESTORED: line back, count = 1.
+  The finding is load-bearing: it converts a clean scan into a debt with a named repair.
+
+
+- R6 · research/gate-triads.md · OLD (executed 2026-09-08): deleted the F-1 finding header
+  (the round's sharpest yield — the claimant-owned masterpiece gate) → the file still shows
+  the full 9-gate table and 4 findings → the audit reads as a neutral inventory with no
+  verdict against the doctrine; an audit that offends nobody audited nothing (R6). →
+  DEGRADES. RESTORED: line back, count = 1. F-1 is load-bearing: it is the round's only
+  finding that names a law-level shape defect.
+
+
+- R7 · research/arc-harvest.md · OLD (executed 2026-09-08): deleted Part 3 (the ratio — the
+  harvest's only yield-sentence) → the file still lists heirs and catches → an inventory
+  without a priced conclusion; a harvest that never converts to a price fed no decision
+  (results are the prices). → DEGRADES. RESTORED: section back, intact between Parts 1-2
+  and 4. The ratio is load-bearing: it prices the zero-day gates.
 
 obituary: this file dies if a round records a substitution test without actually deleting
 and restoring the line; the test is a ritual unless it changes the file twice.

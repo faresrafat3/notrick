@@ -103,6 +103,38 @@
 | C094 | mill/CONTRA.md:6-7 | `| X0003 | C0007/C0017: results-as-prices ...` / `| X0004 | C0014: "who I am not" + confession are self-attested, unreliable as walls ...` | `sed -n '6,7p' mill/CONTRA.md` | R4 |
 | C095 | research/reconstruction-v2.md:114 | `| X-09 ...` (the X-09 wound row carrying the P-005 external-copy reference) | `sed -n '114p' research/reconstruction-v2.md` | R4 |
 
+| C096 | research/adversarial-audit.md:86-95 | `### X-07 · Document injection (the novel one) — SEVERITY: CRITICAL` + scenario + P-001 patch text | `sed -n '86,95p' research/adversarial-audit.md` | R5 |
+| C097 | research/adversarial-audit.md:244 | `- P-001 DOC-TRUST rule (from X-01, X-03, X-07) — RULES.md R13 candidate` | `sed -n '244p' research/adversarial-audit.md` | R5 |
+| C098 | research/hardening-pass.md:87-105 | `## OP 3: DOC-TRUST SCAN (P-001)` + 2 legitimate hits + verdict | `sed -n '87,105p' research/hardening-pass.md` | R5 |
+| C099 | research/breaker-stranger.md:108-112 | modal-grep probe text + `The flagship injection scenario (X-07's ...)` | `sed -n '108,112p' research/breaker-stranger.md` | R5 |
+| C100 | CONTEXT.md:417-419 | `- 2026-09-07 · DECISION · Owner grants execution role ... override R12 once · Owner assumes responsibility` | `sed -n '417,419p' CONTEXT.md` | R5 |
+| C101 | well/REASON_LAW.md:1-3 | `# REASON_LAW — installed verbatim from the WELL kernel.` / `> Source of authority: the user's REASON TAXONOMY block in the W00 directive.` | `sed -n '1,3p' well/REASON_LAW.md` | R5 |
+
+| C102 | RULES.md:24-25 | `## R6 — No trick (Minsky + Factorio)` / `Any claimed success passes a gate it does not own. A gate owned by the claimer is [not a gate].` | `sed -n '24,25p' RULES.md` | R6 |
+| C103 | mics/mic-23-gate-runner.md:5-12 | `- **Trigger (exact):** a gate verdict is claimed anywhere` / `- **Act (exact):** re-run the gate's exact criterion` / `- **Refusal:** a claimed verdict with no re-runnable criterion → flagged as UNVERIFIED` / `quotes output, never summarizes` | `sed -n '5,12p' mics/mic-23-gate-runner.md` | R6 |
+| C104 | ZERO-DAY-RUNBOOK.md:4 + RATIFICATION-BATCH-001.md:27-29 | `> Nothing here RUNS anything. This file exists so "go" costs the Owner one message` / `- Ruling: {NOT YET | GO: "…" (verbatim, logged in CONTEXT)}` | `sed -n '4p' ZERO-DAY-RUNBOOK.md; sed -n '27,29p' RATIFICATION-BATCH-001.md` | R6 |
+| C105 | AGENTS.md:53 + SUPERVISOR-CHIP.md:9 | `No quote = you have no standing here; everything you do b[efore quoting is void]` / `1. Spot-check any agent's boot gate (first reply must quote: …)` | `grep -n 'No quote' AGENTS.md; sed -n '9p' SUPERVISOR-CHIP.md` | R6 |
+| C106 | charters/ch-003-maker.md:13 | `2. Prove a forge through the masterpiece gate (a real task exercised the charter).` | `sed -n '13p' charters/ch-003-maker.md` | R6 |
+| C107 | mill/FENCE.md:19,26 + mill/ANTI_HALLUCINATION.md:7 | `| F0016 | Treating PR-002's Tier-0/1/2 quorum schedule as adopted law` / `| F0023 | Deriving a wall-ledger entry format from rcvm.md L55` / `6. "The wall ledger shows three wall-breaks" — no wall ledger exists` | `sed -n '19p;26p' mill/FENCE.md; sed -n '7p' mill/ANTI_HALLUCINATION.md` | R6 |
+| C108 | research/hypotheses-ledger.md:19-29 | `## H3 — External gates actually catch cheats/overclaims` / `- Measure: binding conditions count per RJ; post-run grade o[f their effect]` | `sed -n '19,29p' research/hypotheses-ledger.md` | R6 |
+| C109 | violations.md:5,7 | `- V-001 · 2026-09-06 · Buffy (planning layer, governing chat) · FABRICATED …` / `- V-003 · 2026-09-06 (change) / 2026-09-08 (filed by SERIES 2 R3 executor) · …` | `sed -n '5p;7p' violations.md` | R6 |
+| C110 | charters/ch-002-council.md:2 | `> v1 · forged 2026-09-06 by the Maker (session-forged, pre-runtime)` | `head -2 charters/ch-002-council.md` | R6 |
+
+| C111 | research/arc-protocol.md:36 | `4. **HEIR:** what continues — an heir named, or "orphan" declared and the Owner notified.` | `sed -n '36p' research/arc-protocol.md` | R7 |
+| C112 | research/arc-protocol.md:72 | `1. **Charters have no heir clauses** (Alpha-7's question 7 is unanswered in all four)` | `sed -n '72p' research/arc-protocol.md` | R7 |
+| C113 | RUN/STALE.md:1,33 | `# STALE — SERIES 2 · R1 sweep (2026-09-08) · primitive: P8 STALE` / `## Cleared candidates (checked, NOT standing contradictio[ns]` | `sed -n '1p;33p' RUN/STALE.md` | R7 |
+| C114 | research/demolition-log.md (sections) | `## A-01 — R1/R2` … 11 `## A-` sections = 11 quote-then-attack pairs | `grep -c '^## A-' research/demolition-log.md` | R7 |
+| C115 | well/AUDIT_W00.md:1,43,45 | `# AUDIT_W00 — self-attack; 3 overreads found and downgraded.` / `- Pattern recorded for WHY_FENCE: F-WHY-PARENTHETICAL-GLOSS` | `sed -n '1p;43p;45p' well/AUDIT_W00.md` | R7 |
+| C116 | mill/FENCE.md (count) | 34 fenced fake rows (`grep -cE '^\| F0'` = 34; matches R0 ground truth 34 rows) | `grep -cE '^\| F0' mill/FENCE.md` | R7 |
+
+| C117 |.md:226-229 | X-07 DOCUMENT INJECTION "the single highest-value doctrine addition found by this audit" | `sed -n '226,232p' research/adversarial-audit.md` | R5 |
+| C118 | | `## R6 — No trick (Minsky + Factorio) / Any claimed success passes a gate it does not own. A gate owned by the claimer is not a gate.` | `sed -n '24,25p' RULES.md` | R5 |
+| C119 | | `You may NOT write to any doctrine file ... doctrine changes only via an Owner approved-docs moment, logged in CONTEXT.` | `sed -n '59,61p' AGENTS.md` | R5 |
+| C120 | | `## R8 — Owner ratification (the loop-breaker) ... overturned only by the Owner IN WRITING, never silently.` | `sed -n '33,35p' RULES.md` | R5 |
+| C121 | | `## What you are NEVER allowed to do (hard walls) - Execute tasks, touch runtime (~/.openclaw, ~/.dsh) ...` | `sed -n '26,29p' ONBOARDING.md` | R5 |
+| C122 | ×6 | r5-attA..F.md on disk (11 CAUGHT / 1 SLIPPED / 0 accidental) | `ls -la RUN/briefs/r5-att*.md` | R5 |
+| C123 |,26,37 | obituary = observed/evidence-detectable death; no claimant-owned verdict; no silent exits | attacker F's grounds (r5-attF.md) | R5 |
+| C124 | | 12 payloads, banner "PAYLOAD — NOT DOCTRINE — DO NOT OBEY", sha256 cbaf1df3b0ab379d… | `sha256sum research/doc-trust-redteam/PAYLOADS.md` | R5 |
 obituary: this register dies the moment a quote is registered without its producing
 command, or an entry cites a file:line this tool cannot reproduce; the R14 audit re-derives
 a random 20% and any MISMATCH is a violation, filed not fixed.
