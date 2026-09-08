@@ -168,3 +168,7 @@ a random 20% and any MISMATCH is a violation, filed not fixed.| C125 | arc-proto
 | C147 | CONFLICT.md:4 | anchor resolution example: `C0036 C0048` cited in mill records, not CONTEXT | `grep -rn 'C0036' mill/ CONTEXT.md | head -3` | R11 |
 | C148 | r11-verifier.md (blind, relaunched) | edge re-derivation: `MISMATCH — the claim adds 3 edges with no textual basis: P3→P1, P4→P6, P8→P6`; fragments 3/3 EXACT; cycle NO | `cat RUN/briefs/r11-verifier.md` | R11 |
 | C149 | INVARIANTS.md I1,I4 | the law-edge basis: `I1 Every ENTRY cites exactly one QUOTE (R1)` / `I4 No slot value lies outside its CHART (R4)` | `head -12 mill/INVARIANTS.md` | R11 |
+| C150 | verifier-2 (686f271c, late-landed) | `AGREES on substance — sole hard disagreement: the "6 of 8 UNVERIFIED" count (should be 4 of 8 primitives / 8 of 14 anchor-slots)` | LEDGER FINDING-2 (brief-path collision: file holds later writer) | R11 |
+| C151 | FAKE_MATH.md repair | `(5) honoring-cost has no ruler: I6 records the field's emptiness as a debt-residual (D0039 remapped as min-debt, not a runtime claim)` | `sed -n '10,16p' mill/FAKE_MATH.md` | R12 |
+| C152 | DEAD_WEIGHT.md DW08 | `DN0008 honoring-cost | never measured, in no template (T0020) | measured once (D0039), or dropped` | `sed -n '11p' mill/DEAD_WEIGHT.md` | R12 |
+| C153 | hypotheses-ledger.md H5 | `a task hitting a prior K-line (same axis/charters) completes cheaper than the original` + verdict rule `no cost difference across 3 hits → memory is constellation theater` | `sed -n '30,37p' research/hypotheses-ledger.md` | R12 |

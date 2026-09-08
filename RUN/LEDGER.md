@@ -190,3 +190,13 @@ line that is not an append is a hidden fix.
   dated) — TEXT edges 7 / LAW edges 3, both graphs shown, both acyclic, minimal-basis
   and structure-vs-legality findings survive (the latter strengthens: 3/10 edges are
   pure law — the structure cannot even connect itself without INVARIANTS).
+- 2026-09-08 · R11 · FINDING-2 (second verifier, landed late; brief-path collision logged)
+  · VERIFIER-2 (686f271c, first launch): AGREES on substance — definitions/DAG/topo/external
+  checks all MATCH — with 2 catches: (a) "UNVERIFIED for 6 of 8" is a unit error (correct:
+  4 of 8 primitives; 6 = distinct untraced anchor IDs across 14 slots); (b) P3→P1's
+  law-basis is I1 + HANDOFF_P05.md:3, not I1 alone. EXECUTOR: both accepted, REPAIR-2
+  appended to the matrix. PROCESS DEFECT (mine): both verifier attempts were given the
+  same brief path (r11-verifier.md) — the file holds whichever wrote last; verifier-2's
+  full report survives only in this LEDGER entry. Future briefs: one attempt, one path,
+  relaunches get suffixed paths. Series note: R11 now carries TWO independent blind
+  verifications with disjoint catches — the strongest verification record of the series.

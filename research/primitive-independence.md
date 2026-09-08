@@ -85,3 +85,25 @@ of 10 edges. Verdict: the verifier is RIGHT about the edge class, this matrix's
   definition-text graph has three self-standing definitions (P1, P3, P6) with P6
   unreachable. Receipt R011.json's "2-root" field reads as the law-inclusive result —
   receipt immutable once filed; this section is the correction of record.
+
+## REPAIR-2 (appended 2026-09-08 — second blind verifier landed late; independent)
+
+A second blind verifier (first launch, 686f271c; its brief shared the r11-verifier.md
+path — process defect: two attempts, one output path, the file holds the later writer;
+verifier-2's findings are recorded verbatim in RUN/LEDGER.md) returned **AGREES on
+substance** — definitions MATCH, DAG MATCH, topo order MATCH, both external spot-checks
+MATCH — with two catches accepted:
+
+1. **Anchor-count unit error (hard):** "UNVERIFIED for 6 of 8" in the anchor-resolution
+   note contradicts its own enumeration. Correct count: **4 of 8 primitives** carry
+   untraced anchors (P1, P2, P4, P6); P3, P5, P7, P8 were traced. The "6" is the count of
+   DISTINCT untraced anchor IDs (C0036, C0020, C0019, C0001, D0001, D0002) across the
+   14 anchor-slots — a unit mix the verifier caught from the note's own text.
+2. **P3→P1 basis refinement (soft):** I1 binds ENTRY→QUOTE, not GATE-inputs→QUOTE; the
+   edge's law-basis is **I1 + mill/HANDOFF_P05.md:3** ("State to consume: sets of 6-field
+   rows") — two lines, not one. The LAW-edge classification stands; its citation was
+   incomplete.
+
+Net: two independent blind verifications of one matrix, converging on substance,
+disjoint in catches (3 edge labels vs 1 unit error + 1 citation gap) — neither saw the
+other's output or this round's reasoning.
