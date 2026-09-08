@@ -246,3 +246,18 @@ line that is not an append is a hidden fix.
   ratified. EFFECT on RUN/HONEST_CEILING.md's declared gap: the R14 judgment zone's
   independent corroboration now EXISTS on record (verdict + method + caveat), though the
   ceiling's own text stands as-filed (immutable; this entry is the correction of record).
+- 2026-09-08 · POST-SERIES · NEXT-RUNNER LANE OPENS (authority: Owner's "keep going" goal +
+  OBITUARY next-runner clause) · first act: closed the HONEST_CEILING's one UNVERIFIED
+  item — gate legibility mean RECOMPUTED by command from the 9 score rows
+  (research/gate-legibility.md): scores 3,3,2,2,1,1,0,0,0 → sum 12, mean 12/9 = 1.3333 —
+  **MATCHES the as-filed claim exactly.** HONEST_CEILING's auditor gap is closed; no
+  remaining UNVERIFIED item belongs to this lane. Second act, queued pending the
+  writer-liveness verdict below: QUEUE/STATE reconciliation. LIVENESS EVIDENCE (run this
+  session): HEAD unchanged since dd37081 (my own post-close commit); QUEUE.json mtime
+  09:50 and STATE.md mtime 10:41 both PRE-DATE my R13/R14 commits and carry zero diff vs
+  HEAD; the 34 dirty files (CONTEXT.md, OPS_QUEUE.md, mill/LOG.md, bore/*) last touched
+  05:13-08:23 — hours before the series closed at 11:08. The goal-loop writer
+  (S2-20260908-01) shows no sign of life after 08:23. VERDICT: the other writer is
+  STALE, not live — the next-runner reconciliation (QUEUE passes-flip for rounds with
+  complete receipts, STATE pointer advance) is lawful and is the work the record itself
+  deferred to "the next writer". Entries follow.
