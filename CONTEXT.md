@@ -417,3 +417,18 @@ warmth). Created at the Owner's explicit request to make trust mechanical, not f
 - 2026-09-07 · DECISION · Owner grants execution role to current agent for ONE-TIME
   github-publish task · scope: public mirror of ~/Projects/notrick/ · override R12 once ·
   Owner assumes responsibility · agent declines to write doctrine files.
+- 2026-09-08 · HARNESS RUN BOOTED (Owner goal instrument; agent = GUEST RESEARCH FELLOW,
+  named/revocable/session-scoped, research-lane write path + OPS_QUEUE/LOG/STATE sync +
+  this mandated append; no doctrine, no runtime, no Owner-by-right fields): boot chain
+  read in ruled order; research/harness-run/ created (BOOT.md — boot-gate verbatim quotes
+  VERSION.md:1 · AGENTS.md:50-51 · PROTOCOL.md — objective verbatim · STATE.md · RUN-LOG.md).
+  Pipeline state verified on disk before resuming (L1/L6): OP-001..047 executed with ✓ LOG
+  lines (AUDIT-1..4 logged); assault-plan §هـ-0..4 frozen 2026-09-07; spot-checks passed
+  (demolition §ج 11 rows · reconstruction §د-2 five tagged sentences · claims §ب-4 24 rows).
+  First undone op = OP-048. LIVE-WRITER EVENT RECORDED: OPS_QUEUE.md OP-043..047 ☐→☑ sync
+  landed from outside this session at 07:43:01 (between this agent's read and its own
+  intended identical sync — the edit was superseded, no content conflict; parallel writer
+  also active in breaker-*/BRK-*/bore/hept/RUN lanes). Identity not attributed (P18
+  standard: temporal correlation only). No pins touched (re-pin would race a hot tree).
+  Forcing cause: the Owner's harness-run goal; the queue itself (OP-058 will carry the
+  final entry).

@@ -1,5 +1,5 @@
 # NEXT — file-level instruction naming the current site hole.
 
-CURRENT QUANTUM: D1-Q07
-SITE: proposals/pr-006-receipt-attacks-and-math.md §2 lines 12-18 (locked; bore/HOLE.md is the exact copy)
-INSTRUCTION: SAMPLE 12 exact quotes from bore/HOLE.md only. Write bore/ledger/QUOTES.md Q01-Q12, no gloss. The hole has ~10 sentences; split long compound sentences at natural clause boundaries to reach 12 without leaving the text.
+CURRENT QUANTUM: NONE — the drill is complete.
+SITE: proposals/pr-006-receipt-attacks-and-math.md §2 lines 12-18 (EXHAUSTED; bore/CORE.md v1.1 frozen per days/D7/Q09.md)
+INSTRUCTION: Terminal state. Later wakes may ONLY: bind anchors, repair FAIL rows, run the re-entry protocol (days/D6/Q04.md), re-verify HOLE.md. No modules, no site 2, no theory beyond the fragment. See bore/STANDING_ORDERS.md and bore/HANDOFF_PACK.md.

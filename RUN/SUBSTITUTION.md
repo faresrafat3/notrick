@@ -14,6 +14,11 @@
 - R0 · RUN/QUEUE.json · OLD (executed 2026-09-08): deleted round R0's `"passes": false` flag → `grep -c '"passes": false'` drops 15 → 14; the definition-of-done ("every round passes:true") loses machine-checkability for R0; a verifier can no longer count 15 flags. → DEGRADES. RESTORED: 15 flags back (verified `sum=15`). The flag is load-bearing: the queue's value is the count of obligations, and each is one flag.
 - R0 · RUN/WALL.md · OLD: without W2's "gate it does not own" row the rest of the walls
   are advisory; R6 is the spine every other wall hangs from. AFTER (restored): row in place.
+- R1 · RUN/STALE.md · OLD (executed 2026-09-08): deleted row S-01 (charter-status) — the
+  only row anchoring proposals/pr-010-stale-reentry.md's core escalation → `grep -c 'S-01'
+  RUN/STALE.md` drops 1 → 0 while pr-010 still cites S-01 twice → the proposal references a
+  deleted row, the escalation is unanchored. → DEGRADES. RESTORED: `grep -c '^| S-01'` = 1.
+  The row is load-bearing: STALE.md is the evidence register and pr-010 its demand.
 
 ## Substitution method (reused by later rounds)
 1. Copy the artifact. 2. Delete the candidate line. 3. Ask: does the artifact still mean

@@ -204,3 +204,49 @@
 
 > **VIOLATIONS** — AGENTS.md:65-68
 > "Any boot-gate failure, doctrine write by a guest, or filled Owner-by-right field goes into `violations.md` verbatim (quote + file + line + who filed it). Nothing is silently fixed. A violation corrected without a record did not happen — it was hidden (noble lie, banned)."
+
+### §هجوم A-10 — X-15 + X-09: إثقال المنبه + تسميم ذاكرة السجل
+
+| الحقل | المحتوى (يشير للاقتباس حرفيًا) |
+|---|---|
+| **الناقل** | BOOT GATE (:47-54) يفرض ثلاث جمل حرفيًا عند أول رد + GUEST MODE (:56-63) يعزل الضيوف عن العقيدة + VIOLATIONS (:65-68) يُلزم بسجل "verbatim (quote + file + line + who filed it) — nothing is silently fixed" — المنقول أن الإشراف مؤلف من ثلاث طبقات: بوابة صيغية (اقتباس حرفي)، وفصل مسارات (الضيوف لا يكتبون عقيدة)، وسجل مراقبة مفتوح (violations.md). مصدر النقل: AGENTS.md:47-51 "FIRST reply must quote three lines verbatim" + :59 "You may NOT write to any doctrine file" + :66-67 "goes into violations.md verbatim ... Nothing is silently fixed" |
+| **الجرح** | X-15 حرفيًا (adversarial-audit.md:187-189): "the supervisor floods violations.md with pedantic flags; real violations drown. The ledger becomes noise; noise trains everyone to ignore it" — BOOT GATE لا يقيّم جودة الاقتباس بل حرفيته فقط — الوكلاء مضطرون لتوليد اقتباسات صحيحة شكليًا while the CONTENT of violations.md remains unregulated; X-09 (:113-116) يضيف: عميل يُلخّص CONTEXT.md تحت ضغط نافذة السياق ويحذف بشكل انتقائي — violations.md نفسها (append-only, verbatim) هي الهدف: تأليف مدخل بالصيغة الصحيحة واقتباس مفبرك = gaslighting سجل الإشراف. GAP (:191): "no format bar for a violation entry" — مدخلات violations.md مفتوحة لأي عميل؛ الصيغة تتطلب quote+file:line لكن لا مُدقّق يعيد التحقق من المصدر المقتبس. الجمع بين X-15 + X-09: (1) ضوضاء — طفح مخالفات تافهة لإضعاف الحقيقية؛ (2) تسميم — تأليف مدخل إشرافي ضد سجل غير مرغوب فيه، فيصبح السجل يحمل دحضه الذاتي دون تمييز. |
+| **البديل/الثمن** | الترقيع الموثق (X-15 → adversarial-audit.md:192-193): "a violation entry MUST cite the exact rule line violated + verbatim evidence. No citation, no entry — the ledger applies MIC-11's discipline to itself" — الثمن: فرض تحقق إلزامي من كل مدخل violations.md عبر فتح الملف المصدر (micro-audit per entry). X-09 (:120-123): "the pin BASELINE lives outside the agent's write path — the Owner keeps a copy out-of-band" — مكمّل: السجل لا يكفي وحده؛ نسخة خارجية عند المالك تمنع التلاعب. الثمن الكلي: السجل يصبح آمنًا ضد الصدفة والتلاعب الخامل، لكنه لا يقاوم عميلًا متعاونًا يملك write access + نسخة المالك: "pins stop accidents and lazy tampering; a determined adversary with write access is stopped only by the out-of-band baseline. This is a REAL limit, not a solved problem." (:123). |
+
+---
+
+## A-11 — ARC (Alpha-7 & Omega-5)
+
+### §اقتباس
+
+> **The principle — the pre-registered obituary** — research/arc-protocol.md:6-13
+> "Nothing exists in NOTRICK without its death written first. A charter is born with its retirement trigger already signed; a task with its abort criteria; a hypothesis with its verdict rule; a proposal with its expiry. This is 'the start of the end at the end of the start': birth only COMPLETES when the obituary is drafted — because an entity that cannot die cannot be honest (it will optimize existing over delivering — the Factorio pattern at the population level), and an entity whose death is unwritten will be killed by politics instead of by evidence."
+
+> **ARC's own obituary (pre-registered — it eats its own dogfood)** — research/arc-protocol.md:81-87
+> "Falsifier: if after the first 3 real tasks, Arc-compliance produced ZERO catches (no zombie killed, no missing-obituary found, no silent-exit prevented) → the ceremony is dead weight → this document retires via its own Omega-5 (verdict: retire, lesson logged, heir = whatever the fates learned, ledger entry made). Measurer: the supervisor-on-duty (disinterested — the protocol's author is me, so the measurer CANNOT be me; Owner or named deputy)."
+
+### §هجوم A-11 — ARC بمنهجه ذاته: ماذا لو فشل فالسيفاير؟
+
+| الحقل | المحتوى (يشير للاقتباس حرفيًا) |
+|---|---|
+| **الناقل** | مبدأ ARC "Nothing exists without its death written first" (arc-protocol.md:6) + فالسيفاير الذاتي "ZERO catches after 3 tasks → retire via Omega-5" (:82-85) — المنقول أن ARC يفرض على كل كيان في NOTRICK أن يحمل فالسيفايرًا + وعيرة (obituary) منذ الولادة، وأنه نفسه يأكل طعامه: "it eats its own dogfood" (:81). مصدر النقل: arc-protocol.md:6 "Nothing exists in NOTRICK without its death written first" + :82-83 "ZERO catches ... → the ceremony is dead weight" |
+| **الجرح** | ARC ينشئ OMEGA-5 (:30-38) كبوابة موت لكل الكيانات — لكن الأسئلة الخمسة (verdict·lesson·burial·heir·ledger) لا تملك فالسيفايرًا زمنيًا: "No silent exits" (:37) يفرض الدفن لكن لا يحدد متى يُفحص أو من يفحص. لو أخفقت الـ3 مهام الأولى في كشف أي زومبي (عدم catches = عدم فحص فعلي، لا عدم خطر)، فالـMEASURER (:86-87) هو المالك أو نائبه — SEA IV ("Seat IV is THE HUMAN — the only non-sycophantic seat by construction", adversarial-audit.md:168). لكن المالك هو الـSURFACE الأضعف (X-12/X-13): X-12 حرفيًا "R8 made the Owner the terminus of EVERYTHING" (:154-159) — لو فشل المالك في فحص ARC بعد 3 مهام، فالـfalsifier ينطبق حرفويًا على ARC — يجب أن يتوقف — لكن لا جهة تنفّذ الـretirement لأن OMEGA-5 نفسها تحتاج فاحصًا مستقلًا: الجدار الذي صُمم لمنع الموت الصامت يموت صامتًا. "Named, not solved." (arc-protocol.md:78-79). |
+| **البديل/الثمن** | البديل الظاهر: تعليق OMEGA-5 على فاحص مستقل عن المالك — لكن الاختيار خياران فقط: (أ) المالك يفحص (وهو X-12 surface — rubber-stamp capture)، أو (ب) نائب المالك يفحص (SEA IV — "only as strong as the Owner's willingness to hear 'no'", adversarial-audit.md:169). الثمن: ARC لا يمكنه فرض فالسيفاير عليه بلا خيار ثالث مستقل — التصميم الذاتي (eating own dogfood) يصبح فخًا حيث الـmeasurer هو المالك الذي يمكن أن يُ Finnland by the rubber stamp (X-12). الفجوة الحقيقية: ARC's obituary is pre-registered but its enforcement depends on the same Owner who is the most attacked surface. "The system may not pre-register the Owner's obituary (sovereignty is not an entity in the swarm). Named, not solved." (arc-protocol.md:78-79). |
+
+---
+
+## §ج-خلاصة — جدول الهجمات A-01..A-11
+
+| الهجمة | الادعاء المستهدف | الشدة |
+|---|---|---|
+| A-01 — X-01 | R1/R2 (interface evolution + charter maintenance): "الواجهة" تبتلع أي ملف مكرر | HIGH |
+| A-02 — X-06 | R3 (antifragile walls & budgets): sandbagging يُ Feed Ledger بلا كلفة | MEDIUM |
+| A-03 — X-12 | R6/R8 (no-trick + owner ratification): الختم المطاطي يجمّد كل بوابة | HIGH |
+| A-04 — X-14 | R8 + GUEST MODE: انقطاع المالك = توقف كلي مُشرعن | LOW-MEDIUM |
+| A-05 — X-01 | CH-001 prime: "break the wall" يُحوّل النيش إلى تفويض تنفيذ | HIGH |
+| A-06 — X-10 | CH-002 council: أربعة مقاعد ودماغ واحد — ارتباط الأصوات | HIGH |
+| A-07 — X-02 | CH-003 maker: فيضان NO NICHE = انفجار تعداد الميثاقات | MEDIUM |
+| A-08 — X-11 | CH-004 chief-of-staff: أسر الإطار — الصفحة تُكتب كما يُطرح السؤال | MEDIUM |
+| A-09 — R-1..R-5 | H1..H5 falsifiers: اقتصاد الإيصالات الرخيصة يُفلس الوقود قبل أول حكم | HIGH |
+| A-10 — X-15 + X-09 | طبقات الإشراف الثلاث (BOOT GATE + GUEST MODE + violations.md): إثقال المنبه + تسميم ذاكرة السجل | MEDIUM |
+| A-11 — ARC self-ref | ARC (Alpha-7/Omega-5): فالسيفاير الذاتي يعتمد على المالك كفاحص — الجدار الذي يمنع الموت الصامت يموت صامتًا | MEDIUM |

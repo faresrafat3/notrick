@@ -1,0 +1,13 @@
+# HOLE_DONE — yes/no on each day's done-when (kernel §6), written D7-Q12
+
+- DAY 1 — "one small site locked; no second file opened unless named inside SITE.md": **YES.** One fragment (pr-006 §2 L12-18) locked at D1-Q04, never moved; HOLE byte-exact; 15 candidates scored, 14 killed; 8 tempting exits refused. Done-when met.
+- DAY 2 — "the hole has a ledger, not a vibe": **YES.** QUOTES (12, verified 2×), VARIANTS, REPAIRS (10), EXLAW, promise hunt (0 paid), claims C01-C08 with kills. No global theory written. Done-when met.
+- DAY 3 — "the fragment can no longer be read only one way honestly": **YES.** 3 real splits (FR1-FR3), official vs practiced split, 6-row non-circular because-spine, 2 claims killed, GRAVEYARD seeded (6). Done-when met.
+- DAY 4 — "a stranger can produce one more legal move in the style of this fragment": **YES.** 5 primitives, 6 illegal moves, schema (N,k,s,t,trigger), 7-step generator, 4 real machine-checked runs (python), 2 kills, 2 targeted runs on unpaid promises, machine survives bland rename. Done-when met.
+- DAY 5 — "the pretty reading of the fragment is dead": **YES.** Reduction HIT (textbook acceptance-sampling), fork B eliminated, honesty-genius claim killed, 1 infidelity reverted, minimum theory one sentence, 4 break cases closed, 6 MUST_NOTs. Graveyard grew 6→13. Done-when met.
+- DAY 6 — "the cylinder can be carried without the rest of the repo": **YES.** 8-line doctrine, 5 contact prohibitions, 8 constraints, 8 bans, re-entry protocol 8/8, object inventory (imports exiled), exhaustion tested (6 unpaid = all bait), CORE draft assembled. Done-when met.
+- DAY 7 — "a cruel small CORE exists; the rest of the workspace was not re-theorized": **YES.** Final red team landed a real hit (O5 reclassified), CORE v1.1 frozen in 14-section order, 1 lie found by machine-check and patched (BC3), standalone-readable, EXHAUSTED marker written with 8-point proof, STANDING_ORDERS + FAILURES + HANDOFF_PACK delivered, freeze enforced. No file outside bore/ was modified all week except reading the source. Done-when met.
+
+## Verdict
+
+7/7 days: done-when met. L10 satisfied every day (each day killed something: candidates D1, claims D2, readings D3, runs/comfort D4, forks+pretty D5, overclaims D6, the CORE's own O5 misfiling and one BC number D7). The goal's terminal condition — bore/CORE.md passing Day-7 tests and bore/HOLE_DONE.md existing — is now honestly met. This file is the marker.

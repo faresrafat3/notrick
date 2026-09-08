@@ -1,12 +1,12 @@
 # STATE — SERIES 2 run pointer (updated after every round)
 
 - series: NOTRICK SERIES 2 (R0..R14)
-- next_round: R1
-- current_burrow: none for R1 setup (R1 reads the whole repo — wide read window, log the earn)
-- outstanding_debt: none (R0 receipt R000 complete; budget overrun disclosed in LEDGER)
+- next_round: R2
+- current_burrow: none (R2 targets research/ deliverables — build-or-kill, Omega-5 lane)
+- outstanding_debt: none (R1 receipt R001 complete)
 - status: OPEN
-- one_line_note: R0 DONE 2026-09-08 — machinery installed, baseline committed; R1 = THE STALE SWEEP (>= 12 rows, P8 STALE, proposals lane only)
-- last_receipt: RUN/receipts/R000.json (complete)
+- one_line_note: R1 DONE 2026-09-08 — 23 STALE rows (5 ESCALATE-OWNER via pr-010, rest RE-ENTER/STALE-HELD), verifier clean; R2 = THE MISSING FOUR (two of four deliverables now EXIST — treat as inputs, R2's queue lines may be partially satisfied; verify by test -f first)
+- last_receipt: RUN/receipts/R001.json (complete)
 - last_receipt_status: complete
 
 ## Read order on resume (B1)

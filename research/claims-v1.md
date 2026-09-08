@@ -57,10 +57,10 @@
 ### CL-21 · D-01 (research/decision-review.md:11): "Falsifier: if niche-constrained runs repeatedly underperform a single generalist on the SAME tasks (quality AND scope-completeness) across ≥3 recorded tasks → re-forge via Maker."
 ### CL-22 · D-02 (research/decision-review.md:19): "Falsifier: if coordination failures (misrouted tasks, NO NICHE storms, stalled handoffs) exceed wins across the first 5 recorded tasks → re-evaluate R1 with Coase numbers."
 ### CL-23 · D-03..D-07 — فالسيفايرات مجمّعة، سطر لكل قرار
-- **D-03** (research/decision-review.md:27): "Falsifier: if fate decisions (expand/refine/retire) systematically contradict later outcomes → the price signal is broken → revisit."
-- **D-04** (research/decision-review.md:35): "Falsifier: pre-registered — if council-judged tasks show no accuracy/cost advantage over solo-executed ones in the first recorded pair → the layer is not earning its rounds."
-- **D-05** (research/decision-review.md:43): "Falsifier: if the Owner becomes the measurable bottleneck (tasks stall on signature for days) → R8 stays (sovereignty is non-negotiable) but the DELEGATION surface re-forges (pre-approved budget classes, standing threshold values)."
-- **D-06** (research/decision-review.md:51): "Falsifier: if manual honoring misses violations the MICs were designed to catch (measured in the first 3 result records) → phase B is DEMANDED by evidence, build it."
+- **D-03** (research/decision-review.md:25): "Falsifier: if fate decisions (expand/refine/retire) systematically contradict later outcomes → the price signal is broken → revisit."
+- **D-04** (research/decision-review.md:32): "Falsifier: pre-registered — if council-judged tasks show no accuracy/cost advantage over solo-executed ones in the first recorded pair → the layer is not earning its rounds."
+- **D-05** (research/decision-review.md:39): "Falsifier: if the Owner becomes the measurable bottleneck (tasks stall on signature for days) → R8 stays (sovereignty is non-negotiable) but the DELEGATION surface re-forges (pre-approved budget classes, standing threshold values)."
+- **D-06** (research/decision-review.md:47): "Falsifier: if manual honoring misses violations the MICs were designed to catch (measured in the first 3 result records) → phase B is DEMANDED by evidence, build it."
 - **D-07** (research/decision-review.md:55): "Falsifier: if charters must constantly grow past one page to stay truthful → R2 re-forging is failing → revisit the form, not the content."
 
 > العدّ النهائي: CL-16..20 = 5 كتل H · CL-21..24 = 7 كتل D (D-03..D-07 تجمّعت في CL-23 ليبقى العدد 24 كما في الطابور)؛ كل كتلة تحمل سطر الفالسيفاير حرفيًا بأرقام أسطره.

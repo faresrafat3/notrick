@@ -1,0 +1,61 @@
+{
+  "_comment": "Deployment source for research/log-constitution.md. Copy to ~/.dsh/hooks.json — OUTSIDE the workspace, so the agent cannot edit its own supervisor. Hooks on one event run serially in config order. Exit 2 blocks; any other exit is a non-blocking failure.",
+  "SessionStart": [
+    {
+      "matcher": "",
+      "hooks": [
+        { "type": "command", "command": "python3 ~/Projects/notrick/tools/dsh/log_spine.py session-start" }
+      ]
+    }
+  ],
+  "UserPromptSubmit": [
+    {
+      "matcher": "",
+      "hooks": [
+        { "type": "command", "command": "python3 ~/Projects/notrick/tools/dsh/log_spine.py prompt" }
+      ]
+    }
+  ],
+  "PreToolUse": [
+    {
+      "matcher": "",
+      "hooks": [
+        { "type": "command", "command": "python3 ~/Projects/notrick/tools/dsh/log_spine.py tool-pre" },
+        { "type": "command", "command": "python3 ~/Projects/notrick/tools/dsh/guard_no_label.py" }
+      ]
+    }
+  ],
+  "PostToolUse": [
+    {
+      "matcher": "skill|workflow|ralph|agent",
+      "hooks": [
+        { "type": "command", "command": "python3 ~/Projects/notrick/tools/dsh/log_spine.py tool-post" },
+        { "type": "command", "command": "python3 ~/Projects/notrick/tools/dsh/log_skill.py" }
+      ]
+    }
+  ],
+  "Stop": [
+    {
+      "matcher": "",
+      "hooks": [
+        { "type": "command", "command": "python3 ~/Projects/notrick/tools/dsh/require_dossier.py" }
+      ]
+    }
+  ],
+  "SubagentStart": [
+    {
+      "matcher": "",
+      "hooks": [
+        { "type": "command", "command": "python3 ~/Projects/notrick/tools/dsh/log_spine.py sub-start" }
+      ]
+    }
+  ],
+  "SubagentStop": [
+    {
+      "matcher": "",
+      "hooks": [
+        { "type": "command", "command": "python3 ~/Projects/notrick/tools/dsh/log_spine.py sub-stop" }
+      ]
+    }
+  ]
+}
