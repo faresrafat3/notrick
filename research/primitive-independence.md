@@ -59,3 +59,29 @@ mill/TERM_GRAPH.md (the T-layer this matrix deliberately does not duplicate).
 > matrix's validity condition), or the moment a cycle is shown in the DAG (then
 > "independence" was read off a broken ordering), or when the R14 GHOST finds a quoted
 > definition half-here — then the matrix quoted the freeze it liked.
+---
+## REPAIR (appended 2026-09-08 post-close — blind verifier disagreement, B5 logged)
+
+The blind verifier (RUN/briefs/r11-verifier.md, relaunched attempt — landed late, not
+failed) re-derived the edges under a strict name-mention rule and returned MISMATCH on 3
+of 10 edges. Verdict: the verifier is RIGHT about the edge class, this matrix's
+"definition words" column was the wrong label for them.
+
+- **TEXT edges (7)** — definition names the primitive: P2→P3 · P4→{P1,P2,P3} ·
+  P5→{P2,P3,P4} · P7→P4 · P8→P4.
+- **LAW edges (3)** — definition does NOT name the target; the edge exists only because
+  INVARIANTS.md law types the terms: P3→P1 (via I1: every ENTRY cites exactly one QUOTE —
+  "frozen inputs" are QUOTE-rows by law, not by the word) · P4→P6 and P8→P6 (via I4: no
+  slot value lies outside its CHART — "slot-values"/"settled slot" are CHART-typed by law).
+- **Consequences, recomputed:** strict text graph = 7 edges, THREE roots (P1, P3, P6),
+  P6 CHART fully isolated (no definition mentions it) — still acyclic; law-inclusive
+  graph = the 10-edge DAG above, roots P1+P6 — still acyclic. Both orders end
+  …→P4→{P5,P7,P8}. The minimal-basis result and the topological tail are unchanged.
+- **Strengthened finding:** the original "structure-vs-legality split" understated the
+  case — not only the edges' legality but 3 of the edges THEMSELVES are law, not
+  structure. The frozen 8 do not even connect to themselves without INVARIANTS.md; the
+  set is a vocabulary whose grammar lives outside it.
+- **Atom count corrected:** "two atoms" holds only in the law-inclusive graph; the
+  definition-text graph has three self-standing definitions (P1, P3, P6) with P6
+  unreachable. Receipt R011.json's "2-root" field reads as the law-inclusive result —
+  receipt immutable once filed; this section is the correction of record.

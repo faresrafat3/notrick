@@ -172,3 +172,21 @@ line that is not an append is a hidden fix.
   R010.json receipt-gap closed earlier this round (B6.6); R011 receipt follows in the
   round's final message (goal-loop still holding QUEUE at next_round:R9 with 32 dirty
   files — its close, not this lane's).
+- 2026-09-08 · R11 · CORRECTION-1 · the "verifier failed pre-write twice" entry above was
+  WRONG for attempt 2: the relaunch landed LATE (agent 4d585851, brief r11-verifier.md on
+  disk, 11 lines) — it was slow, not failed. This entry supersedes that record; the
+  R011.json receipt field stands as-filed (immutable-once-filed) and is corrected HERE.
+- 2026-09-08 · R11 · FINDING (B5 disagreement — both positions, not smoothed) · VERIFIER:
+  edge map MISMATCH — P3→P1, P4→P6, P8→P6 are supported by NO definition text (strict
+  name-mention rule); fragments 3/3 EXACT; no cycle; P6 CHART is mentioned by no
+  definition at all (isolated node, not merely a root). EXECUTOR: the 3 edges are real
+  derivations but LAW-derived (P3→P1 via I1 "every ENTRY cites exactly one QUOTE";
+  P4→P6 + P8→P6 via I4 "no slot value lies outside its CHART"), flagged in-cell with
+  (I1)/(I4) — the defect is the column LABEL ("definition words that force it"), which
+  claims textual force for 3 edges the text does not carry; also the "two atoms" claim
+  is graph-dependent: strict text graph has THREE roots (P1, P3, P6) and P6 isolated.
+  RESOLUTION: the verifier's rule was the one I specified; the matrix conflated two edge
+  classes under one column. REPAIR: REPAIR section appended to the matrix (marked,
+  dated) — TEXT edges 7 / LAW edges 3, both graphs shown, both acyclic, minimal-basis
+  and structure-vs-legality findings survive (the latter strengthens: 3/10 edges are
+  pure law — the structure cannot even connect itself without INVARIANTS).

@@ -113,3 +113,9 @@ and restoring the line; the test is a ritual unless it changes the file twice.- 
   dangle (they point at a removed row) and the DAG's center of mass vanishes — the matrix
   shows an impossible order and "P4 = the one object" loses its row. → DEGRADES. RESTORED:
   P4 row present (grep 0 → 1, before/after recorded).
+- R11-repair · research/primitive-independence.md REPAIR section · OLD (executed
+  2026-09-08): delete the "Strengthened finding" line ("3 of the edges THEMSELVES are
+  law, not structure") → the repair reduces to a bookkeeping relabel (7+3 with no
+  consequence) and the verifier's catch stops justifying the matrix's own
+  structure-vs-legality thesis at edge level. → DEGRADES. RESTORED: line present,
+  grep-verified.

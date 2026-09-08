@@ -5,6 +5,7 @@
 - current_burrow: none (R9 targets P05 GENERATOR II — the machine; no burrow)
 - outstanding_debt: none (R8 receipt R008 complete)
 - status: OPEN
+- repair_note: R11 CORRECTED post-close (B5 verifier landed late, DISAGREES on 3 edges) — REPAIR section appended to primitive-independence.md: TEXT 7 / LAW 3 edges, both acyclic; atom count 2→3-roots in text graph
 - repair_note: R9 CLOSED 2026-09-08 (executor, B1.3 debt — R009.json filed, design verified C138-C139); R10 verdict CLEAN per blind auditor after 2 anchor fixes (C143)
 - repair_note: R6/R7 REPAIRED 2026-09-08 (executor lane) — gate-legibility.md written (mean 1.33/3, decorative 3/9, H3 UNTESTED); six mandated proposals filed P-015..P-020; RUN/ machinery Q7 HEIR clause written; T1 cited+corrected
 - one_line_note: R8 DONE 2026-09-08 (self-executed, spec-only — zero execution) — P05 part I: the executable gate = 5 frozen fields (criterion referencing ONLY digest-frozen 6-field rows + ownerBind external) + determinism law (two independent evaluations → byte-identical output; the receipt IS the second run) + all 6 hooks wired + fence mapping (F0023/F0016/X-08/F-1/S-03 rot) + HANDOFF_P05 12/12 — honest limits: determinism verifies poison too; W8 delays its own reinforcement. R9 = P05 GENERATOR II — the machine

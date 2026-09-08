@@ -166,3 +166,5 @@ a random 20% and any MISMATCH is a violation, filed not fixed.| C125 | arc-proto
 | C145 | INVARIANTS.md I1-I7 | legality layer over the DAG: `I2 No ENTRY is CLOSED without a RECEIPT matching its GATE (R2)` … | `head -12 mill/INVARIANTS.md` | R11 |
 | C146 | TERM_GRAPH.md | 15 T-rows, zero P-rows — T-layer ≠ P-layer, matrix is new ground | `grep -c '^| T0' mill/TERM_GRAPH.md` | R11 |
 | C147 | CONFLICT.md:4 | anchor resolution example: `C0036 C0048` cited in mill records, not CONTEXT | `grep -rn 'C0036' mill/ CONTEXT.md | head -3` | R11 |
+| C148 | r11-verifier.md (blind, relaunched) | edge re-derivation: `MISMATCH — the claim adds 3 edges with no textual basis: P3→P1, P4→P6, P8→P6`; fragments 3/3 EXACT; cycle NO | `cat RUN/briefs/r11-verifier.md` | R11 |
+| C149 | INVARIANTS.md I1,I4 | the law-edge basis: `I1 Every ENTRY cites exactly one QUOTE (R1)` / `I4 No slot value lies outside its CHART (R4)` | `head -12 mill/INVARIANTS.md` | R11 |
