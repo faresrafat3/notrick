@@ -217,3 +217,15 @@ line that is not an append is a hidden fix.
   it) — the diff is R14's business. Self-caught mid-round: the count section was first
   written EMPTY (W9 violation in-artifact) — filled by command before commit; no silent
   pass, this entry is the record.
+- 2026-09-08 · R14 · GHOST-FAILURE + COVERAGE (logged) · all 4 GHOST subagents failed
+  pre-write (session total 9); skeptic retry wrote a PENDING stub then stalled. Coverage:
+  auditor/diff zones run by command (W9 — recomputation, not judgment); skeptic's
+  theater check completed from its own brief's method (doctrine-path git history — a git
+  fact, not self-grading: 0 of 16 series commits touched doctrine). Zones NOT covered:
+  independent judgment on the ceiling's framing (R14 was graded by its own executor's
+  commands; the B5 doctrine's session record: 12 attempts, 5 completed, 3 real catches).
+  HONEST_CEILING.md states this limitation in its own header.
+- 2026-09-08 · R14 · SERIES CLOSE · RUN/HONEST_CEILING.md filed; R014 receipt filed;
+  obituary zero-kills clause checked and NOT fired (12 rites ≠ 0); series verdict
+  NOT-THEATER with caveat (queue-completion ≠ execution-completion; Owner reconciles).
+  SERIES 2 executor lane ends at R14.

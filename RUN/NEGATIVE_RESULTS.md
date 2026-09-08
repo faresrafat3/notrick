@@ -172,3 +172,12 @@ recorded negative result is treated as a hidden failure, and the series' own obi
   D0039 unit-space illegality (R12), and the 91.7% refutation of the doctrine's
   injection-catching self-image (R5). A funeral file that mostly re-files old graves is
   honest bookkeeping, not new destruction — and the R14 GHOST should weight it that way.
+
+## R14 — THE HONEST CEILING (2026-09-08, series close)
+- Negative result: **the series verified and bounded; it ratified nothing.** 0 of 16
+  series commits touched doctrine; every consequential act (P-001, P-014..P-020, repin,
+  GO, QUEUE reconciliation) remains Owner-gated. The GHOST never completed as an
+  independent agent (9 pre-write failures session-wide) — the final audit's independent
+  judgment is the ceiling's own declared gap, stated in HONEST_CEILING.md. Also: 10 of
+  12 funeral rites re-export earlier kills — the series' genuinely first-order deaths
+  are 3.
