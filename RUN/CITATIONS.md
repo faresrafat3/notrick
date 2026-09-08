@@ -81,6 +81,16 @@
 | C074 | violations.md:5 | `- V-001 · 2026-09-06 · Buffy ... FABRICATED HASH PIN: ... · Owner ruling: __________ (empty-by-right)*` | `sed -n '5,6p' violations.md` | R2 |
 | C075 | research/lineage-audit.md:140 | `## تدقيق خارجي (R6 — harness-run session 2026-09-08، غير منفذ الأقسام أعلاه)` | `sed -n '140p' research/lineage-audit.md` | R2 |
 | C076 | four deliverables existence+lines | `wc -l: reconstruction-v2 118 · assault-plan 53 · lineage-audit 154 · verdict-master 146` | `for f in ...; do wc -l < "$f"; done` (resume command this round) | R2 |
+| C077 | INTEGRITY.md:24 | `## Pinned hashes (sha256) — 42 files` | `sed -n '24p' INTEGRITY.md` | R3 |
+| C078 | INTEGRITY.md hash lines | 44 | `grep -cE '^[0-9a-f]{64}' INTEGRITY.md` | R3 |
+| C079 | INTEGRITY.md verify result | `sha256sum -c <(grep -E "^[0-9a-f]{64}" INTEGRITY.md)` = 43 OK / 1 FAILED (./violations.md) | same command | R3 |
+| C080 | violations.md pin pair | pinned 868d35aa707f0f4ef92a7e13c20b8035cd15b097cb9d8c1457a3e858481ca325 / computed c39f54c05e16530b1fa69f834186e84b414a92dde66c6e16823f429eb56a9fbc | `sha256sum violations.md` + grep INTEGRITY.md | R3 |
+| C081 | CONTEXT.md:280-292 | `- 2026-09-06 — POST-SIGNATURE SWEEP + RE-PIN (same logged moment, bootstrap rule: the pin ...` | `sed -n '280,292p' CONTEXT.md` | R3 |
+| C082 | CONTEXT.md:399-400 | `pick · PINS 0-mismatch at close (43 files pinned incl. the closeout doc) · violations.md ...` | `sed -n '399,400p' CONTEXT.md` | R3 |
+| C083 | git lineage violations.md | single commit 45f7484 (mirror); `git show 45f7484:violations.md \| sha256sum` = c39f54c0… ≠ pin | `git log --all --oneline --follow -- violations.md` | R3 |
+| C084 | V-002 append uncovered | `grep -n 'V-002\|SILENT REPAIR' CONTEXT.md` = 0 hits; V-001 covered at CONTEXT.md:340-349 | same commands | R3 |
+| C085 | unpinned doctrine = 7 | INTEGRITY.md + 6 protocols/ files (comm of doctrine set vs 44 pinned paths) | `comm -23 <(doctrine-set) /tmp/pinned.txt` (commands in PIN_TRIAL.md) | R3 |
+| C086 | violations mtime | 2026-09-06 23:03:38 (post-pin change moment) | `stat -c '%y' violations.md` | R3 |
 
 ---
 obituary: this register dies the moment a quote is registered without its producing

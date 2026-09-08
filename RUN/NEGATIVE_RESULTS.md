@@ -50,6 +50,24 @@
   completion demand (pr-012) includes this gap; the Owner decides whether the four ever
   enter a read order.
 
+## R3 — THE PIN TRIAL (2026-09-08)
+- Negative result: **the pin mechanism caught nothing — the sweep caught it.** 43/44 pins
+  verified clean; the single mismatch (violations.md) was already visible to R1's STALE
+  sweep (S-04) before any pin check ran. The check's value so far: converting a known stale
+  row into an attributable, filed violation (V-003) with an authorization verdict — bookkeeping
+  precision, not detection. The skeptic's structural attack stands unrefuted: same-session
+  re-pin + self-logged moment remains unbeaten by anything on disk.
+- Negative result: **the pin cannot witness pre-mirror history.** The pinned hash matches NO
+  git-recorded state (one commit only); 31 line-subset brute-force cannot reconstruct the
+  as-of-pin bytes. Any pre-mirror pin whose file changed is permanently unattributable —
+  the pin's evidentiary chain ends at the private history.
+- Negative result: **the count rot is structural, not sloppiness.** 42 (header) / 43 (CONTEXT)
+  / 44 (file) persists because NOTHING in the doctrine requires the header to be recomputed —
+  pins are appended by logged moments, the header is not. Same shape as every other
+  self-contradiction in this repo: a slot with no re-entry rule.
+
+- Negative result (closer, S2-20260908-01): **the register paradox - filing a violation re-breaks the pin.** V-003's append changed violations.md from c39f54c0… (comptroller-computed 08:53, byte-identical to the mirror commit) to c46f161a… (post-V-003, this session). An append-only violation register can never be pin-stable while it records its own violations: pins on violations.md are timestamps, not walls - each audit re-runs sha256sum and attributes drift to the logged filings between stamps; MISMATCH alone is not tampering evidence.
+
 ---
 obituary: this file dies the moment a round ends with it EMPTY; a completed round with no
 recorded negative result is treated as a hidden failure, and the series' own obituary

@@ -27,6 +27,17 @@
   DEGRADES. RESTORED: sentence back (grep = 1). The demand line is load-bearing: evidence
   without an ask is a memo, not a proposal.
 
+- R3 · RUN/PIN_TRIAL.md · OLD (executed 2026-09-08): deleted the violations.md MISMATCH row
+  (the trial's only non-MATCH verdict) → table rows 44 → 43, MISMATCH count 2 → 1 → the
+  trial reports a clean tree; V-003's evidentiary anchor vanishes; the round would decide
+  nothing — a pin trial that cannot fail is decorative (R6). → DEGRADES. RESTORED: 44 rows /
+  MISMATCH 2 (row + summary line). The row is load-bearing: the trial's whole yield is its
+  one failure.
+- R3 · RUN/PIN_TRIAL.md · SECOND TEST (same line, redaction variant): verdict cell swapped
+  MISMATCH → MATCH — table still 44 rows but now asserts 44/44 clean; same degradation via
+  falsification instead of deletion. Both tests recorded; deletion variant is the canonical
+  B6.5 form.
+
 ## Substitution method (reused by later rounds)
 1. Copy the artifact. 2. Delete the candidate line. 3. Ask: does the artifact still mean
 what it must mean? 4. Record YES-degrades (keep) or NO-degrades (decoration → rewrite).

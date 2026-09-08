@@ -1,12 +1,12 @@
 # STATE — SERIES 2 run pointer (updated after every round)
 
 - series: NOTRICK SERIES 2 (R0..R14)
-- next_round: R3
-- current_burrow: none (R3 targets INTEGRITY.md pins — recompute + trial, RUN/PIN_TRIAL.md)
-- outstanding_debt: none (R2 receipt R002 complete)
+- next_round: R4
+- current_burrow: well/ (R4 targets the well regress — payable whys; burrow law B3.1 governs)
+- outstanding_debt: none (R3 receipt R003 complete)
 - status: OPEN
-- one_line_note: R2 DONE 2026-09-08 — all four deliverables EXIST (P17 wrote them mid-R1); audited as BUILD 4 / KILL 0; gaps (4 obituaries, verdict-master's missing master table, assault-plan 53-vs-60 under its own freeze law) escalated in proposals/pr-012-four-deliverables-completion.md; master ruling table compiled into LEDGER. R3 = THE PIN TRIAL (<= 50 ops, <= 4 files; zero writes to INTEGRITY.md)
-- last_receipt: RUN/receipts/R002.json (complete)
+- one_line_note: R3 DONE 2026-09-08 (closed as debt by S2-20260908-01 goal-loop) — pins 44/42 claim, 43 OK, 1 FAILED (violations.md; V-003 filed; V-002 post-pin change unlogged; as-of-pin bytes unrecoverable); register paradox recorded (V-003 filing re-broke the pin c39f54c0→c46f161a); 7 unpinned doctrine-class files; P-013 re-pin demand filed. R4 = THE WELL REGRESS (القانون: B3.1 burrow law — WNN-NN log format; premises re-established by command at boot)
+- last_receipt: RUN/receipts/R003.json (complete)
 - last_receipt_status: complete
 
 ## Read order on resume (B1)

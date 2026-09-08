@@ -1,0 +1,12 @@
+# r3-comptroller
+- run: 2026-09-08T05:53:04Z (sha256sum -c + grep/sed recomputed independently, all 44 hash lines)
+- total_lines: 44 · header_claim: 42 (line 24) · OK: 43 · FAILED: 1 · MISSING: 0
+- FAILURES (path | pinned | computed | mtime):
+  - ./violations.md | 868d35aa707f0f4ef92a7e13c20b8035cd15b097cb9d8c1457a3e858481ca325 | c39f54c05e16530b1fa69f834186e84b414a92dde66c6e16823f429eb56a9fbc | 2026-09-06 23:03:38 +0300
+- unpinned-doctrine candidates (max 5, verified absent from pin list by literal grep):
+  - CONTEXT.md · `sha256sum CONTEXT.md`
+  - STATE.md · `sha256sum STATE.md`
+  - LOG.md · `sha256sum LOG.md`
+  - OPS_QUEUE.md · `sha256sum OPS_QUEUE.md`
+  - log-constitution.md · `sha256sum log-constitution.md`
+- note: 44 pinned paths ≠ claim 42 (off-by-two in header count); header itself unpinned (self-coverage impossible).
