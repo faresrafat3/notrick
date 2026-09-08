@@ -1,0 +1,127 @@
+# r0-archivist
+
+Census run 2026-09-08T04:2xZ, workspace /home/fares/Projects/notrick. Live tree: a parallel
+P17 session was writing during the census (bore/days/D2, hept/days/D2, hept/runtime/STATE,
+LOG.md, OPS_QUEUE.md), so absolute counts below are stamped per-run and may drift.
+
+## Numeric claims found (file:line: verbatim claim | producing command)
+
+- INTEGRITY.md:24: "## Pinned hashes (sha256) — 42 files" | `grep -n "files" INTEGRITY.md` (file actually pins 44 hash lines)
+- INTEGRITY.md:26-69: 44 hash lines pinned | `grep -cE '^[0-9a-f]{64}' INTEGRITY.md` → 44
+- CONTEXT.md:399: "PINS 0-mismatch at close (43 files pinned incl. the closeout doc)" | `grep -n "43 files" CONTEXT.md`
+- CONTEXT.md:95: "RULES.md blocks vertically reordered ... 59→59 lines" ... "(7→9 files, 260→395 lines)" | `sed -n '95p' CONTEXT.md`
+- CONTEXT.md:186: "Integrity re-pinned after receipt-logging (bootstrap rule; 37 files, verify 37/37)" | `sed -n '186p' CONTEXT.md`
+- CONTEXT.md:294: "POST-SIGNATURE ARRIVALS LOGGED (3 files, ...)" | `sed -n '294p' CONTEXT.md`
+- CONTEXT.md:335: "FIRST REAL AUDIT ... ceiling PARTIAL: 8/8 hash re-run PASS + 3/3 citation spot-checks PASS" | `sed -n '335p' CONTEXT.md`
+- CONTEXT.md:399: "version register v0.00001" | `grep -n 'v0.00001' CONTEXT.md`
+- CONTEXT.md:416: "OPS_QUEUE.md created — 58 atomic operations (OP-001..058) + 5 AUDIT gates" | `sed -n '416p' CONTEXT.md`
+- VERSION.md:1: "# VERSION — v0.00001" (5 gates locked listed at :8) | `grep -n 'v0.0000' VERSION.md`
+- VERSION.md:8: "**v0.00001 (NOW)** — 5 gates locked" | `sed -n '8p' VERSION.md`
+- mill/STATE.md:2: "current_op: 0501" | `sed -n '2p' mill/STATE.md`
+- mill/STATE.md:3: "wave: P04_DONE" | `sed -n '3p' mill/STATE.md`
+- mill/STATE.md:6: "n_fence=34" | `sed -n '6p' mill/STATE.md` (FENCE.md has 34 data rows → MATCH)
+- mill/WAVE_INDEX.md:1-13: "two wave plans" — P00/P02-P04 file lists (lines 2-5) + P02-P09 plan lines (6-13); no P01 row | `cat mill/WAVE_INDEX.md`
+- mill/LOG.md:71: "20 claims all with paths, exceeds 12" (OP-0069) | `sed -n '71p' mill/LOG.md`
+- mill/LOG.md:88: "100 ops expected, 100 PASS" (OP-0086) | `sed -n '88p' mill/LOG.md`
+- mill/LOG.md:116: "50 claims total, exceeds 40 target" (OP-0114) | `sed -n '116p' mill/LOG.md`
+- mill/LOG.md:147: "20 rows" ANCHOR_MAP (OP-0145) | `sed -n '147p' mill/LOG.md` (counted 20 `- T` bullets → MATCH)
+- mill/LOG.md:171: "filled to exactly 40 rows" BIND_TABLE (OP-0169) | `sed -n '171p' mill/LOG.md` (counted 40 data rows → MATCH)
+- mill/LOG.md:190: "FENCE = 25 rows" (OP-0188) — STALE: FENCE.md now 34 rows | `sed -n '190p' mill/LOG.md`
+- mill/LOG.md:327: "8 rows where readings cannot combine" (OP-0324) — now 12 in CONFLICT.md (8+4) | `sed -n '327p' mill/LOG.md`
+- mill/LOG.md:363-364: "5 claims out of canon" / "5 claims newly central" | `sed -n '363,364p' mill/LOG.md`
+- mill/LOG.md tail 499-503: append order broken — OP-0499, OP-0500, then OP-0451, OP-0400 | `tail -5 mill/LOG.md`
+- mill/P01_AUDIT.md:2: "Expected: 0101-0200 (100 ops). Logged: 100" ; :12 "FENCE = 25 rows" (stale) ; :7 "all 50 claims carry quote IDs" | `sed -n '2,12p' mill/P01_AUDIT.md`
+- mill/P02_AUDIT.md:2: "Expected: 0201-0300 (100 ops). Logged: 100" | `sed -n '2p' mill/P02_AUDIT.md`
+- mill/P03_AUDIT.md:2: "Expected: 0301-0400 (100 ops). Logged: 100"; :6 "CONFLICT = 12 rows (8+4)... SCORES (R1 13 · R2 10 · R3 12 · R4 16)" | `sed -n '2,6p' mill/P03_AUDIT.md`
+- mill/P04_AUDIT.md:2: "Expected: 0401-0500 (100 ops). Logged: 100" | `sed -n '2p' mill/P04_AUDIT.md`
+- mill/EVIDENCE_BIND.md:3: "CLAIMS.md — 50 rows, 49 alive" | `sed -n '3p' mill/EVIDENCE_BIND.md` (50 data rows, 49 not-KILLED → MATCH)
+- mill/CODE_TOUCH.md:2: "Inventory shows 45 files, all markdown" | `sed -n '2p' mill/CODE_TOUCH.md`
+- mill/HASHES.md: 35 rows, each "path | first line | line count" — e.g. CONTEXT.md 405 (now 419), FOUNDATIONAL-BRIEF.md 53, INTEGRITY.md 70, rcvm.md 331, pr-009 67 | `grep -cE '^[^#].*\.md \|' mill/HASHES.md`
+- mill/CANON_SOURCES.md: 35 source paths listed (BOOT_COUNTS.md:2 "n_sources: 34" → only first 20 printed; count 35) | `grep -cvE '^\s*#|^\s*$' mill/CANON_SOURCES.md`
+- mill/BOOT_COUNTS.md:2: "n_sources: 34" | `grep -n 'n_sources' mill/BOOT_COUNTS.md` (CANON_SOURCES has 35 paths — MISMATCH by 1)
+- mill/ORNAMENT.md:1: "12 claims that could vanish" | `sed -n '1,2p' mill/ORNAMENT.md` (12 data rows → MATCH)
+- mill/LOADBEARING.md:1: "12 claims whose falsity collapses the work" | `sed -n '1,2p' mill/LOADBEARING.md` (12 data rows → MATCH)
+- mill/FENCE.md: 34 data rows F0001-F0034 | `grep -cE '^\| F[0-9]{4}' mill/FENCE.md`
+- mill/ANCHOR_MAP.md: 20 map bullets | `grep -cE '^\- T' mill/ANCHOR_MAP.md`
+- mill/BIND_TABLE.md: 40 data rows | `grep -E '^\| *Q[0-9]{4}' mill/BIND_TABLE.md | wc -l`
+- mill/CONFLICT.md: 12 data rows CF01-CF12 | `grep -cE '^\| CF' mill/CONFLICT.md`
+- mill/SCORES.md: R1 13, R2 10, R3 12, R4 16; eliminations 0331 (R2), 0332 (R3) | `grep -E '^\| R[0-9]' mill/SCORES.md`
+- mill/MISSING_FILES.md: "10 files talked about but absent" (op 0141) | `grep -cE '^[0-9]+\.' mill/MISSING_FILES.md` → 10 → MATCH
+- mill/P04_YIELD.md: 21 files listed in P04 | `grep -cE '^mill/' mill/P04_YIELD.md`
+- mill/STATE.md:8: "STATE_SCHEMA (6 fields) · INTERFACE (6 hooks, no generator)" | `sed -n '8p' mill/STATE.md` (6 fields / 6 hooks counted → MATCH)
+- hept/runtime/BUDGET.md:3 "Core quanta per day: 16"; :6 "Quanta executed today: 0"; :7 "Total quanta executed: 0" | `grep -n 'quanta\|Quanta' hept/runtime/BUDGET.md`
+- hept/runtime/STATE.md:6: "quanta_today: 7" (04:0xZ) / "quanta_today: 10" (04:20Z) — STALE vs BUDGET 0; live writer | `grep -n 'quanta_today' hept/runtime/STATE.md`
+- hept/runtime/NEXT.md:4: "done_when: 20 fences recorded using local project nouns" | `sed -n '4p' hept/runtime/NEXT.md` (hept/FENCE.md has 20 F-rows → MATCH)
+- hept/runtime/QUANTUM.md:6: "max 3 files substantially edited" | `sed -n '6p' hept/runtime/QUANTUM.md`
+- hept/runtime/WAKE.md: W9 "16 core quanta" | `grep -n '16' hept/runtime/WAKE.md`
+- hept/runtime/TODAY.md:4: "Plan: Core 16 quanta D1-Q01 through D1-Q16" | `sed -n '4p' hept/runtime/TODAY.md`
+- hept/LOG.md:1: "270 workspace files cataloged" (D1-Q01) — vs live 365 files (04:20Z) → STALE (R1 target) | `sed -n '1p' hept/LOG.md`
+- hept/runtime/CALENDAR.md:30: "Q05 Discrepancies: 8 rows ..."; :57 "Q11 ... 10 rows"; Q03 "12 theory-bearing", Q09 "F01-F20", Q10 "8 announced-important... 8 ignored", Q11 "8 examples", Q14 "8 quotes" | `grep -nE 'Q0[3-9]|Q1[0-6]' hept/runtime/CALENDAR.md`
+- hept/ledger/INVENTORY.md:260: "| proposals/README.md | SOURCE | 44 |" (bytes) | `sed -n '260p' hept/ledger/INVENTORY.md` (wc -c = 44 → MATCH)
+- hept/ledger/TOP.md: 12 source rows | `grep -cE '^\| *[0-9]{2} *\|' hept/ledger/TOP.md`
+- hept/ledger/QUOTES.md: Q0001-Q0020 (20) | `grep -cE '^\| Q[0-9]{4}' hept/ledger/QUOTES.md`
+- hept/ledger/CLAIMS.md: C0001-C0020 (20) | `grep -cE '^\| C[0-9]{4}' hept/ledger/CLAIMS.md`
+- hept/ledger/TERMS.md: T0001-T0012 (12) | `grep -cE '^\| T[0-9]{4}' hept/ledger/TERMS.md`
+- well/CHECKER_W01.md:2: "applied across all 12 rows of BECAUSE.md" | `sed -n '2p' well/CHECKER_W01.md`
+- well/HANDOFF_W01.md:1: "12 claims enter the because-ledger" (12 LB rows listed) | `sed -n '1p' well/HANDOFF_W01.md`
+- well/HANDOFF_W03.md:5: "The 12 claims as stops (LB01..LB12)"; :"6 TRUE STOPS"; :"3 debts (UW01..03)" | `sed -n '5p;27p;33p' well/HANDOFF_W03.md`
+- well/KEEP.md:4: "KEEP (9 claims, full legal reasons)"; LB04/LB07/LB09 KEEP-with-caveats (3) | `sed -n '4p' well/KEEP.md`
+- well/KILLED_WHYS.md:24: "3 claims DEMOTE-tagged (LB04 / LB07 / LB09)" | `sed -n '24p' well/KILLED_WHYS.md`
+- well/LOG.md:14: W00-12 "10 lines, which 12 claims enter because-ledger"; W00-05 "7 adjacent impressive topics"; W00-09 "15 project-specific fake-reason patterns"; W00-13 "3 overreads" | `sed -n '7p;11p;14p;15p' well/LOG.md`
+- well/WHY_FENCE.md:1: "15 ways THIS project will fake reasons later" — 15 numbered sections + "How to use" (16 ## sections) | `grep -cE '^## ' well/WHY_FENCE.md`
+- well/NOT_OBJECT.md: 7 adjacent topics (W00-05 claim) | `grep -cE '^[0-9]+\.|^- ' well/NOT_OBJECT.md`
+- well/AUDIT_W00.md: "3 overreads found and downgraded" | `grep -n '3 overreads' well/AUDIT_W00.md`
+- bore/LOG.md: D1-Q01 "15 fragments", Q02 "10 candidates killed", Q03 "5 survivors ... 3/3", Q06 "15 fake-exit modes", Q07 "12 exact quotes", Q10 "5 exits refused", Q12 "11/11 YES"; D2-Q08 "12/12 quotes verified"; D2-Q11 "3 exits refused"; quanta 12 | `sed -n '3,19p;22,25p' bore/LOG.md`
+- bore/CANDIDATES.md:1: "D1-Q01 inventory: 15 candidate sites"; "KILLS (10 die, 5 survive)"; "SURVIVORS (5)"; "3/3" | `sed -n '1p;21p;30p;36p' bore/CANDIDATES.md`
+- bore/FENCE.md: F01-F15 (15 rows) | `grep -cE '^- *F[0-9]{2}' bore/FENCE.md`
+- bore/ledger/QUOTES.md: Q01-Q12 from pr-006 §2 lines 12-18 (12 quotes) | `grep -cE '^- Q[0-9]{2}' bore/ledger/QUOTES.md`
+- bore/runtime/STATE.md: "day: 2"; "quanta_today: 12 (D2 core)"; "core_complete: YES" | `cat bore/runtime/STATE.md`
+- phantom/QUOTES.md:66: '"## Pinned hashes (sha256) — 42 files"' (re-quote of INTEGRITY.md:24) | `sed -n '66p' phantom/QUOTES.md`
+- phantom/PRACTICE_LIST.md:37-38: '"header says 42 files" ... entry says "43 files pinned"' ; :41 "OPS_QUEUE.md — 21 of 58 ops marked ☑" | `sed -n '37,41p' phantom/PRACTICE_LIST.md`
+- phantom/HANDOFF_PH01.md:8: "P-09: resolve INTEGRITY '42 files' vs closeout '43 files'" | `sed -n '8p' phantom/HANDOFF_PH01.md`
+- phantom/HANDOFF_PH02.md:5: "42/43/44 competing pin counts" | `sed -n '5p' phantom/HANDOFF_PH02.md`
+- phantom/CORPUS.md:19 "58 ops, 21 marked done"; :22 "header says '42 files', closeout log says 43 — unverified"; :28 "charters/ (4 files)"; :29 "mics/ (4 files)"; :30 "templates/ (5 files)"; :31 "proposals/ (10 files)"; :32 "research/ (14 files)"; :33 "mill/ SEALED 68 files"; :34 "well/ SEALED 24 files" | `sed -n '19,34p' phantom/CORPUS.md`
+- phantom/SEALED.md:2-3: "mill/ — SEALED. 68 files exist (glob listing 2026-09-07)" ; "well/ — 24 files" | `sed -n '2,3p' phantom/SEALED.md`
+- phantom/READING_ORDER.md:1: "the 12 files/sections Phantom reads first" | `sed -n '1p' phantom/READING_ORDER.md`
+- research/state-audit-2026-09-06.md:121: "INTEGRITY.md:24 ... **42 files** ↔ INTEGRITY.md (عدّ حي: **44** سطر هاش) + CONTEXT.md:399 — 43 files pinned — ثلاثة أعداد متنافية 42/43/44"; :95 "charters 41/48/43/43 سطرًا"; :25-26 "ch-003/ch-004 43 سطرًا"; :47 "pr-005 42 سطرًا" | `sed -n '121p;95p;25,26p;47p' research/state-audit-2026-09-06.md`
+- research/session-2026-09-06-closeout.md: "closeout doc" (43rd pinned file per CONTEXT.md:399) | `grep -n '43' research/session-2026-09-06-closeout.md`
+- proposals/pr-008-veiled-eye.md:38-40: "exit 0, 7 files, total 23761 bytes incl. README"; pr-004 "28 lines per earlier wc"; byte pins pr-001 1852 ... pr-007 7317 | `sed -n '36,40p' proposals/pr-008-veiled-eye.md`
+- proposals/pr-009-srs-methodology.md:45: "Result: 8/8 PASS" (sha256sum pr-00{1..8}) | `sed -n '45p' proposals/pr-009-srs-methodology.md`
+- proposals/pr-001-proposal-template.md:7,25: "24 files with neither path present" ; "Session find listing 24 files" | `sed -n '7p;25p' proposals/pr-001-proposal-template.md`
+- protocols/CWVP-v1.md:27: "charters/ch-003-maker.md (verified file, 44 lines)" — actual 43 lines | `sed -n '27p' protocols/CWVP-v1.md`
+- protocols/AFM-v1.md:66: "retire if ... = 0 over 5 claims" | `sed -n '66p' protocols/AFM-v1.md`
+- LOG.md:2: OP-002 "جدول 72 صفًا" ; A-1.02 "84 صف جدول (≥40)"; OP-034 "11 rows × 3 cols"; OP-042 "د-قانون: 0 تعديل" ; total OP/AUDIT lines 87 | `sed -n '2p;11p;70p;78p' LOG.md`
+- OPS_QUEUE.md: header "58 ops" implied by CONTEXT.md:416; live: 58 OP rows + 5 AUDIT rows, 42 OP ☑ + 16 OP ☐, 4 AUDIT ☑ + 1 AUDIT ☐ | `grep -cE '^OP-' OPS_QUEUE.md; grep -cE '^AUDIT-' OPS_QUEUE.md; grep -cE '^OP-.*☑' OPS_QUEUE.md`
+- RUN/GROUND_TRUTH.md (R0 baseline, 03:58Z): 310 md / 317 files; INTEGRITY 44 hash lines vs header 42; CONTEXT 38017 B; 34 fence rows; n_fence=34 ✓; CONTEXT pin claim 43; hept LOG 270 claim | `cat RUN/GROUND_TRUTH.md`
+- RUN/LEDGER.md:7: "fence (STATE n_fence=34 matches command 34 ✓), pin count (42/43/44)"; :"hept LOG 270 vs actual 310/317" | `sed -n '7p' RUN/LEDGER.md`
+
+## Counts I verified by command this session
+
+- INTEGRITY.md hash lines: **44** | `grep -cE '^[0-9a-f]{64}' INTEGRITY.md` (header claims 42 — MISMATCH)
+- INTEGRITY.md checksum run: **43 OK, 1 FAILED (violations.md)** | `sha256sum -c <(grep -E '^[0-9a-f]{64}' INTEGRITY.md)` (violations.md live c39f54c0... ≠ pinned 868d35aa...)
+- mill/FENCE.md data rows: **34** | `grep -cE '^\| F[0-9]{4}' mill/FENCE.md` (= n_fence=34 ✓; LOG OP-0188 "25 rows" stale)
+- mill/CLAIMS.md data rows: **50**, alive: **49** | `grep -cE '^\| C[0-9]{4}' mill/CLAIMS.md`
+- mill/BIND_TABLE.md data rows: **40** | `grep -E '^\| *Q[0-9]{4}' mill/BIND_TABLE.md | wc -l`
+- mill/ANCHOR_MAP.md bullets: **20** | `grep -cE '^\- T' mill/ANCHOR_MAP.md`
+- mill/CONFLICT.md data rows: **12** | `grep -cE '^\| CF' mill/CONFLICT.md`
+- mill/MISSING_FILES.md items: **10** | `grep -cE '^[0-9]+\.' mill/MISSING_FILES.md`
+- mill/ORNAMENT.md / LOADBEARING.md data rows: **12 / 12** | `grep -cE '^\| O' mill/ORNAMENT.md; grep -cE '^\| L' mill/LOADBEARING.md`
+- mill/LOG.md OP rows: **500** (OP-0001..0500), tail out-of-order (…OP-0499, OP-0500, OP-0451, OP-0400) | `grep -cE '^OP-' mill/LOG.md; tail -5 mill/LOG.md`
+- mill/HASHES.md rows: **35**; CANON_SOURCES.md paths: **35** (BOOT_COUNTS "n_sources: 34" → off by 1) | `grep -cE '^[^#].*\.md \|' mill/HASHES.md; grep -cvE '^\s*#|^\s*$' mill/CANON_SOURCES.md`
+- mill/STATE_SCHEMA fields: **6**; INTERFACE hooks: **6**; P04_YIELD new files: **21** | `grep -cE '^[0-9]+\.' mill/STATE_SCHEMA.md mill/INTERFACE.md; grep -cE '^mill/' mill/P04_YIELD.md`
+- hept/LOG.md:1 "270 workspace files" — live tree: **365 files** (04:20Z), **361 md** | `find . -type f -not -path './.git/*' | wc -l`
+- Directory sizes live (04:20Z): mill **139** md, well **30** md, phantom **30** md, bore **49** md (phantom CORPUS/SEALED "68/24" stale), hept **24** md (now 25 with days/D2), proposals **13**, research **16** (CORPUS "14" stale), mics **4**, charters **4**, templates **5** | `find <dir> -type f -name '*.md' | wc -l`
+- OPS_QUEUE.md: **58 OP rows + 5 AUDIT rows; 42 OP ☑ + 16 OP ☐; 4 AUDIT ☑ + 1 AUDIT ☐** (phantom "21 of 58 ☑" stale) | `grep -cE '^OP-' OPS_QUEUE.md; grep -cE '^AUDIT-' OPS_QUEUE.md; grep -cE '^OP-.*☑' OPS_QUEUE.md`
+- hept/FENCE.md rows: **20** (= NEXT "20 fences" ✓); bore/FENCE.md rows: **15** | `grep -cE '^\| *F[0-9]{2}' hept/FENCE.md; grep -cE '^- *F[0-9]{2}' bore/FENCE.md`
+- well/WHY_FENCE.md sections: **15 numbered + header = 16** `## `; header claims 15 | `grep -cE '^## ' well/WHY_FENCE.md`
+- well/BECAUSE.md LB sections: **12**; HANDOFF_W01 lines: **22**; well/KEEP KEEPs: **9 + 3 caveat** | `grep -cE '^## LB' well/BECAUSE.md; wc -l well/HANDOFF_W01.md; grep -cE '^\| *LB[0-9]' well/LB.md`
+- hept ledgers: TOP **12** rows, QUOTES **20**, CLAIMS **20**, TERMS **12** | `grep -cE '^\| *[0-9]{2} *\|' hept/ledger/TOP.md; grep -cE '^\| Q[0-9]{4}' hept/ledger/QUOTES.md; grep -cE '^\| C[0-9]{4}' hept/ledger/CLAIMS.md; grep -cE '^\| T[0-9]{4}' hept/ledger/TERMS.md`
+- proposals/pr-008 byte pins: pr-001..007 + README = **23761 bytes**; pr-004 = **28 lines**; README = **44 bytes**; all 8 pr hashes MATCH INTEGRITY pins | `cat proposals/pr-00{1..7}-*.md proposals/README.md | wc -c; wc -l proposals/pr-004-paper-rj-quorum.md; wc -c proposals/README.md; sha256sum proposals/pr-00{1..8}-*.md`
+- pr-009 SRS "8/8 PASS" claim re-produced (8 of 8 pr-001..008 hashes match INTEGRITY pins) | `for f in 1..8; sha256sum proposals/pr-00$f-*.md; grep -q ... INTEGRITY.md`
+- charters lines: ch-001 **41**, ch-002 **48**, ch-003 **43**, ch-004 **43** (CWVP-v1.md:27 "44 lines" → 43, MISMATCH by 1) | `wc -l charters/*.md`
+- VERSION.md:1 "v0.00001" (X0002: CONTEXT.md:274-277 claims signature opened v0.0001 — both sides on disk, unresolved) | `grep -n 'v0.0000' VERSION.md; sed -n '274,277p' CONTEXT.md`
+- violations.md hash: live `c39f54c0...` vs pinned `868d35aa...` — **FAILED** (V-001/V-002 entries exist; PIN stale) | `sha256sum violations.md`
+- bore/LOG.md D1: Q01 15 candidates, Q02 10 killed, Q03 5 survivors (C01 3/3), Q07 12 quotes, Q10 5 refusals, Q12 11/11 YES; quanta D1 12 + D2 12 | `sed -n '3,19p' bore/LOG.md`
+- RESEARCH/state-audit A-1 table rows: **84** (LOG OP-002 claims 72; AUDIT-1.02 "84 صف" ✓); A-4 rows: 9 + 2 = 11 lines incl. headers | `sed -n '4,90p' research/state-audit-2026-09-06.md | grep -cE '^\|'`
+- CONTEXT.md: **38017 bytes**, **419 lines** (byte count stable; HASHES.md row says "CONTEXT.md 405" lines — stale) | `wc -c CONTEXT.md; wc -l CONTEXT.md`
+- RUN/GROUND_TRUTH.md R0 baseline: 310 md / 317 files at 03:58Z; re-count at 04:20Z = **361 md / 365 files** (live P17 session + RUN/ artifacts) | `find . -type f -not -path './.git/*' | wc -l`

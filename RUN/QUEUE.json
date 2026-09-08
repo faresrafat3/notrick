@@ -1,0 +1,32 @@
+{
+  "series": "NOTRICK SERIES 2",
+  "definition_of_done": "every round R0..R14 has passes:true with receipts/R###.json present (status complete or named blocked_reason); every citation re-derivable; kills > 0; NEGATIVE_RESULTS.md non-empty after every round",
+  "sources": {
+    "repo_crossings": [
+      "OPS_QUEUE.md (root queue artifact this series' queue parallels; 58 atomic ops OP-001..058)",
+      "CONTEXT.md decision-log tail (2026-09-06 OPS-QUEUE GENERATED entry; queue-as-op-list precedent)"
+    ],
+    "external_authority": [
+      "NOTRICK_SERIES2_00_BOILERPLATE_AND_ROUNDS_0-7.md (rounds R0-R7)",
+      "NOTRICK_SERIES2_01_ROUNDS_8-14_AND_GOAL.md (rounds R8-R14 + /goal text)"
+    ]
+  },
+  "rounds": [
+    { "id": "R0",  "name": "THE RUN — install machinery",              "passes": true },
+    { "id": "R1",  "name": "THE STALE SWEEP — P8 across rot clusters",  "passes": false },
+    { "id": "R2",  "name": "THE MISSING FOUR — build or kill",          "passes": false },
+    { "id": "R3",  "name": "THE PIN TRIAL — INTEGRITY recompute",       "passes": false },
+    { "id": "R4",  "name": "THE WELL REGRESS — payable whys",           "passes": false },
+    { "id": "R5",  "name": "DOC-TRUST / X-07 — injection redteam",      "passes": false },
+    { "id": "R6",  "name": "THE GATE THAT CAN FAIL — triads",           "passes": false },
+    { "id": "R7",  "name": "THE ARC HARVEST — heirs + catch count",     "passes": false },
+    { "id": "R8",  "name": "P05 GENERATOR I — executable gate",         "passes": false },
+    { "id": "R9",  "name": "P05 GENERATOR II — the machine",            "passes": false },
+    { "id": "R10", "name": "THE ONE OBJECT — anti-blend verdict",       "passes": false },
+    { "id": "R11", "name": "PRIMITIVE INDEPENDENCE — matrix",           "passes": false },
+    { "id": "R12", "name": "INSTRUMENT H5 AND THE COST RULER",          "passes": false },
+    { "id": "R13", "name": "OMEGA — run the funerals",                  "passes": false },
+    { "id": "R14", "name": "THE GHOST AUDIT AND THE HONEST CEILING",    "passes": false }
+  ],
+  "obituary": "this queue dies the moment a round's passes flag is flipped without a matching receipt, or a round is added/removed/reordered, or a description is edited — the file is the definition of done and the deepest violation available to the series is editing it."
+}
