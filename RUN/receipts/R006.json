@@ -1,0 +1,33 @@
+{
+ "round": "R6",
+ "name": "THE GATE THAT CAN FAIL — triads",
+ "date": "2026-09-08",
+ "status": "complete",
+ "executed_by": "S2-20260908-01 goal-loop (self-executed; claim logged before work)",
+ "boot_gate": "v0.00001 quoted; walls stated; no gate built (series read/propose law held)",
+ "budget": {
+  "ops_stated": "<=50 self-cap",
+  "ops_spent_approx": 11,
+  "files_stated": 4,
+  "files_created": "research/gate-triads.md, RUN/receipts/R006.json, citations C102-C110, NEG-RESULTS R6 section"
+ },
+ "triad_test": "GATE (re-runnable criterion on a page, per MIC-23's refusal leg mic-23:8-10) + CLAIM (what it gates + record-level falsifier, REASON_LAW T-COLLAPSE standard) + VERIFIER (identity separate from claimant, RULES.md:24-25) — missing a leg = UNTESTED-FORM; complete+never fired = UNFIRED; fired against real material = FIRED with record cited",
+ "inventory": "9 gates: 4 COMPLETE+UNFIRED (MIC-23, council/H4, masterpiece-form, R6-meta-prior) / 3 FIRED (GO gate standing-negative NOT YET; boot gate mechanical every session; hash-pin gate REAL catches V-001+V-003) / 2 UNTESTED-FORM (quorum F0016; wall-ledger F0023 — the lie was told once, ANTI_HALLUCINATION.md:7) / 1 INCOMPLETE (masterpiece: claimant-owned verifier)",
+ "finding_F1": "masterpiece gate claimant-owned in form: the Maker charter both claims forges and defines when a forge counts (ch-003-maker.md:13) — R6 (RULES.md:24-25) voids that shape; the gate that must be able to fail cannot legally pass today; repair Owner-gated (external verdict holder e.g. council pass, or criterion on a Maker-unwritable page)",
+ "finding_F2": "hash-pin gate = only gate with real firing evidence (V-001, V-003) AND the only one with a documented self-reference wound (register paradox) — proven-but-wounded beats unwounded-and-never-fired",
+ "finding_F3": "two gates are open doors already walked through: the wall-ledger fabrication was caught and fenced (F0023 + ANTI_HALLUCINATION:7) but the gate itself still does not exist",
+ "relation_to_wounds": "X-05/X-08 stay OPEN; F-1 joins their family as a fourth shape (claimant-owned gate); H3 remains the right pre-registered test for MIC-23 at zero day",
+ "citations": {
+  "registered_this_round": "C102-C110 (9, anchors captured live by command before registering)",
+  "unverified": 0
+ },
+ "fill_rate": "8/8 load-bearing claims cross >=2 repo entries: triad test (RULES:24-25 + mic-23:5-12) / GO gate (RUNBOOK:4 + RATIFICATION:27-29) / boot gate (AGENTS:53 + SUPERVISOR-CHIP:9) / pin firing (violations:5,7 + INTEGRITY.md) / masterpiece defect (ch-003:13 + RULES:24-25) / form-missing gates (FENCE:19,26 + ANTI_HALLUCINATION:7) / council (ch-002:2 + hypotheses-ledger:25-29) / H3 test (hypotheses-ledger:19-23 + gate-triads row 1)",
+ "kills": 0,
+ "negative_results": "1 (gates mostly unfired — expected pre-zero, now measured) + 1 finding (F-1) recorded in NEG-RESULTS R6 section",
+ "substitution_test": "F-1 finding header deleted from gate-triads.md -> neutral inventory with no verdict -> DEGRADES -> restored (count 1). Recorded in RUN/SUBSTITUTION.md",
+ "anti_stub_scan": "zero hits across gate-triads.md, R006, citation rows (pattern-string self-hits excluded)",
+ "failure_mode_named": "an audit that offends nobody audited nothing — the round forced itself to name a defect in the doctrine's most protected artifact (the Maker's own gate) rather than stop at inventory",
+ "next_round": "R7 - THE ARC HARVEST, heirs + catch count; opens RUN/STATE.md; premises re-established by command at boot",
+ "not_done": "masterpiece-gate repair (Owner-gated); quorum + wall-ledger gates remain unbuilt (no builder named; building is outside series law); no commit cut",
+ "obituary": "this receipt dies the moment a forge is claimed through the masterpiece gate without an external verdict leg, or a gate-verdict appears anywhere with no re-runnable criterion (MIC-23's refusal leg names it UNVERIFIED)"
+}

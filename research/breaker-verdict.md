@@ -103,6 +103,15 @@ Source: research/breaker-measure.md §2-§6; adoption proposal = proposals/BRK-0
 | Q-21 | mill/OP_POINTER.md:2 "Next wave: P01, op 0101" vs STATE current_op 0501 / LOG OP-0500 (missed-by-mill addon) | mill/OP_POINTER.md:2 · mill/STATE.md:2 | DISPOSE-IN-R1 / IGNORE |
 | Q-22 | RUN R1 receipt absent on disk while STATE claims "R001 complete / debt none" and QUEUE R1 flag stays false → settle R1 close | RUN/STATE.md:6,8-9 · RUN/QUEUE.json:16 · RUN/receipts/ | CLOSE-R1 / CORRECT-STATE / IGNORE |
 | Q-23 | G6-fix edited frozen T-03 (assault-plan:19) + reconstruction-v2:32 after no-modify freeze, breaking "fix after tree settles"; disclosed but freeze crossed → strike-through+re-stamp rule | research/assault-plan.md:14,53 · LOG.md:98,120,131 · verdict-master.md:8 | AMEND-FREEZE-PROCEDURE / OWNER-WAIVER / RULE |
+| Q-24 | OPS_QUEUE.md:1 header stamps "غير منفَّذ" while 63/63 ops are ☑ and OP-058 closed — update header or append dated close note | OPS_QUEUE.md:1 | UPDATE-HEADER / APPEND-CLOSE-NOTE / IGNORE |
+| Q-25 | G6-FIX round 2 rephrased claims-v1:95 from context (L3-guess) after LOG.md:171 recorded "no guessing", removed lineage tokens verdict-master:125 said "kept deliberately", left :150-151 evidence record naming stale coords | LOG.md:171,178,183 · verdict-master.md:125 · lineage-audit.md:150-151 · claims-v1.md:95 | RESCIND-L3 / UPDATE-EVIDENCE-RECORD / RULE |
+| Q-26 | (RESOLVED-BY-COMPLETION 09-08: hept week-complete — 7/7 days PASS, canon frozen v1.0, WEEK_DONE audit, HEARTBEAT status week_complete, SEALED law 2026-09-06; BUDGET's "re-entry" settling act became moot as the week ended; the D1/0/0 file is a dead ledger, not a live lie — Owner may delete or leave) | RUN/STALE.md:17 · hept/runtime/BUDGET.md · hept/WEEK_DONE.md · hept/runtime/HEARTBEAT.md | CLEAR / DELETE-DEAD-FILE / RULE |
+| Q-27a | D-5 scope carries unbound `{N}` operations placeholder vs regency §3's own "كل تصميم = نطاق بأرقام" promise; lane's anti-stub scan claimed zero hits while :62 holds it | research/regency-doctrine.md:62,35 | BIND-N / REWORD-SCOPE / RULE |
+| Q-27b | pr-012's "each missing exactly its obituary" loose — lineage-audit has 0 obituary hits, others 1-2; per-file R2 RULINGS accurate, proposal sentence overstates | proposals/pr-012-four-deliverables-completion.md · RUN/LEDGER.md (R2 RULINGS) | REWORD-PROPOSAL / IGNORE |
+| Q-28 | OWNER-QUEUE-DRAFT:44 plans "pr-011 يدخل الطابور عند وجوده" but pr-011-regency filed 08:36 (2 min after 08:34 draft); inventory misses its own awaited deliverable + names taken P-011 | research/harness-run/OWNER-QUEUE-DRAFT.md:44 | UPDATE-DRAFT / IGNORE |
+| Q-29 | SECOND P-012 collision: pr-012-integrity-semantics.md (S2, 08:48) filed 3 min after lane fixed P-011/P-012 (renamed four-deliverables, CORRECTION 08:45); two P-012 files now exist, no cross-ref, no CORRECTION record, HANDBACK-S2:64,66 cites "pr-012" as owned — systemic hole: NO proposal-numbering register (proposals/README says "no proposals yet" vs 22 files) | proposals/pr-012-integrity-semantics.md · proposals/pr-012-four-deliverables-completion.md · proposals/README.md · RUN/LEDGER.md:46 · research/HANDBACK-S2.md:64,66 | ADD-NUMBERING-REGISTER / RENAME-TO-P013 / RULE |
+| Q-30 | R3 pin-trial "computed" row for violations.md (c39f54c0) self-staled: working tree now c46f161a after R3's OWN V-003 filing 08:55:30 — the trial re-mutated the file it flags; append dated recompute line | RUN/PIN_TRIAL.md:48 · violations.md (mtime 08:55:30) | APPEND-DATED-ROW / RE-COMPUTE / RULE |
+| Q-31 | CANON.md §5 word-count targets are unbound placeholders ({WC_PAGE}/{WC_PARA}/{WC_LINE} :47-49) while §1 header promises "القياس الفعلي §5"; §6 boot-test already computed real numbers (19: 14/2/3) | research/CANON.md:47-49,5 | COMPUTE-COUNTS / REWORD-REFERENCE / RULE |
 
 ## 7 · The breaker's OWN obituary (pre-registered — the falsifier armed against me)
 
@@ -132,7 +141,34 @@ Source: research/breaker-measure.md §2-§6; adoption proposal = proposals/BRK-0
 
 ---
 
-**BREAKER COMPLETE — 6 files + 5 BRK proposals — Owner queue: 21 items — falsifier armed.**
+**BREAKER COMPLETE — 13 files + 5 BRK proposals — Owner queue: 32 items — falsifier armed.**
 (addendum: research/breaker-lineage-verify.md — Q-13..Q-21 incl. lineage CL-17 citation
 defect, OP_POINTER stale slot, assault-plan T-01..T-06 collisions, F-RUN-21 self-taint;
-A-06 seats sharpened to ch-002:37-40.)
+A-06 seats sharpened to ch-002:37-40 · research/breaker-run-close-watch.md — Q-22 RUN R1
+missing-receipt wedge, Q-23 G6-fix freeze-cross; verdict-master verified faithful ·
+research/breaker-pipeline-close.md — pipeline 63/63 ☑ complete, A-06 CONVERGED via the
+builder's own OP-055, my SRS battery run → PARTIAL (B5), Q-22 now committed-and-untouched,
+Y-03 extended to garbled Arabic عابثتاه claims-v1:95, Q-24 OPS header stale ·
+research/breaker-r1-close-g6fix2.md — Q-22 RESOLVED by lane (R001.json exists + committed,
+blind verifier 21/1, zero silent fixes), Q-25 new: G6-FIX round 2 L3-guess rephrase of
+claims-v1:95 + kept-then-removed lineage tokens + stale :150-151 evidence coords ·
+research/breaker-r1-replay-s06.md — R001 obituary replayed 6/6 rows re-derive (receipt
+survives), Q-26 new: S-06 settling act never fired (BUDGET D1/0/0 untouched vs 82
+heartbeats + STATE D4→D6, no re-entry or override record); G2-regency pre-registered,
+artifact not yet landed ·
+research/breaker-regency-r2-close.md — G2-regency LANDED (strongest artifact: every row
+sourced, Owner fields empty, real L8 self-attack), Q-27a {N} placeholder in D-5 vs
+"scope-with-numbers" + repeated zero-hits overclaim, Q-27b pr-012 loose obituary phrasing,
+P-011 collision mechanically resolved (renamed to pr-012, prerecorded CORRECTION), R2
+closed lawfully (R002, 6/6 blind), Q-28 OWNER-QUEUE-DRAFT:44 stale pr-011 planning,
+Q-29 SECOND P-012 collision 3 min after the P-011 fix — no register exists
+(proposals/README "no proposals yet" vs 22 files), HANDBACK cites pr-012 as owned ·
+research/breaker-r3-pintrial.md — Q-07 CONVERGED as V-003 (first real violations entry,
+filed not fixed by R3 executor; pr-013-repin asks the correct append-only-vs-pin
+question), Q-30 new: pin trial self-staled via its own V-003 filing (hash chain
+c39f54c0→c46f161a), pr-013 single-ownership numbering, obituary-registry quotes 5/5
+re-derive ·
+research/breaker-r3-debt-canon.md — R3 closed IN DEBT lawfully (flag NOT flipped, B1.3
+debt named, obituary not fired — lane internalized Q-22 lesson), r3-skeptic git-baseline
+verdict converges with Q-07/Q-30/B5, Q-31 new: CANON.md §5 word-counts are {WC_*}
+placeholders while §1 promises "actual measurement"; registry 26-row claim re-derives.)

@@ -1,0 +1,36 @@
+{
+ "round": "R8",
+ "name": "P05 GENERATOR I — executable gate",
+ "date": "2026-09-08",
+ "status": "complete",
+ "executed_by": "S2-20260908-01 goal-loop (self-executed; claim logged before work)",
+ "boot_gate": "v0.00001 quoted; walls stated; NOTHING executes (spec only; GO is NOT YET per RATIFICATION-BATCH-001.md:28; W8 holds)",
+ "budget": {
+  "ops_stated": "<=50 self-cap",
+  "ops_spent_approx": 9,
+  "files_stated": 4,
+  "files_created": "research/p05-executable-gate-spec.md, RUN/receipts/R008.json, citations C117-C121, NEG-RESULTS R8 section"
+ },
+ "the_gap_filled": "mill/INTERFACE.md:11 — every gate-dependent hook returns 'not executable' because no GATE has an executable criterion; R8 part I supplies the criterion FORMAT (the machine itself = R9 part II)",
+ "spec_parts": {
+  "gate_object": "5 frozen fields: gateName / criterion (may reference ONLY field-3 inputs; live tree, clock, randomness, un-frozen files = illegal-by-construction) / inputs (6-field STATE_SCHEMA rows, digest-frozen) / outputShape (byte-format) / ownerBind (external holder required = R6 in the machine)",
+  "executability_law": "a criterion is executable iff two independent evaluations over the frozen inputs produce byte-identical outputs conforming to outputShape — a command, not a judgment; the receipt IS the second run (external to claimant, HANDOFF_P05:7)",
+  "hook_wiring": "all 6 hooks (open/verify/close/writeOff/periodClose/reEnter) wired; close re-runs and compares bytes; divergence IS the violation record; verdict grammar = CLOSED/SUSPENDED/WRITTEN_DOWN/STALE only",
+  "fence_mapping": "mechanizes F0023 (no verdict without re-runnable criterion), F0016 (unadopted schedules cannot freeze), X-08 (claimant cannot write the receipt), F-1 (ownerBind required frozen field), S-03-class count rot (counts computed from frozen inputs at emit time)"
+ },
+ "compliance": "HANDOFF_P05's 12 constraints: 12/12 honored (countable table in the spec)",
+ "honest_limits": "determinism verifies poison as faithfully as truth (pre-hoc wall stays P-001's, Owner-gated); the receipt register cannot pin itself (register paradox stands); no honoring-cost numbers until the cost ruler (cost: UNPRICED); no simulator/inference (illegal blends excluded)",
+ "citations": {
+  "registered_this_round": "C117-C121 (5, anchors from full-file reads + wall line)",
+  "unverified": 0
+ },
+ "fill_rate": "6/6 load-bearing claims cross >=2 repo entries: the gap (INTERFACE:11 + HANDOFF_P05:2) / gate object (HANDOFF_P05:3 + STATE_SCHEMA) / executability law (HANDOFF_P05:2 + INTERFACE:9-11) / external receipt (HANDOFF_P05:7 + gate-triads F-1) / fence mapping (FENCE:19,26 + mic-23:8-10) / W8 compatibility (WALL:15 + HANDOFF_P05:12)",
+ "kills": 0,
+ "negative_results": "1 (determinism-vs-poison boundary) + 1 structural note (W8 delays its own reinforcement) in NEG-RESULTS R8",
+ "substitution_test": "compliance table deleted → spec unverifiable against its own constraints → DEGRADES → restored (12/12). Recorded in RUN/SUBSTITUTION.md",
+ "anti_stub_scan": "zero hits across the spec, R008, citation rows",
+ "failure_mode_named": "the easy failure here was building the tool in prose-powered imagination — the spec stops at format+law and stamps every build question as post-GO",
+ "next_round": "R9 - P05 GENERATOR II — the machine (design of the emitter; still nothing executes); opens RUN/STATE.md; premises re-established by command at boot",
+ "not_done": "the generator is not built (GO-gated); the 7 unpinned doctrine-class files remain unpinned by design until then; no commit cut",
+ "obituary": "this receipt dies the moment a gate object appears in the tree missing any of the 5 frozen fields, or a receipt is written by its own claimant (HANDOFF_P05:7), or a cost number appears without the ruler (I6/D0039)"
+}

@@ -87,5 +87,18 @@ what it must mean? 4. Record YES-degrades (keep) or NO-degrades (decoration → 
   (results are the prices). → DEGRADES. RESTORED: section back, intact between Parts 1-2
   and 4. The ratio is load-bearing: it prices the zero-day gates.
 
+
+- R8 · research/p05-executable-gate-spec.md · OLD (executed 2026-09-08): deleted the 12-
+  constraint compliance table (the spec's countable-parts proof) → the spec still reads as a
+  design with fields and wiring → but nothing proves it honors the mill's frozen law; a spec
+  that cannot be checked against its own constraints is prose with fields drawn in it (R6).
+  → DEGRADES. RESTORED: table back, 12/12 rows intact. The table is load-bearing: it is the
+  spec's T-ANCHOR against HANDOFF_P05.
+
 obituary: this file dies if a round records a substitution test without actually deleting
-and restoring the line; the test is a ritual unless it changes the file twice.
+and restoring the line; the test is a ritual unless it changes the file twice.- R6 · research/gate-legibility.md · OLD (executed 2026-09-08): deleted the decorative list
+  (3 rows — quorum/wall-ledger decorative-by-absence, masterpiece decorative-by-ownership)
+  → "decorative-by" count 3 → 0, the round's yield (which gates cannot fail) vanishes, and
+  the highest-value-missing-gate section loses its evidence chain (wall-ledger priority
+  rests on the told lie + the P-09 slip). → DEGRADES. RESTORED: count 3 (grep-verified
+  before/after).

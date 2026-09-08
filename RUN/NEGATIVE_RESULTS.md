@@ -107,7 +107,29 @@
 - The harvest's ratio result: mechanical catches of real acts = 2 true (V-001, V-002→V-003) + 1 semi (ANTI_HALLUCINATION checklist) + 6 self-inflicted substitution proofs; reading catches = 9 distinct findings that each changed a record; built-in catches = 53 pre-registered fake-patterns/pairs. Margin ≈ 4:1 reading over mechanism pre-zero. The negative edge: the architecture cannot yet protect the record without reader attention — which is a measured fact now, not an assumption.
 - Asymmetry on record: the series' deaths all named heirs (one orphan declared + notified: costume #3 / wall-ledger gate), while the four charters have NO heir clauses (arc-protocol.md:72, Alpha-7 Q7 unanswered). The harvest practiced the arc law better than the law's own subjects.
 
+
+## R8 — P05 GENERATOR I, the executable gate (2026-09-08)
+- Negative result (the spec's own limit, stated where it can be audited): **determinism verifies poison as faithfully as it verifies truth.** The executable gate freezes inputs by digest and re-runs the criterion — if the frozen rows are poisoned pre-freeze, the gate returns byte-identical receipts for the poison. The pre-hoc wall stays OUTSIDE the machine (P-001 council review, Owner-gated). A generator that cannot distinguish truth from poison is not a failure of this spec — it is the boundary between verification and judgment, drawn in the right place.
+- Structural note: **the W8 wall delays its own reinforcement.** The generator is exactly what would let the 7 unpinned doctrine-class files become pinnable (counts computed from content at emit time kill S-03-class rot) — but W8 forbids building the generator until it exists, and the build waits on the GO. The 7 files stay unpinned BY DESIGN until the Owner's GO. The wall protecting the record is also the thing keeping its weakest pins weak.
+
 ---
 obituary: this file dies the moment a round ends with it EMPTY; a completed round with no
 recorded negative result is treated as a hidden failure, and the series' own obituary
 (RUN/OBITUARY.md) fires on zero kills.
+## R6/R7 completion addendum — executor repair lane (2026-09-08)
+- R6 negative result: **mean gate legibility 1.33/3, and the tax is structural** — the only
+  score-3 gates check bytes or quotes (hash-pin, boot); every gate that would guard
+  judgment scores ≤1 (research/gate-legibility.md). Decorative gates: 3 of 9 — two missing
+  in form (F0016, F0023) and one claimant-owned (masterpiece, F-1). H3 status: UNTESTED
+  (zero MIC-23 re-runs exist; 'confirmed' not available). The wall-ledger gate is the
+  highest-value missing gate — it is the only absent gate whose lie was actually told.
+- R7 negative result: **the goal-loop's close filed zero of the six mandated proposals** —
+  the six are now filed (P-015..P-020: four charter heirs + violation closure + proposal
+  expiry), each citing PROPOSAL-T1-HEIR-CLAUSE.md as ancestor and stating its differences
+  (T1's ch-004-route for the Maker's heir would exceed ch-004's 3-power cap; T1's
+  auto-HELD expiry converts an absence into a ruling word — both rejected in the filings).
+- R7 Alpha-7 self-application: **the RUN/ machinery was born six questions out of seven** —
+  Q7 (HEIR) was unanswered: the obituary kills the series but names no heir for the
+  machinery. HEIR clause now written into RUN/OBITUARY.md (heir = the record + the B1
+  resume protocol; orphan branch declares to the Owner). Answered 6 PASS / 1 NO→written,
+  with quotes, in research/arc-harvest.md Part 5.

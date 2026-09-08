@@ -6,16 +6,22 @@
    fields; write lanes: research/ + proposals/ + OPS_QUEUE/LOG/STATE sync + the one
    mandated CONTEXT.md decision-log append).
 
-2. **What is done:** boot complete 2026-09-08 (BOOT.md · PROTOCOL.md · this file ·
-   RUN-LOG.md); pipeline done through **OP-051** — Phases أ..و; OP-048..051 executed by
-   parallel session S2-20260908-01 (lineage-audit.md, 96 rows) and independently
-   **AUDIT-5 ✓×10 by this session** (LOG.md; R6: executor ≠ auditor) + AUDIT-1..4
-   previously logged; 4 ancestor-closeness annotations recorded for the Owner.
+2. **What is done:** boot complete 2026-09-08; **PHASE A COMPLETE** — OPS_QUEUE OP-001..058
+   all ☑ + AUDIT-1..5 logged (AUDIT-5 dual: S2/T2.7 claimant-owned + this session
+   independent, converging); seven artifacts exist and are consistent (OP-054 ز-check 6/6 ✓;
+   this session independently verified OP-048..051 quotes/rows, OP-055 quotes 29/29,
+   OP-056 grades 15/15, OP-057 §أ-5 24/24 tagged, OP-058 CONTEXT entry). Division of
+   labor held throughout: S2/T2.7 = executor, this session = independent auditor (R6).
 
-3. **What is next:** **OP-052** — verdict-master §ز-1..5 (copy the five named sections
-   verbatim from their five source files, each ending with its source line); then
-   OP-053..058 (Owner decision queue, section-by-section self-review, verbatim-quote
-   check, grade audit, state-audit closure, CONTEXT.md entry). If S2 executes first,
-   this session verifies instead (role split, RUN-LOG R2). Then PHASE B (unification
-   doctrine-candidate + proposals/ entry, obituary-first, L4 stranger-verdict); then
-   PHASE C (HANDOFF.md + final stranger-test) → update_goal complete.
+3. **What is next:** **PHASE B — THE UNIFICATION** (one honest unit per round): author the
+   doctrine-candidate fusing ARC + DOC-TRUST + R-1..R-5 + four council seats + SRS,
+   targeting ONE honest limit (X-09 | X-13 | X-16), obituary-first (L5), shipped as a
+   research/ doc + a proposals/pr-NNN entry (templates/PROPOSAL.md, Owner fields
+   empty-by-right), carrying heir clauses + expiry; L4 stranger-test via a fresh-context
+   VERIFIER subagent before any novelty wording. STATUS: inputs surveyed (hardening-pass:
+   SRS PARTIAL/V0, R-5 UNTESTED, THEATER SIGNAL; boundary-protocols = ARC extension);
+   SYNTHESIST still running (subagent 128fc49f); **Phase C prep done**:
+   research/harness-run/OWNER-QUEUE-DRAFT.md = full Owner inventory (3 gates + 7 + 10 rows,
+   all anchors verified). When the draft lands → verify against brief (L1) → persist
+   research/ doc → pr-011 via SCRIVENER → VERIFIER stranger-test → quote verdict. Then
+   HANDOFF.md (queue section ready) → final stranger-test → update_goal complete.

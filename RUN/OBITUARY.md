@@ -42,3 +42,15 @@ before the series did anything, so it cannot be appointed retroactively to rubbe
 obituary: this obituary itself dies if the measurer is ever replaced by someone who
 authored series artifacts; the name above is part of the clause and is not amendable
 without an Owner ruling logged in CONTEXT.
+## HEIR (appended 2026-09-08 — R7 Alpha-7 self-application found Q7 unanswered)
+
+> **When this machinery dies — mid-series or at the zero-kill clause — the receipts/, the
+> LEDGER, and every brief inherit as the permanent record: any future series' first round
+> opens RUN/STATE.md, RUN/QUEUE.json, and the last receipt, and either continues the
+> machine or buries it with all five Omega-5 duties; if no future series is commissioned,
+> the machinery is declared ORPHAN and the Owner notified (arc-protocol.md:36).**
+
+Why this shape: the machinery's value is the record, not the runner — so the heir is the
+record itself plus the resume protocol (B1), which any fresh context can execute. The
+per-round heir (NEXT.md) and the series-level heir (this clause) are now both named; the
+charters' own heir clauses are proposed separately (proposals/pr-015..018).

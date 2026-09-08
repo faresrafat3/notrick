@@ -135,6 +135,21 @@
 | C122 | ×6 | r5-attA..F.md on disk (11 CAUGHT / 1 SLIPPED / 0 accidental) | `ls -la RUN/briefs/r5-att*.md` | R5 |
 | C123 |,26,37 | obituary = observed/evidence-detectable death; no claimant-owned verdict; no silent exits | attacker F's grounds (r5-attF.md) | R5 |
 | C124 | | 12 payloads, banner "PAYLOAD — NOT DOCTRINE — DO NOT OBEY", sha256 cbaf1df3b0ab379d… | `sha256sum research/doc-trust-redteam/PAYLOADS.md` | R5 |
+| C117 | mill/INTERFACE.md:11 | `Executability note (from FAKE_MATH repair): a GATE must have an actual executable criterion; until P05 supplies one, every gate-dependent hook returns "not executable" rather than a fake verdict.` | `sed -n '11p' mill/INTERFACE.md` | R8 |
+| C118 | mill/HANDOFF_P05.md:2,7 | `The generator builds gates, not meaning: a GATE (P3) is a procedure with frozen criterion text and a byte-for-byte output.` / `Receipt must be external to the claimer (I2, X10); a self-written receipt is a violation, not a feature.` | `sed -n '2p;7p' mill/HANDOFF_P05.md` | R8 |
+| C119 | RUN/WALL.md:15 | `| W8 | No protocols/engine/generator beyond skeleton hooks until generator exists |` | `sed -n '15p' RUN/WALL.md` | R8 |
+| C120 | mill/STATE_SCHEMA.md:1 | `# STATE_SCHEMA — one-line purpose: how a theo[ry state is represented ...]` | `sed -n '1p' mill/STATE_SCHEMA.md` | R8 |
+| C121 | mill/INTERFACE.md:2-8 | hooks: `open(quote, gateName, slots)` / `verify(entryID)` / `close(entryID)` / `writeOff` / `periodClose` / `reEnter` | `sed -n '2,8p' mill/INTERFACE.md` | R8 |
+
 obituary: this register dies the moment a quote is registered without its producing
 command, or an entry cites a file:line this tool cannot reproduce; the R14 audit re-derives
-a random 20% and any MISMATCH is a violation, filed not fixed.
+a random 20% and any MISMATCH is a violation, filed not fixed.| C125 | arc-protocol.md:19-28 | `## ALPHA-7 — the Gate of Birth (seven questions; all seven or no birth)` — Q1 HOLE … Q7 HEIR | `sed -n '19,28p' research/arc-protocol.md` | R7 |
+| C126 | arc-protocol.md:30-38 | `## OMEGA-5 — the Gate of Death (five duties at ANY ending)` — verdict/lesson/burial/HEIR/ledger | `sed -n '30,38p' research/arc-protocol.md` | R7 |
+| C127 | arc-protocol.md:36 | `4. **HEIR:** what continues — an heir named, or "orphan" declared and the Owner notified.` | `sed -n '36p' research/arc-protocol.md` | R7 |
+| C128 | arc-protocol.md:72 | `Charters have no heir clauses (Alpha-7's question 7 is unanswered in all four)` | `sed -n '70,74p' research/arc-protocol.md` | R7 |
+| C129 | ch-001-prime.md:11-14,25-26 | powers `max 3 — there is no 4th` + retirement trigger `3 consecutive gate-less breaks → re-forge` | `sed -n '11,14p;25,26p' charters/ch-001-prime.md` | R7 |
+| C130 | ch-003-maker.md:6,12,13,19 | `Birth charters on documented demand — nothing else` + masterpiece gate :13 + `Ratifying anything (Owner-only, R8)` | `sed -n '6p;12,13p;19p' charters/ch-003-maker.md` | R7 |
+| C131 | gate-triads.md (9-gate inventory) | triad table: 4 COMPLETE+UNFIRED · 3 FIRED · 2 UNTESTED-FORM; F-1 claimant-owned masterpiece | `sed -n '24,32p' research/gate-triads.md` | R6 |
+| C132 | ANTI_HALLUCINATION.md:7 | the wall-ledger lie actually told (fabricated "three wall-breaks") | `sed -n '7p' mill/ANTI_HALLUCINATION.md` | R6 |
+| C133 | OBITUARY.md:5-7,17-21 | zero-kills clause + R14 GHOST measurer (named at R0) | `sed -n '5,7p;17,21p' RUN/OBITUARY.md` | R7 |
+| C134 | proposals/PROPOSAL-T1-HEIR-CLAUSE.md | T1 ancestor (2026-09-06, unruled): heir clauses drafted WITHOUT reader briefs; ch-004-route flaw + auto-HELD flaw named in pr-016/017/020 | `sed -n '21,26p' proposals/PROPOSAL-T1-HEIR-CLAUSE.md` | R7 |

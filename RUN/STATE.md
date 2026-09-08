@@ -1,12 +1,13 @@
 # STATE — SERIES 2 run pointer (updated after every round)
 
 - series: NOTRICK SERIES 2 (R0..R14)
-- next_round: R5
-- current_burrow: none (R5 targets the record surface - DOC-TRUST / X-07 injection redteam; no burrow)
-- outstanding_debt: none (R4 receipt R004 complete)
+- next_round: R9
+- current_burrow: none (R9 targets P05 GENERATOR II — the machine; no burrow)
+- outstanding_debt: none (R8 receipt R008 complete)
 - status: OPEN
-- one_line_note: R4 DONE 2026-09-08 (self-executed, well burrow law honored) — UW01/UW03 retired by fill (results propose / Owner ratifies; same-task = axis+bind+criterion), UW02 attempt failed T-ANCHOR+T-COLLAPSE → LB07 KILLED (first claim-level kill; revival Owner-gated), W01/W02 unlogged work reconciled as UNLOGGED-RETRO, REDUCES-TO 11/11, citations C087-C095 captured live. R5 = DOC-TRUST / X-07 injection redteam
-- last_receipt: RUN/receipts/R004.json (complete)
+- repair_note: R6/R7 REPAIRED 2026-09-08 (executor lane) — gate-legibility.md written (mean 1.33/3, decorative 3/9, H3 UNTESTED); six mandated proposals filed P-015..P-020; RUN/ machinery Q7 HEIR clause written; T1 cited+corrected
+- one_line_note: R8 DONE 2026-09-08 (self-executed, spec-only — zero execution) — P05 part I: the executable gate = 5 frozen fields (criterion referencing ONLY digest-frozen 6-field rows + ownerBind external) + determinism law (two independent evaluations → byte-identical output; the receipt IS the second run) + all 6 hooks wired + fence mapping (F0023/F0016/X-08/F-1/S-03 rot) + HANDOFF_P05 12/12 — honest limits: determinism verifies poison too; W8 delays its own reinforcement. R9 = P05 GENERATOR II — the machine
+- last_receipt: RUN/receipts/R008.json (complete)
 - last_receipt_status: complete
 
 ## Read order on resume (B1)

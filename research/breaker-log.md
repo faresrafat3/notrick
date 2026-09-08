@@ -110,3 +110,94 @@
   (rows 01/17/24), §ز-6 has 10 rows ≥ quota, remaining lineage foreign tokens absent
   from the copy. Zero violations filed (disclosed, cosmetic, no doctrine). Queue now
   23 rows.
+- R15-S2 | ok | pipeline-close + convergence sweep → research/breaker-pipeline-close.md.
+  MEASURED: (1) OPS_QUEUE 63/63 ☑ — old-lane pipeline COMPLETE; OP-058 closeout appended
+  CONTEXT entry + version proposal left unstamped (correct, Owner-only). (2) CONVERGENCE:
+  the builder's own OP-055 (LOG.md:145) independently found my Q-08 A-06 seat offset
+  (:38-42 claimed vs :37-40 actual) — Q-08 upgraded to builder-confirmed. (3) My pr-009
+  SRS battery was RUN by the pipeline (hardening-pass.md) → verdict PARTIAL (B5: 8/8
+  hashes without install-date — honest fail, not rubber-stamp); also 4 "مُثبت→مُوثّق"
+  claim-word downgrades credited. (4) Q-22 wedge now COMMITTED at f45736e — STATE claims
+  "R001 complete" but git history has NO R001 in any commit (checked --all --name-only),
+  QUEUE R1 flag false; survives the first commit untouched. (5) New Y-03 instance: garbled
+  Arabic "عابثتاه" at claims-v1:95 (OP-056 found, L3 recorded-not-fixed; their :94 pre-
+  shift). (6) r1-verifier brief: 21 MATCH/1 MISMATCH/S-09b (same self-stale as my Q-22) —
+  genuine re-derivation. Queue seeds: Q-24 (OPS_QUEUE:1 header still "غير منفَّذ" vs 63
+  ☑). Queue now 24 rows.
+- R16-S2 | ok | R1-close verify + G6-FIX round-2 sweep → research/breaker-r1-close-g6fix2.md.
+  VERIFIED: (1) Q-22 RESOLVED by the lane — commit fe2a6e1 + RUN/receipts/R001.json now
+  EXISTS + committed, QUEUE R1 passes:true; receipt is blind-verifier 21/1 (S-09b deleted
+  as retraction), zero silent fixes (fence F-RUN-01 held), substitution test executed +
+  recorded, not_done list honest → Q-22 CLEAR. (2) NEW Q-25: G6-FIX round 2 (08:26-08:28,
+  LOG:178) rephrased claims-v1:95 عابثتاه→ضعفتُها EXPLICITLY from context — an L3 guess
+  after LOG:171 recorded "no guessing the original text" (no rescission record found) —
+  and removed lineage tokens (:45,:64,:97) that verdict-master:125 said "باقية عمدًا",
+  while :150-151 evidence record still names :45/:64/:97 as present-tense proof-hits
+  (now stale coords — grep finds 3 tokens, all at :150-151). R001's own obituary flags
+  "disposition executed without logged command"; the :150-151 record no longer
+  re-derives. Q-23 freeze-cross pattern repeated. Not a violations.md entry (research
+  files = free edit, disclosed, no doctrine). Queue now 25 rows.
+- R17-S2 | ok | R1-obituary replay + S-06 settling-act audit → research/breaker-r1-replay-s06.md.
+  REPLAYED R001's obituary trigger fresh against today's disk: 6/6 sampled STALE rows
+  re-derive (S-01 charter ACTIVE-vs-pending, S-03 pins 44-vs-42, S-14 405-vs-453, S-16
+  FENCE 34=34, S-18 CWVP 44-vs-43, S-21 well 10-vs-22) — receipt survives its own test.
+  NEW Q-26: S-06's named settling act ("next heartbeat re-enters BUDGET from STATE")
+  NEVER fired — hept/runtime/BUDGET.md mtime still 2026-09-07 05:20, D1/0/0 verbatim,
+  while HEARTBEAT wake_counter=82 and STATE advanced D4→D6/quanta 15; grep shows zero
+  BUDGET re-entry or abandonment record anywhere in hept/. Bore D7 COMPLETE/frozen
+  confirmed; OPS 63/63 stable; G2-regency pre-registered (pr-011/regency-doctrine claimed
+  in LOG + harness-run STATE) but artifact NOT landed (find = 0) — synthesist 128fc49f
+  still out, watch-item not defect. Queue now 26 rows.
+- R18-S2 | ok | G2-regency landed + R2 close + P-011 numbering audit → research/breaker-regency-r2-close.md.
+  VERIFIED: (1) G2-regency LANDED — research/regency-doctrine.md (76 ln) + proposals/pr-011-regency.md (53 ln): every row file:line-sourced, Owner fields empty-by-right, real L8 self-attack covering Q-23/Q-25 family, D-5 has trigger/expiry/revocation-word/retroactive — the lanes' strongest artifact, credited. (2) NEW Q-27a: D-5 scope carries unbound {N} placeholder (regency-doctrine:62) vs §3's own "كل تصميم = نطاق بأرقام" (:35), and lane's anti-stub scan claimed zero hits while :62 holds it — mirrors G6-FIX "0 بقايا" overclaim pattern. Q-27b: pr-012's "each missing exactly its obituary" loose — lineage-audit 0 obituary hits vs others 1-2. (3) P-011 collision RESOLVED mechanically: RUN/LEDGER.md:46 prerecorded CORRECTION, pr-011-four-deliverables renamed to pr-012 (verified on disk, referenced 4x) — obituary discipline worked, credited, no action. (4) R2 CLOSED lawfully: R002.json blind verifier 6/17 sampled 6/6 match, QUEUE R2 true, line-count evidence exact on disk (146/154/53/118). (5) Q-28: OWNER-QUEUE-DRAFT:44 (mtime 08:34) plans "pr-011 يدخل الطابور عند وجوده" but pr-011-regency filed 08:36, 2 min later — inventory misses its own awaited deliverable. Queue now 28 rows.
+- R19-S2 | ok | ROUND-8 CONTINUATION (late catch) — second P-012 collision found post-deliverable.
+  FRESH Q-29: proposals/pr-012-integrity-semantics.md (S2 harness lane, 08:48) filed as
+  P-012 THREE MINUTES after the lane fixed the P-011-plus-P-012 collision (renamed
+  four-deliverables → pr-012 at 08:45, prerecorded CORRECTION RUN/LEDGER.md:46). Now TWO
+  P-012 files exist (four-deliverables 08:45 + integrity-semantics 08:48), neither
+  cross-references the other, NO CORRECTION record for the new one (grep
+  integrity-semantics RUN/LEDGER.md = 0), HANDBACK-S2.md:64,66 cites "pr-012 بند 1/2" as
+  owned. SYSTEMIC HOLE: no proposal-numbering register — proposals/README.md still says
+  "no proposals yet — the inbox starts empty" while 22 proposals sit on disk; numbers
+  derived by convention with two parallel lanes → collision structurally guaranteed.
+  Content of pr-012-integrity-semantics is strong (pin-split + citation time-axis, own
+  obituary) — defect is numbering, not content. Queue now 29 rows.
+- R20-S2 | ok | R3 pin-trial verify + V-003 convergence → research/breaker-r3-pintrial.md.
+  CONVERGENCE (credit): Q-07 (INTEGRITY stale-pin violations.md 868d35aa≠live) absorbed
+  as V-003 by R3 executor — first REAL violations.md entry, filed not fixed, Owner
+  empty-by-right; pr-013-repin asks the correct structural question (append-only ledger
+  vs global pin). FRESH Q-30: the pin trial self-invalidated — verified hash chain
+  45f7484→c39f54c0 (comptroller 05:53Z, PIN_TRIAL:48, pr-013:15 all cite it) vs working
+  tree NOW c46f161a, changed by R3's OWN V-003 filing at 08:55:30; the trial re-mutated
+  the file it flags, staling its own "computed" row within minutes. Header 44-vs-42 +
+  43/1 re-derived by my independent loop. pr-013 SINGLE ownership (first number after
+  P-011/P-012 collision without sibling — no third collision). G1 obituary-registry
+  quotes 5/5 re-derive (ch-001/002, H1, ADHA, AFM). R3 not yet closed (no R003 receipt).
+  Queue now 31 rows.
+- R21-S2 | ok | R3 debt-close + skeptic verdict + CANON placeholders → research/breaker-r3-debt-canon.md.
+  R3 closed IN DEBT lawfully: R003 absent, QUEUE R3 flag NOT flipped (false), B1.3 debt
+  named openly — obituary did NOT fire (flag not flipped without receipt); the lane
+  internalized its R1/Q-22 lesson (no fake "complete" claim, evidence trail intact:
+  PIN_TRIAL + historian + V-003 + pr-013). Credit. r3-skeptic verdict CONVERGES with my
+  Q-07/Q-30/B5 family: pin mechanism never caught anything alone + claimant-owned pin
+  file structurally cannot; fix = commit-per-round git baseline outside claimant's hands
+  (git show <round>:INTEGRITY.md). Two unconnected lanes, same wall; no new seed.
+  NEW Q-31: CANON.md:47-49 word-count targets are unbound placeholders
+  ({WC_PAGE}/{WC_PARA}/{WC_LINE}) while §1 header promises "القياس الفعلي §5"; §6
+  boot-test DID compute real numbers (19 items: 14/2 RESTORED/3 DEFER) — finish §5 or
+  drop the reference. Registry count cleared (27 pipe-lines minus separator = 26 rows,
+  claim re-derives). Queue now 32 rows.
+- R22-S2 | ok | R3-close + hept-week-complete audit (Q-26 resolution) → R3 committed 873cf98.
+  R3 CLOSED lawfully at HEAD: 873cf98 "SERIES2 R3 close: pin trial 43 OK/1 FAILED, V-003
+  filed, pr-013 filed, 44/42/7 settled; pins baseline INTEGRITY.md sha=1711587b5a..." +
+  R003.json exists + QUEUE R3 passes:true. PIN_TRIAL got the dated append I recommended
+  (Q-30 RESOLVED by lane): "After the trial ran, this series APPENDED V-003... computed
+  hash changed c39f54c0→c46f161a... snapshot is not rewritten... deadlock demonstrated."
+  Q-31 RESOLVED: CANON §5 now computed 396/79/18 (LOG.md:218-219, verified on disk).
+  NEW: Q-26 RESOLVED-BY-COMPLETION — hept is WEEK-COMPLETE (WEEK_DONE.md 7/7 days PASS,
+  canon frozen v1.0, HEARTBEAT status week_complete, wake 115, SEALED law 2026-09-06);
+  BUDGET's D1/0/0 is a dead ledger, not a live lie (the "next heartbeat re-enters" act
+  became moot when the week ended; no abandonment record exists but none is owed for a
+  completed lane). Two CANON.md files cleared (research/ G5 ladder vs hept/ discipline
+  doc — different lanes, no collision). Queue stays 32 (Q-26 updated to CLEAR, no new
+  seed needed; R3/R4 progress absorbed).

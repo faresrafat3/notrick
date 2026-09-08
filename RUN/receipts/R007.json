@@ -1,0 +1,56 @@
+{
+ "round": "R7",
+ "name": "THE ARC HARVEST — heirs + catch count",
+ "date": "2026-09-08",
+ "status": "complete",
+ "executed_by": "S2-20260908-01 goal-loop (self-executed; claim logged before work)",
+ "boot_gate": "v0.00001 quoted; walls stated; read-only harvest — nothing counted that was not already on disk",
+ "budget": {
+  "ops_stated": "<=50 self-cap",
+  "ops_spent_approx": 8,
+  "files_stated": 4,
+  "files_created": "research/arc-harvest.md, RUN/receipts/R007.json, citations C111-C116, NEG-RESULTS R7 section"
+ },
+ "harvest_law": "research/arc-protocol.md:36 — HEIR = what continues: an heir named, or orphan declared + Owner notified",
+ "heirs": {
+  "deaths_audited": 8,
+  "heir_named": 6,
+  "partial": 1,
+  "orphan_declared": 1,
+  "orphan_record": "costume #3 wall-ledger term — no heir in form (the gate still does not exist, F0023); orphan declared and Owner notified via NEG-RESULTS R6 + gate-triads.md — lawful per arc-protocol.md:36"
+ },
+ "catch_count": {
+  "mechanical": {
+   "true": 2,
+   "record": "V-001 + V-002→V-003 (violations.md:5,7 — pin re-check caught both)",
+   "semi": 1,
+   "record_semi": "ANTI_HALLUCINATION.md:7 wall-ledger lie (written enumeration)",
+   "self_proofs": 6,
+   "record_self": "substitution DEGRADES ×6 series-wide (RUN/SUBSTITUTION.md)"
+  },
+  "reading": {
+   "count": 9,
+   "list": "S-03 count rot / register paradox / P-012 double-booking / W-1 off-disk authority / F-1 claimant-owned gate / state-audit a-5 defects / R001 obituary non-re-derivation / assault-plan 53-vs-60 / AUDIT_W00 3 overreads",
+   "note": "every one changed a record (receipts, proposals, violations, fences, LOG fixes)"
+  },
+  "construction": {
+   "count": 53,
+   "record": "11 demolition pairs (demolition-log.md sections) + 8 named hallucinations (ANTI_HALLUCINATION.md) + 34 fence rows (FENCE.md, count matches R0 ground truth)"
+  }
+ },
+ "the_ratio": "margin ~4:1 reading over mechanism pre-zero; every reading catch is a mechanism waiting to be written (H3 gate test, P-001 field discipline, F-1 external verifier, W-1 re-anchor) — the harvest prices the zero-day gates: they are how the margin survives the loss of reader attention",
+ "asymmetry_on_record": "series deaths all named heirs (1 lawful orphan) while the four charters have NO heir clauses (arc-protocol.md:72, Alpha-7 Q7 unanswered) — counted, not toned",
+ "citations": {
+  "registered_this_round": "C111-C116 (6, anchors captured live by command before registering)",
+  "unverified": 0
+ },
+ "fill_rate": "6/6 load-bearing claims cross >=2 repo entries: heir law (arc-protocol:36 + harvest table) / orphan declaration (PRIMITIVE_AUDIT:22 + FENCE:26 + NEG-RESULTS R6) / mechanical catches (violations:5,7 + INTEGRITY) / reading catches (each finding's own record + NEG-RESULTS sections) / construction catches (demolition 11 + ANTI_HALLUCINATION 8 + FENCE 34 counts) / heir-clause asymmetry (arc-protocol:72 + harvest Part 4)",
+ "kills": 0,
+ "negative_results": "1 (the 4:1 ratio — margin is reader attention, now measured) recorded in NEG-RESULTS R7",
+ "substitution_test": "Part 3 ratio deleted → inventory without priced conclusion → DEGRADES → restored. Recorded in RUN/SUBSTITUTION.md",
+ "anti_stub_scan": "zero hits across arc-harvest.md, R007, citation rows",
+ "failure_mode_named": "a harvest that invents trophies is worse than a slaughter — the round counted only catches whose detection record already existed on disk, and split mechanical from reading honestly even where the split flatters nothing",
+ "next_round": "R8 - per QUEUE (P05 generator lane); opens RUN/STATE.md; premises re-established by command at boot",
+ "not_done": "charter heir clauses (Owner-gated doctrine write); the 22 STALE rows fully re-derived (lanes reached only some; the rest remain escalated via pr-010/P-013); no commit cut",
+ "obituary": "this receipt dies the moment a catch is cited from it whose detection record does not exist on disk, or an heir is claimed for the wall-ledger gate before that gate's artifact exists"
+}

@@ -140,7 +140,10 @@
 | 8 | فك تعارض ترويسات العقيدة مع توقيع P2: AGENTS.md:34-35 + ONBOARDING.md:9-11 ("pending signature / empty by right") ↔ RATIFICATION-BATCH-001.md:15 ("SIGNED into active law 2026-09-06") — شوابة موثقة سلفًا | RATIFICATION-BATCH-001.md:15 ↔ ONBOARDING.md:9-11 · LOG.md:5 (state-audit §أ-4: "ترويسات سابقة لتوقيع P2") | دفعة-مؤجلة (يتطلب approved-docs moment) |
 | 9 | مكانة التوليف الكلي: "حوكمة وكلاء AI في بيئة stigmergic ببوابات خارجية مُلزمة" — الجحر الفارغ الوحيد المكتشف؛ يُسجَّل ادعاء CL-25 في hypotheses-ledger أم يبقى وصف بنية؟ | lineage-audit.md:136 (الحصيلة الحقيقية) | دفعة-مؤجلة |
 | 10 | تصميم سطح-التفويض المكتوب مسبقًا (D-05: صنوف ميزانيات معتمدة سلفًا + قيم عتبة دائمة) — يُعدّ ورقيًا الآن أم ينتظر قياس عنق-الزجاجة؟ | research/decision-review.md:39-40 · claims-v1.md:62 | دفعة-مؤجلة → يغذي pr-010-regency |
+| 11 | R-1: تقنين قانون التزامن (claim-before-write + append-only interleave) في العقيدة — سلوك اليوم الآمن يعيش خارجها في توجيه الوصاية | limit-sweep.md §2 · LOG.md (حادثة التعارض الحية، دورة 1) | دفعة-مؤجلة (G3) |
+| 12 | R-2: تقسيم مجموعة تثبيت INTEGRITY (عقيدة عالمية ↔ research لكل-جولة في استلامها) — 11 ملف research/ pinned يشمل ممر كتابة قانوني | INTEGRITY.md:24,46-58 · state-audit §أ-5 أ-4/5 (42/43/44) | دفعة-مؤجلة → pr-012 بند 1 |
+| 13 | R-3: قانون محور-الزمان للاقتباس (نص + file:line + mtime/sha256-لحظة) — live drift أسقط اقتباسات بلا طابع زمني مرتين | R001 negative_results + failure_mode_named · pr-010-NOTE-1 | دفعة-مؤجلة → pr-012 بند 2 |
 
-**عدّاد §ز-6:** 10 صفوف — 3 بوابات قائمة (حصري-للمالك) + 7 طلبات دفعة-مؤجلة، كل صف بمصدر file:line.
+**عدّاد §ز-6:** 13 صفًا — 3 بوابات قائمة (حصري-للمالك) + 10 طلبات دفعة-مؤجلة، كل صف بمصدر file:line.
 
 > المصدر: RATIFICATION-BATCH-001.md (الحالة الحية للبوابات) + lineage-audit.md + verdict-master §أقسامه + LOG.md — مجمّع في هذا الملف؛ كل صف يحمل مصدره المستقل.
