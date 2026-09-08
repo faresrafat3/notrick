@@ -229,3 +229,20 @@ line that is not an append is a hidden fix.
   obituary zero-kills clause checked and NOT fired (12 rites ≠ 0); series verdict
   NOT-THEATER with caveat (queue-completion ≠ execution-completion; Owner reconciles).
   SERIES 2 executor lane ends at R14.
+- 2026-09-08 · R14-POST-CLOSE · SKEPTIC-RETRY LANED LATE (recorded so it is not LOST —
+  arc-protocol.md duty 5) · the R14 skeptic-retry (cc96d1f4) delivered its full verdict
+  AFTER the series close, as a message only; per two-writer discipline it did not touch
+  the brief the executor had completed. Its findings, verified by the executor's own
+  re-runs before recording: (1) verdict NOT-THEATER — same as the executor's completion;
+  (2) zero of 16 series-window commits touch RULES.md / INTEGRITY.md / mill/STATE.md /
+  charters/ (window opens 07ed2c4); each path's only commit is the pre-window mirror
+  45f7484; (3) `sha256sum -c` recompute = 43 OK / 1 FAILED, sole failure violations.md —
+  pre-series change, filed by the series as V-003 (RUN/LEDGER.md:56) — executor re-ran
+  and confirms; (4) all 12 funeral rites bury/heir only in research/, RUN/, well/,
+  proposals/ — closest near-miss routes charter heirs to pr-015..018, not charters/.
+  VERIFIER'S CAVEAT accepted and recorded: NOT-THEATER tests doctrine-write integrity,
+  not verifier independence — claimer and verifier share one account, and QUEUE passes
+  still read false (queue-owning writer stalled at next_round:R9); NOT-THEATER ≠ fully
+  ratified. EFFECT on RUN/HONEST_CEILING.md's declared gap: the R14 judgment zone's
+  independent corroboration now EXISTS on record (verdict + method + caveat), though the
+  ceiling's own text stands as-filed (immutable; this entry is the correction of record).
