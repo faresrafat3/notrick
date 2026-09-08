@@ -12,21 +12,81 @@
     ]
   },
   "rounds": [
-    { "id": "R0",  "name": "THE RUN — install machinery",              "passes": true },
-    { "id": "R1",  "name": "THE STALE SWEEP — P8 across rot clusters",  "passes": true },
-    { "id": "R2",  "name": "THE MISSING FOUR — build or kill",          "passes": true },
-    { "id": "R3",  "name": "THE PIN TRIAL — INTEGRITY recompute",       "passes": true },
-    { "id": "R4",  "name": "THE WELL REGRESS — payable whys",           "passes": true },
-    { "id": "R5",  "name": "DOC-TRUST / X-07 — injection redteam",      "passes": true },
-    { "id": "R6",  "name": "THE GATE THAT CAN FAIL — triads",           "passes": true },
-    { "id": "R7",  "name": "THE ARC HARVEST — heirs + catch count",     "passes": true },
-    { "id": "R8",  "name": "P05 GENERATOR I — executable gate",         "passes": true },
-    { "id": "R9",  "name": "P05 GENERATOR II — the machine",            "passes": false },
-    { "id": "R10", "name": "THE ONE OBJECT — anti-blend verdict",       "passes": false },
-    { "id": "R11", "name": "PRIMITIVE INDEPENDENCE — matrix",           "passes": false },
-    { "id": "R12", "name": "INSTRUMENT H5 AND THE COST RULER",          "passes": false },
-    { "id": "R13", "name": "OMEGA — run the funerals",                  "passes": false },
-    { "id": "R14", "name": "THE GHOST AUDIT AND THE HONEST CEILING",    "passes": false }
+    {
+      "id": "R0",
+      "name": "THE RUN \u2014 install machinery",
+      "passes": true
+    },
+    {
+      "id": "R1",
+      "name": "THE STALE SWEEP \u2014 P8 across rot clusters",
+      "passes": true
+    },
+    {
+      "id": "R2",
+      "name": "THE MISSING FOUR \u2014 build or kill",
+      "passes": true
+    },
+    {
+      "id": "R3",
+      "name": "THE PIN TRIAL \u2014 INTEGRITY recompute",
+      "passes": true
+    },
+    {
+      "id": "R4",
+      "name": "THE WELL REGRESS \u2014 payable whys",
+      "passes": true
+    },
+    {
+      "id": "R5",
+      "name": "DOC-TRUST / X-07 \u2014 injection redteam",
+      "passes": true
+    },
+    {
+      "id": "R6",
+      "name": "THE GATE THAT CAN FAIL \u2014 triads",
+      "passes": true
+    },
+    {
+      "id": "R7",
+      "name": "THE ARC HARVEST \u2014 heirs + catch count",
+      "passes": true
+    },
+    {
+      "id": "R8",
+      "name": "P05 GENERATOR I \u2014 executable gate",
+      "passes": true
+    },
+    {
+      "id": "R9",
+      "name": "P05 GENERATOR II \u2014 the machine",
+      "passes": true
+    },
+    {
+      "id": "R10",
+      "name": "THE ONE OBJECT \u2014 anti-blend verdict",
+      "passes": true
+    },
+    {
+      "id": "R11",
+      "name": "PRIMITIVE INDEPENDENCE \u2014 matrix",
+      "passes": true
+    },
+    {
+      "id": "R12",
+      "name": "INSTRUMENT H5 AND THE COST RULER",
+      "passes": true
+    },
+    {
+      "id": "R13",
+      "name": "OMEGA \u2014 run the funerals",
+      "passes": true
+    },
+    {
+      "id": "R14",
+      "name": "THE GHOST AUDIT AND THE HONEST CEILING",
+      "passes": true
+    }
   ],
-  "obituary": "this queue dies the moment a round's passes flag is flipped without a matching receipt, or a round is added/removed/reordered, or a description is edited — the file is the definition of done and the deepest violation available to the series is editing it."
+  "obituary": "this queue dies the moment a round's passes flag is flipped without a matching receipt, or a round is added/removed/reordered, or a description is edited \u2014 the file is the definition of done and the deepest violation available to the series is editing it."
 }
