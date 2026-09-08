@@ -105,3 +105,21 @@ line that is not an append is a hidden fix.
   9 new + 2 appends (arc-harvest Part 5, OBITUARY HEIR) + bookkeeping — within R6 (≤6
   artifact) + R7 (≤10 files) budgets combined; the deviation (repair lane spans both
   rounds in one goal-round) is logged here, not silent.
+- 2026-09-08 · R8 · AUDIT (executor lane) · UNVERIFIED: R8's full round text — the
+  ROUNDS_8-14 pack file was never persisted in-repo (glob: no *8-14* match as of this
+  entry); the round's contract is audited against its on-disk governing sources instead
+  (mill/HANDOFF_P05.md 12 lines, mill/INTERFACE.md:2-11, QUEUE.json round name). Audit
+  result: research/p05-executable-gate-spec.md verifies byte-clean — 5 frozen fields
+  countable, executability law is a command (two runs byte-identical), 12/12 HANDOFF lines
+  mapped, quotes byte-match at INTERFACE.md:11 and HANDOFF_P05.md:2 (ran sed, compared);
+  the spec's own honest-limits section carries the determinism-verifies-poison boundary.
+  B6.3 gap repaired: neither R8 spec nor the in-flight R9 design carried an obituary
+  field — both appended this session, attributed. R008 receipt remains a shell
+  (frozen_fields absent); the countable facts live here + C135-C137.
+- 2026-09-08 · R8 · FINDING (non-fault) · the anti-stub scan hit
+  research/p05-generator-machine.md:43 "may contain only field placeholders and literal
+  punctuation" — false positive: 'placeholders' is the design term for format-string
+  fields, not a content stub; no fix applied. Also on record: R9's artifact
+  (p05-generator-machine.md, 78 lines) already exists while QUEUE R9=false and no R009
+  receipt exists — the goal-loop is writing ahead of its own queue flips again; left
+  unclosed (its lane), flagged here.

@@ -153,3 +153,6 @@ a random 20% and any MISMATCH is a violation, filed not fixed.| C125 | arc-proto
 | C132 | ANTI_HALLUCINATION.md:7 | the wall-ledger lie actually told (fabricated "three wall-breaks") | `sed -n '7p' mill/ANTI_HALLUCINATION.md` | R6 |
 | C133 | OBITUARY.md:5-7,17-21 | zero-kills clause + R14 GHOST measurer (named at R0) | `sed -n '5,7p;17,21p' RUN/OBITUARY.md` | R7 |
 | C134 | proposals/PROPOSAL-T1-HEIR-CLAUSE.md | T1 ancestor (2026-09-06, unruled): heir clauses drafted WITHOUT reader briefs; ch-004-route flaw + auto-HELD flaw named in pr-016/017/020 | `sed -n '21,26p' proposals/PROPOSAL-T1-HEIR-CLAUSE.md` | R7 |
+| C135 | p05-executable-gate-spec.md (tail) | `12/12 honored. The spec is complete-in-form… nothing executable until the Owner's GO builds the machine` | `tail -8 research/p05-executable-gate-spec.md` | R8 |
+| C136 | p05-generator-machine.md:1-6 | `This is a DESIGN in research/ — no code, no build, no run. Part I… part II designs what the machine EMITS` | `head -6 research/p05-generator-machine.md` | R9 |
+| C137 | p05-generator-machine.md:43 | `may contain only field placeholders and literal punctuation` — anti-stub false positive, design vocabulary | `sed -n '43p' research/p05-generator-machine.md` | R9 |

@@ -96,3 +96,12 @@ Consequences, each mechanical:
 12/12 honored. The spec is complete-in-form: every field countable, every part quotable,
 nothing executable until the Owner's GO builds the machine (R9's part II designs it; the
 build itself remains post-GO).
+
+---
+obituary (appended 2026-09-08, executor audit lane — B6.3 repair): this spec dies when (a)
+the Owner's GO builds the machine and any emitted gate fails the double-evaluation
+byte-identity test of the executability law above — then the LAW was wrong, not the build;
+or (b) mill/HANDOFF_P05.md is amended by approved-docs moment — then the 12/12 mapping
+table is stale and must be re-derived, not quoted; or (c) a gate is found frozen whose
+field 5 ownerBind names the claimant of the gated claim — then the format failed to
+mechanize R6 and the spec retires to a proposal-class correction.

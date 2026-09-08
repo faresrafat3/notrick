@@ -76,3 +76,11 @@ Countable parts: **6 pipeline stages · 6 header fields · 5 recipe fields · 5 
 12/12 constraint compliance · 6-field input law**. With part I, P05 is now design-complete:
 the gate criterion format (what makes a criterion executable) and the emitter (what makes a
 protocol pinnable). Building remains the Owner's post-GO moment; nothing here runs.
+
+---
+obituary (appended 2026-09-08, executor audit lane — B6.3 repair): this design dies when
+(a) any part of it is built or run before the Owner's written GO (W8 violation — the design
+retires as evidence of the wall working), (b) an emitted protocol file fails the pin gate
+it was designed to pass (the machine's one job — INTEGRITY.md sha coverage of the 7
+unpinned files), or (c) Part I's executability law dies first (this design inherits Part
+I's obituary (a) directly).
