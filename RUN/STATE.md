@@ -9,6 +9,7 @@
 - repair_note: R9 CLOSED 2026-09-08 (executor, B1.3 debt — R009.json filed, design verified C138-C139); R10 verdict CLEAN per blind auditor after 2 anchor fixes (C143)
 - repair_note: R6/R7 REPAIRED 2026-09-08 (executor lane) — gate-legibility.md written (mean 1.33/3, decorative 3/9, H3 UNTESTED); six mandated proposals filed P-015..P-020; RUN/ machinery Q7 HEIR clause written; T1 cited+corrected
 - one_line_note: SERIES 2 COMPLETE 2026-09-08 — R0..R14 receipts present and verified; queue passes flipped by the resumed G6 lane (LEDGER preamble: next-runner reconciliation) with independent S6 verification by this goal-loop (6 receipts R009-R014 parsed, 160 citations recomputed, INTEGRITY sha 1711587b == R11-R14 baseline, no drift; commits 3d1a1ac..dd37081 + close commits 3da9a0f/cef9d2f); R9 design credit: research/p05-generator-machine.md (goal-loop) audited+closed by the executor lane; DoD met 15/15. Mutual-stale finding on record: each lane read the other as dead after the 14h gap — both reconciliations converged on the same lawful close. awaiting Owner: NOT-THEATER ratification + Owner-decision threads | CARD-01 QUEUE ENDGAME: OPS_QUEUE terminal — 0 ☐ / 63 ☑, all ops judgment-lined in LOG (AUDIT-1..5 complete), zero BLOCKED; verified by this lane S6 2026-09-08
+- obituary_registry: research/obituary-registry.md (CARD-02 — كل كيان بعُيّه؛ 22 مقتبس · 2 بحق · 6 مسوّدة)
 - last_receipt: RUN/receipts/R014.json (complete)
 - last_receipt_status: complete
 
