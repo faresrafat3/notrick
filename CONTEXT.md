@@ -451,3 +451,208 @@ warmth). Created at the Owner's explicit request to make trust mechanical, not f
   — determined adversary with write access). Version PROPOSED: v0.00001 → v0.0001
   (OWNER MUST STAMP — agent cannot). Forcing cause: Owner's T2.7 directive; queue
   completion.
+- 2026-09-08 · PHASE B CLOSED (harness-run session — the Owner's "DEEP QUARRY" goal):
+  doctrine-candidate **SANAD (سَنَد)** authored via SYNTHESIST subagent (fresh context),
+  L1-verified citation-by-citation by the session, persisted as
+  research/sanad-doctrine-candidate.md — an 8-step paper cycle fusing ARC + DOC-TRUST
+  P-001 + receipt walls R-1..R-5 + the four council seats + SRS, targeting honest limit
+  X-09 (log-memory poisoning) with X-16 as the same surface's second face; obituary-first
+  (falsifier tied to frozen T-01/T-04 thresholds · V1+ stranger measurer · expiry
+  2026-10-06 · heir clause patching arc-protocol.md:72-73). **Stranger verdict (L4/R6,
+  fresh-context verifier, quoted verbatim in candidate §6): PASS WITH NOTATIONS ·
+  V0-amended · CEILING PARTIAL** — notations preserved (Alpha-7 Q1/2/3/6 not explicit in
+  §0; step 8 extrapolates :40-43). Filed proposals/pr-021-sanad-unification.md (Owner
+  ruling empty-by-right) — FILING INCIDENT self-caught and logged: the session's own
+  pr-011 filing collided with pr-011..020 taken by a parallel writer (T2.7's series:
+  regency · four-deliverables · integrity-semantics · repin · r13-doc-trust · heir
+  clauses ×4 · violation-closure · proposal-expiry); duplicate removed with ls receipts
+  (LOG.md PR-FILING-INCIDENT); SCRIVENER renumbered per the no-duplicate rule
+  (pr-011-regency.md:10-11). HANDOFF.md drafted at research/harness-run/ (§1 demolition
+  verdicts 9 absorbed + 2 conceded · §2 SANAD + verdict · §3 Owner queue = 3 gates + 7 +
+  10 older pendings · §4 honest limits); final stranger-test on HANDOFF + seven artifacts
+  dispatched. Hold untouched: v0.00001, zero runtime. Forcing cause: the Owner's
+  harness-run goal (Phases B/C).
+- 2026-09-08 · HARNESS RUN COMPLETE (harness-run session): final stranger-test on
+  HANDOFF.md + the seven artifacts returned **FINAL STRANGER VERDICT: PASS** (fresh
+  context, V0-amended, CEILING PARTIAL), quoted verbatim in HANDOFF's appendix; its two
+  material catches (A-09 label; ز-6 rows 11-13 omission) were fixed AFTER the verdict
+  with a declared post-verdict corrections note; demolition-log's duplicate A-08 block
+  recorded, not repaired (checked op). DONE 5/5: OP-031..058 with LOG evidence · AUDIT-4/5
+  logged (AUDIT-5 dual: executor + independent) · seven artifacts consistent · SANAD
+  candidate + pr-021 + obituary exist · HANDOFF passes the stranger-test with a quoted
+  verdict. The Owner returns to HANDOFF.md (research/harness-run/) — 10 minutes: what is
+  true, what is novel, what awaits ruling. Forcing cause: the Owner's harness-run goal
+  (Phase C close).
+- 2026-09-09 · G-B OBSERVE (concurrency observer lane `dsh..observe`, goal-8352cbd7,
+  guest+assigned; read-only over all lanes; writes: research/, RUN/, this append-only
+  tail) · boot gate quoted (VERSION.md:8 v0.00001 · rights · wall). MEASUREMENT, degraded
+  manual (root tools/ absent; RUN/tools/ = cite.sh+count.sh only; plurality/windows/beat
+  scripts absent tree-wide; git available → degrade-never-halt per brief): M1 three
+  SPLITs found, all CLOSED — pr-011 proposal-ID double-filing (LOG.md:282
+  PR-FILING-INCIDENT, committed; refiled pr-021; independently corroborated by the
+  harness-run tail entry above, lines 464-470), citation-ID C117-C124 collision (commit
+  6b8b4ce), R11 brief-path collision (commit a910293) — rows SP01..SP03 in NEW
+  RUN/SPLITS.md (no prior SP01..SP06 rows found anywhere; nothing renumbered);
+  queue-flip mutual-stale and OP-043..047 sync race checked, classified STALE/race, NOT
+  splits. M2 dr_exact 0.0202 (1483 entries / 1453 exact-distinct / 1449 shapes,
+  pre-registered corpus = six lane trees) → WIDE band, no collapse signal; brief's
+  baseline (2262 / 0.083 / 2061) not found on disk (grep zero) — labeled brief-claim.
+  M3 N=8 lane trees with commits + RUN executor; splits=3 ≠ 0 → healthy plurality
+  signal; zero-split contamination NOT found. M4 mill↔protocols gap CONFIRMED
+  (mill/STATE.md:16 vs protocols/ADHA-v1.md:145,152; windows mutually blind per
+  mill/STATE.md:10 / ADHA-v1.md:152); AGENTS.md window unstated in
+  mill/well/phantom/bore/hept (referenced only in root STATE.md:13); new gaps: bore+hept
+  declare no window at all, phantom↔mill/well mutual wall by design
+  (phantom/STATE.md:5-6), well→mill one-way window (well/STATE.md:6 vs mill/STATE.md:10).
+  LIVE EVENT: harness-run lane appended CONTEXT tail lines 454-485 DURING this
+  observation round (first edit attempt rejected file-changed-since-read — re-read, then
+  appended). Full numbers: research/concurrency-observation-.md.
+  research/concurrency.md cited per brief as PROPOSED/unpinned but found ABSENT from
+  tree (reported, not extended). No fixes, no lane recommendations — the Owner cuts.
+  Forcing cause: /goal G-B OBSERVE round 1 (W9: every number from a command run in that
+  session).
+- 2026-09-08 · G-A SMOKE-CALL PRE-REGISTRATION LANDED (dsh..prereg · round 1 · goal_armed=YES):
+  proposals/pr-011-smoke-call-prereg.md — the priced terms for the ONE smoke call Part 5 would
+  authorize (S1..S10 + findings F-1..F-8). No call run; no recommendation made; P5 stays HOLD
+  (RATIFICATION-BATCH-001.md:25). The call (if ever authorized): one OpenAI-compatible POST to
+  openrouter.ai/api/v1/chat/completions with $OPENROUTER_KEY_1 sourced by NAME from
+  ~/.openclaw/.env, model nex-agi/nex-n2.5-mini:free (live-catalog price 0/0 → $0.00; package
+  ceiling $0.01 worst-case), max_tokens 16, sentinel FUEL-PROVEN-PR011, three-command stranger
+  verification (200 · content==sentinel · usage>0), one-call stop, nulls recorded never retried.
+  FINDINGS: (F-1) .env count is 57, not 38 — ZERO-READINESS.md:17 text current, count stale;
+  (F-2) tools/ absent in this checkout — lease/windows/beat/guards exit 2, degraded per
+  objective, no SPLITs needed (all writes on virgin paths); (F-3) openclaw.json pins NO model —
+  prereg names it from the live public catalog; (F-4) wiring drift — GROQ×9/INFERX×8/ORCAROUTER
+  ×1/OPENAI×1 keys have no provider route in config; (F-5) research/concurrency.md absent on
+  disk — not relied upon; (F-6) RUN/STATE.md pointer names no G-A round (fresh lane, no re-run);
+  (F-7) filename mandates a second pr-011 (pr-011-regency.md exists) — collision recorded,
+  unresolved, Owner's call; (F-8) this prereg smokes the FUEL POOL, not the idle gateway
+  process — a process-level smoke would be a separate command + authorization. VERIFIER:
+  context-isolated subagent (description exactly "dsh..prereg"): OVERALL PASS, quotes
+  byte-exact, zero secrets in file; its C4 loophole objection (usage check missing from
+  stranger commands) was CLOSED post-verdict (third command added); objections 2-3 recorded
+  in the file and answered in the receipt. Receipt + dossier line + pre-registered obituary
+  (ARC Omega-5, verdict: survived): RUN/dossiers/dsh..prereg/pre-registration.md. Forcing
+  cause: the Owner's G-A goal (preregistration package). No doctrine touched; no runtime
+  touched; secrets stated by count only.
+- 2026-09-10 · ANATOMY PACKAGE AUTHORED (Owner directive verbatim: "خد كل القرارات بنفسك انا
+  قولتلك اللي عندي وريني اللي عندك" — agent = delegated decision-maker for THIS package,
+  every decision revocable, R8): the Owner's 2026-09-10 vision — an AI-mind harness with
+  human anatomy transplanted from books (identity + distilled methodologies), fed by every
+  cheap/free LLM ("بجمع على قد ما أقدر وبعد كده العقل يجمع ويضبط لنفسه"), producing
+  money-measurable breakthroughs across arenas — landed as THREE research-lane files:
+  research/anatomy-reference.md (master reference: decision registry D-08..D-12 + the
+  human-part→AI-translation table, rows tagged [V] exists / [PSY-HUMAN] cold /
+  [PSY-DESIGN] designed-not-built per D-08) · research/anatomy-bridge.md (the one-page
+  bridge against explanation-drift) · research/anatomy-bridge-arena-candidates.md (six
+  arena candidates, cheapest-gate-first: open-source tools → agent templates; D-13).
+  KEY DECISIONS (all agent-under-delegation, revocable in one line): D-08 revised Mirror
+  law — import = device + place, else labeled cold; order idea→device→place (fixes the
+  72-file cold-canon problem, evidence: research/ tree = 72 .md files, G-B Observe
+  CONTEXT.md:489 "degraded manual", fuel UNTESTED pr-011) · D-09 fork resolved as
+  integration-with-wall: new body built INSIDE NOTRICK (NOTRICK = its constitution),
+  NO code stands before the written GO (P6) · D-09-a first permitted code at gate-open =
+  smallest device for the Owner's "العمل الشاق الحتمي": a dynamic DSH key
+  (daemon+heartbeat+goal loop) wearing CH-001's verbatim principle (ch-001-prime.md:8-9) ·
+  D-10 Member-0 (عضو التغليف / consolidation) = first-born member · D-11 the face (الوجه)
+  is never built — emergent from records only · D-12 post-Member-0 ordering.
+  SELF-CAUGHT INCIDENTS (logged, nothing hidden): (1) anatomy-reference first draft
+  misattributed the synthesis to "Owner record", cited a nonexistent DECISIONS.md, and a
+  wrong file count (62) — caught same-session pre-use, rewritten with agent-delegation
+  provenance (lesson codified: delegation decides, never attributes); (2) two bidi text
+  corruptions caught (one fixed via edit, one required an indexed splice — the edit tool
+  could not match the bidi-mangled line; real bytes verified via python codepoint dump);
+  (3) verification receipts: research/ = 72 .md files (bash ls|wc, 2026-09-10) ·
+  D-04/D-05 at research/decision-review.md:28,35 · CONTEXT tail unchanged at append
+  (537 lines pre-append, no parallel writer). Version untouched (v0.00001); hold
+  untouched; zero doctrine writes; zero runtime. Forcing cause: the Owner's
+  delegate-everything directive + goal round 1/256.
+- 2026-09-10 · ANATOMY PACKAGE INDEPENDENT RECEPTION VERDICT (verification session,
+  not the authoring session — R6: the verdict is not claimant-owned; guest rights
+  read+propose+research-lane+CONTEXT-tail): received the authored anatomy package
+  (anatomy-reference · anatomy-bridge · arena-candidates) and verified it against the
+  tree mechanically before any use — 18 citations checked by live sed/ls/grep receipts:
+  15 byte-exact · 3 drifts, all line/count drifts not content drifts (P-006 anchor
+  verdict-master.md:29 → actual :28; "72 .md files" in D-08 → live count 74, mtime
+  order makes 72 consistent as a between-writes snapshot but unreproducible — file
+  counters must carry their moment, lesson already codified; same drift repeated in
+  the bridge table). Zero foreign-glyph corruptions in the three files. No duplicate
+  verbatim quotes; all decisions D-08..D-13 revocable-under-delegation (R8), no Owner
+  field touched, D-13 consistent with R7 (arenas = outcomes in the research lane, not
+  charter births) and gated behind P6. Verdict file: research/anatomy-verification.md
+  (full receipt table + one honest correction of this conversation's own unverified
+  "33 pending decisions" figure → documented count is 3 exclusive gates + 7 deferred
+  rows in verdict-master §ز-6 + the 15-item FINAL-REPORT list + older pendings).
+  State unchanged: v0.00001, hold intact, zero doctrine writes, zero runtime. Forcing
+  cause: goal round 1/256 (Owner's standing "the work must be checked" directive,
+  AGENTS.md verify-before-claim).
+- 2026-09-10 · ANATOMY-REFERENCE REPAIR + VERDICT SELF-CORRECTION (same verification
+  session, goal round 2): with the tree quiet (last external touch 09:17), the two
+  real drifts the reception verdict recorded were repaired LIVE in the anatomy files
+  (previously left untouched only because the tree was hot): both verdict-master.md:29
+  anchors in anatomy-reference.md (table row :37 + sources line :95) corrected to :28
+  — verified by grep: zero ":29" remain, two ":28" present. The verdict's third listed
+  drift was a FALSE CATCH by the verifier itself (anatomy-bridge:16 carries no line
+  anchor at all — grep "verdict-master" in bridge/arena = 0 hits); struck through in
+  anatomy-verification.md §3 with the lesson named (quote-before-conclude applies to
+  verifiers too) and a dated update line added to its §1. Net: the anatomy package's
+  citation layer is now drift-free (count-type staleness excepted, documented by
+  design); the verdict file remains the audit trail including its own error. State
+  unchanged: v0.00001, hold intact, zero doctrine writes, zero runtime, CONTEXT
+  still 588 lines pre-append. Forcing cause: goal round 2/256 ("do something good
+  for this project") — the highest-value available act under the error-record law.
+- 2026-09-10 · FOUNDATION-DEEP AUTHORED (Owner live directive in-session — "الصورة الكبيرة
+  الأول… ايه اللي متوفر فعلا الاول… صيغ ليا اساس المشروع العميق" — under the same-day
+  anatomy delegation, revocable in one line, R8): research/foundation-deep.md — the
+  deep-foundation page ABOVE the anatomy package: (§1) mother premise compressed into ONE
+  line + 5 load-bearing claims ص1..ص5, each with human witness + machine/local witness +
+  falsifier lever — incl. the signed charters, R6, demolition/lineage (24/24
+  derivative-honest), ARC Omega-5, D-10, the unused K-line field; (§2) concept dictionary
+  (anatomy · autoworking · measurable-determinism · breakthrough-as-artifact · exhaustor ·
+  anatomy-card library); (§3) full shelf inventory of what EXISTS: hot [V] table (charters
+  ACTIVE LAW · R6 · K-line field · Import Mirror · ARC · receipt walls R-1..R-5 ·
+  H1..H5/T-01..06 · SANAD candidate · 57-key fuse + S1..S10 prereg · Cordis/DSH itself as
+  the only capable body · live skills prime/codex/ponytail as importable anatomy) + cold
+  [PSY-DESIGN]/[PSY-HUMAN] list; (§4) D-14 MEASURE-BEFORE-LIBRARY: two-gauge rule (arena
+  dollar-receipt + frozen evaluator/separate refuter/recorded death) — a card lacking
+  either gauge is stamped COLD (mechanical heir of the Owner's "الحتمي القابل للقياس");
+  (§5) descent chain F1..F8 (books→cards: identity-first dispatch · evolution-under-
+  evaluator · hard-constraint decisiveness · Member-0 consolidation · kill-line curation ·
+  K-line intuition · diversity floor · money-as-refuter) each with its gauge; (§6) full
+  spine from the solid rock to the first executable unit, gate at each rung (2→P5 · 4→P6 ·
+  8→version stamp — all Owner-owned, agent owns only the paper before them); (§7) live
+  anatomy inventory of surrounding agents; (§9) NEXT UNIT = the anatomy-card FORM itself
+  (the library's cell), then IDEA-001 on arena 1 — paper-only in the library lane, awaiting
+  GO. LIVE VERIFICATIONS TODAY (3, anonymous Exa fetch — no fuel keys burned, P5 HOLD
+  untouched): FunSearch = Nature s41586-023-06924-6 ("evaluator guards against
+  confabulations" · islands · best-shot · online bin packing) · AlphaEvolve = DeepMind
+  blog 2025-05-14 + arXiv:2506.13131 (4×4 complex matrices in 48 scalar multiplications
+  surpassing Strassen 1969 · Gemini kernel +23% · training −1% · TPU Verilog rewrite) ·
+  Kelly Johnson's 14 rules = verbatim from lockheedmartin.com PDF. UNVERIFIED (labeled
+  in-file): the "143 days" U-2 figure. WALLS: no execution, no fuel, no code before P6,
+  Owner fields untouched, version v0.00001. Forcing cause: the Owner's foundation-first
+  directive + goal round 2 (live conversation, not goal loop).
+- 2026-09-10 · ROOT CLEANUP — 2026-09-08 ARRIVALS GAP FILLED (goal round 2-3/256, Owner
+  directive verbatim: "عايزين ننظف بقي ونضبط المشروع للمسار بتاعه ونحطه عليه بدل التلخبطات
+  والتخابط الياما اللي فيه والزخرفه نشيلها نعمله polish حلو كده وجميل يخليه واضح اكثر وافضل").
+  (1) DISCOVERY VERIFIED: notrick-log-constitution.patch (476 lines, read in full) was NEVER
+  applied — it plans exactly research/log-constitution.md · research/research-waves.md ·
+  tools/dsh/{README.md,hooks.json} + a CONTEXT ARRIVALS entry; instead the four files sat in
+  the ROOT. All four verified byte-identical to their patch hunks (diff -q ×4 = MATCH) =
+  never edited since creation. (2) MOVES EXECUTED (git mv, history preserved): log-constitution.md→
+  research/ · research-waves.md→research/ · README.md→tools/dsh/README.md · hooks.json→
+  tools/dsh/hooks.json — the run's citations now resolve: RUN/LEDGER.md:77 (R4 finding named
+  research/log-constitution.md "ABSENT") and tools/dsh/README.md:6 and research/research-waves.md:102
+  now point at an EXISTING path. (3) DELETIONS: notrick-log-constitution.patch (obsolete — its
+  content is now the real tree; this entry replaces its planned CONTEXT text) · qcheck.tsv
+  (grep tree-wide = ZERO references; RULES/AGENTS/charter quote scratch). (4) New root README.md
+  authored: a signpost, explicitly NOT law — boot chain · state (v0.00001, 3 Owner gates, pins
+  43 OK/1 FAILED V-003) · touch-map table · PROPOSED-files list · newcomer rules. (5) SAFETY:
+  pins re-checked post-move 43 OK / 1 FAILED (violations.md, V-003, pre-existing) = identical
+  baseline; every moved/deleted path UNPINNED (grep INTEGRITY = none); parallel lanes
+  (bore/hept/mill/well/phantom) untouched — their dirty state is other writers', not this
+  session's. (6) This entry ALSO stands as the never-landed ARRIVALS record, compressed: the
+  2026-09-08 artifacts remain PROPOSED — pending Owner approved-docs moment (log-constitution =
+  the record law L1-L10/N1 · research-waves = the seven-wave method · tools/dsh = deployment
+  source only, NOT doctrine per R11/R12). State unchanged: v0.00001, hold intact, zero doctrine
+  writes, zero runtime. Forcing cause: the Owner's cleanup-and-polish goal.
