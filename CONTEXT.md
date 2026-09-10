@@ -656,3 +656,23 @@ warmth). Created at the Owner's explicit request to make trust mechanical, not f
   the record law L1-L10/N1 · research-waves = the seven-wave method · tools/dsh = deployment
   source only, NOT doctrine per R11/R12). State unchanged: v0.00001, hold intact, zero doctrine
   writes, zero runtime. Forcing cause: the Owner's cleanup-and-polish goal.
+- 2026-09-10 · RESEARCH INDEX + POLISH PROPOSAL (goal round 4-7/256, same cleanup directive):
+  (1) research/README.md authored — the live navigation map of research/ (82 entries incl. 2
+  subdirs): doctrine-candidates & rulings table · the T2.7 spine reading order (verdict-master
+  first) · the breaker-* lane series (26 sweep logs — cite, don't rewrite) · audits · SERIES-2
+  machinery · rcvm's registered CH-000 status-claim flag surfaced at its index row
+  (CONTEXT.md:294-310). All titles quoted verbatim from each file's H1 (head -1 extraction,
+  not memory). (2) proposals/pr-022-brief-refresh.md filed — the pinned-doctrine polish batch
+  PENDING OWNER: 5 exact line edits (BRIEF:16 38→57 keys per pr-011 F-1 · BRIEF:20 +
+  ONBOARDING:9-11 + AGENTS:34-35 pending-signature → SIGNED P2 · BRIEF:49 open-item-1 → DONE ·
+  optional BRIEF:15 front door) each with its truth-source; mechanical path on approval: apply →
+  sha256sum → re-pin in the same logged moment (INTEGRITY.md:13-15) → CONTEXT entry. This file
+  is the lawful container for the polish the Owner asked for and the pins forbid doing directly.
+  (3) GIT INTEGRITY FINDING: proposals/pr-011-smoke-call-prereg.md + proposals/pr-021-sanad-
+  unification.md were UNTRACKED (never committed) while cited by the committed decision log —
+  content verified against log descriptions (F-1..F-8 markers ×12; SANAD present) then committed
+  for log-referential integrity (the 14h-gap lesson: cited evidence must live in git).
+  (4) Commits a646ed8 + this round's commit carry the whole cleanup: moves byte-verified ×4,
+  deletions, root signpost README, indexes, entries. Pins before=after 43 OK / 1 FAILED
+  (violations.md, V-003). Zero doctrine writes; parallel lanes untouched. Forcing cause: the
+  Owner's cleanup-and-polish goal rounds 1-7.
