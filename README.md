@@ -19,6 +19,8 @@ the embodied constitution. (CONTEXT.md:13-15)
   One-command verify: INTEGRITY.md:8-11.
 - Live health card, one command: `bash tools/audit.sh` — pins · queues · lane pulses ·
   boot tax (generated at run time, not law — research/ergonomics-tower.md §5).
+- Citation sweep, one command: `bash tools/citecheck.sh` (self-tested; first sweep
+  2026-09-11: 155 files · 1,078 refs · 9 real drifts filed — research/ergonomics-deep.md §4-F-3).
 - Language: artifacts in English, chat with the Owner in Arabic (R15, 2026-09-11).
 
 ## Tree map
@@ -35,9 +37,11 @@ the embodied constitution. (CONTEXT.md:13-15)
 | `proposals/` | **The only guest write-path** | Write here if not named |
 | `research/` | Research records — current anatomy reference: `anatomy-reference.md` + `anatomy-bridge.md` | Add, never erase |
 | `RUN/` | Receipts · dossiers · paper-run records | Records — do not edit |
-| `bore/ hept/ mill/ well/ phantom/ protocols/` | Live parallel lanes | Their writers only |
+| `RUN/` · `research/harness-run/` | The rounds-and-receipts machine (R0..R14, SERIES-COMPLETE) · the guest research fellow (complete) | Lane writers only (RUN records: do not edit) |
+| `bore/` · `hept/` | The hole lab (COMPLETE — frozen, bore/CORE.md:1) · the honest-record lab (core complete) | Lane writers only |
+| `mill/` · `well/` · `phantom/` · `protocols/` | Doctrine-forging mill · reason-law mill · independent second reader · proposed verification protocols — artifact lanes, dormant (register: LANES.md) | Read, never silently take over (LANES.md:6) |
 | `LANES.md` · `OWNER-DESK.md` | Lane pulse board · the Owner's single decision surface | Append/strike per own design |
-| `tools/dsh/` · `tools/audit.sh` | Hooks publish source (not doctrine, R11/R12) · the health-card generator | Publish source only · generator (R14-protected) |
+| `tools/dsh/` · `tools/audit.sh` · `tools/citecheck.sh` | Hooks publish source (not doctrine, R11/R12) · the health-card generator · the citation-sweep gate | Publish source only · generators (R14-protected) |
 | `RATIFICATION-BATCH-001.md` | The Owner gate P1..P6 | Owner fields only |
 
 ## PROPOSED files (not law until the Owner rules)
@@ -45,8 +49,25 @@ the embodied constitution. (CONTEXT.md:13-15)
 - `research/research-waves.md` — the seven research-waves methodology.
 - `research/anatomy-reference.md` + `anatomy-bridge.md` — the imported mind-anatomy reference (2026-09-10).
 - `research/ergonomics-tower.md` — the measured ergonomics design: the tower · the generator · the pr-023 package (2026-09-11; executed same day).
+- `research/ergonomics-deep.md` — the operating cycle + the GENERATE/ROUTE/RECORD invariant + findings F-1..F-7 (2026-09-11).
+- `proposals/pr-024-ergonomics-deep-package.md` — four one-word parts: CONTEXT head-slim · LANES register · citecheck adoption · runbook v0.2 (PENDING OWNER).
+
+## Task routing (I want to …)
+| Intent | Go to |
+|---|---|
+| see the current state | `bash tools/audit.sh` — the generated card first (ONBOARDING v2) |
+| propose something (the guest write-path) | `templates/PROPOSAL.md` → `proposals/` |
+| verify integrity / citations | the `INTEGRITY.md` verify command · `bash tools/citecheck.sh` |
+| see what waits on the Owner | `OWNER-DESK.md` |
+| read the law | `RULES.md` + `charters/` |
+| run or audit zero day | `ZERO-DAY-RUNBOOK.md` (pre-flight) + `ZERO-READINESS.md` |
+| coordinate with a lane | `LANES.md` (pulse board) — artifact lanes: read, never take over |
+| file or read violations | `violations.md` (append-only) |
+| understand the system design | `research/ergonomics-tower.md` + `research/ergonomics-deep.md` |
 
 ## If you are a new agent
+0. `bash tools/audit.sh` — the generated boot card first (ONBOARDING v2:7-10): a
+   witness of a moment — quote it, never hand-edit it, re-run it on every boot.
 1. Your first reply quotes the boot gate: version + your rights + your wall (AGENTS.md:47-54). No quote = no legal standing.
 2. Not named by the Owner? You are a **GUEST**: read everything, propose via `proposals/` only (AGENTS.md:56-63).
 3. No invented facts (AGENTS.md:11-15) · verify before claiming · fast honest correction — trust the records, not the warmth.

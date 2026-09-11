@@ -17,6 +17,7 @@
 | ~~pr-022 header refresh~~ | ✓ ruled & executed 2026-09-11 | proposals/pr-022 | — |
 | ~~pr-023 ergonomics package~~ | ✓ ruled & executed 2026-09-11 (A–F) | proposals/pr-023 | — |
 | pr-021 SANAD unification | a ruling | proposals/pr-021 | doctrine unification pending |
+| pr-024 ergonomics-deep | "adopt pr-024: A C D" (any subset) | proposals/pr-024 | the 80 KB audit boot + unmapped lanes + unmeasured citations + a drifting runbook |
 | X0003 (pr-010) | a fate ruling | proposals/pr-010 | D-3 stays locked |
 | pr-001..020 remaining | per-proposal status | proposals/README (generated) | the box now has a live index |
 
