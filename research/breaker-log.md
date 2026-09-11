@@ -201,3 +201,166 @@
   completed lane). Two CANON.md files cleared (research/ G5 ladder vs hept/ discipline
   doc — different lanes, no collision). Queue stays 32 (Q-26 updated to CLEAR, no new
   seed needed; R3/R4 progress absorbed).
+- R23-S2 | ok | well reconciliation + R4 boot → research/breaker-well-reconciliation.md.
+  CREDIT: the well lane's RECONCILIATION block (UNLOGGED-RETRO, R4 task 2) is a genuine
+  honesty repair — declares 24 named items (29 physical files incl. LB01-06 bracket) as
+  unlogged since W00-14 (log mtime 2026-09-07 04:20:49), REFUSES to backfill ("a gap
+  marked is supervision, a gap filled is forgery"), pins a FORWARD RULE (log line in same
+  turn, never batch-retro-written; future gaps get UNLOGGED-RETRO blocks). W03-01 rows
+  the reconciliation itself. Verified: UNPAID_WHY UW01-03 present, STATE W03-start, my
+  first count used a moving mtime target (own error, corrected to the block's fixed
+  log-end timestamp → 29 non-LOG files). R4 boot lawful: QUEUE R4 false, no R004 receipt,
+  burrow well/ declared, RUN/NEXT.md handoff honest (R003 was a debt-close by the
+  goal-loop not the R3 executor). Precision note (24-named-items vs 29-files ambiguity)
+  folded, NOT queued — over-filing = X-15 noise. Queue stays 32.
+- R24-S2 | ok | SERIES 2 FINAL close verify → research/breaker-series2-final.md.
+  SERIES 2 CLOSED at R14: 15 receipts on disk (R000-R014), QUEUE R0..R8 true / R9..R14
+  false BY DESIGN (Owner-gated acts: no doctrine write, no GO, no ratification), STATE
+  stalled at next_round R9 with the mismatch left VISIBLE by the lane's own choice
+  ("rubber-stamping the close — countered by leaving the queue-completion mismatch
+  visible"). R009 note records two-writer stall corrected loudly (B1.3 debt rule).
+  COLD RE-DERIVATION of R14's 5 zones: citations 160 ✓ (grep = 160 rows), decorative 3
+  ✓, receipts 14 ✗ OFF-BY-ONE (disk = 15; likely counted R0..R13 pre-R014-write — same
+  family as well 24/29; noted not queued), RESULTS 91.7% arithmetic ✓, funerals pending.
+  GHOST 4/4 failed pre-write — declared IN the ceiling as its own gap (honest ceiling
+  delivered). theater_verdict: NOT-THEATER — my pre-registered OBITUARY zero-kills test
+  DISPROVEN (12 rites, 0 doctrine commits, INTEGRITY sha unchanged since R3). pr-015..020
+  all single-ownership (register lesson held); pr-020 = proposal-expiry 2-session Omega
+  rule answering my Q-29 register hole. Falsifier arc total: 32-item queue, 5 convergence
+  events, 0 violations by me, 0 builder/doctrine writes. Queue stays 32.
+- R25-S2 | ok | SANAD candidate audit + series-close reconciliation → research/breaker-sanad-audit.md.
+  SERIES 2 FULLY CLOSED: QUEUE 15/15 passes true, STATE pointer SERIES-COMPLETE; the
+  close's regex miss (R14 row no trailing comma) SELF-CAUGHT and re-run (cef9d2f);
+  two-writer reconciliation CONVERGED (778b243: resumed G6 lane's flip + executor's
+  flip agree after 14h gap). SANAD doctrine-candidate LANDED (93 ln): 8-step paper loop
+  fusing ARC+DOC-TRUST+R-1..R-5+council+SRS against X-09; obituary-first §0 (zero-catch
+  falsifier, T-01/T-02 frozen thresholds), heirs named (patches ARC "no heir clauses"
+  gap), X-16/X-13/X-12 walls honestly listed, PENDING OWNER. Stranger verdict (L4/R6,
+  subagent 3d604f24): PASS WITH NOTATIONS, CEILING PARTIAL, V0→≥V1 amendment recorded
+  without hiding. My spot-checks: arc-protocol:82-87 ✓ verbatim, adversarial-audit:95-102
+  ✓ verbatim. PRECISION NOTE (3rd placeholder-family instance): stranger says "~54"
+  citations; measured 67 references / 49 unique — folded as notation, not queued
+  (substance re-derived at every spot-check; the "~" is in the verdict summary, not the
+  candidate's own claims). Queue stays 32.
+- R26-S2 | ok | FINAL-REPORT verify + fence-hold audit → research/breaker-finalreport-verify.md.
+  S2 lane reached LEGAL STOP (97944ad, stop condition b): FINAL-REPORT.md written, its
+  §3 death ledger NAMES the breaker kills verbatim ("D-5 {N} — قتله breaker lane (Q)
+  وأعدتُه مولودًا مقيّدًا" · "Q-31 — وجده الكاسر... مات بالإصلاح 396/79/18"). Q-27a
+  RESOLVED on disk: regency-doctrine:62 now "≤ سقف-التفعيل — حقل يحدده المالك" (the {N}
+  became an Owner-defined field, not a guessed number). FENCE-HOLD AUDIT (report's own
+  obituary test, §6) — sampled ALL PASS: R6 verbatim ✓ · 24/24 derivative-honest ✓ ·
+  INTEGRITY sha 1711587b5aa79d6b unchanged since R3 ✓ · P3 empty-by-right ✓ · P5 HOLD ✓ ·
+  P6 NOT YET ✓ · all 3 violations rulings empty ✓. The zero-execution wall held through
+  14 rounds + 2 queues + ~20 proposals + 2 parallel lanes. Queue stays 32 (Q-27a cleared).
+- R27-S2 | ok | third numbering incident + registry tally + hept ARC-record → research/breaker-pr021-registry.md.
+  Q-29 STRENGTHENED (3rd incident, same root): harness lane filed pr-011-sanad-unification.md
+  after checking ONLY pr-010 (LOG.md:282 verbatim: "بعد فحص pr-010 فقط دون فحص pr-011..020
+  التي وصلت لاحقًا من كاتب موازٍ") — SCRIVENER caught it pre-halt, renamed to
+  pr-021-sanad-unification.md (single ownership verified on disk, no stale file). THREE
+  numbering incidents across THREE lanes in one day; each fix non-silent + mechanical
+  (credit), but the systemic hole is unchanged: numbers allocated by convention, no
+  register, no lock, no directory-scan step. ADD-NUMBERING-REGISTER triple-justified.
+  Registry tally correction VERIFIED (commit 175a7be "23→22 by count"): §1 = 31 entity
+  rows, 22 موجودة live-quoted + 6 drafts + 3 class rows — §3's "22 صفًا" re-derives
+  exactly. hept/records/ARC-OBIT-R001 read: receipts domain opened HONESTLY EMPTY (TRACE:
+  none — "nothing has been claimed, so nothing is pasted"; criterion quoted frozen,
+  fail condition named). Series-close residue stable (QUEUE 15/15, sha unchanged).
+  Queue stays 32 (Q-29 evidence strengthened).
+- R28-S2 | ok | funerals recount (R14's last pending zone) → research/breaker-funerals-recount.md.
+  R14 MECHANICAL AUDIT NOW FULLY RE-DERIVED by breaker: funerals zone verified — my
+  independent recount (grep -cE "^## Rite" = 6 headers + "^[0-9]+\. " = 8 numbered lines
+  = 12 rites over 12 dead objects) matches FUNERALS.md's own W9 computation and R014's
+  "funerals 12=12 zero inflation" exactly. Zone scoreboard: citations 160 ✓ · decorative
+  3 ✓ · RESULTS 91.7% ✓ · funerals 12=12 ✓ · receipts 14 ✗ (15 on disk, off-by-one
+  recorded round 10). FUNERALS.md pre-registers its own kill-switch AND the series':
+  "if any rite misquotes its firing clause... if the series's real kill count is zero
+  after stripping, RUN/OBITUARY.md:7-10 fires on the series itself" — my arc-start
+  theater suspicion is now disproven BY DESIGN (mechanical trigger), not just by
+  counting. Sampled Rite 1's citations (one-object-verdict.md:19) — no misquote. Queue
+  stays 32.
+- R29-S2 | ok | G-A prereg + G-B observe + unlogged RUN/smoke → research/breaker-ga-prereg-audit.md.
+  NEW MACHINERY: two fresh dossiers (RUN/dossiers/dsh..{observe,prereg}). G-A's
+  smoke-call prereg (327 ln) is the strongest wall-respect artifact yet: pre-registered
+  obituary with mtime witness, S9 ONCE-ONLY guard ("the answer to a failure is a
+  recorded failure — not a second call"), S2 stranger-applicable PASS iff 4 conditions,
+  cost by command with hard upper bounds, P5 HOLD respected ("makes the Owner's P5 line
+  cheap to type" — prices, never executes). G-B SPLITS.md census honestly declares its
+  own tooling absent (degrade-never-halt). FINDING Q-32: RUN/smoke/ exists (00:38),
+  EMPTY, UNLOGGED — no record anywhere of who created it (predates the prereg by 4 min;
+  mkdir is S1's first clause; wall held: no artifacts, P5 HOLD, sha unchanged). Q-29
+  4th event — this time the collision was MANDATED by objective text (F-7 recorded,
+  unresolved for Owner): register hole now propagates into objective authorship.
+  r11-verifier.md rewritten in place (report wearing a brief's filename; original R11
+  brief content lost from working tree, preserved in git) — recorded, not queued. Queue
+  now 33 rows (Q-32 added).
+- R30-S2 | ok | hept post-freeze extensions + prereg receipt → research/breaker-hept-freeze.md.
+  G-A prereg lifecycle COMPLETE (credited): pre-register → deliverable → stranger-1
+  FAILED mid-run (recorded not hidden) → stranger-2 PASS (S1/S3-S10 PASS, S2 PARTIAL,
+  OVERALL PASS, quotes byte-verified, secret-scan zero) → TOP-3 objections → objection-1
+  closed MECHANICALLY (S2 third stranger command for usage>0, S8 requires all three) →
+  receipt finalized. Wall held: P5 HOLD, smoke unexecuted. NEW Q-33: hept post-freeze
+  "unpaid-repair" wave (D7-R11..R17, LOG:124-131 all PASS) — D7-R11 (CANON §12 FAIL-row
+  fix) defensible under freeze; D7-R17 (SEALED.md +bore/+RUN/ raw-source members) adds
+  SCOPE without the §15-order-5 procedure (forcing record → named module → new owes;
+  grep "forcing" hept/LOG.md = 0 hits) and self-certifies as "anchor repair class" —
+  author grading own homework. Root defect: canon never classifies SEALED.md (freeze-
+  governed vs mutable status). Pattern rhymes with Q-29/Q-27a: self-certification
+  without external class definition keeps producing drift. CARD03 (519de3b) landed:
+  regency verify-line, S6-verified not rebuilt. Queue now 34 rows (Q-33 added).
+- R31-S2 | ok | hept wave-II append-only verify + forcing standard → research/breaker-hept-wave2.md.
+  APPEND-ONLY VERIFIED BYTE-EXACT: git diff hept/LOG.md = 66 added, 2 "removed" = ONE line
+  (D5-Q09) re-added identically (trailing-newline join; sha 731a8aaf both sides after
+  tr -d '\n'); zero real deletions; line 1 byte-unchanged (722d6aa1). S-07's named
+  settling act FINALLY FIRED: CORR-2026-09-09 (LOG:129) cures the stale 270 count by
+  dated append citing S-07/S-25 + Q0040 — the cure R001's STALE.md prescribed, owed
+  since my round 3. Q-33 NARROWED: B7 (BREAKS.md:60, appended D7-R21 "forced by
+  Q0048/Q0050") demonstrates the FULL §15-order-5 forcing pattern — paper-orchestrator
+  objection run against the canon's own clauses with kill condition, sweep, verdict with
+  declared debt, hatch closed. But R17's "anchor repair" label still unforced; AND the
+  counter-argument surfaced: the SEALED extension was functionally necessary for
+  Q0046-50 (cross-lane kill bindings: mill killed results-as-prices same-claim-same-fate
+  as hept GY06; well's paper-orchestrator objection = strongest phrasing) — raw-source
+  rule made the convergence LAWFUL. Both sides now on record for the Owner's
+  CLASSIFY-SEALED ruling. Cross-lane convergence mining = the workspace's kills citing
+  each other honestly. Queue stays 34 (Q-33 narrowed).
+- R32-S2 | ok | B8 two-objects collision classified → research/breaker-b8-two-objects.md.
+  The forcing standard HOLDS two-for-two: B8 (BREAKS.md:74, D7-R23 "forced by
+  Q0051/Q0054") runs the foreign series' one-object verdict against hept's own records
+  (is ARC-OBIT-R001 a mill-row?) and REFUSES to adjudicate — "this break case
+  CLASSIFIES, it does not judge: mill's obituary fires or not by mill's own law and
+  measurer." Verdict SURVIVES with the honest finding: "the workspace now holds TWO
+  frozen object claims with mutually pre-registered death clauses and no arbitration"
+  — the deepest post-freeze governance finding, hatches closed (vocabulary blend +
+  premature adjudication banned). Q0051-57 bound: truth-maker separation ("signature
+  never truth-maker" — sharpest external Owner-role phrasing), removal-as-write-down,
+  MARK discipline (unbalanced ≠ false). Fence stable (sha unchanged, P5/P6 HOLD, fields
+  empty). Q-33 narrowed further: forcing standard now 2/2 in post-freeze practice.
+  No new seed — B8's arbitration question feeds the Owner's ruling-sequence directly.
+  Queue stays 34.
+- R33-S2 | ok | bore post-freeze spec-audit verified → research/breaker-bore-specaudit.md.
+  BORE WAVE = THE POSITIVE CONTROL for Q-33: a frozen lane (D7 COMPLETE) ran a post-freeze
+  SPEC-AUDIT (T3: kernel-vs-deliverable, never run before) and repaired two REAL defects:
+  Q06 (STANDING_ORDERS copy-wording drift vs CORE §13) and Q11 (HANDOFF_PACK read order
+  omitted QUOTES entirely — kernel mandates SITE/HOLE/CORE/QUOTES). D7-T1 bound CORE §10
+  anchors to exact source lines (L3=pr-006:14...L7=pr-006:18, verified 3× byte-exact,
+  "additive precision only, no claim changed"). D7-T4: 107/107 LOG refs resolve. Version
+  stamp honestly bumped v1.1→v1.2 with the post-freeze binding disclosed in the stamp.
+  Every repair traces to a named defect found by a named audit — the standard hept-R17
+  lacked (Q-33 contrast sharpened: hept-R11 lawful FAIL-row fix, bore-T1..T4 exemplary
+  defect-traced repair, hept-R17 scope expansion self-graded). Q-33 evidence now has a
+  positive control for the Owner's CLASSIFY-SEALED ruling. Fence unchanged. Queue
+  stays 34.
+- R34-S2 | ok | B9 unpayable-debt break-case → research/breaker-b9-unpayable.md.
+  FORCING STANDARD 3/3: B9 (BREAKS.md, D7-R25) converges the countersignature/queue/
+  orphan debts — three declared debts, one missing party. Kill condition: "any clause
+  permits self-countersignature under prolonged absence (the 'be practical' escape —
+  X12 violation by timeout)". Run: "no clause permits timeout-based self-payment... the
+  catches remain provisional with no expiry mechanism". Verdict SURVIVES — "the
+  discipline is not a machine that eventually clears all marks; it is a machine that
+  keeps UNPAID marks visible." Hatch closed: "provisional until the Owner comes" must
+  never drift to "effectively settled because nothing happened." THE ARC'S SYSTEMIC
+  LESSON stated by a lane: the workspace's filed-not-fixed culture (V-001..003 empty
+  rulings, Owner-gated flags, provisional catches) is load-bearing, not ceremonial —
+  my 34-item breaker queue is the same object at the supervision layer. Q-33 bounded:
+  BREAKS falsifier runs consistently rigorous (3/3); only R17 remains the outlier.
+  Fence unchanged, quanta_today 35, 21 post-freeze repair rows. Queue stays 34.

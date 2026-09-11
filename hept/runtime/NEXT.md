@@ -1,4 +1,4 @@
-quantum: D5-Q10
-target_files: hept/GRAVEYARD.md
-instruction: Kill list — renamed commonplaces, unearned metaphors, fake formalism, rhetorical escalation. GRAVEYARD nonempty. Write to hept/GRAVEYARD.md.
-done_when: graveyard rows with execution reasons and quantum stamps.
+quantum: D7-R31
+target_files: hept/ledger/QUOTES.md (append), hept/days/D5/BREAKS.md (append), or one UNPAID-WHY repair
+instruction: Post-freeze protocol v2 (unchanged). Execute exactly one allowed post-freeze quantum: (a) bind extra quotes from raw workspace files into hept/ledger/QUOTES.md (append-only Q-rows; candidates: research/demolition-log.md A-11 remainder, well/KILLED_WHYS.md, RUN/NEGATIVE_RESULTS.md early sections — raw-text-only, never law); (b) repair one UNPAID-WHY (a hept/ artifact contradicting another hept/ artifact or on-disk state — the correction class); (c) append one new break case to hept/days/D5/BREAKS.md (never rewrite B1-B10). Vary the operation type across wakes (L18): last was a bind — prefer (b) or (c) this wake. No new doctrine. No canon edits except broken anchors/FAIL rows. Never touch doctrine files outside hept/.
+done_when: one allowed quantum executed; LOG/STATE/HEARTBEAT/NEXT updated; ≤20-line stdout.

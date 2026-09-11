@@ -99,3 +99,7 @@ D7-Q09 | PASS | days/D7/Q09.md | freeze | CORE v1.1 frozen; MAY bind/repair, may
 D7-Q10 | PASS | days/D7/Q10.md | bland-rename | doctrine survives generic vocabulary; not title, not platitude | still_in_hole=YES
 D7-Q11 | PASS | HANDOFF_PACK.md | handoff | 4-file read order + audit map + sealed lanes declared | still_in_hole=YES
 D7-Q12 | PASS | HOLE_DONE.md | done-marker | 7/7 days done-when met; CORE passed; marker honest | still_in_hole=YES
+D7-T1 | PASS | days/D7/T1.md + CORE.md | bind-anchors | source lines bound into section 10; v1.2; additive only | still_in_hole=YES
+D7-T2 | PASS | days/D7/T2.md | freeze-check | 14 sections in kernel order; quotes verbatim; object list matches disk | still_in_hole=YES
+D7-T3 | PASS | days/D7/T3.md + HANDOFF_PACK.md + CORE.md | spec-audit | QUOTES bound into kernel read order; 2 copy-wording lies patched | still_in_hole=YES
+D7-T4 | PASS | days/D7/T4.md | ref-integrity | 107/107 LOG artifact refs resolve; audit surface fully covered | still_in_hole=YES

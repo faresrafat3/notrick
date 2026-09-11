@@ -19,3 +19,6 @@ Checked: yes, five named things are lost, including two the workspace currently 
 
 ## Live fork (not blended)
 R2 is not deleted; it remains a LIVE FORK on one condition: if a verification failure is ever traced to an attribution hole (a fabricated provenance line that a pre-write one-liner would have blocked), R2 re-enters as co-object. Until that day, R2 is suspended, not reconciled.
+
+[Post-verdict addition, 2026-09-09, D7-R15 — broken-anchor-class repair, D3 judgment untouched:
+a SECOND live fork exists since D5-Q06/Q07 (RIVALS5 S2 "one-writer theater" — survived E-elimination; its catch-weakness is explainable in-story). It is carried as F-S2 with re-entry condition = a documented multi-writer ledger (N≥3 runs) showing NO writer-distinct catch pattern; kill experiment = one cross-writer catch (writer B catching writer A with no shared context). Binding table: hept/days/D5/R01_FORK_BIND.md; canon statement: hept/CANON.md §6. Both forks are independent — neither may be resolved by absorbing the other (anti-blend). A reader of this file alone should NOT conclude R2 is the only live rival.]

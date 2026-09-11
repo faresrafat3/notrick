@@ -1,27 +1,22 @@
 # STATE — harness run (3 sentences, re-read every round)
 
 1. **What I am:** GUEST RESEARCH FELLOW (Owner-appointed via this goal, BOOT.md:16-18) —
-   executing NOTRICK's own OPS_QUEUE pipeline + a unification deliverable + a handoff,
+   executed NOTRICK's own OPS_QUEUE pipeline + the unification deliverable + the handoff,
    all theory-only under the v0.00001 hold (no execution, no runtime, no Owner-by-right
-   fields; write lanes: research/ + proposals/ + OPS_QUEUE/LOG/STATE sync + the one
-   mandated CONTEXT.md decision-log append).
+   fields; write lanes honored: research/ + proposals/ + OPS_QUEUE/LOG/STATE sync + the
+   mandated CONTEXT.md decision-log appends).
 
-2. **What is done:** boot complete 2026-09-08; **PHASE A COMPLETE** — OPS_QUEUE OP-001..058
-   all ☑ + AUDIT-1..5 logged (AUDIT-5 dual: S2/T2.7 claimant-owned + this session
-   independent, converging); seven artifacts exist and are consistent (OP-054 ز-check 6/6 ✓;
-   this session independently verified OP-048..051 quotes/rows, OP-055 quotes 29/29,
-   OP-056 grades 15/15, OP-057 §أ-5 24/24 tagged, OP-058 CONTEXT entry). Division of
-   labor held throughout: S2/T2.7 = executor, this session = independent auditor (R6).
+2. **What is done:** **ALL THREE PHASES COMPLETE — DONE 5/5.** Phase A: OP-031..058 with
+   LOG evidence + AUDIT-4/5 (dual) + seven artifacts consistent. Phase B:
+   sanad-doctrine-candidate.md (SANAD; stranger verdict quoted §6: PASS WITH NOTATIONS /
+   V0-amended / PARTIAL) + proposals/pr-021-sanad-unification.md (Owner field empty).
+   Phase C: HANDOFF.md complete — **FINAL STRANGER VERDICT: PASS** quoted verbatim in its
+   appendix, two material catches fixed after the verdict with a declared corrections
+   note. Division of labor held: S2/T2.7 executed OP-048..058; this session independently
+   audited (R6) and delivered Phase B/C.
 
-3. **What is next:** **PHASE B — THE UNIFICATION** (one honest unit per round): author the
-   doctrine-candidate fusing ARC + DOC-TRUST + R-1..R-5 + four council seats + SRS,
-   targeting ONE honest limit (X-09 | X-13 | X-16), obituary-first (L5), shipped as a
-   research/ doc + a proposals/pr-NNN entry (templates/PROPOSAL.md, Owner fields
-   empty-by-right), carrying heir clauses + expiry; L4 stranger-test via a fresh-context
-   VERIFIER subagent before any novelty wording. STATUS: inputs surveyed (hardening-pass:
-   SRS PARTIAL/V0, R-5 UNTESTED, THEATER SIGNAL; boundary-protocols = ARC extension);
-   SYNTHESIST still running (subagent 128fc49f); **Phase C prep done**:
-   research/harness-run/OWNER-QUEUE-DRAFT.md = full Owner inventory (3 gates + 7 + 10 rows,
-   all anchors verified). When the draft lands → verify against brief (L1) → persist
-   research/ doc → pr-011 via SCRIVENER → VERIFIER stranger-test → quote verdict. Then
-   HANDOFF.md (queue section ready) → final stranger-test → update_goal complete.
+3. **What is next:** NOTHING — the run is closed. The Owner's part: open
+   research/harness-run/HANDOFF.md (10 minutes: §1 what survived · §2 SANAD + verdict ·
+   §3 the decision queue · §4 honest limits), rule the three standing gates (P3/P5/P6),
+   batch-rule ز-6 rows 4-13 + the older tail, and rule pr-021 accept-or-obituary. This
+   session: awaiting update_goal complete (final LOOP step).

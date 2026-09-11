@@ -1,46 +1,54 @@
-# NOTRICK — لوحة الدخول (هذه الصفحة ليست قانونًا)
+# NOTRICK — the entry board (this page is not law)
 
-> لوحة توجيه فقط. القانون يُقرأ بسلسلة الإقلاع المُحرَّرة:
-> **CONTEXT.md → AGENTS.md → FOUNDATIONAL-BRIEF.md → ملفات المهمة فقط**
-> (حكم المالك 2026-09-06 — CONTEXT.md:5-6). أي تعارض بين هذه الصفحة وأي ملف قانون: الملف القانوني يفوز.
+> A signpost only. The law is read via the ruled boot chain:
+> **CONTEXT.md → AGENTS.md → FOUNDATIONAL-BRIEF.md → task-named files only**
+> (Owner ruling 2026-09-06 — CONTEXT.md:5-6). Any clash between this page and a legal file:
+> the legal file wins.
 
-## المشروع في سطر
-عقل AI يُربّى من الأسفل — وحدات دقيقة (MICs) + أربع وكالات ميثاقية — يتنسّق عبر مستندات ونتائج
-موثّقة على القرص، بلا منسّق حي، والمالك هو الدستور المتجسّد. (CONTEXT.md:13-15)
+## The project in one line
+An AI mind grown bottom-up — micro-agents (MICs) + four charter agencies — coordinating
+through documents and documented results on disk, with no live orchestrator; the Owner is
+the embodied constitution. (CONTEXT.md:13-15)
 
-## الحالة (2026-09-10)
-- **النسخة v0.00001 — قبل-الصفر: لا تنفيذ، لا تشغيل** (VERSION.md:8-9).
-- يوم الصفر يفتح بثلاثة أفعال من المالك وحده: **P3 العتبة · P5 تفويض الوقود · P6 الـGO المكتوب**
-  (RATIFICATION-BATCH-001.md · CONTEXT.md:317-331).
-- العقيدة مثبّتة بالهاش (INTEGRITY.md): **43 OK / 1 FAILED** — الإخفاق الوحيد (`violations.md`)
-  مسجّل قانونيًا **V-003** ولا يُصلَّح بصمت. التحقق بأمر واحد: INTEGRITY.md:8-11.
+## State (2026-09-11)
+- **Version v0.00001 — pre-zero: no execution, no runtime** (VERSION.md:8-9).
+- Zero day opens with three Owner-only acts: **P3 the threshold · P5 fuel authorization ·
+  P6 the written GO** (RATIFICATION-BATCH-001.md · CONTEXT.md:317-331).
+- Doctrine is hash-pinned (INTEGRITY.md): **44 OK / 0 FAILED** (as of the 2026-09-11
+  re-pin moment; the historical V-003 record itself remains in `violations.md`).
+  One-command verify: INTEGRITY.md:8-11.
+- Live health card, one command: `bash tools/audit.sh` — pins · queues · lane pulses ·
+  boot tax (generated at run time, not law — research/ergonomics-tower.md §5).
+- Language: artifacts in English, chat with the Owner in Arabic (R15, 2026-09-11).
 
-## خريطة الشجرة
-| المسار | ما هو | ممكن تلمسه؟ |
+## Tree map
+| Path | What it is | May you touch it? |
 |---|---|---|
-| `CONTEXT.md` | العقل المثابر — سجل القرارات | إلحاق في الذيل فقط |
-| `AGENTS.md` | عقد التشغيل: BOOT GATE · GUEST MODE · الوعود الثلاثة | عقيدة مثبّتة — لا |
-| `FOUNDATIONAL-BRIEF.md` | الفهرس الحي | عقيدة مثبّتة — لا |
-| `RULES.md` | القوانين R1..R12 | عقيدة مثبّتة — لا |
-| `charters/` | CH-001..004 — قانون نشط موقّع (P2) | عقيدة مثبّتة — لا |
-| `templates/` · `mics/` | واجهات CH/RJ/DS/MIC + بذور MICs | عقيدة مثبّتة — لا |
-| `INTEGRITY.md` | مثبّتات الهاش + أمر التحقق | لا (إعادة تثبيت بلحظة مسجّلة فقط) |
-| `violations.md` | سجل المخالفات append-only | إلحاق فقط |
-| `proposals/` | **مسار كتابة الضيف الوحيد** | اكتب هنا إن لم تُسمَّ |
-| `research/` | سجلات البحث — مرجع التشريح الحالي: `anatomy-reference.md` + `anatomy-bridge.md` | أضف، لا تمسح |
-| `RUN/` | استلامات · دوسيات · سجلات التشغيل الورقي | سجلات — لا تُحرَّر |
-| `bore/ hept/ mill/ well/ phantom/ protocols/` | لينات متوازية حية | كتّابها فقط |
-| `tools/dsh/` | مصدر نشر الـhooks — **ليس عقيدة** (R11/R12) | مصدر نشر فقط |
-| `RATIFICATION-BATCH-001.md` | بوابة المالك P1..P6 | حقول المالك فقط |
+| `CONTEXT.md` | The persistent mind — decision log | Append at tail only |
+| `AGENTS.md` | The operating contract: BOOT GATE · GUEST MODE · the three habits | Pinned doctrine — no |
+| `FOUNDATIONAL-BRIEF.md` | The living index | Pinned doctrine — no |
+| `RULES.md` | The laws R1..R15 (R13 still a candidate — pr-014) | Pinned doctrine — no |
+| `charters/` | CH-001..004 — active law, signed (P2) | Pinned doctrine — no |
+| `templates/` · `mics/` | CH/RJ/DS/MIC interfaces + MIC seeds | Pinned doctrine — no |
+| `INTEGRITY.md` | Hash pins + the verify command | No (re-pin only in a logged moment) |
+| `violations.md` | Append-only violation record | Append only |
+| `proposals/` | **The only guest write-path** | Write here if not named |
+| `research/` | Research records — current anatomy reference: `anatomy-reference.md` + `anatomy-bridge.md` | Add, never erase |
+| `RUN/` | Receipts · dossiers · paper-run records | Records — do not edit |
+| `bore/ hept/ mill/ well/ phantom/ protocols/` | Live parallel lanes | Their writers only |
+| `LANES.md` · `OWNER-DESK.md` | Lane pulse board · the Owner's single decision surface | Append/strike per own design |
+| `tools/dsh/` · `tools/audit.sh` | Hooks publish source (not doctrine, R11/R12) · the health-card generator | Publish source only · generator (R14-protected) |
+| `RATIFICATION-BATCH-001.md` | The Owner gate P1..P6 | Owner fields only |
 
-## ملفات PROPOSED (لا تُعامَل كقانون حتى يحكم المالك)
-- `research/log-constitution.md` — قانون السجل ثلاثي الطبقات (SPINE/DOSSIER/MIRROR).
-- `research/research-waves.md` — منهجية موجات البحث بميزانية كبيرة.
-- `research/anatomy-reference.md` + `anatomy-bridge.md` — مرجع تشريح العقل المنقول (2026-09-10).
+## PROPOSED files (not law until the Owner rules)
+- `research/log-constitution.md` — the three-layer log law (SPINE/DOSSIER/MIRROR).
+- `research/research-waves.md` — the seven research-waves methodology.
+- `research/anatomy-reference.md` + `anatomy-bridge.md` — the imported mind-anatomy reference (2026-09-10).
+- `research/ergonomics-tower.md` — the measured ergonomics design: the tower · the generator · the pr-023 package (2026-09-11; executed same day).
 
-## لو كنت وكيلًا جديدًا
-1. أول رد يقتبس بوابة الدخول: النسخة + حقوقك + جدارك (AGENTS.md:47-54). لا اقتباس = لا وجود قانوني.
-2. لم يسمِّك المالك؟ أنت **ضيف**: اقرأ كل شيء، واقترح عبر `proposals/` فقط (AGENTS.md:56-63).
-3. لا حقائق مخترعة (AGENTS.md:11-15) · تحقق قبل الادعاء · التصحيح الصريح المبكر — الثقة للسجلات لا للدفء.
-4. حقول المالك (العتبة · تعريف الاختراق · التوقيع) فارغة بحقها — لا تملأها أبدًا.
-5. المخالفات تُسجَّل لا تُصلَّح بصمت (AGENTS.md:65-68) — السجل هو الإشراف.
+## If you are a new agent
+1. Your first reply quotes the boot gate: version + your rights + your wall (AGENTS.md:47-54). No quote = no legal standing.
+2. Not named by the Owner? You are a **GUEST**: read everything, propose via `proposals/` only (AGENTS.md:56-63).
+3. No invented facts (AGENTS.md:11-15) · verify before claiming · fast honest correction — trust the records, not the warmth.
+4. Owner fields (threshold · breakthrough definition · signatures) are empty-by-right — never fill them.
+5. Violations are recorded, never silently fixed (AGENTS.md:65-68) — the record is the supervision.

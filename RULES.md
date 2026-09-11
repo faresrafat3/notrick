@@ -57,3 +57,26 @@ a system under DESIGN is not a system under OPERATION. Runtime containers (~/.op
 Anything inside an agent's workspace is writable by that agent by design. Never store
 irreplaceable doctrine inside an agent's own workspace — doctrine goes to Projects; the agent
 workspace keeps only ephemeral task artifacts.
+
+## R14 — Generated truth (the count-law) [adopted 2026-09-11 via pr-023-B]
+Any count, status, index, or tally presented to agents or the Owner on an authoritative
+surface MUST be generated from the records at read time (a tool's verbatim output) or
+live-computed — hand-maintained counts on such surfaces are banned, because a live tree
+with a static count is a lie on a timer (born from: V-003, INTEGRITY "42"≠44;
+proposals/README "no proposals yet" vs 32 files; the static-counts-rot lesson, 2026-09-06).
+A broken generator is a broken gate: its failure is filed, never silently re-trusted.
+A generated card is a witness of a moment, quotable per-run — never a law; where a card
+and a record disagree, the record wins.
+Falsifier: if a generated surface is caught lying to its reader before the records do,
+this law dies into the obituary registry and the surface returns to hand-maintenance
+with its rot on the record.
+
+## R15 — Artifact language (English-only) [adopted 2026-09-11 via Owner directive]
+All project artifacts — doctrine, indexes, living surfaces, tool output, and new entries
+in LOG/CONTEXT — are written in English (best for agents: tokens, citations, grep-ability).
+Chat with the Owner stays in Arabic for ease of communication. Historical records stay as
+written (append-only; superseded, never rewritten): pre-2026-09-11 LOG/CONTEXT entries,
+filed proposals, the terminal OPS_QUEUE, lane files, and verbatim Owner quotations.
+Falsifier: if English-only measurably degrades verification (citations, audits) versus
+the Arabic originals, this rule dies into the obituary registry and the workspace
+re-bilingualizes by a new Owner line.

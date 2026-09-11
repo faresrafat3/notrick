@@ -1,11 +1,9 @@
-# r11 — verifier brief (2026-09-08, guest: read+propose)
-
-- Task: one-shot R11 verification pass. Read ONLY mill/PRIMITIVES.md (one file).
-- Scope wall: no other files read for the analysis; no execution, no runtime, no Owner-by-right fields touched.
-- Deliverables (5 lines, quoted from the definitions):
-  1. Edge list: which primitives each definition mentions by name.
-  2. Verdict vs claimed edges P2→P3, P3→P1, P4→P1,P2,P3,P6, P5→P2,P3,P4, P7→P4, P8→P4,P6 — MATCH or MISMATCH (name differences).
-  3. Cycle check: YES/NO + one-clause why.
-  4. Byte-compare 3 fragments (P2 "executing a GATE", P5 "receipt does not match its gate", P8 "two entries"): EXACT / APPROX / ABSENT each.
-  5. Overall AGREES/DISAGREES, one clause.
-- Record: result is quoted from the file; verdict not claimant-owned (R6 discipline).
+# r11 — verifier B5 report (2026-09-08, blind re-derivation from disk)
+Boot gate: v0.00001 · guest: read+propose · no execution, no runtime, no Owner-by-right fields.
+1. DEFINITIONS: MATCH — P2/P5/P8 fragments byte-exact in mill/PRIMITIVES.md:5,8,11 (grep -F): "produced by executing a GATE" / "state of an entry whose receipt does not match its gate" / "predicate over two entries differing on one settled slot".
+2. DAG: MATCH — mention-derived edges P2→P3, P4→{P1,P2,P3}, P5→{P2,P3,P4}, P7→P4, P8→P4 all present; none missed, none invented; P4→P6/P8→P6 ride the disclosed slot/I4 bridge; P3→P1 is the one soft edge — QUOTE absent from P3's definition, and bridge I1 ("Every ENTRY cites exactly one QUOTE") is about ENTRY→QUOTE, not GATE inputs.
+3. TOPO ORDER: MATCH — P1,P6,P3,P2,P4,P5,P7,P8 satisfies every edge (P3 before P2; all four P4 deps before P4); zero cycles.
+4a. TERM_GRAPH: MATCH — grep '\bP[1-8]\b' → zero P rows; 15 T-edge rows only (T0001–T0020 vocabulary).
+4b. HANDOFF_P05.md:4: MATCH — "Verdicts: CLOSED / SUSPENDED / WRITTEN_DOWN / STALE" — SUSPENDED present among exactly four tokens; the drop-P5 argument stands.
+5. ANCHOR COUNT: MISMATCH — "UNVERIFIED for 6 of 8" contradicts the note's own enumeration: P3/P5/P7/P8 traced + P1/P2/P4/P6 not traced = 4 unverified of 8 primitives, not 6; "6" only fits a unit mix (the untraced four's 6 distinct anchors C0036,C0020,C0019,C0001,D0001,D0002 — or the 6 traced anchor-slots). All 11 anchors do appear in other mill files (CONFLICT.md:4 cites C0036/C0048 as claimed), so one-level tracing is possible for all 8.
+OVERALL: AGREES on substance (quotes byte-real, DAG and topo order hold, TERM_GRAPH/HANDOFF spot-checks pass) — sole hard disagreement: finding-4's "6 of 8 UNVERIFIED" count (should be 4 of 8 primitives / 8 of 14 anchor-slots); secondary caveat: P3→P1 is not derivable from definitions verbatim.

@@ -12,12 +12,13 @@ elegant cheating — every claim passes a gate it does not own. Named by the Own
 ## What this is
 A Minsky-style AI mind grown bottom-up: micro-agents (MICs) + four agencies (charters),
 coordinating through documents and documented results — no live orchestrator.
-Owner = the embodied constitution. Front door: OpenClaw 2026.9.2 (idle).
-Fuel: 38 provider keys in ~/.openclaw/.env — untested end to end (pending smoke call).
+Owner = the embodied constitution. Front door: DSH web 127.0.0.1:3080 (running); OpenClaw
+CLI present, gateway not running (port verified 200 on 2026-09-11).
+Fuel: 57 provider keys (pr-011 F-1, 2026-09-08) — UNTESTED; preregistration on file (P5 HOLD).
 
 ## Where things live
-- RULES.md — the 11 living laws (ordered R1..R12, R4 merged into R3)
-- charters/ — the four founding charters CH-001..004 (v1, refining; Owner signature pending)
+- RULES.md — the 12 living laws (R1..R12 + R14 adopted 2026-09-11; R4 merged into R3; R13 remains a candidate — pr-014)
+- charters/ — the four founding charters CH-001..004 (v1, refining; **SIGNED into active law 2026-09-06 — P2**)
 - mics/ — the four seed MICs (mic-07 · mic-11 · mic-23 · mic-31)
 - research/ — rulings (RJ-001) + the knowledge map with the Import Mirror + the
   provider-exchange note (concept, not built) + decision-review (ADRs D-01..D07:
@@ -46,7 +47,7 @@ Law-simple, thought-deep niches; documents are the only voice; results are the o
 the gate is the only truth; the Owner is the only ratifier.
 
 ## Open items ledger (the enemies still alive)
-1. Owner signature on CH-001→004 (batch) — drafted in session.
+1. DONE — P2 signed 2026-09-06. Remaining: P3 threshold · P5 AUTHORIZED · P6 the written GO.
 2. Threshold first value — Owner's empty-by-right field.
 3. Smoke call on the gateway (fuel hypothesis unproven).
 4. Breakthrough metric — Owner definition, deferred by design (lesson text until then).

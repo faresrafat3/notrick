@@ -1,16 +1,17 @@
-# STATE — جوهر السيشن (ثابت طوال التنفيذ)
+# STATE — session core (fixed during execution)
 
-## الجوهر (3 جمل)
-1. NOTRICK عقل يُربّى من الأسفل (MICs + أربع وكالات ميثاقية) يتنسّق عبر مستندات ونتائج موثّقة — بلا منسّق حي — والمالك هو الدستور المتجسّد (CONTEXT.md).
-2. لا صوت إلا المستندات، ولا سعر إلا النتائج، ولا حقيقة إلا بوابة لا يملكها المدّعي؛ وكل ادعاء بلا مصدر موثّق = لم يحدث (AGENTS.md · RULES.md).
-3. النسخة v0.00001 = قبل-الصفر: لا تنفيذ ولا تشغيل؛ ولا يفتح صفر اليوم إلا بثلاثة أفعال من المالك وحده (عتبة P3 · تفويض الوقود P5 · GO المكتوب) (RATIFICATION-BATCH-001.md).
+## The core (3 sentences)
+1. NOTRICK is a mind grown bottom-up (MICs + four charter agencies) coordinating through documents and documented results — with no live orchestrator — and the Owner is the embodied constitution (CONTEXT.md).
+2. No voice but documents, no price but results, no truth but a gate the claimant does not own; any claim without a documented source = it did not happen (AGENTS.md · RULES.md).
+3. Version v0.00001 = pre-zero: no execution, no runtime; zero day opens only with three Owner-only acts (P3 threshold · P5 fuel authorization · P6 the written GO) (RATIFICATION-BATCH-001.md).
 
-## القواعد الثابتة للسيشن
-- اقرأ قبل الكتابة؛ الاقتباس الحرفي قبل أي استنتاج — عمليتان منفصلتان.
-- لا حقائق مختلقة: كل ادعاء مفتاحي بمصدره file:line، وغير المؤكد يُكتب "غير مُختبر".
-- تحقق قبل الادعاء: شرط DONE يُرى بفتح الملف، والحكم سطر ✓/✗ في LOG.md.
-- تصحيح صريح مبكر؛ لا إصلاح صامت — كل شوابة تُسجَّل ولا تُخفى.
-- لا تنفيذ ولا تشغيل؛ لا كتابة في ملفات العقيدة (RULES · charters · templates · VERSION) — مخرجات السيشن في research/ + OPS_QUEUE/LOG/STATE فقط؛ الاستثناء الوحيد: إلحاق مدخل القرارات الإلزامي في ذيل سجل CONTEXT.md (إلحاق فقط، بحسب AGENTS.md).
-- كل 10 عمليات: AUDIT بعيّنة ضد DONE، ونتائجه في LOG.md.
-- حقول المالك (العتبة · تعريف الاختراق · التوقيع) تبقى فارغة بحقها.
-- العملية الواحدة ≤ 40 كلمة؛ إن زادت قُسِّمت. العدد من المحتوى لا من الرغبة.
+## Session-fixed rules
+- Read before writing; verbatim quotation before any conclusion — two separate operations.
+- No invented facts: every key claim carries its file:line source; the unconfirmed is written "untested".
+- Verify before claiming: a DONE condition is seen by opening the file; a verdict is a ✓/✗ line in LOG.md.
+- Fast explicit correction; no silent fix — every blemish is recorded, never hidden.
+- No execution, no runtime; no writing into doctrine files (RULES · charters · templates · VERSION) — session outputs live in research/ + OPS_QUEUE/LOG/STATE only; the single exception: the mandatory decision entry appended to CONTEXT.md's tail (append-only, per AGENTS.md).
+- Every 10 operations: an AUDIT by sample against DONE, its results in LOG.md.
+- Owner fields (threshold · breakthrough definition · signatures) stay empty-by-right.
+- One operation ≤ 40 words; if it exceeds, split. The count comes from content, not desire.
+- Artifacts in English; chat with the Owner in Arabic (R15, adopted 2026-09-11).

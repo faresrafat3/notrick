@@ -1,6 +1,6 @@
 # STANDING_ORDERS — how to cite (and how not to cite) pr-006 §2 lines 12-18
 
-Copy of bore/CORE.md §13. These orders bind any future agent touching this fragment.
+Carries bore/CORE.md §13 in full (restructured for use). These orders bind any future agent touching this fragment.
 
 ## To cite this hole
 

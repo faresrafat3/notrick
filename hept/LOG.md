@@ -69,3 +69,76 @@ D5-Q06 | PASS | hept/days/D5/RIVALS5.md | rivals | three rivals S1 uncomfortably
 D5-Q07 | PASS | hept/days/D5/RIVALS5.md | e-elimination | S1 S3 eliminated S2 live fork multi-writer test named | E1 E2 S2
 D5-Q08 | PASS | hept/days/D5/EXPERT.md | expert | 20-line objection 8 structural repairs X9-X12 I6 | repairs landed
 D5-Q09 | PASS | hept/days/D5/MVT.md | mvt | six-rule minimum viable theory formal layer demoted to tooling | MVT6
+D5-Q10 | PASS | hept/GRAVEYARD.md | kill-list | twenty graveyard rows executions stamped anti-resurrection recorded | GY01-GY20
+D5-Q11 | PASS | hept/days/D5/SUBSTITUTION5.md | substitution | five terms branded two session-only six rules survive | SUB5
+D5-Q12 | PASS | hept/days/D5/NERVOUS.md | nervous | five commitments sharpened defeat observations command forgery multiwriter | NC1-NC5
+D5-Q13 | PASS | hept/days/D5/BREAKS.md | break-cases | four break cases predictions kill conditions hatches closed | B1-B4
+D5-Q14 | PASS | hept/days/D5/NEGATIVE_DEPTH.md | negative | eight must-nots eight illegal questions eight cannot-explains | NEG8x3
+D5-Q15 | PASS | hept/days/D5/GRAFT.md | graft | one recode environment clause grafted four candidates killed | RULE7
+D5-Q16 | PASS | hept/days/D5/DONE.md | day-close | day five audit theory changed graveyard forks pass | pretty version dead
+D5-R01 | PASS | hept/days/D5/R01_FORK_BIND.md | deepen | two forks bound reentry experiments costs no blend | F-S2 F-R2
+D5-R02 | PASS | hept/days/D5/R02_UNPAID_WHY.md | repair | three unpaid sentences bound scopes narrowed no demotion | UW1-UW3
+D5-R03 | PASS | hept/days/D5/R03_EXTRA_RUN.md | deepen | run12 stall invoices five classes refusal note recorded | RUN12 G8
+D5-R04 | PASS | hept/days/D5/R04_MVT_BIND.md | repair | seven-rule mvt bound per-rule anchors scope cuts listed | RULE1-7
+D6-Q01 | PASS | hept/days/D6/OPS.md | dawn-expansion | day six sixteen quanta expanded io done-when rows | OPS6
+D6-Q02 | PASS | hept/days/D6/PROTOCOLS.md | protocols | six protocols steps illegal shortcuts binary fail modes | P1-P6
+D6-Q03 | PASS | hept/days/D6/P1_RUN.md | protocol-run | p1 on I1 two gaps bound domain empty noted | C1-C5
+D6-Q04 | PASS | hept/days/D6/P3_RUN.md | protocol-run | p3 on arc-protocol class declaration executed no new rule | X10 D0020
+D6-Q05 | PASS | hept/days/D6/P4_RUN.md | protocol-run | p4 rule6 survives gaming instance classes retro-declared | NC3 BK7
+D6-Q06 | PASS | hept/days/D6/RUNS_LOG.md | runs-log | three runs verified non-hypothetical consolidated anchors logged | RUNSLOG
+D6-Q07 | PASS | hept/days/D6/CHAINING.md | chaining | five anti-loop rules ten-call sequence executed real inputs | CHAIN10
+D6-Q08 | PASS | hept/days/D6/ARCHITECTURE.md | architecture | six modules owes interfaces local cascade revision policy | M1-M6
+D6-Q09 | PASS | hept/days/D6/OBJECTS.md | objects | eleven objects with operations six exiles anti-resurrection | OBJ11
+D6-Q10 | PASS | hept/days/D6/CONTACTS.md | prohibitions | eight contact prohibitions six workspace-anchored no pitch form | C1-C8
+D6-Q11 | PASS | hept/days/D6/MISSES.md | misses | four kill-observations mechanisms named all live | MISS1-4
+D6-Q12 | PASS | hept/days/D6/DEP_GRAPH.md | dep-graph | twelve edges four kinds five collapse paths traced | DEP5
+D6-Q13 | PASS | hept/days/D6/DEP_GRAPH.md | hatch-closure | five hatches closed escapes banned legal responses named | HATCH1-5
+D6-Q14 | PASS | hept/days/D6/NEXT_MOVE.md | next-move | one instruction arc-protocol exposure stranger-tested pass | NEXTMOVE
+D6-Q15 | PASS | hept/days/D6/COMPRESS.md | compress | four carriers compressed verdict primitives generator niche density pass | COMPRESS4
+D6-Q16 | PASS | hept/days/D6/DONE.md | day-close | day six audit runs breakcases contacts nextmove pass | spine done
+D6-R01 | PASS | hept/days/D6/R01_CHECKER.md | checker | five checks owed-fails executables prohibitions volume all pass | CHECKER6
+D6-R02 | PASS | hept/days/D6/R02_EXTRA_RUN.md | deepen | p1 on MISS-4 two gaps stall undecidable-by-scope declared | D2 D4
+D6-R03 | PASS | hept/days/D6/R03_DISC.md | deepen | REPAIR discrepancy stall promise softened trajectory unmet promise marked | DISC-R
+D6-R04 | PASS | hept/days/D6/R04_STANDING.md | repair | day6 delta fourteen items anchors complete day rolls | DELTA14
+D7-Q01 | PASS | hept/days/D7/OPS.md | dawn-expansion | day seven sixteen quanta expanded io done-when | OPS7
+D7-Q02 | PASS | hept/days/D7/REDTEAM7.md | red-team | two canon-changing hits evidence honesty provisional ledger | HIT2
+D7-Q03 | PASS | hept/CANON.md | canon | sixteen sections red-team hits absorbed standalone readable | CANON16
+D7-Q04 | PASS | hept/days/D7/Q04_CUT.md | cut-check | density pass stricter per clause minor compressions executed | CUTOK
+D7-Q05 | PASS | hept/STANDING_ORDERS.md | standing-orders | section 15 copied executable identical canon wins | SO5
+D7-Q06 | PASS | hept/days/D7/EVIDENCE_INDEX.md | evidence-index | thirty-two pointer rows no re-argument | EVIDX
+D7-Q07 | PASS | hept/FAILURES.md | failures | ten failures four unpatched-in-substance canon scoped honest | F-01-F-10
+D7-Q08 | PASS | hept/FAILURES.md | audit | five impact rows no canon lie freeze may proceed | Q08
+D7-Q09 | PASS | hept/CANON.md | freeze | canon frozen anchor fail-row fixes only | FROZEN
+D7-Q10 | PASS | hept/HANDOFF_PACK.md | handoff | read order never-reopen blend bans packed | PACK
+D7-Q11 | PASS | hept/days/D7/SELF_AUDIT.md | self-audit | twenty laws three violations found killed consequences listed | L1-L20
+D7-Q12 | PASS | hept/CANON.md | residue-scan | two residue hits reworded paths kept as anchors canon clean | Q12
+D7-Q13 | PASS | hept/CANON.md | completion-conditions | week completion conditions appended to stamp | Q13
+D7-Q15 | PASS | hept/WEEK_DONE.md | week-audit | seven days pass canon tests pass no theater | WEEK_DONE
+D7-Q16 | PASS | (stdout marker) | week-marker | week complete canon frozen honest marker printed | WEEK-COMPLETE
+D7-R05 | PASS | hept/records/ARC-OBIT-R001.md | standing-order | arc obituary record opened class declared tally zero | ARC-OBIT-R001
+D7-R06 | PASS | hept/ledger/QUOTES.md | bind-quotes | obituary falsifier measurer bound Q0021-Q0023 anchor verified | Q0021-Q0023
+D7-R07 | PASS | hept/records/ARC-OBIT-R001.md | tally-bank | exposure 1 banked two arc catches obituary not fired | R007 ARC-OBIT-R001
+D7-R08 | PASS | hept/records/ARC-OBIT-R001.md | tally-complete | tries 3/3 catches 17 obituary NOT fired protocol stands | R013 R014 ARC-OBIT-R001
+D7-R09 | PASS | hept/days/D5/BREAKS.md | break-case | B5 writer discrepancy appended form-over-fact scope edge named | R014 QUEUE.json
+D7-R10 | PASS | hept/ledger/QUOTES.md | bind-quotes | seven series-2 enforcement lines bound independent derivations noted | Q0024-Q0030
+D7-R11 | PASS | hept/CANON.md | unpaid-repair | stale receipts sentence superseded by dated correction note | CANON§12 ARC-OBIT-R001
+D7-R12 | PASS | hept/ledger/QUOTES.md | bind-quotes | five honest-failure lines bound self-catch negative-results convergence | Q0031-Q0035
+D7-R13 | PASS | hept/days/D5/BREAKS.md | break-case | B6 refused territory governed elsewhere scope cut survives edge named | R013 R014 OBITUARY
+D7-R14 | PASS | hept/ledger/QUOTES.md | bind-quotes | bore hole sampler bounds bound licensed-sentence-only provisionality stamped | Q0036-Q0037 pr-006
+D7-R15 | PASS | hept/VERDICT.md | unpaid-repair | second live fork missing from verdict file dated addition bound | F-S2 R01_FORK_BIND
+CORR-2026-09-09 | PASS | hept/LOG.md | dated-correction | line-1 count 270 was D1 snapshot now 612 md 635 files | S-07 S-25 Q0040
+D7-R16 | PASS | hept/ledger/QUOTES.md | bind-quotes | ground-truth correction law bound stale-count cure executed | Q0038-Q0040
+D7-R17 | PASS | hept/SEALED.md | unpaid-repair | sealed set extended dated bore RUN raw-source non-authority kept | SEALED D7-R17
+D7-R18 | PASS | hept/ledger/QUOTES.md | bind-quotes | foreign fence rows bound five convergent clauses with exposing commands | Q0041-Q0045
+D7-R19 | PASS | hept/FAILURES.md | unpaid-repair | F-05 partial F-06 milestone met dated corrections block appended | ARC-OBIT-R001 A2
+D7-R20 | PASS | hept/ledger/QUOTES.md | bind-quotes | foreign kill records bound paper-orchestrator objection walls-self-attested | Q0046-Q0050
+D7-R21 | PASS | hept/days/D5/BREAKS.md | break-case | B7 paper-orchestrator regress veto-not-allocation survives declared debt named | Q0048 Q0050
+D7-R22 | PASS | hept/ledger/QUOTES.md | bind-quotes | one-object verdict bound row-as-object convergence schema divergence kept honest | Q0051-Q0054
+D7-R23 | PASS | hept/days/D5/BREAKS.md | break-case | B8 two-objects collision recorded not adjudicated owner-reconciliation class | Q0051 Q0054 ARC-OBIT-R001
+D7-R24 | PASS | hept/ledger/QUOTES.md | bind-quotes | binding law bound truth-equals-balance write-down unverified-not-false | Q0055-Q0057
+D7-R25 | PASS | hept/days/D5/BREAKS.md | break-case | B9 unpayable debt residue-class survives re-statement duty mechanical | arc-protocol:86-87 RUN12
+D7-R26 | PASS | hept/ledger/QUOTES.md | bind-quotes | sibling because-ledger bound LB07 killed same-task operator priced-not-pleaded | Q0058-Q0061
+D7-R27 | PASS | hept/days/D5/BREAKS.md | break-case | B10 cross-lane kill propagation fork survives experiment priced provisional-in-advance | Q0058 NC5
+D7-R28 | PASS | hept/ledger/QUOTES.md | bind-quotes | demolition-log rule attacks bound owner-absence stuck-gate echo seats delegation | Q0062-Q0065
+D7-R29 | PASS | hept/records/ARC-OBIT-R001.md | unpaid-repair | stale opening MARK superseded by A3 effective UNVERIFIED countersignature state | tries 3/3 catches≥17
+D7-R30 | PASS | hept/ledger/QUOTES.md | bind-quotes | verification economics ledger noise and ARC self-obituary limits bound | Q0066-Q0070

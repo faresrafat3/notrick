@@ -106,10 +106,12 @@ Source: research/breaker-measure.md §2-§6; adoption proposal = proposals/BRK-0
 | Q-24 | OPS_QUEUE.md:1 header stamps "غير منفَّذ" while 63/63 ops are ☑ and OP-058 closed — update header or append dated close note | OPS_QUEUE.md:1 | UPDATE-HEADER / APPEND-CLOSE-NOTE / IGNORE |
 | Q-25 | G6-FIX round 2 rephrased claims-v1:95 from context (L3-guess) after LOG.md:171 recorded "no guessing", removed lineage tokens verdict-master:125 said "kept deliberately", left :150-151 evidence record naming stale coords | LOG.md:171,178,183 · verdict-master.md:125 · lineage-audit.md:150-151 · claims-v1.md:95 | RESCIND-L3 / UPDATE-EVIDENCE-RECORD / RULE |
 | Q-26 | (RESOLVED-BY-COMPLETION 09-08: hept week-complete — 7/7 days PASS, canon frozen v1.0, WEEK_DONE audit, HEARTBEAT status week_complete, SEALED law 2026-09-06; BUDGET's "re-entry" settling act became moot as the week ended; the D1/0/0 file is a dead ledger, not a live lie — Owner may delete or leave) | RUN/STALE.md:17 · hept/runtime/BUDGET.md · hept/WEEK_DONE.md · hept/runtime/HEARTBEAT.md | CLEAR / DELETE-DEAD-FILE / RULE |
-| Q-27a | D-5 scope carries unbound `{N}` operations placeholder vs regency §3's own "كل تصميم = نطاق بأرقام" promise; lane's anti-stub scan claimed zero hits while :62 holds it | research/regency-doctrine.md:62,35 | BIND-N / REWORD-SCOPE / RULE |
+| Q-27a | (RESOLVED 09-09: D-5 scope rebirthed constrained — "{N}" replaced by "≤ سقف-التفعيل — حقل يحدده المالك", an Owner-defined field, not a guessed number; FINAL-REPORT §3 credits the breaker kill) | research/regency-doctrine.md:62 · research/FINAL-REPORT.md §3 | CLEAR |
 | Q-27b | pr-012's "each missing exactly its obituary" loose — lineage-audit has 0 obituary hits, others 1-2; per-file R2 RULINGS accurate, proposal sentence overstates | proposals/pr-012-four-deliverables-completion.md · RUN/LEDGER.md (R2 RULINGS) | REWORD-PROPOSAL / IGNORE |
 | Q-28 | OWNER-QUEUE-DRAFT:44 plans "pr-011 يدخل الطابور عند وجوده" but pr-011-regency filed 08:36 (2 min after 08:34 draft); inventory misses its own awaited deliverable + names taken P-011 | research/harness-run/OWNER-QUEUE-DRAFT.md:44 | UPDATE-DRAFT / IGNORE |
-| Q-29 | SECOND P-012 collision: pr-012-integrity-semantics.md (S2, 08:48) filed 3 min after lane fixed P-011/P-012 (renamed four-deliverables, CORRECTION 08:45); two P-012 files now exist, no cross-ref, no CORRECTION record, HANDBACK-S2:64,66 cites "pr-012" as owned — systemic hole: NO proposal-numbering register (proposals/README says "no proposals yet" vs 22 files) | proposals/pr-012-integrity-semantics.md · proposals/pr-012-four-deliverables-completion.md · proposals/README.md · RUN/LEDGER.md:46 · research/HANDBACK-S2.md:64,66 | ADD-NUMBERING-REGISTER / RENAME-TO-P013 / RULE |
+| Q-29 | SECOND P-012 collision + THIRD incident (pr-011-sanad, LOG.md:282: filed after checking ONLY pr-010, caught by SCRIVENER, renamed pr-021) — three numbering incidents across three lanes in one day; NO register exists (proposals/README says "no proposals yet" vs 25 files), numbers allocated by convention | proposals/pr-012-integrity-semantics.md · proposals/pr-021-sanad-unification.md · proposals/README.md · LOG.md:282 | ADD-NUMBERING-REGISTER / RULE (triple-justified) |
+| Q-32 | RUN/smoke/ exists (00:38), empty, unlogged — no record of who created it or why; mkdir is S1's first clause of the P5-gated smoke prereg; first unlogged artifact inside RUN/ namespace this series | RUN/smoke/ · proposals/pr-011-smoke-call-prereg.md S1/S9 · grep RUN/smoke LOG+handoff = 0 | LOG-PROVENANCE / REMOVE-DIR / RULE |
+| Q-33 | hept post-freeze "unpaid-repair" wave NARROWED + positive control found: bore's D7-T1..T4 spec-audit is the reference pattern (every post-freeze edit traces to a named defect found by a named audit: Q06 copy-drift, Q11 missing read-order file; 107/107 refs resolve; stamp bumped with disclosure). B7/B8 show hept CAN force properly. R17's "anchor repair" (SEALED +bore/+RUN/) remains the sole self-graded edit; counter-argument: functionally necessary for Q0046-50 bindings. Root: canon never classifies SEALED.md | hept/CANON.md:72 · hept/SEALED.md:18 · bore/days/D7/T3.md · bore/HANDOFF_PACK.md:3 | CLASSIFY-SEALED / REQUIRE-DEFECT-TRACE / RULE |
 | Q-30 | R3 pin-trial "computed" row for violations.md (c39f54c0) self-staled: working tree now c46f161a after R3's OWN V-003 filing 08:55:30 — the trial re-mutated the file it flags; append dated recompute line | RUN/PIN_TRIAL.md:48 · violations.md (mtime 08:55:30) | APPEND-DATED-ROW / RE-COMPUTE / RULE |
 | Q-31 | CANON.md §5 word-count targets are unbound placeholders ({WC_PAGE}/{WC_PARA}/{WC_LINE} :47-49) while §1 header promises "القياس الفعلي §5"; §6 boot-test already computed real numbers (19: 14/2/3) | research/CANON.md:47-49,5 | COMPUTE-COUNTS / REWORD-REFERENCE / RULE |
 
@@ -141,7 +143,7 @@ Source: research/breaker-measure.md §2-§6; adoption proposal = proposals/BRK-0
 
 ---
 
-**BREAKER COMPLETE — 13 files + 5 BRK proposals — Owner queue: 32 items — falsifier armed.**
+**BREAKER COMPLETE — 25 files + 5 BRK proposals — Owner queue: 34 items — falsifier armed.**
 (addendum: research/breaker-lineage-verify.md — Q-13..Q-21 incl. lineage CL-17 citation
 defect, OP_POINTER stale slot, assault-plan T-01..T-06 collisions, F-RUN-21 self-taint;
 A-06 seats sharpened to ch-002:37-40 · research/breaker-run-close-watch.md — Q-22 RUN R1
@@ -171,4 +173,12 @@ re-derive ·
 research/breaker-r3-debt-canon.md — R3 closed IN DEBT lawfully (flag NOT flipped, B1.3
 debt named, obituary not fired — lane internalized Q-22 lesson), r3-skeptic git-baseline
 verdict converges with Q-07/Q-30/B5, Q-31 new: CANON.md §5 word-counts are {WC_*}
-placeholders while §1 promises "actual measurement"; registry 26-row claim re-derives.)
+placeholders while §1 promises "actual measurement"; registry 26-row claim re-derives ·
+research/breaker-well-reconciliation.md — well UNLOGGED-RETRO block credited (mark the
+gap, refuse backfill, forward rule pinned: "a gap marked is supervision, a gap filled is
+forgery"); 24-named-items vs 29-files wording note folded ·
+research/breaker-series2-final.md — SERIES 2 CLOSED at R14 (15 receipts, 160 citations,
+12 rites, 0 doctrine writes); QUEUE R9..R14 false BY DESIGN left visible for Owner;
+R14 zones cold-verified (160 ✓, receipts-14 off-by-one vs 15 on disk); GHOST 4/4 failed
+pre-write declared in-artifact; theater test DISPROVEN (12 real rites, zero-kills clause
+correctly silent); pr-015..020 single-ownership, pr-020 answers Q-29's register hole.)

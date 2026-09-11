@@ -7,6 +7,9 @@
 - **ID:** P-{NNN} · **filed:** {date} · **by:** {agent name + which model/session}
 - **boot-gate quote (must match the agent's first reply):** {version + rights quoted}
 - **type:** {charter amendment | rule proposal | new hypothesis | ADR challenge | rot report}
+- **status:** {PENDING OWNER | APPROVED→doctrine {date} | REJECTED {reason} | HELD | EXPIRED (two sessions unanswered — arc:63-64)}
+  (This field lives in the first header block (≤12 lines) — read verbatim by
+  tools/audit.sh --proposals; any other shape = no status on the generated surface)
 
 ## The proposal (one sentence)
 {...}

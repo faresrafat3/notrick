@@ -676,3 +676,92 @@ warmth). Created at the Owner's explicit request to make trust mechanical, not f
   deletions, root signpost README, indexes, entries. Pins before=after 43 OK / 1 FAILED
   (violations.md, V-003). Zero doctrine writes; parallel lanes untouched. Forcing cause: the
   Owner's cleanup-and-polish goal rounds 1-7.
+- 2026-09-10 · CARD-LIBRARY BIRTH (Owner live directive in-session — "خطط للهدف الثاني بتاعك
+  وفعله بافضل شكل" — under the standing anatomy delegation, revocable in one line, R8; goal
+  goal-6ced4c85 armed round 1/5): research/anatomy-card-form.md v1 (the library cell: 4-item
+  birth gate — pain receipt · prior-art check · frozen evaluator · kill-line; 5-state machine
+  COLD/ARMED/RUNNING/PROVEN/DEAD with ARMED→RUNNING Owner-gated at P6 and PROVEN requiring
+  BOTH D-14 gauges; diversification floor F7-ruled) + research/idea-001-anchor-checker.md
+  (first anatomy card, state ARMED — the live-anchor checker: pain attested 3× on disk
+  (citation-drift-audit.md:38 manual ~15min/round · :15-16 4/20 point drifts ·
+  anatomy-verification §3 3 drifts two repaired + CONTEXT:589-594 repair record); frozen
+  evaluator WITH RECEIPTS: sha256 anatomy-reference fde376d3… · anatomy-verification
+  207b75b5… frozen 2026-09-10 ~09:45+03 BEFORE any execution; thresholds H1-H4
+  pre-registered (H1 ≥15/15 · H2 negative-anchors derive · H3 byte-identical double-run ·
+  H4 ≤60s vs ~900s manual); kill-line with heir (cite.sh); execution NOT EXECUTED behind
+  P6). Pain-mining method: codex-style dig through RUN/tools (cite.sh/count.sh =
+  disinterested measurers) before selecting the idea — the project documents its own
+  citation rot and measures it manually ~15min/round; the card mechanizes exactly that.
+  Stranger verification R6: two background subagent attempts failed silently (technical,
+  both listed [ready]; retried via direct message — verdict recorded the moment it lands).
+  LOG.md appended (FOUNDATION-DEEP ✓ + CARD-LIBRARY-BIRTH lines). OPS_QUEUE verified
+  0 ☐ / 63 ☑ (closed — this session's lane is research/ + LOG/CONTEXT-tail only). Walls:
+  zero doctrine writes, zero runtime, zero fuel, Owner fields untouched, version v0.00001.
+  Forcing cause: the Owner's execute-your-second-goal directive + goal round 1/5.
+- 2026-09-10 · IDEA-001 STRANGER VERDICT: PASS WITH NOTATIONS (goal round 1/5 continued;
+  R6 honored — verifier context-isolated, did not author the files): two background
+  subagent attempts failed silently (technical, both listed [ready], no closing message —
+  self-caught, not hidden); the THIRD attempt succeeded via the foreground subagent
+  channel — 41 live commands (sed ×16 · grep ×12 · sha256sum · stat ×3 · wc ×2 · ls ×4 ·
+  count pipelines; cite.sh READ never executed; zero fuel). VERIFIED: both frozen hashes
+  byte-exact (fde376d3… / 207b75b5…) · mtimes exact (09:27:58 / 09:29:54 +03) · §2 anchor
+  count = 15 data rows (17 − separator − header) · P-006 row live at verdict-master:28 ·
+  zero anchors* code anywhere in the tree (no code before P6 holds) · walls clean (no
+  Owner field touched, v0.00001) · honesty clean (UNTESTED labeled ×2, thresholds
+  pre-registered, no invented facts). NOTATIONS (all addressed post-verdict WITH
+  DECLARATION, harness-run custom): N1 dead anchor idea-001:38→real :46-47 · N4
+  cite.sh:27-28 nonexistent→real :26 · N5 unresolvable path arena-candidates→full name
+  anatomy-bridge-arena-candidates (fixed in card+form+foundation-deep) · N6 firstborn
+  violated its own form's receipt format→§1 rewritten to file:line-span+mtime form ·
+  N7 gauge-A scope-widening→declared as a card-scoped amendment inside §7, external
+  dollar remains the final PROVEN judge · N8 COLD defined two ways→form §6-ب
+  reconciliation added (no gauge-B → COLD; gauge A gates only PROVEN). Meta-finding
+  recorded: the anchor-checker card was born carrying dead anchors — the exact disease
+  it treats — which is its strongest evidence-of-pain; the verdict line lives in LOG.md
+  (IDEA001-STRANGER-R3). Card state stays ARMED (execution NOT EXECUTED behind P6).
+  Forcing cause: goal round 1/5 (verification sub-objective of goal-6ced4c85).
+- 2026-09-11 · ERGONOMICS TOWER (ضيف-تصميم — ZCode/GLM-5.3-Flash، guest: read+propose؛ boot-gate مقتبس في أول رد السيشن): هدف المالك النظام كلصول واحد agent-intuitive/ergonomic/accretive. القرارات وأسبابها القاهرة: (1) القياس قبل التصميم — ضريبة إقلاع 73,424B حُسبت آليًا (CONTEXT 64,747B = 88% منها) لأن "أقل كلفة" بلا قياس ذوق لا تصميم (tools/audit.sh §7)؛ (2) الحقيقة-المولَّدة — مولّد بطاقة قراءة-فقط tools/audit.sh كُتب واختُبر بتشغيلين (خرجه الأول: دبابيس 43 OK/1 FAILED مطابق للسجل · OPS_QUEUE 63 ☑/0 · RUN 15 استلام R014 complete · اللينات الأربعة STALE >41س · صندوق العروض 32 ملفًا) — التمييز القانوني المسجل: تشغيل أداة قراءة-فقط فحص (العملية المسموحة 3، ONBOARDING:21-22) لا تنفيذ ولا لمس-تشغيل (ONBOARDING:27)؛ (3) المحجوب ذاتيًا: proposals/README.md مثبَّت بالهاش (51caac2a…) فلم يُلمس مباشرة رغم كذبة ترويسته ("no proposals yet") — النص الجاهز في pr-023-F بإعادة تثبيت اللحظة نفسها؛ العقيدة كلها وRUN-داخلي ولينات bore/hept لم تُلمس (pins قبل=بعد 43/1)؛ (4) التسليمات: research/ergonomics-tower.md (الترابيسة سبع طبقات · الأحواض الأربعة · الأمراض السبع بأدلة حية · فالسيفايه مسبق §9) + tools/audit.sh + proposals/pr-023-ergonomics-package.md (ستة أجزاء جاهزة حرفيًا: A ONBOARDING v2 · B قانون R14 الحقيقة-المولَّدة · C LANES نبض-mtime = تحقيق البند 10/R-1 · D OWNER-DESK فهرس القرار الواحد · E قالب PROPOSAL بحالة موحدة · F proposals/README مولّدًا) — كلها PENDING OWNER بكلمة واحدة لكل جزء؛ درس→قانون: الحقيقة-اليدوية تكذب بمواعيد (3 شواذد حية اليوم) فالعلاج مولّد بقانون يحميه.
+- 2026-09-11 · RATIFICATION MOMENT — pr-022 + pr-023 A–F ADOPTED & EXECUTED (المالك، سطر حرفي:
+  "تمام موافق واتفق معاك  كلامك صحيح ابداء اعمل الهدف بتاعك واشتغل عليه" — استجابة لتقرير
+  ergonomics-tower.md الذي عرّض الحزمة جزءًا جزءًا؛ التفسير المسجل: اعتماد شامل لما عُرض،
+  والتبني الجزئي مسموح بالتصميم وكل جزء يحمل قاتله — أي جزء يُسحب بسطر مالك واحد).
+  المنفَّذ ميكانيكيًا: (pr-022) FOUNDATIONAL-BRIEF:15-16/20/49 + ONBOARDING:9-11 + AGENTS:38-39 —
+  ترويسات التوقيع P2 صارت صادقة (RATIFICATION-BATCH-001.md:15)، الوقود 57 مفتاحًا
+  (pr-011-smoke-call-prereg.md:253,313)، البورت 3080 فُحص حيًا (HTTP 200)؛
+  (pr-023-A) ONBOARDING: بطاقة الإقلاع المولَّدة + مسارات الأدوار + عادة الإغلاق الثلاثية؛
+  (B) RULES: R14 الحقيقة-المولَّدة (12 قانونًا حيًا — R13 تظل مرشحة pr-014)؛
+  (C) LANES.md لوحة النبض mtime (تحقيق ميكانيكية البند 10/R-1 — نص قانون R-1 نفسه يظل بحكم المالك)؛
+  (D) OWNER-DESK.md فهرس القرار الواحد (سطرا pr-022/pr-023 شُطبا لحظة الولادة — سلوك الملف ذاته)؛
+  (E) templates/PROPOSAL: حقل status موحد قابل للعدّ؛ (F) proposals/README.md وُلِّد بأداة
+  audit.sh --proposals (قتل كذبة "no proposals yet" الحية). REPIN: 7 دبابيس جددت
+  (FOUNDATIONAL-BRIEF · ONBOARDING · AGENTS · RULES · templates/PROPOSAL · proposals/README ·
+  violations.md — الدبوس الفاشل V-003 أُصلح ضمن هذه اللحظة المسجلة والسجل الباتق باقٍ في
+  violations.md) + عدّاد INTEGRITY صُحح 42→44 (الحقيقي) + إعفاءات معلنة في INTEGRITY:
+  LANES/OWNER-DESK (أسطح حية بالإلحاح) وtools/audit.sh (يحميه الاستهلاك الحي لا الهاش).
+  النسخة لم تتحرك (v0.00001 — تحريكها سطر مالك). المتبقي على المالك: P3 · P4 · P5 · P6 ·
+  تحريك النسخة · القائمة 15 · pr-021 · X0003 — كلها مفهرسة في OWNER-DESK.md.
+  Forcing cause: أمر تنفيذ المالك الصريح بعد عرض الحزمة كاملة.
+  Verification: audit.sh بعد التنفيذ = PINS 44 OK / 0 FAILED (أول أخضر كامل).
+- 2026-09-11 · ARTIFACT-LANGUAGE MOMENT — R15 ADOPTED & EXECUTED (Owner, verbatim line:
+  "انا عايز كده اولا عشان معروفه الافضل لل llms او ال agents ان كل حاجه هناك تبقي
+  بالانجليزي في المشروع الكلام او الدردشه معايا بس اللي فيها بالعربي عشان نسهل
+  التواصل بينا وكل شغلك معلش علي المقاطعه" — artifacts English, chat Arabic).
+  Executed: (1) RULES R15 appended (falsifier written in) — doctrine now 13 living laws
+  (R13 still a candidate, pr-014); (2) translated the Arabic I myself had introduced into
+  pinned doctrine on 2026-09-11 (FOUNDATIONAL-BRIEF:50, templates/PROPOSAL status field) —
+  pre-existing pinned doctrine was already Arabic-free; (3) living surfaces translated:
+  README.md (root signpost) · STATE.md · LANES.md · OWNER-DESK.md · research/README.md ·
+  tools/audit.sh output strings · proposals/README.md regenerated in English;
+  (4) ergonomics-tower.md: English rendering APPENDED (Arabic original stays as the filed
+  record — add, never erase). EXEMPT BY R15 (historical records, superseded never
+  rewritten): pre-2026-09-11 LOG/CONTEXT entries · filed proposals (their Arabic stands;
+  new proposals file in English) · terminal OPS_QUEUE.md · foreign lane files (bore/hept/
+  mill/well/phantom) · verbatim Owner quotations (quotes stay verbatim by law).
+  REPIN within this logged moment: FOUNDATIONAL-BRIEF · RULES · templates/PROPOSAL ·
+  proposals/README (INTEGRITY header carries both 2026-09-11 moments).
+  CORRECTION FILED (fast-honest habit, AGENTS.md): my first pinned-files Arabic scan was
+  broken (pattern '^\./' never matches hash-led lines) and produced a false "pinned
+  doctrine 100% Arabic-free" claim; direct re-verification found the two files above —
+  the defect was mine, caught by the verify-before-claim habit, recorded here not hidden.
+  Forcing cause: Owner's direct language directive (best-for-agents ergonomics).
+  Verification post-execution: pins 44 OK / 0 FAILED; audit.sh card renders in English.

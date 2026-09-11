@@ -1,5 +1,5 @@
-# TODAY: DAY 5 — ADVERSARY
-Object: Survive enemies, including yourself.
-Forbidden: defending with rhetoric, strawmen, shadow-clone of the same theory.
-Plan: Core 16 quanta D5-Q01 through D5-Q16; red team the D4 machine.
-Target: The pretty version is dead; graveyard nonempty; live fork remains.
+# TODAY: DAY 7 — CANON AND HANDOFF
+Object: The only document worth keeping.
+Forbidden: session history, prompt residue, pep, recap-as-product, resurrecting GRAVEYARD.
+Plan: Core 16 quanta D7-Q01..Q16; final red team must change the canon; freeze.
+Target: hept/CANON.md denser than any previous artifact; WEEK_DONE.md honest.

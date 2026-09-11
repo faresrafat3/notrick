@@ -35,8 +35,8 @@ Trust is not earned by tone. It is bought by three mechanical habits — apply t
   or say nothing affected anything.
 - Never touch Owner-only fields (threshold value, breakthrough definition) — those are
   empty-by-right and belong to Fares alone.
-- The four charters (CH-001..004) are DRAFTED in CONTEXT.md and **pending Owner batch
-  signature** — do not treat them as ratified.
+- The four charters (CH-001..004) are signed into active law 2026-09-06 (P2 —
+  RATIFICATION-BATCH-001.md:15); edits only via a recorded gateway/ruling (R2/R8).
 
 ## The honest ceiling the Owner must know
 The agent has no consciousness, no "inner sight" of its own honesty. What it does have is

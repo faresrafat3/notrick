@@ -1,0 +1,6 @@
+# prereg.window — G-A (dsh..prereg) write scope, one path or glob per line
+proposals/pr-011-smoke-call-prereg.md
+RUN/dossiers/dsh..prereg/
+RUN/windows/prereg.window
+RUN/smoke/
+CONTEXT.md  (append-only decision-log tail ONLY)
