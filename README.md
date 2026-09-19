@@ -8,15 +8,18 @@
 ## The project in one line
 An AI mind grown bottom-up — micro-agents (MICs) + four charter agencies — coordinating
 through documents and documented results on disk, with no live orchestrator; the Owner is
-the embodied constitution. (CONTEXT.md:13-15)
+the embodied constitution. (pre-pr-024-A CONTEXT head — preserved in git history, 449aede
+and earlier; cite by date + entry head per the pr-024-A convention)
 
-## State (2026-09-11)
-- **Version v0.00001 — pre-zero: no execution, no runtime** (VERSION.md:8-9).
-- Zero day opens with three Owner-only acts: **P3 the threshold · P5 fuel authorization ·
-  P6 the written GO** (RATIFICATION-BATCH-001.md · CONTEXT.md:317-331).
-- Doctrine is hash-pinned (INTEGRITY.md): **44 OK / 0 FAILED** (as of the 2026-09-11
-  re-pin moment; the historical V-003 record itself remains in `violations.md`).
-  One-command verify: INTEGRITY.md:8-11.
+## State (2026-09-19)
+- **Version v0.0001 — signature landed, doctrine legally alive; no execution, no runtime**
+  (VERSION.md pre-amble — moved from v0.00001 by the Owner's line 2026-09-19).
+- Zero day still opens with the Owner-only acts: **P3 the threshold · P5 fuel authorization ·
+  P6 the written GO** (RATIFICATION-BATCH-001.md Parts 3/5/6 — P5 HOLD and P6 NOT YET stand
+  as ruled 2026-09-06).
+- Doctrine is hash-pinned (INTEGRITY.md): **44 OK / 0 FAILED** (as of the 2026-09-19
+  pr-024-adoption re-pin; the historical V-003 record itself remains in `violations.md`).
+  One-command verify: INTEGRITY.md, section "## Verify (one command)".
 - Live health card, one command: `bash tools/audit.sh` — pins · queues · lane pulses ·
   boot tax (generated at run time, not law — research/ergonomics-tower.md §5).
 - Citation sweep, one command: `bash tools/citecheck.sh` (self-tested; first sweep
@@ -50,7 +53,9 @@ the embodied constitution. (CONTEXT.md:13-15)
 - `research/anatomy-reference.md` + `anatomy-bridge.md` — the imported mind-anatomy reference (2026-09-10).
 - `research/ergonomics-tower.md` — the measured ergonomics design: the tower · the generator · the pr-023 package (2026-09-11; executed same day).
 - `research/ergonomics-deep.md` — the operating cycle + the GENERATE/ROUTE/RECORD invariant + findings F-1..F-7 (2026-09-11).
-- `proposals/pr-024-ergonomics-deep-package.md` — four one-word parts: CONTEXT head-slim · LANES register · citecheck adoption · runbook v0.2 (PENDING OWNER).
+- `proposals/pr-024-ergonomics-deep-package.md` — four one-word parts: CONTEXT head-slim ·
+  LANES register · citecheck adoption · runbook v0.2 — **ADOPTED A C D 2026-09-19** (Part B
+  not adopted; ruling recorded in the proposal + CONTEXT 2026-09-19 adoption entry).
 
 ## Task routing (I want to …)
 | Intent | Go to |

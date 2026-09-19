@@ -4,7 +4,7 @@
 > Nothing here RUNS anything. This file exists so "go" costs the Owner one message, not a session.
 
 ## Pre-flight checklist (ALL must be ✅ before any prompt below is used)
-1. [ ] Owner batch signature on charters/ch-001..004 (the ratification fields filled, dated)
+1. [x] Owner batch signature on charters/ch-001..004 — DONE P2 2026-09-06 (RATIFICATION-BATCH-001.md:15 · CONTEXT 2026-09-06 "CHARTER BATCH SIGNED")
 2. [ ] Approved-docs moment done for the PENDING stack (supervision files + audit artifacts)
 3. [ ] Smoke call passed (fuel proven — RJ-001 cond.3; logged with verbatim output)
 4. [ ] Threshold first value chosen (Owner-by-right; fills DS-001)
@@ -13,7 +13,7 @@
 7. [ ] Owner's written GO (the indefinite hold lifts by exactly one written line)
 
 ## Role 1 — PLANNER (Buffy+OpenCode · chat-only · no file writes)
-- Context pack (paste order): CONTEXT.md → AGENTS.md → FOUNDATIONAL-BRIEF.md → task-named files.
+- Context pack (paste order): boot card (bash tools/audit.sh) → AGENTS.md → CONTEXT.md head + the task-named tail entries → FOUNDATIONAL-BRIEF.md → task-named files. (The full-CONTEXT read remains the audit path — ONBOARDING v2:15-17.)
 - Prompt skeleton:
   "You are the planning layer of NOTRICK (v{N}, before zero). Read the boot chain above.
   Your ONLY product: a design page (templates/DS.md, filled) for the task below — three
@@ -35,7 +35,7 @@
 - Acceptance: result record with a K-line (R5) + gate output quoted verbatim.
 
 ## Role 3 — SUPERVISOR-ON-DUTY (any agent the Owner names, per session)
-- Context pack: AGENTS.md → SUPERVISOR-CHIP.md → violations.md → the ruled DS.
+- Context pack: AGENTS.md → SUPERVISOR-CHIP.md → violations.md → a fresh tools/citecheck.sh sweep → the ruled DS.
 - Prompt skeleton:
   "You are supervisor-on-duty (revocable). Spot-check the executor's boot-gate quote;
   re-run the DS gate criterion yourself; file anything in violations.md verbatim. You do

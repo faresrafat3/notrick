@@ -1,4 +1,14 @@
 # INTEGRITY — doctrine hash pins (L5 of the supervision stack)
+> re-pinned 2026-09-19 (pr-024 adoption moment — Owner line 2026-09-19, verbatim: "اعتمد
+> pr-024: A C D — وانقل الإصدار إلى v0.0001"): Parts A C D applied verbatim from
+> proposals/pr-024-ergonomics-deep-package.md (Part B NOT adopted — the Owner's line names
+> A C D) + the version moved v0.00001 → v0.0001 per VERSION.md (gate: charter signature
+> landed 2026-09-06, RATIFICATION-BATCH-001.md:13-15). Re-pinned files this moment:
+> ONBOARDING (Part C verifier-path edit) · ZERO-DAY-RUNBOOK (Part D three diffs) · VERSION
+> (Owner version move). New Rules entry this moment: the citecheck gate — every
+> approved-docs moment that edits a pinned file runs tools/citecheck.sh in the same logged
+> moment (this moment is its first application). New Exemption: tools/citecheck.sh (same
+> protection class as tools/audit.sh).
 > re-pinned 2026-09-11 (second moment, same day): the ARTIFACT-LANGUAGE directive — Owner
 > typed line (verbatim): "انا عايز كده اولا عشان معروفه الافضل لل llms او ال agents ان كل
 > حاجه هناك تبقي بالانجليزي في المشروع الكلام او الدردشه معايا بس اللي فيها بالعربي عشان
@@ -32,6 +42,10 @@ cd ~/Projects/notrick && sha256sum -c <(grep -E "^[0-9a-f]{64}" INTEGRITY.md)
 - This pin is AS-OF the sweep moment (~21:4x): the tree was LIVE during the signature turn
   (pr-007, pr-008, arc-protocol, rcvm all landed mid-turn). Any file changing after this
   sweep surfaces as a mismatch on the next check — attributable or not, it gets filed.
+- Every approved-docs moment that edits a pinned file also runs tools/citecheck.sh in the
+  same logged moment and files any new drift with the moment: citations into doctrine rot
+  when doctrine moves (live case: research/harness-run/BOOT.md:21 cites AGENTS.md:74-77;
+  the pr-022 edit left AGENTS.md at 75 lines — caught by the first sweep, 2026-09-11).
 
 ## Pinned hashes (sha256) — 44 files
 ```
@@ -45,7 +59,7 @@ aa224614a4a4ab997ef5d958d80604bf7aae7dcd8fc25127f456ebf90a3373ec  ./mics/mic-07-
 428aea5c1ca52094770fd5008c1a733b8c43a1f8bd875afb197ea73deae5f25a  ./mics/mic-11-id-formatter.md
 87d9dc1b9070c25dde019001c5acc85083c8da052b5eb02bc07694108a9f4bba  ./mics/mic-23-gate-runner.md
 c1751f92aaf20ef6f3ab3a884be36c9f453e49826ee17c377312a9bb35249e5e  ./mics/mic-31-axis-tagger.md
-16691ce7d6cc13981eed520b7a6fc9fd71f8d68af1fe9fbb20fd7c9549c567b3  ./ONBOARDING.md
+400515658651e209567b74c0d0d853ba57c6d54ad33a436ecfc922f229b9a0b1  ./ONBOARDING.md
 f65912ff7194bf7948ebec772fb62880408d08009296b8ed2ff47d6c6e3d5f34  ./proposals/pr-001-proposal-template.md
 07fc84acb09462d3c2d68e864098e4457673ca2f44a4641b72aeec5aa9f7d9a8  ./proposals/pr-002-quorum-tiers.md
 622cf8f3478b0f5a1aef7144b0b5769ee3b6f54a3142f8fe8e6951f00b89eeef  ./proposals/pr-003-measurers.md
@@ -75,9 +89,9 @@ b48239b0fc079a87bf21047161c2ba5b5c24abe4c6ba602ca3cf5352f5d27888  ./templates/DS
 325fd73951dc34ead5f7f2f091c6802022fb6f0acd24ef0b42e4c298ca0a1401  ./templates/MIC.md
 a0f41f3bbc331f286dfd9a58ed5cc2baa6f3f82b38a3ddeef35cb750abbb0342  ./templates/PROPOSAL.md
 7f4e760fd02abe758e6eca1ae5c0ba2f1c70cb2a5f6134092f00d56c6b5c20f8  ./templates/RJ.md
-d56582de75ca14430735850fbc560b7adc3ecf1dcb1b63dc72c04293b60b65bf  ./VERSION.md
+c67aeac7e574d5dc1d08e54371671408d4f4f6005fd4ed027ed5437f4b05f87a  ./VERSION.md
 c46f161a8d65583987b76406bc8251929ba3f42565dc1004c51ac07369160d37  ./violations.md
-70def32cc156d094af727670cd28eeb1637a8e04cebffe84cbb3dad2ce7da710  ./ZERO-DAY-RUNBOOK.md
+3b5ddd8e95b88d90416ff338bcd84b8daf5662d9d7b595c9509af58392955c8f  ./ZERO-DAY-RUNBOOK.md
 9430cc413a15e56c24c92ec8e9234467bb38f209f6256e65077c7c9b5e8589b5  ./ZERO-READINESS.md
 ```
 
@@ -88,3 +102,6 @@ c46f161a8d65583987b76406bc8251929ba3f42565dc1004c51ac07369160d37  ./violations.m
 - `tools/audit.sh` — the truth-generator itself: protected by per-session quotable output
   (research/ergonomics-tower.md §9), not by a frozen hash. A card contradicting a record
   loses (R14).
+- tools/citecheck.sh — the citation-sweep generator: same protection class as
+  tools/audit.sh (live consumption + a built-in --self-test known-positive), not a frozen
+  hash. A clean sweep contradicted by a named file:line is filed, never re-trusted.

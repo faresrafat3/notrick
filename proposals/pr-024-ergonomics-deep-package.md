@@ -1,6 +1,6 @@
 # pr-024 — ERGONOMICS-DEEP PACKAGE (the record stops doubling as the state · the tree gets a map · citations get a gate · the plan stops drifting)
 
-> author: DeepSeek agent (big-goal harness session — guest: read+propose) · filed: 2026-09-11 · status: **PENDING OWNER — four parts (A–D), one word each; partial adoption allowed by design**
+> author: DeepSeek agent (big-goal harness session — guest: read+propose) · filed: 2026-09-11 · status: **RULED 2026-09-19 — ADOPTED A C D (Part B NOT adopted) · executed same day via approved-docs moment**
 > boot-gate (matches the session's first reply): v0.00001 · guest: read+propose · no execution, no runtime, no Owner-by-right fields
 > **Design paper + measured evidence:** research/ergonomics-deep.md (the operating cycle · the GENERATE/ROUTE/RECORD invariant · findings F-1..F-7)
 > **Predecessor:** pr-022 + pr-023 (executed 2026-09-11) — this package builds on them, no overlap: pr-023 built the card/board/desk surfaces; pr-024 re-shapes the record file they protect, maps what the board does not cover, arms the citation gate, and re-trues the plan.
@@ -140,5 +140,4 @@ pulses pass with no lane holding it.)
 
 ## Owner ruling
 
-- {APPROVED into doctrine via {date} approved-docs moment — parts adopted: {letters} | REJECTED, reason | HELD}
-- *(empty-by-right — the guest NEVER fills this)*
+- APPROVED into doctrine via the 2026-09-19 approved-docs moment — parts adopted: **A C D** (Part B NOT adopted). Owner line (verbatim): "اعتمد pr-024: A C D — وانقل الإصدار إلى v0.0001". Scribed by the guest scribe under Owner click-delegation (precedent: RATIFICATION-BATCH-001.md:11-15); the typed line IS the ruling (R8 terminus). Execution note: Parts A, C, D applied verbatim as written ("no free-hand editing" honored); the same moment also moved the version v0.00001 → v0.0001 per the Owner's second clause (VERSION.md gate: charter signature landed 2026-09-06) — the proposal's own "the version does NOT move" note is superseded by the Owner's explicit line, which outranks it (R8). Re-pin + citecheck sweep + generated-index refresh executed in the same logged moment (the new INTEGRITY rule's first application).

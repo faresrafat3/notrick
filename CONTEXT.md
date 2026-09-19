@@ -1,89 +1,25 @@
-# CONTEXT.md — the compaction file (reads back the whole conversation)
+# CONTEXT.md — the decision log (append-only · the persisted brain)
 
-> Purpose: this file is the persisted brain of this project's session context.
-> Any future agent reads THIS FILE first, then AGENTS.md, then FOUNDATIONAL-BRIEF.md, then
-> only the files the task names. (Read order RULED by Owner 2026-09-06: CONTEXT → AGENTS →
-> BRIEF → task-named files. Supersedes this file's earlier header text.)
-> It is written so a fresh context can resume exactly where this one leaves off,
-> without needing the chat history.
+> **Read order (Owner ruling 2026-09-06):** CONTEXT → AGENTS → FOUNDATIONAL-BRIEF →
+> task-named files. For orientation, run `bash tools/audit.sh` first (ONBOARDING v2,
+> pr-023-A): this file is the RECORD, not the state.
+> **What this file is:** every decision with its forcing cause, oldest first, below
+> the HISTORY line. Append-only: new entries land at the tail; nothing above the line
+> is ever rewritten. The pre-2026-09-11 head sections (project summaries · machine
+> state · open items) were removed by pr-024-A: their live homes are README (routes),
+> the generated card (state), OWNER-DESK (pending decisions), FOUNDATIONAL-BRIEF
+> (index), RULES (law); their historical text lives in git history.
+> **Citation convention (pr-024-A):** cite CONTEXT entries by date + entry head
+> ("CONTEXT 2026-09-08 · SERIES-COMPLETE"), never by line number. Cite every other
+> file as `path/file.md:NN` from the tree root — bare basenames resolve today
+> (tools/citecheck.sh) but rot the day a second file of the same name is born
+> (research/ergonomics-deep.md §4-F-3).
+> **Verify this file:** `git log -p CONTEXT.md` — its honesty rides on append-only
+> discipline + git, not a frozen hash (INTEGRITY.md:29-31).
 
----
+--- HISTORY (append-only below this line · entries: date · decision · forcing cause) ---
 
-## The project (in one sentence)
-**NOTRICK** = a Minsky-style AI mind grown bottom-up: micro-agents (MICs) + four agencies
-(charters), coordinating through documents and documented results — no live orchestrator.
-The Owner = the embodied constitution. Everything lives in `~/Projects/notrick/`.
-
-## The charter batch — ALL FOUR FORGED AS FILES (charters/), awaiting ONE Owner batch signature
-The four charters are **persisted**: `charters/ch-001-prime.md` … `ch-004-chief-of-staff.md`
-(v1, forged 2026-09-06, Kant+Gause checked, Owner ratification field empty-by-right).
-Canonical gist (full text lives in the files — read them, not this summary):
-- **CH-001 prime** — niche: "break the wall that stops a long-horizon task, nothing else."
-  Principle: "There are no walls — only attempts spent on the wrong axis." Powers: reframe /
-  consult ONE advisor per attempt / break via gate. Prohibits declaring a break without gate,
-  persisting past budget, taking over the task, noble lies. Metric: walls broken/budget from
-  DS records. Retire on 3 consecutive gate-less breaks, or when walls stop being the bottleneck.
-- **CH-002 council** — a LAYER (4 seats, not one agent): Consistency/Evidence/Tomorrow/Human.
-  Niche: judge ONE decision before budget activates. Mandatory objection or "SILENCE — deliberate".
-  Retire falsifiably: N judged≈unjudged outcomes → dissolve.
-- **CH-003 maker** — niche: birth charters on documented demand. Powers: forge / prove
-  (masterpiece gate) / reshape. Cannot ratify (Owner-only). Prohibitions: solve tasks itself,
-  forge on speculation, ratify, forge for itself. Observer: born at "NO NICHE" or Owner demand.
-- **CH-004 chief-of-staff** — niche: compose the design page (DS) in three signed voices.
-  Zero authority. Sequence per verbal ruling: plan / red-team / translate — all visible on page.
-
-## The seed MICs — persisted (mics/), interface template closed (templates/MIC.md)
-Phase A: worn by Cline (manually honored). Phase B: pure code (open item 6).
-- MIC-07 budget-counter — trigger: budget written → echo, refuse arithmetic lies.
-- MIC-11 id-formatter — trigger: doc without ID → refuse to index it.
-- MIC-23 gate-runner — trigger: gate verdict claimed → re-run, quote output only.
-- MIC-31 axis-tagger — trigger: attempt logged → tag axis; 3 same-tag = migration to Prime.
-
-## The three interface documents (templates/CH.md · RJ.md · DS.md) — ratified
-Persisted. DS carries the K-line field. RJ-001 (premises trial) APPROVED WITH CONDITIONS.
-
-## The rules — R1..R12 persisted (RULES.md), 11 laws after R3+R4 merge
-R1 interface · R2 charter maintenance · R3 antifragile walls & budgets · R5 K-line ·
-R9 plurality floor (Arendt) · R10 crossword evidence (Haack) · R6 no-trick · R7 birth-on-demand ·
-R8 owner-ratification · R11 philosophy-builds-in-Projects · R12 workspace-is-public.
-
-## Knowledge map (sources + Import Mirror) — research/ten-axis-knowledge-map.md, persisted
-15 landed imports with bodies (Kitcher/Gause… Haack) + Leibniz already in Canon (landed);
-3 true pending: Socratic elenchus, Popper/Lakatos — each with its landing criterion (see
-ten-axis-knowledge-map). Naming doctrine: NOTRICK (Minsky p.308 + Factorio) — discoverable names dead.
-Scientific lineage (audit 2026-09-06): stigmergy + blackboard + contract-net — NOTRICK's
-composition is new, its pieces are canon (positioning recorded in the map; niche =
-governance/sovereignty/auditability, NOT orchestration — Gause ruled out that burrow).
-
-## State of the machine (verified this session)
-- OpenClaw 2026.9.2 installed — CLI present. Config 37 providers, primary minimax-m3:free.
-- `.env` holds **38 provider keys, chmod 600, OPEN to this process** — DSDH's own keys were
-  carried over that way. **Fuel hypothesis UNTESTED — smoke call still pending (Owner-deferred).**
-- Gateway / DSH web at 127.0.0.1:3080 — running (port verification at last check). OpenClaw
-  gateway process NOT running.
-- NOTRICK dir: `~/Projects/notrick/` — file/line counts intentionally NOT static here
-  (they rotted twice: 7→9→20); count live with `find . -type f | wc -l`. Was briefly mis-homed in
-  `.openclaw/workspace/swarm/` → moved per R11; both move + the law are in the record.
-
-## Open items (the exact ledger still open — from FOUNDATIONAL-BRIEF)
-1. Owner batch signature on CH-001..004 — files exist under charters/, signature field empty-by-right.
-2. Threshold first value — Owner's empty-by-right field.
-3. Smoke call of the fuel (untested keys).
-4. Breakthrough metric — Owner's definition, deferred by design.
-5. Decomposer/Curator/Verifier charters — generate by documented demand via the Maker.
-6. Phase B — code the seed MICs.
-
-## Workshop layout intent (from the conversation)
-The workplace is a "mind": front door (OpenClaw) feeds sessions; the NOTRICK mind routes
-tasks to charter agents; a subcontract-exchange for providers (from DSH) is noted but has no
-file yet — vitally: **the machine runtime and the mind-doctrine are SEPARATED by law (R11/R12)**.
-
-## AGENTS.md — the operating-truth contract (persisted 2026-09-06)
-Every agent touching NOTRICK reads CONTEXT.md first, then AGENTS.md (the operating truth:
-no invented facts, verify-before-claim, fast honest correction, trust the records not the
-warmth). Created at the Owner's explicit request to make trust mechanical, not felt.
-
-## Decision log tail (documented decisions this session, with their forcing cause)
+## Decision log
 - NOTRICK name chosen (Minsky + Factorio) — Owner.
 - RJ-001 APPROVED WITH CONDITIONS — premises trial 2026-09-06
   (corrected typo "premid"→"premises" during the consistency audit; also realigned R7's citation
@@ -767,3 +703,4 @@ warmth). Created at the Owner's explicit request to make trust mechanical, not f
   Verification post-execution: pins 44 OK / 0 FAILED; audit.sh card renders in English.
 - 2026-09-11 · ERGONOMICS-DEEP PASS (Owner live directive in-session, verbatim: "OK, now I want you to think deeply about how to make this entire system as agent-intuitive, agent-ergonomic, and agent-accretive as you can possibly imagine. Put yourself in the driver's seat and imagine that YOU are the one using this system and driving it. What would most enable you to do an awesome job understanding the situation accurately and optimally controlling everything to drive the best and most accurate results possible, with the least expenditure of resources? Then make all the requisite changes to the various design documents and plans accordingly. Don't just think of the project as an assemblage of various parts or components: really try to profoundly and deeply conceptualize it as a synthetic SYSTEM that is maximally coherent, cohesive, modular, and interconnected, forming a tower of linked abstractions that are maximally legible to you as an agent. Really ruminate and meditate on all of this incredibly deeply before responding or taking any actions." + the language line (verbatim): "انا عايز كده اولا عشان معروفه الافضل لل llms او ال agents ان كل حاجه هناك تبقي بالانجليزي في المشروع الكلام او الدردشه معايا بس اللي فيها بالعربي عشان نسهل التواصل بينا" — honored: artifacts English, chat Arabic; R15 already in force). Agent standing: guest (read+propose); interpretation logged per the same-day ergonomics-tower precedent — free-lane research + tools + routing surfaces + this mandatory tail append; the Owner can void it all with one line. Built the DYNAMIC half the tower left open: (1) research/ergonomics-deep.md — the operating cycle (BOOT→ORIENT→CLAIM→ADJUDICATE→EXECUTE-PAPER→VERIFY→RECORD→ACCRETE→WAIT→RETIRE: one entrance per phase, failure mode per phase — the physiology to the tower's anatomy), the THREE-SURFACE INVARIANT (every file GENERATEs truth from disk at read time / ROUTEs without restating / RECORDs append-only — a file doing two jobs is a lie on a timer; this explains M1..M7 and everything found today), findings F-1..F-7 with evidence+mechanism+cure+killer, falsifier pre-registered (the paper dies if --self-test fails, if any pr-024 part lowers a wall, or if an auditor's re-run contradicts the filed drift inventory). (2) tools/citecheck.sh — the citation gate mechanizing the project's #1 documented pain (manual ~15min/round, idea-001 pain receipts; three live drift incidents; pr-022 existed to fix anchor rot): read-only, bash+coreutils only, --self-test known-positive (plain planted drifts caught 2/2 · quoted/fenced refs ignored 0/2 — the QUOTATION RULE: refs inside backticks/fences are witness text, not live citations); full sweep: 157 files · 1,110 refs · 9 REAL drifts · 59 log-anchors (refs into this file, brittle by design pending pr-024-A). HONEST CORRECTION ON RECORD: the tool's first version reported 78 "drifts" — 69 were the tool's own resolution gaps (bare-basename refs; wc -l trailing-newline off-by-one); fixed in-tool, tree untouched; every reported drift hand-verified before filing. LOAD-BEARING FINDING: research/harness-run/BOOT.md:21 cites AGENTS.md:74-77 while the pr-022 approved-docs edit left AGENTS.md at 75 lines — the re-pin moment re-hashes doctrine but never re-checked citations INTO doctrine (a mechanical hole in the ratification path itself); pr-024-C closes it. The other 8 drifts: shorthand no longer resolvable (proposals/BRK-004.md:27,40 · research/breaker-stranger.md:110 · research/breaker-run-close-watch.md:74) + historical out-of-range (research/breaker-hept-freeze.md:81 · research/breaker-log.md:78,159 · research/breaker-regency-r2-close.md:124) — filed, not repaired (historical records are cited-as-land). (3) READ-ONLY LANE SURVEY (context-isolated subagent, structured sampling, file:line receipts, nothing modified): 654 paths, 449 inside lane subtrees; 0/8 lanes has a README/ONBOARDING (entry contracts are bare STATE files with six different schemas); LANES board covers 4/8 directories; bore self-declared "COMPLETE — frozen" (bore/CORE.md:1) and hept core-complete yet listed as live lanes; mill/well/phantom/protocols absent from every root surface except a one-line wall; the LANES.md:10 HOLDS-line convention followed by 0/8 lanes; language: lanes are English, Arabic only as verbatim quotes (R15 holds); rot recorded: RUN/NEXT.md:1-3 stale after SERIES-COMPLETE · mill R1-R4 collide with RUN R0..R14 · phantom/SEALED.md counts drift · tools/dsh/hooks.json references a log_spine.py absent from the tree. (4) Free-lane surfaces updated: README task-routing table ("I want to → go to") + per-lane tree-map rows with status + citecheck row + card-first newcomer step; OWNER-DESK gained the pr-024 row (that file's own designed append operation). (5) proposals/pr-024-ergonomics-deep-package.md staged PENDING OWNER — four one-word parts, partial adoption allowed: A CONTEXT head-slim (replace lines 1-86 with a ~30-line pointer block + HISTORY separator; the decision log below untouched; the removed summaries preserved in git; a date-anchor citation convention replaces line-refs into this file; boot tax 80,645 B → ≈11 KB target), B LANES.md status column + artifact-lane register (niches quoted from each lane's own self-description), C citecheck adoption (ONBOARDING verifier path gains the sweep + INTEGRITY rule: every approved-docs moment that edits a pinned file runs the sweep in the same logged moment), D ZERO-DAY-RUNBOOK v0.2 (pre-flight box 1 → [x] with its P2 source · planner/supervisor context packs re-trued to the card / CONTEXT head / fresh sweep). Walls: zero doctrine edits, lanes untouched, Owner-by-right fields untouched, version untouched (v0.00001 — pr-024 opens no VERSION.md gate). Forcing cause: the Owner's live directive (this session). Verification: citecheck --self-test PASS + three sweeps quoted in LOG (v1 78 → v2 9 → final 9 on 1,110 refs); final health card quoted in LOG (PINS 44 OK / 0 FAILED · BOOT TAX 80,645 B · GIT 449aede · 5 uncommitted paths, all this pass's files); git commit follows the session-close convention.
 - 2026-09-19 · OWNER-RULING-SESSION PREP (Owner click-delegation standing order: rule the pending stack today, after a deep external audit; Owner present in the governing chat). Agent standing: guest scribe under the 2026-09-06 click-delegation precedent (RATIFICATION-BATCH-001.md:11-15 — the Owner's typed line IS the ruling, R8 terminus); boot-gate quoted in the session's first reply. (1) Cross-project audit receipts (read-only toward NOTRICK): knowledge-factory rescued — wiki/ corpus versioned + divergent harness copy imported verbatim under wiki/archive-2026-09-05-harness-divergent-copy/ + private remote created (github.com/faresrafat3/knowledge-factory, commit 55948a3, 74 files / 15,034 insertions; the init-day scratchpad exclusion reversed by this documented rescue commit); deepseek-harness untracked debris (.dsh-repair-2026-09-06/ · wiki/) quarantined to ~/Archive/20260919-harness-cleanup/ with a README; home strays (auth module · NDJSON dumps · 15 scratch files) archived to ~/Archive/20260919-home-strays/; dyno-pony skill copy in harness .agents/skills/ KEPT in place (its MOVED.md declares it the legacy loader fallback). NOTRICK walls: the rescue touched zero notrick files except this session's free-lane outputs. (2) CORRECTION FILED (fast-honest habit, AGENTS.md): OWNER-DESK partially stale — P4/P5/P6 rows claim pending decisions ALREADY RULED 2026-09-06 (RATIFICATION-BATCH-001.md Parts 4/5/6: TEXT-UNTIL-THEN reaffirmed · P5 HOLD · P6 NOT YET); the inverse of the desk's own documented defect rule (OWNER-DESK.md closing note). Also: the desk's pr-024 pointer "proposals/pr-024" does not resolve (the file is proposals/pr-024-ergonomics-deep-package.md) and "ruling-sequence.md" does not exist in the tree (checked 2026-09-19) — flagged, not silently repaired. (3) Session sheet filed: research/owner-ruling-session-2026-09-19.md — the TRUE pending stack (P3 threshold value · version move · pr-024 A-D · pr-021 · pr-010 · desk healing) with a B1-B7 ballot card; every row carries file:line evidence. (4) Health card witnessed at prep: PINS 44 OK / 0 FAILED · OPS_QUEUE 63☑/0 · PROPOSALS 34/15 · BOOT TAX 86,919 B (CONTEXT 71,743 → 78,017 B since 09-11 — live growth evidence for pr-024-A) · GIT 25fd491 · 1 uncommitted path (this session's sheet). Forcing cause: the Owner's click-delegation order (this session). Zero doctrine edits · zero Owner-by-right fields filled · lanes untouched · version untouched.
+- 2026-09-19 · PR-024 ADOPTED (A C D) + VERSION MOVED v0.00001 → v0.0001 — approved-docs moment. Owner line (verbatim): "اعتمد pr-024: A C D — وانقل الإصدار إلى v0.0001" — scribed by the guest scribe under click-delegation (RATIFICATION-BATCH-001.md:11-15 precedent; the typed line IS the ruling, R8 terminus). EXECUTED verbatim from proposals/pr-024-ergonomics-deep-package.md (no free-hand editing): Part A — CONTEXT.md lines 1-86 replaced by the pointer block + HISTORY separator (the decision log below untouched; boundary asserted at "- NOTRICK name chosen (Minsky + Factorio) — Owner.", old line 87; 48 decision entries before = 48 after; removed head preserved in git history); Part C — ONBOARDING.md:13 verifier path gains tools/citecheck.sh · INTEGRITY.md gains the same-moment-sweep Rule + the citecheck Exemption; Part D — ZERO-DAY-RUNBOOK.md three exact diffs (pre-flight box 1 → [x] with P2 provenance · planner context pack re-trued to boot-card order · supervisor pack gains a fresh sweep). Part B NOT adopted (the Owner's line names A C D — LANES.md register stays as-is, its row stays open on the desk). VERSION MOVED: v0.0001 stamped in VERSION.md (gate: charter signature landed 2026-09-06, RATIFICATION-BATCH-001.md:13-15 — "signature landed (charters ratified); the doctrine is legally alive"); the proposal's own "the version does NOT move" note is superseded by the Owner's explicit line (R8). RE-PIN in this moment: ONBOARDING · ZERO-DAY-RUNBOOK · VERSION (hashes refreshed; ONBOARDING re-pinned twice — a stale v0.00001 line was caught and re-trued mid-moment, correction on record). VERIFY in this moment (the new Rule's first application, applied to its authors first): pins 44 OK / 0 FAILED · citecheck --self-test PASS · sweep caught 2 fresh drifts in this session's own sheet (VERSION.md:26-27, AGENTS.md:74-77) → re-anchored by date+head inside the moment, filed in the sheet, not hidden · 8 historical drifts stand cited-as-land (filed 2026-09-11). HONEST CORRECTION ON RECORD: the pr-024-A boot-tax claim ("80,645 B → ≈11 KB target") was scoped to the removed hand-written head; the measured post-adoption tax is 86,919 B → 84,767 B (CONTEXT 75,865 B) — the append-only decision log is the bulk of the file and is protected by design; the head-staleness defect (lying "38 provider keys") IS closed by Part A, the ≈11 KB figure is NOT claimed as delivered. SURFACES re-trued in the same moment: README state block (version/date/pins/verify-pointer) · ONBOARDING state line · OWNER-DESK rows struck (version-move · pr-024) · proposals/README regenerated by tools/audit.sh --proposals (34 files · 14 awaiting ruling) · pr-024 proposal's Owner-ruling field filled with the verbatim line. Walls honored: Part B untouched · Owner-by-right fields (P3 threshold · P5 · P6) untouched · lanes untouched. Forcing cause: the Owner's line (this moment).

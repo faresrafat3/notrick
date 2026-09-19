@@ -10,7 +10,8 @@
    record disagree, the record wins.
 1. Role paths (after the card): guest → README → AGENTS → this file → proposals/;
    lane-runner → RUN/STATE.md → QUEUE.json → last receipt → RUN/NEXT.md → RUN/WALL.md;
-   verifier → audit.sh → INTEGRITY check → research/breaker-log.md;
+   verifier → audit.sh → INTEGRITY check → tools/citecheck.sh →
+   research/breaker-log.md;
    the Owner → OWNER-DESK.md.
 2. The ruled chain (CONTEXT → AGENTS → BRIEF) remains FULLY in force for AUDIT and for
    everything that touches doctrine.
@@ -19,7 +20,9 @@
    in LOG.md. Work that scatters without a pointer is work the next agent pays for twice.
 
 ## The state you are walking into (plain language)
-- We are **BEFORE zero** — version v0.00001 (read VERSION.md now; the version IS the map).
+- We are **approaching zero** — version v0.0001 as of 2026-09-19 (read VERSION.md now; the
+  version IS the map: v0.0001 = signature landed, doctrine legally alive; the fuel /
+  threshold / first-run gates are still locked).
 - "Under-zero" is our name for the design-only phase: NOTHING runs, everything is law,
   charters, and pre-registered falsifiable hypotheses. Do not "helpfully" execute anything.
 - The founding charters (charters/) are SIGNED into active law 2026-09-06 (P2 —

@@ -33,16 +33,23 @@ Owner confirms.
 ### Version move v0.00001 → v0.0001
 - "the gate opened 2026-09-06 — waiting on one line" (OWNER-DESK.md row).
 - Gate content: "signature landed (charters ratified); the doctrine is legally alive"
-  (VERSION.md:13). The signature IS landed (RATIFICATION-BATCH-001.md:13-15).
+  (`VERSION.md:13` at writing time — pre-adoption layout; the v0.0001 line sits at VERSION.md line 11 post-adoption). The signature IS landed (RATIFICATION-BATCH-001.md:13-15).
 - VERSION.md rule: "Only the Owner moves the version. The agent may PROPOSE a move with
-  evidence" (VERSION.md:26-27) — this sheet is that proposal. One Owner line moves it.
+  evidence" (`VERSION.md:26-27` at writing time — re-anchored below) — this sheet is that proposal. One Owner line moves it.
+- POST-MOMENT CORRECTION (2026-09-19, same logged moment — the new INTEGRITY citecheck rule
+  applied to its authors first): the adoption moment re-shaped VERSION.md (25 lines now);
+  this sheet's `VERSION.md:26-27` and its `AGENTS.md:74-77` echo (proposal evidence line)
+  drifted out of range on adoption. Re-anchored by date+head per the pr-024-A convention:
+  the version-rule line sits at `VERSION.md:25` post-adoption (verified by tree search);
+  the `AGENTS.md:74-77` drift is the pre-existing historical one (filed 2026-09-11, not
+  repaired — cited-as-land). Filed here, not hidden.
 
 ### pr-024 ergonomics-deep package (proposals/pr-024-ergonomics-deep-package.md)
 - Adoption syntax: "اعتمد pr-024: A C D" — any subset allowed (proposal line 125).
 - A: CONTEXT head-slim, boot tax 80,645 B → ≈11 KB (proposal §A; LOG.md:327 measured).
 - B: LANES status column + artifact-lane register (0/8 lanes have entry contracts — LOG.md:320).
 - C: citecheck adoption at every approved-docs moment that edits a pinned file — closes the
-  load-bearing hole (research/harness-run/BOOT.md:21 cites AGENTS.md:74-77; file has 75 lines).
+  load-bearing hole (research/harness-run/BOOT.md:21 cites `AGENTS.md:74-77`; file has 75 lines).
 - D: ZERO-DAY-RUNBOOK v0.2 re-true.
 - Note on record: OWNER-DESK.md:20 points to "proposals/pr-024" which does not resolve as a
   path — the file is proposals/pr-024-ergonomics-deep-package.md (a live pr-024-B-shaped defect).
@@ -67,8 +74,8 @@ Owner confirms.
 | # | Item | The one line that settles it |
 |---|---|---|
 | B1 | P3 threshold | the value, e.g. "P3: survival ≥ 0.__ over N=___ runs" (any wording the Owner types IS the line) |
-| B2 | Version | "move to v0.0001" / "hold" |
-| B3 | pr-024 | "adopt pr-024: {A B C D subset}" |
+| B2 | Version | "move to v0.0001" / "hold" — **RULED 2026-09-19: "وانقل الإصدار إلى v0.0001" → v0.0001 stamped in VERSION.md (OWNER-MOVED, per VERSION.md:25)** |
+| B3 | pr-024 | "adopt pr-024: {A B C D subset}" — **RULED 2026-09-19: "اعتمد pr-024: A C D" → A C D adopted (B not adopted); ruling verbatim in the proposal's Owner-ruling field** |
 | B4 | pr-021 | "pr-021: APPROVED / REJECTED (reason) / HELD" |
 | B5 | pr-010 | "pr-010: APPROVED (a+b+c) / partial: {…} / REJECTED (reason)" |
 | B6 | Desk healing | "strike ruled rows P4 P5 P6, add pointer fix for pr-024" — yes/no |
