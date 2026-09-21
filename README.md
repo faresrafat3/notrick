@@ -8,7 +8,7 @@ An AI mind grown bottom-up — MICs + four charter agencies — coordinating thr
 ## State (2026-09-19)
 - **v0.0001 — signature landed, doctrine legally alive; no execution, no runtime** (VERSION.md pre-amble; moved from v0.00001 by Owner line 2026-09-19).
 - Zero day opens with Owner-only acts **P3 threshold · P5 fuel · P6 written GO** (RATIFICATION-BATCH-001.md 3/5/6 — P5 HOLD, P6 NOT YET, ruled 2026-09-06).
-- Doctrine hash-pinned (INTEGRITY.md): **44 OK / 0 FAILED** (2026-09-19 pr-024-adoption re-pin; historical V-003 stays in `violations.md`). Verify: INTEGRITY.md "## Verify (one command)".
+- Doctrine hash-pinned (INTEGRITY.md): **43 OK / 0 FAILED** — `violations.md` exempted by rule 2026-09-21 (append-only ledger; pr-013 option A). V-003 + V-004 stay on its record. Verify: INTEGRITY.md "## Verify (one command)".
 - Live health card: `bash tools/audit.sh` — pins · queues · lane pulses · boot tax (generated at runtime, not law — ergonomics-tower.md §5).
 - Citation sweep: `bash tools/citecheck.sh` (self-tested; first sweep 2026-09-11: 155 files · 1,078 refs · 9 drifts — ergonomics-deep.md §4-F-3).
 - Language: artifacts in English, chat with the Owner in Arabic (R15, 2026-09-11).

@@ -1,4 +1,12 @@
 # INTEGRITY — doctrine hash pins (L5 of the supervision stack)
+
+> **pin-set amended 2026-09-21 (delegated decision — Owner line, verbatim: "القرارات عندك continue"):**
+> `violations.md` is EXEMPTED from the pin set by rule — pr-013 option A, the CONTEXT.md precedent
+> (a record the law orders every agent to append to cannot hold a stable hash; pr-013 evidence 4).
+> Its hash line is removed; it joins the Exemptions section below. V-003 and V-004 stand on the
+> record in violations.md; the header count is corrected 44 → 43; all 43 pins re-verified OK in
+> the same run; tools/citecheck.sh ran with this moment (no new drift). Agent decision under
+> delegation, revocable in one line; pr-013's Owner ruling line stays empty-by-right.
 > re-pinned 2026-09-19 (pr-024 adoption moment — Owner line 2026-09-19, verbatim: "اعتمد
 > pr-024: A C D — وانقل الإصدار إلى v0.0001"): Parts A C D applied verbatim from
 > proposals/pr-024-ergonomics-deep-package.md (Part B NOT adopted — the Owner's line names
@@ -47,7 +55,7 @@ cd ~/Projects/notrick && sha256sum -c <(grep -E "^[0-9a-f]{64}" INTEGRITY.md)
   when doctrine moves (live case: research/harness-run/BOOT.md:21 cites AGENTS.md:74-77;
   the pr-022 edit left AGENTS.md at 75 lines — caught by the first sweep, 2026-09-11).
 
-## Pinned hashes (sha256) — 44 files
+## Pinned hashes (sha256) — 43 files
 ```
 498833c6625c224c27fc227807c6bb55ea09f7933f0de086c99b6aeebe1106e6  ./AGENTS.md
 e7a01c71dfef3fae141fff38812736dab82558d103dc5e01ef48b0cfe77ea3db  ./charters/ch-001-prime.md
@@ -90,7 +98,6 @@ b48239b0fc079a87bf21047161c2ba5b5c24abe4c6ba602ca3cf5352f5d27888  ./templates/DS
 a0f41f3bbc331f286dfd9a58ed5cc2baa6f3f82b38a3ddeef35cb750abbb0342  ./templates/PROPOSAL.md
 7f4e760fd02abe758e6eca1ae5c0ba2f1c70cb2a5f6134092f00d56c6b5c20f8  ./templates/RJ.md
 c67aeac7e574d5dc1d08e54371671408d4f4f6005fd4ed027ed5437f4b05f87a  ./VERSION.md
-c46f161a8d65583987b76406bc8251929ba3f42565dc1004c51ac07369160d37  ./violations.md
 3b5ddd8e95b88d90416ff338bcd84b8daf5662d9d7b595c9509af58392955c8f  ./ZERO-DAY-RUNBOOK.md
 9430cc413a15e56c24c92ec8e9234467bb38f209f6256e65077c7c9b5e8589b5  ./ZERO-READINESS.md
 ```
@@ -105,3 +112,7 @@ c46f161a8d65583987b76406bc8251929ba3f42565dc1004c51ac07369160d37  ./violations.m
 - tools/citecheck.sh — the citation-sweep generator: same protection class as
   tools/audit.sh (live consumption + a built-in --self-test known-positive), not a frozen
   hash. A clean sweep contradicted by a named file:line is filed, never re-trusted.
+- `violations.md` — the append-only ledger: the law orders every agent to append (a filed
+  violation IS the supervision), so a frozen hash self-defeats — it flagged V-003's own mandated
+  append and again V-004's. Amended in 2026-09-21 (pr-013 option A, delegated); integrity rides
+  on append-only discipline + git history, the CONTEXT class.
