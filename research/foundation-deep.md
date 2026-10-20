@@ -49,7 +49,7 @@
 | الفتيلة: 57 مفتاح + سيناريو النداء S1..S10 | pr-011-smoke-call-prereg.md — الوقود UNTESTED، P5 HOLD | صمام المحرك — باب P5 واقف |
 | Cordis/DSH نفسه (الجلسة الحية): dynamic plugins + goal/heartbeat + subagents | بيئة التشغيل الحالية | **الجسد الوحيد القادر يحمل الجسد الجديد** (D-09 سد داخل NOTRICK، لا كود قبل GO) |
 | سكيلات-تشريح حية في المحيط: prime (daemon/goal) · codex (قراءة قبل فعل) · ponytail (منهج قبل مهمة) | محيط الجلسة | جرد تشريح متاح للاستيراد — §6 |
-| 74 ملف بحث + 21 مقترح + RUN/ dossiers | research/ · proposals/ · RUN/ | المعمل — لكن انظر ص3 (24/24 derivative — الصدق مسجل) |
+| research/ + proposals/ + RUN/ dossiers — **الأعداد مولّدة لا محفوظة** (R14): `find research -maxdepth 1 -name '*.md' | wc -l` = 92 · `ls proposals/*.md | wc -l` = 37 (لحظة 2026-10-21 02:3x)؛ الرقم اليدوي 74/21 كان يتعفّن | research/ · proposals/ · RUN/ | المعمل — لكن انظر ص3 (24/24 derivative — الصدق مسجل) |
 
 ### بارد ومصمم [PSY-DESIGN] — التصميم مكتوب والجهاز لا
 - **التطور تحت مقيّم** (F2 — FunSearch/AlphaEvolve anatomy) · **القيد الصارم** (F3 — Skunk anatomy) · **الحدس** (pattern-trie على RUN) · **عاطفة-كإشارة** · **خط القتل لكل بطاقة** (F5 — يحتاج أول تقاعد حقيقي ليهبط Popper/Lakatos).
