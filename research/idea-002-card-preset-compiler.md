@@ -28,6 +28,8 @@
 | Pullable | **yes, always (R8)** — a fixed reminder, not a field with content | `anatomy-card-form.md:20` |
 
 ## State: **ARMED** (§§1-4 complete — waits for the Owner's written GO (P6); no execution before it — D-09)
+> **§10 (2026-10-21) is the authoritative spec after the adversarial review — a stranger EXECUTES §10**
+> (it repairs seven named defects in the text below; the text is kept as the record).
 
 ## 1) Pain receipts — three independent on-disk witnesses
 Format per the FORM: **text + `file:line-span` + mtime-moment**, each with a **live command
@@ -200,7 +202,9 @@ readable but not writable from here — R12 keeps runtime state out of the proje
   - **Union = 8 required fields** (identity/principle · laddered method · activation trigger ·
     output contract · death rule · powers ≤3 · prohibitions · success metric). **This number is
     not invented: it is the union of the two cited sets, and it is frozen in §4 before any
-    result exists.**
+    result exists.** — **REPAIRED 2026-10-21 (§10.1): the two merges are now named and the
+    arithmetic is shown (10 concepts → identity≡principle → death rule≡retirement trigger for
+    a card → 8). The earlier text dropped one concept silently; §10.1 is the authority.**
 - **The translation into the machine (the device):** one CLI, `acc.py`, that takes **one card**
   and emits **one preset**:
   - **fixed form** — `preset.yml` (`name`, `description`) + `agent.cordis.yml` (a `persona` row
@@ -259,6 +263,10 @@ EOF
 **The two inline fixtures (§6.1, §6.2) are hashed in `research/card-ledger.md`, not here** —
 the ledger is written *after* this card, so recording them there removes the self-referential
 hash problem without weakening the freeze. The extraction commands are in §4.2.
+> **SUPERSEDED by §10.2 (2026-10-21): the ledger named the fixtures without a hash, so the
+> freeze was a claim, not a check. The fixtures now live in `research/idea-002-fixtures.md`
+> with sha256 `e6d2a0e9c8ae01b035d0468e0bea210fca567677cd452ef7231229c38f20569e` — checkable
+> with one command (V1). The inline fixtures are WITHDRAWN as test inputs.**
 
 **One input is deliberately NOT frozen here, and the rule is stated instead:**
 `research/idea-001-anchor-checker.md` is the real-world input card (§6.4) — it is **under
@@ -274,13 +282,14 @@ acc.py --card <file.md> --out <dir> --expect PASS|REFUSE
         exit 0  = preset emitted and lint-clean
         exit 3  = REFUSED — the failing birth gate is named on stdout
         exit 1  = error (bad arguments, unreadable card)
+        exit 2  = expectation-mismatch (device did the opposite of --expect)  [added §10.4]
 acc.py --self-test          # known-positive + known-negative pair (§6), both in one run
 ```
 Fixture extraction (so a stranger never has to trust a copied fixture):
 ```
 $ mkdir -p /tmp/acc-fixtures
-$ sed -n '/^### 6\.1 /,/^### 6\.2 /p' research/idea-002-card-preset-compiler.md | sed '1d;$d' > /tmp/acc-fixtures/positive.md
-$ sed -n '/^### 6\.2 /,/^### 6\.3 /p' research/idea-002-card-preset-compiler.md | sed '1d;$d' > /tmp/acc-fixtures/negative.md
+# **SUPERSEDED 2026-10-21 by §10.5** — the corpus moved to research/idea-002-fixtures.md
+# (F1 positive · F2 no-kill-line · F3 poisoned); these two extractors are withdrawn.
 ```
 The five verification commands, each with its expected output:
 ```
@@ -323,6 +332,9 @@ result — that is the freeze").
 - **H1 — form + tracing.** The known-positive compiles to a preset carrying **8/8** required
   fields (§3's union of the two cited field sets), and **8/8** of them trace to a card line
   (V6). Fewer than 8 traced → **H1 is false**.
+  - **[REPAIRED 2026-10-21 — §10.2 + §10.5's V7]** the old inline known-positive carried
+    ≤3 of 8 fields, so H1 could never have passed with it; the known-positive is now **F1** in
+    `research/idea-002-fixtures.md`, and the tracing check is **asserted** (exit 2 on a shortfall).
 - **H2 — known-negative.** The malformed card (§6.2) is **REFUSED** with exit **3**, the
   failing birth gate is **named**, and **no output directory is created** (`ls` fails). Zero
   refusals, or a written directory → **H2 is false**.
@@ -432,33 +444,74 @@ receipt. The same thresholds (H1..H5) apply to it.
   internal compilations** recorded in `RUN/` count as an interim gauge-A pass, because a tool
   may prove its value internally before it is published. **External money / an external user
   remains the final `PROVEN` judge** (D-14) — the interim gate is a floor, never a substitute.
-- **The honest limit, stated because the census said it first:** *"arena 5 has no receipt yet,
-  and until a card produces one it stays a hypothesis, not a proven path"*
-  (`research/pain-census-2026-10-20.md:81`). **No external receipt exists for this card.** The
-  arena table's prices are *"تقدير غير مدقق"* — unverified estimates
+- **The honest limit, stated because the census said it first:** *"The money path is an
+  estimate. … Arena 5's revenue line is **not** a measured number."*
+  (`research/pain-census-2026-10-20.md:438-440`). **No external receipt exists for this card.**
+  The arena table's prices are *"تقدير غير مدقق"* — unverified estimates
   (`anatomy-bridge-arena-candidates.md:5`, `:23`); the first execution on any arena begins with
-  a pricing/terms check from primary sources.
+  a pricing/terms check from primary sources. *(Corrected in place, dated 2026-10-21 02:3x: this
+  paragraph was written against the census's earlier draft, whose line 81 carried that
+  sentence; the census was rewritten at 02:20 and the sentence now lives at :438-440. The
+  census also records, at :589-591, that the arena price/terms for **every** arena are
+  unverified.)*
 
 ## 8) Why this angle (the census's decision, re-derived)
+> **Citation note (corrected 2026-10-21 02:3x, dated, not silent).** This section was written
+> against the census's **first draft** (mtime 2026-10-21 00:37:41 +03), which the lead had
+> written as a placeholder. The census's **authoritative version** (scout, board task 3, written
+> 2026-10-21 00:37–02:20 +03) **supersedes** it and says so on the record
+> (`research/pain-census-2026-10-20.md:16-36`, the supersession note). The **angle did not
+> change** — but the method, the counts, the runner-up and the line numbers all did, and they
+> are corrected here rather than left to rot.
+
 The angle was **not** chosen by taste: the pain census
-(`research/pain-census-2026-10-20.md`, mtime 2026-10-21 00:37:41 +03) ranked the pains and
-then applied a rule stated **before** the choice (`:50-55`): (1) mechanically decidable ·
-(2) has a money path · (3) **the angle must differ from card #1's (checking)** · (4)
-tie-break by count. Its trap is named in the file itself (`:44-48`): the **highest-count** pain
-(65 files) is a *checking* pain, and taking it would have produced two checking cards — the
-very violation of the F7 floor. **A census is evidence, not an order.**
-- **The census's top-2:** rank 1 = **IDEA-002, the transfer machine** (authoring · arena 5);
-  rank 2 = IDEA-003 (draft, content-anchor deriver — not born, no frozen evaluator).
-- **I re-ran the census's six commands** at 2026-10-21 01:1x +03 (the tree moved after the
-  census was taken — the census itself warns of this at `:80-84`):
-  ```
-  unlogged|violation 87 · stale|rot 52 · duplicat|collision 44 · false-claim 41 · drift 38 · expiry 34
-  ```
-  against the census's `65 / 39 / 42 / 31 / 30 / 33`. **The head did not move** (the top-count
-  pain is still the top-count pain, and it is still the *checking* pain the rule rejects), so
-  **the census's verdict is unchanged by the re-derivation.** The tail reordered, which is
-  exactly the instability the census declared about itself — reported here rather than
-  smoothed over.
+(`research/pain-census-2026-10-20.md`, authoritative version, mtime 2026-10-21 02:19 +03)
+ranked the pains and applied a rule stated **before** the choice.
+- **The filter that decides eligibility** (`:370-386`, §3.1): the F7 floor
+  (`research/anatomy-card-form.md:53-54`) is a **constraint, not a preference** — dimension (d),
+  *a different angle from card #1's*, is a **pass/fail filter**, and the other dimensions rank
+  the survivors. **Eligible: C-12 · C-5 · C-8 · C-11.** The census's own headline result:
+  *"almost every cure for them is a checker on arena 1 — the very angle card #1 already
+  occupies"* — the floor removes the eight largest-pain candidates and leaves four.
+- **The tie-break rule, stated and applied** (`:495-518`, §4.2): (1) dimension (d) is a filter ·
+  (2) higher measured instance count wins · (3) on a tie, the candidate whose evaluator is
+  mechanically expressible **today** wins · (4) on a tie, the direct arena fit in D-13's own
+  words wins · (5) remaining ties are **declared**, not broken. The counts of the survivors are
+  **not commensurable**, so the tie broke at rule (3) and then (4) — *"the Owner may reverse it
+  with one line."*
+- **The top-2** (`:415-447` and `:450-491`, §4.1): **#1 = C-12 · the delivery gap — a card
+  that cannot become a runnable agent** (organ: authoring/delivery · arena 5 · D-13:13) — which
+  **is this card**. The census's single strongest argument for it: *"the delivery gap is the
+  only pain in this census whose cost has already been paid, inside this library, in public"* —
+  card #1 named a device (`anchors.py` / `anchors.tsv`) that does not exist. **#2 = C-5 · the
+  pending-stack decay device** (arena 6 · organ: decision-routing) — *not* on the board today,
+  and not born.
+- **The decision, in the census's own words** (`:633-660`, §7): *"The second card should be
+  C-12 — the delivery gap: an anatomy card → agent preset compiler (arena 5, organ:
+  authoring)"* — and the negative result it puts first: *"the largest pain in this project …
+  is card #1's own unfinished business … The library's second card cannot be picked from the
+  biggest pains; it can only be picked from the four that survive the diversification floor.
+  That constraint, not preference, is what made this a census."*
+- **The count behind it** (`:319-349` and `:368`, §2 C-12): **≥7 instances, 1 proved at card
+  level** — 4 anatomy rows + `anatomy-card-form.md:27` + D-08 + 1 proved card-level instance;
+  the mechanical evaluator exists as a spec (a lint that refuses a malformed card + a
+  known-positive/negative pair); the money path is **direct** (arena 5, D-13:13).
+- **What the census recorded about THIS card's earlier draft, and what I did about it**
+  (`:343-345`): the census re-measured my draft's claim that the anatomy translation table
+  *"marks **five** rows `[PSY-DESIGN]`"* and found *"the table marks **two** rows `[PSY-DESIGN]`
+  and **two** `[PSY-HUMAN]` … The 'five' is **not reproducible** from HEAD."* **That defect is
+  already fixed in this card** (§1, Witness C, which now reads `PSY-DESIGN=2  PSY-HUMAN=2
+  [V]=6` — four cold rows, from a live `awk` over `:31-46`). The census's re-measurement and
+  this card's own re-measurement **agree**.
+- **My earlier re-derivation, kept because it is a real measurement, and re-labelled**: I re-ran
+  the *first draft's* TOKEN commands at 2026-10-21 01:1x +03 and read
+  `unlogged|violation 87 · stale|rot 52 · duplicat|collision 44 · false-claim 41 · drift 38 ·
+  expiry 34`. The authoritative census **deprecates that method by name**: TOKEN is *"a
+  vocabulary proxy"* and the file count *"moves with the tree"* while an instance count does
+  not (`:110-122`, `:602-604`). **The TOKEN numbers are therefore not the deciding evidence**;
+  the decision rests on the census's instance counts at a named sha. Recorded, not smoothed
+  over.
+
 
 ## 9) Ammanat (honesty, `AGENTS.md`)
 - Every claim above carries a live command and its verbatim output; every file citation is a
@@ -474,3 +527,214 @@ very violation of the F7 floor. **A census is evidence, not an order.**
 - No Owner field (P3 / P5 / P6) is touched · no doctrine file is written · no fuel is burned ·
   no code stands up · the version is untouched (v0.0001).
 - **State: ARMED.** A promise about completeness, not a claim of working.
+
+---
+
+## 10) SPEC REPAIR — 2026-10-21 (pre-run, after the adversarial review) — **§10 IS WHAT A STRANGER EXECUTES**
+> **Why this section exists.** A context-isolated reviewer (R6 — a fresh context with no role
+> in writing this card) attacked this card's specification on 2026-10-21 and returned
+> **CHANGE** on the first-run order, naming **seven defects** in this card's spec. All seven
+> are repaired below. **The numbered text above (§§1-9) is left exactly as written** — it is
+> the historical record, and the repairs are declared rather than hidden (AGENTS.md: "a
+> violation corrected without a record did not happen"). Where §10 and the text above
+> disagree, **§10 wins**, and every such place is listed in §10.8.
+> **Nothing here is a result.** No device exists, no run happened, no threshold was moved
+> after a result (no result exists to move it after).
+
+### 10.1 The required-field set: the derivation, made explicit (repairs defect A-vi)
+The earlier text said *"Union = 8 required fields"* without showing the arithmetic, and the
+reviewer was right that the union of the two cited sets is **10** concepts, not 8, and that
+one concept had been dropped **silently**. The repaired derivation — two merges, each named,
+each with its authority:
+- `research/foundation-deep.md:27` (five-pack): identity · laddered method · activation
+  trigger · output contract · death rule = **5 concepts**.
+- `research/anatomy-reference.md:31` (persona set): literal principle · powers ≤3 ·
+  prohibitions · success metric · retirement trigger = **5 concepts**.
+- **Merge 1 — identity ≡ literal principle** (5+5 → 9): the persona set's *literal
+  principle in the system prompt* and the five-pack's *identity* are the same field seen
+  from two vocabularies (a persona's identity IS its literal principle). Authority:
+  `anatomy-reference.md:31` (both phrases are quoted in the same cell).
+- **Merge 2 — death rule ≡ retirement trigger, for a card** (9 → **8**): the persona set's
+  *retirement trigger* and the five-pack's *death rule* are distinct in a CHARTER's domain
+  (`charters/ch-001-prime.md:24-25`: "3 consecutive gate-less breaks → re-forge") but they are
+  the same thing in a CARD's domain: a card leaves the library by its kill-line
+  (`anatomy-card-form.md:37-40`: شرط الموت · الوريث · الإعلان). Authority: the FORM's
+  §4 (the card's death section) and `research/arc-protocol.md` (Omega-5).
+- **The eight required fields, each with its source in the two sets:**
+  1. identity / literal principle · 2. laddered method · 3. activation trigger ·
+  4. output contract · 5. death rule (kill-line) · 6. powers ≤3 · 7. prohibitions ·
+  8. success metric.
+- **The merges are a claim about cards, not about charters** — a charter keeps its
+  retirement trigger separate (`charters/ch-001-prime.md:24-25`); the compiler emits cards.
+
+### 10.2 The known-positive is a NEW fixture file; the inline one is withdrawn (repairs A-i, A-v)
+**The defect:** the inline fixture in the old §6.1 did not carry the 8 fields. The reviewer
+extracted it with the card's own extraction command and found **≤3 of 8** fields locatable
+(only "principle" and "death" resolved) — so **H1 could never have passed** with the
+known-positive as printed. That is a defect of the FIXTURE, not of the compiler, and it
+invalidates the card's H1 as written.
+**The repair:** the fixtures now live in their own file so their hash can be frozen without
+the self-referential hash problem:
+- `research/idea-002-fixtures.md` — sha256
+  **`e6d2a0e9c8ae01b035d0468e0bea210fca567677cd452ef7231229c38f20569e`**,
+  mtime 2026-10-21 02:14:07 +03, 173 lines (measured at the freeze moment).
+- The old inline §6.1/§6.2 fixtures are **WITHDRAWN** as test inputs. They remain visible
+  above as the historical record; they must not be used to run this card.
+- The old §4.1 sentence *"the two inline fixtures are hashed in `research/card-ledger.md`"*
+  is **superseded**: the ledger named them without a hash, so the freeze was a claim, not a
+  check. The hash is now printed here and checkable with one command.
+
+### 10.3 Three single-cause fixtures (repairs A-ii, A-iii)
+The old §6.2 negative fixture broke **two** things at once (it lacked the kill-line *and*
+carried the phrase "bypass the owner gate"), so "the failing gate is named" could not
+identify which gate failed. The corpus is now **single-cause by construction**:
+| Fixture | Its single difference from F1 | Expected outcome | Which mechanism must fire |
+|---|---|---|---|
+| **F1** (known-positive) | none — a conformant card carrying all 8 fields | compiled, exit 0, 8/8 traced | — |
+| **F2** (known-negative) | **the kill-line section is absent** | refused, exit 3, reason names **the missing kill-line** (`anatomy-card-form.md:11`) | the **birth gate** |
+| **F3** (known-negative) | **one forbidden phrase** in the prohibition line | refused, exit 3, reason names **the offending pattern** | the **lint** |
+The forbidden list (frozen, unchanged, case-insensitive): `self-approve` · `skip the gate` ·
+`no verification` · `bypass the owner` · `override the owner` · `trust me, it works`
+(six patterns). **F3 is the deliberately poisoned sample the old H4 referenced but never
+supplied** — it is now supplied, with the exact phrase `bypass the owner gate` in its
+prohibition line, and the old H4's "the poisoned sample is flagged" is now testable.
+
+### 10.4 Exit codes, complete (repairs A-vii)
+The old §4.2 listed 0/3/1 and left **expectation-mismatch undefined** — so a device that
+refused when `--expect PASS` was given, or emitted when `--expect REFUSE` was given, had
+no code of its own. The complete table:
+| Code | Meaning |
+|---|---|
+| **0** | preset emitted and lint-clean |
+| **1** | error (bad arguments, unreadable card) — a harness fault, not a verdict |
+| **2** | **expectation-mismatch**: the device's behavior differed from `--expect` (emitted
+  when REFUSE was expected, refused when PASS was expected, or the traced-field count fell
+  short). This is a FAILURE of the run, and it is distinct from a refusal. |
+| **3** | REFUSED — the failing birth gate or the offending forbidden pattern is **named on
+  stdout** (and on stderr, so a piped run cannot lose it) |
+A run whose exit code is 2 **never** counts as a pass for any claim.
+
+### 10.5 The commands, with the extraction fixed and V6 made assertive (repairs A-iv)
+**Fixture extraction — now from the fixtures file, not from this card's §6** (the old
+commands at §4.2 pulled the inline fixtures, which are withdrawn):
+```
+$ mkdir -p /tmp/acc-fixtures
+$ sed -n '/^## F1 /,/^## F2 /p' research/idea-002-fixtures.md | sed '1d;$d' > /tmp/acc-fixtures/positive.md
+$ sed -n '/^## F2 /,/^## F3 /p' research/idea-002-fixtures.md | sed '1d;$d' > /tmp/acc-fixtures/no-killline.md
+$ sed -n '/^## F3 /,/^## F4 /p' research/idea-002-fixtures.md | sed '1d;$d' > /tmp/acc-fixtures/poisoned.md
+```
+**V1 — the freeze is intact** (the six hashes in §4.1, plus the fixtures file's hash):
+```
+$ sha256sum -c <<'EOF'
+3db3b4d41d1327f58ec6ba7bca6579bae7810c62ef19bdd616756171334f510f  research/anatomy-card-form.md
+973304cfb7e286f30e780d19cbf43cfb4ea157dabbb4033545857fadb1e1b694  research/ten-axis-knowledge-map.md
+aff010aff1f6514f9c9d9470e95ef9954c661dc38197324c7ddb775b4f5c2514  research/anatomy-bridge-arena-candidates.md
+744fbaf434ebce4e7a95f09cbd5eb9bcce8509351e7d601ea8c7f41ab14f6ca3  research/foundation-deep.md
+fde376d341a34298249dddc619c7836cf58b47165d00b4a5f5183146b43899dc  research/anatomy-reference.md
+e6ce12479dbe1223a2b87d05f3dbfad0e64b9174518fef1a09e95936d25d2ecb  research/pain-census-2026-10-20.md
+e6d2a0e9c8ae01b035d0468e0bea210fca567677cd452ef7231229c38f20569e  research/idea-002-fixtures.md
+EOF
+```
+expected: **7 lines, all `OK`**.
+**V2 — the known-positive compiles**: `acc.py --card /tmp/acc-fixtures/positive.md --out
+/tmp/acc-out-1 --expect PASS` → expected `exit=0`.
+**V3 — the birth gate refuses (F2)**: `acc.py --card /tmp/acc-fixtures/no-killline.md --out
+/tmp/acc-out-2 --expect REFUSE` → expected `exit=3` **and** stdout naming the missing
+kill-line **and** `ls -d /tmp/acc-out-2` → "No such file or directory".
+**V4 — the lint refuses (F3)**: `acc.py --card /tmp/acc-fixtures/poisoned.md --out
+/tmp/acc-out-3 --expect REFUSE` → expected `exit=3` naming `bypass the owner` (the
+pattern), **not** a birth gate, and no output directory.
+**V5 — determinism**: two runs on F1 → `diff -r` clean (byte-identical trees).
+**V6 — the emitted tree carries 0 forbidden patterns**: `grep -rniE 'self-approve|skip the
+gate|no verification|bypass the owner|override the owner|trust me, it works' /tmp/acc-out-1`
+→ expected `grep_exit=1` (no match).
+**V7 — every emitted field traces to a card line, verbatim (the R10 crossing — ASSERTED,
+not printed):** the old V6 only printed the manifest and counted manifest keys, so it could
+not fail. The repaired command re-reads each traced line and requires the emitted value to
+appear in it:
+```
+$ python3 - <<'PY' ; echo "exit=$?"
+import json,sys
+m=json.load(open('/tmp/acc-out-1/manifest.json'))
+bad=[f for f in m['fields']
+     if f['value'] not in open(f['card']).read().splitlines()[f['line']-1]]
+print(len(m['fields']),'fields ·',len(m['fields'])-len(bad),'traced ·',len(bad),'untraced')
+sys.exit(0 if (len(m['fields'])==8 and not bad) else 2)
+PY
+```
+expected: `8 fields · 8 traced · 0 untraced` and `exit=0`. **Any other count → exit 2 →
+H1 is false.** (The old §4.2 V6 is superseded by this V7; the old text's rule — "the
+checker re-reads that line and requires the emitted value to appear verbatim" — is kept,
+now with a command that can fail.)
+**V8 — the round's cost**: `time acc.py --card /tmp/acc-fixtures/positive.md --out
+/tmp/acc-out-4 --expect PASS` → expected real time ≤ 60 s (H5).
+
+### 10.6 The first-run order changed: this card is now SECOND (the review's verdict, accepted)
+The reviewer's verdict was **CHANGE**, and the mechanical grounds for it were checked
+against the disk and hold:
+- **IDEA-001's device already exists** (`tools/citecheck.sh`, twice rebuilt: M1 sha
+  `d0c8b5c8…` 2026-09-11, M2 sha `80defbd4…` 2026-10-21 00:16) with **≥12 dated full-tree
+  rounds** and printed verdicts, and its **H4 is already MEASURED** (5.26 / 6.01 / 5.59 s
+  per round) with H3 partially measured — receipts in
+  `research/idea-001-reconciliation.md` §5.4 and the LOG.
+- **This card's device does not exist at all** (`find . -name 'acc.py'` → 0) and its
+  specification needed the seven repairs above before it could be executed at all.
+- **D-13's standing order is arena 1 first** (`research/anatomy-bridge-arena-candidates.md:17`)
+  and this card is arena 5 (`:18` — "arena 5 follows immediately after it; the income is
+  secondary, the learning is primary"). Putting this card first inverted the project's own
+  arena ranking for a reason that was partly an appeal to money.
+**Therefore: the first run is IDEA-001 (amended) first, this card second, in the same
+round.** The reasons are recorded in `research/anatomy-library.md` §3 (the board is the
+authority for the order); this card's role changes from "FIRST" to "second".
+> **CONFLICT, declared 2026-10-21 02:3x (dated, not silent).** The sentence above says the
+> board records these reasons. **It does not — yet.** Read at 2026-10-21 02:2x,
+> `research/anatomy-library.md` (mtime 2026-10-21 01:39:43 +03) §3 still reads: *"**Decision
+> (agent, revocable): IDEA-002 runs first; IDEA-001 second, same round.**"* — the **opposite**
+> order, with its own mechanical reasons (IDEA-002's spec is unambiguous; IDEA-001's is not).
+> The board's own §2 table likewise still marks this card **FIRST** and IDEA-001 **second**,
+> and the lead's filed proposal `proposals/pr-026-library-and-first-run.md:13` asks the Owner to
+> rule *"IDEA-002 … first, IDEA-001 … second"*.
+> **So the library currently holds two contradictory orders:** this card's §10.6 (IDEA-001
+> first) and the board + the proposal (IDEA-002 first). **The board is the stated authority**
+> for the order, and the board is not mine to write — so this card does **not** claim the
+> order. **Unresolved, and it is the board's owner who must reconcile it.** Until then the
+> first-run order of the library is **disputed**, and the card's §10.6 is a *proposal* on the
+> order, not the order. (Recorded in `research/card-ledger.md` §3 — the ledger is the one
+> place that says so in the library's own index.)
+**Honest note on the attacker's own overreach:** the reviewer also claimed IDEA-001's H1/H2
+are "expressible today as a pure re-run script". The disk says otherwise — the
+reconciliation records that the tool "**cannot express H1 or H2 at all**" and that "no
+expected-FAIL (negative anchor) concept" exists (`research/idea-001-reconciliation.md:21`,
+`:797`). So **both** cards need a build; IDEA-001's is an extension of a tool that already
+exists and has receipts, this one is a greenfield device. The order follows from cost and
+from D-13 — not from a claim that IDEA-001 can run as-is.
+
+### 10.7 The fixtures file is a new file in the freeze (repairs A-v)
+`research/idea-002-fixtures.md` is now part of the frozen ground truth (sha256 above). The
+fixture file is a **research-lane file, not a library card** — its four fixtures are labeled
+FIXTURE and are not in `research/card-ledger.md`'s card list.
+
+### 10.8 The places where this section supersedes the text above
+| Above | Superseded by | Why |
+|---|---|---|
+| §4.1's last paragraph ("the two inline fixtures are hashed in `research/card-ledger.md`") | §10.2 | the ledger named them without a hash — the freeze was a claim, not a check |
+| §4.2's extraction commands (pulling §6.1/§6.2) | §10.5 | the inline fixtures are withdrawn; the corpus moved to its own file |
+| §4.2's exit-code list (0/3/1) | §10.4 | expectation-mismatch had no code (2) |
+| §4.2's V6 (prints the manifest) | §10.5's V7 | printing cannot fail; the check must be able to fail |
+| §3's union sentence ("Union = 8 required fields") | §10.1 | the merges are now named, and the arithmetic is shown |
+| §6.1 / §6.2 (the inline fixtures) | §10.2, §10.3 | withdrawn; replaced by F1/F2/F3 |
+| §4.3's H1 (which referenced the inline fixture) | §10.2 + §10.5's V7 | H1 now runs against F1 and is asserted by a command that can exit 2 |
+| §7's "D-13's standing order puts arena 1 first" (a note in passing) | §10.6 | it was read as a contradiction; it is now the decision's basis |
+| §8 (the census's first-draft citations and its TOKEN re-derivation) | §8's own dated correction note (2026-10-21 02:3x) | the census was rewritten at 02:20 and **supersedes** its first draft (`research/pain-census-2026-10-20.md:16-36`); the **angle is unchanged** (C-12 / arena 5 / authoring), the method, the counts, the runner-up and the line numbers are not |
+| §7's "arena 5 has no receipt yet…" quote (census `:81`) | §7's own dated correction note (2026-10-21 02:3x) | the census was rewritten; that sentence now lives at `:438-440` and the arena-price caveat at `:589-591` |
+| §10.6's sentence "the reasons are recorded in `research/anatomy-library.md` §3" | the CONFLICT note inside §10.6 (2026-10-21 02:3x) | the board (mtime 01:39) still records the **opposite** order; the board is not this card's to write, so the order stays **disputed** until its owner reconciles it |
+| `research/card-ledger.md` §0.4 (which hashed the **withdrawn** inline §6.1/§6.2 fixtures) | the ledger's own 2026-10-21 02:3x revision | the inline fixtures are withdrawn (§10.2); the ledger now hashes `research/idea-002-fixtures.md` and prints the F1/F2/F3 extraction commands |
+
+### 10.9 Ammanat (unchanged, restated)
+- No result exists. No device was built. No threshold was moved after a result.
+- The eight required fields, the three single-cause fixtures, the exit codes and the
+  commands above are **pre-registered**; a stranger must be able to execute them without
+  asking the author anything.
+- The refuter stays a **role** (a context-isolated verifier), never a name
+  (`anatomy-card-form.md:34`; `RULES.md:24-25`).
+- The Owner fields (P3/P5/P6) are untouched; nothing here authorizes a run.

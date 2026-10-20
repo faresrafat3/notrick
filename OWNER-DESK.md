@@ -27,6 +27,7 @@
 | X0003 (pr-010) | a fate ruling: "pr-010: APPROVED (a+b+c) / partial: {…} / REJECTED (reason)" | proposals/pr-010-stale-reentry.md (Owner-ruling field empty, :22-24) | D-3 stays locked; "results vs Owner hands" unreconciled (mill/CONTRA.md:6) |
 | pr-001..020 remaining (20 files, 0 rulings) | 20 per-proposal rulings — the index is a pointer, not a decision | proposals/README.md (GENERATED — regenerate with `bash tools/audit.sh --proposals`) | 10 files at 45d (pr-001..009, filed 2026-09-06) · 10 at 42d (pr-010..020, filed 2026-09-08) |
 | V-001..V-004 ruling fields (violations ledger) | one line per violation: "V-00N: ruled / withdrawn / stood" | violations.md:5-9 (fields empty-by-right) | a ledger whose entries never close collects zombies (arc Omega-5) |
+| **The anatomy library + the first run** (the vision: an AI mind with human anatomy from books, fed by cheap LLMs, producing money-measurable breakthroughs in varied arenas) | one line: "pr-026: APPROVED / REJECTED (reason) / HELD" — it carries the **arena** (D-13 says arena 1; the library board says arena 5) and the **first-run order** (IDEA-002 first, IDEA-001 second) | proposals/pr-026-library-and-first-run.md · research/anatomy-library.md (states) · research/card-ledger.md (receipts) | the first run has no subject, no arena and no money field in the doctrine: ZERO-DAY-RUNBOOK.md:22 still ends in the literal `Task: {...}` · templates/DS.md has no arena/money field · P3 empty (RATIFICATION:18) · P4 = TEXT-UNTIL-THEN (RATIFICATION:21) — so "money-measurable" cannot be a gate until the Owner rules. **Nothing runs either way until P5+P6.** |
 
 (A pending decision with no row here = a defect in this file — record it and fix by
 append, never silently.)
@@ -43,3 +44,14 @@ append, never silently.)
   context-isolated subagent (read-only, file:line receipts) — recorded in
   research/ergonomics-39d-audit.md §4. No Owner-by-right field was filled; no ruling was
   invented; every strike carries the record that justifies it.
+- **2026-10-21 · one row appended (the anatomy library + the first run).**
+  Authority: the Owner's standing delegation (CONTEXT.md:538-569) + the desk's own rule
+  ("a pending decision with no row here = a defect"). Why it was missing: the vision
+  package (anatomy-reference · anatomy-bridge · arena-candidates · the card form) was
+  authored in the research lane on 2026-09-10 and never reached a decision surface —
+  `grep -niE "anatom|arena" OWNER-DESK.md` returned 0 hits, and `proposals/` carried no
+  proposal of record for it. The row now points at `proposals/pr-026-library-and-first-run.md`
+  (the ruling surface) and at the two research files that hold the facts
+  (`research/anatomy-library.md` = states · `research/card-ledger.md` = receipts).
+  The row states the two choices the Owner may make (arena · first-run order) and the
+  cost of delay, and it says plainly that nothing runs until P5 and P6 are ruled.

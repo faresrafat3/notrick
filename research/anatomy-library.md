@@ -1,6 +1,9 @@
 # ANATOMY LIBRARY — the board (the shelf, the states, the first-run order)
-> 2026-10-20 · agent under the Owner's standing delegation (CONTEXT.md:538-569), revocable
-> in one line (R8). Research lane, paper-only — not doctrine; it rises through the Import
+> 2026-10-20 · **the anatomy workstream of the 2026-10-20 re-opened session** (board task 2 —
+> "decision-maker for the board"), under the Owner's standing delegation
+> (CONTEXT.md:474-475, the Owner's own line "خد كل القرارات بنفسك انا قولتلك اللي عندي وريني
+> اللي عندك"; foundation-deep's inheritance at CONTEXT.md:538-541) — every decision here is
+> revocable in one line (R8). Research lane, paper-only — not doctrine; it rises through the Import
 > Mirror only as device + place, or stays research (`anatomy-reference.md:13`, D-08).
 > This file exists so the library has **one entrance** and a **decided first run** — the
 > gap it closes: the library had one card, no index, and no stated run order, so "the
@@ -23,30 +26,38 @@
 ## 2) THE BOARD
 | ID | What it does | Arena (D-13) | Angle | State | gauge B (frozen evaluator) | gauge A (arena receipt) | Kill-line | First-run role |
 |---|---|---|---|---|---|---|---|---|
-| **IDEA-001** | anchor checker — re-derive a citation's content, not just its existence | 1 (+5) | **checking** | `ARMED` — **spec ambiguity, must be re-specced** (see §4) | frozen scope **still valid** (2 sha256 match after 40 days) but its named device (`anchors.py`) **never existed**; the built device (`tools/citecheck.sh`) measures a different class | not met (interim gate: ≥3 internal rounds) | yes (§5 of the card) | **second** — it needs a spec decision first |
-| **IDEA-002** | the transfer machine — anatomy card → agent preset compiler | **5** (agent templates/plugins) | **authoring** | `ARMED` (paper, NOT EXECUTED) | complete: ground truth (form spec sha256) · commands · 5 thresholds · disinterested refuter by ROLE | not met (interim gate: ≥3 real internal compilations) | yes (§5 of the card) | **FIRST** — see §3 |
+| **IDEA-001** | anchor checker — re-derive a citation's content, not just its existence | 1 (+5) | **checking** | `ARMED` — **spec ambiguity**: H1/H2 are **not expressible** by the tool that exists (`research/idea-001-reconciliation.md:21`, `:797`); H4 **MEASURED** (5.26/6.01/5.59 s, M2) · H3 partially | frozen scope **still valid** (2 sha256 match after 40 days) · the device exists (`tools/citecheck.sh` M2, sha `80defbd4…`) with **≥12 dated rounds** · the card's own named device (`anchors.py`) never existed | interim gate **MET** (≥3 internal rounds; ≥12 exist) — the **unmet** clause is the RUN/ record: `grep -rl citecheck RUN/` → **0** | yes (§5 of the card) | **FIRST** (amended) — see §3 |
+| **IDEA-002** | the transfer machine — anatomy card → agent preset compiler | **5** (agent templates/plugins) | **authoring** | `ARMED` (paper, NOT EXECUTED) · **spec repaired 2026-10-21** (7 defects fixed; §10 of the card is the executable spec) | complete: ground truth (7 sha256) · commands V1..V8 with expected outputs · 5 thresholds · exit codes 0/1/2/3 · 3 single-cause fixtures · disinterested refuter by ROLE | not met (interim gate: ≥3 real internal compilations) | yes (§5 of the card) | **second** — see §3 |
 | IDEA-003 (draft) | content-anchor deriver — the class `citecheck.sh` cannot see (§5) | 1 | checking | **DRAFT — not born** (no frozen evaluator yet) | missing | — | missing | candidate |
 | IDEA-004 (draft) | member-0 consolidation device (D-10, the first-born member) | — | consolidation | **DRAFT — not born** | missing | — | missing | blocked behind GO + Member-0 |
 
 **Library status: 2 born (both ARMED, both paper) · 2 drafts · 0 PROVEN · 0 DEAD.**
 
 ## 3) The first-run decision (what runs when the Owner writes the GO)
-**Decision (agent, revocable): IDEA-002 runs first; IDEA-001 second, same round.**
-Mechanical reasons, each with its evidence:
-1. **IDEA-002's spec is unambiguous; IDEA-001's is not.** IDEA-001 froze a device spec
-   (`anchors.py` + `anchors.tsv` + an exit-code contract) that was never built, while a
-   *different* device (`tools/citecheck.sh`) was built and adopted as doctrine
-   (pr-024-C, 2026-09-11) **without the card's claims ever being measured against it**
-   (§4). Running a card whose spec names a non-existent instrument would spend the first
-   run on an ambiguity instead of a verdict.
-2. **IDEA-002's evaluator is self-verifying.** It carries a known-positive/known-negative
-   pair (`idea-002-card-preset-compiler.md:29-33, §6`), so the first run's own verdict is
-   decidable **without** waiting for any external party — the fastest honest path to a
-   first real result.
-3. **IDEA-002's artifact lands in an arena the Owner can sell** (arena 5 = agent
-   templates/plugins, D-13:13) and its deliverable is exactly the Owner's stated vision:
-   the machine that carries human anatomy into agents. IDEA-001's deliverable is an
-   internal tool whose arena receipt is the weakest of the six.
+**Decision (agent, revocable) — REVISED 2026-10-21 after an adversarial review: IDEA-001
+(amended) runs first; IDEA-002 second, same round.** The first version of this section had
+it the other way round; it was **overruled by a context-isolated reviewer (R6)** whose verdict
+was **CHANGE**, and the mechanical grounds for that verdict were then checked against the
+disk and **held**. The reasons that survive the check:
+1. **IDEA-001's device already exists and has receipts.** `tools/citecheck.sh` was built
+   2026-09-11 (adopted as doctrine in pr-024-C) and rebuilt 2026-10-21 00:16 (M2); it has
+   **≥12 dated full-tree rounds** with printed verdicts (the receipts are in `LOG.md` and
+   `research/idea-001-reconciliation.md`), its **H4 is already MEASURED** (5.26 / 6.01 / 5.59 s
+   per round, M2) and its H3 is partially measured. IDEA-002's device **does not exist at
+   all** (`find . -name 'acc.py'` → 0) and its specification needed seven repairs before it
+   could be executed at all (`research/idea-002-card-preset-compiler.md` §10).
+2. **D-13's standing order is arena 1 first**
+   (`research/anatomy-bridge-arena-candidates.md:17`) and IDEA-001 is the arena-1 card; the
+   earlier version of this section put the arena-5 card first, which inverted the project's
+   own ranking for a reason that was partly an appeal to money. The revised order **follows
+   D-13** — the conflict named in the paragraph below is therefore resolved in D-13's favour.
+3. **What is still true for IDEA-001:** its *specified* device (`anchors.py`) never existed,
+   and its H1/H2 are **not expressible** by the tool that was built (the reconciliation
+   records: "it **cannot express H1 or H2 at all**" — `research/idea-001-reconciliation.md:21`,
+   `:797`). So IDEA-001's first run is **not** a re-run of a finished thing: it needs a
+   claims-input mode added to the existing tool, and then H1/H2 measured for the first time.
+   Both cards therefore need a build; IDEA-001's is an extension of a tool that already has
+   receipts, IDEA-002's is greenfield.
 4. **The order is not a preference about merit** — both cards stay ARMED and neither may
    claim success; the Owner can reorder with one line, and the second card inherits the
    first's pattern (build → self-test → frozen run → refuted or not).
@@ -55,18 +66,17 @@ Mechanical reasons, each with its evidence:
 `RATIFICATION-BATCH-001.md:17-29`. **No card may run before P6** (D-09). Nothing here
 fills an Owner field.
 
-**A conflict with an earlier decision, named (not buried):** D-13
-(`anatomy-bridge-arena-candidates.md:16-17`) says *"start with arena 1 (open-source
-tools) — cheapest gate"*; this board puts **arena 5** first. Both are agent decisions
-under the same delegation, so the conflict is real and it is not the Owner's ruling.
-**This board's position, and why:** D-13 chose the cheapest *gate*; this board chooses
-the cheapest *verdict*. Arena 1's first candidate (IDEA-001) has an ambiguous spec and
-an unmeasurable claim set (§4), so it cannot produce a first verdict without a spec
-decision; arena 5's candidate (IDEA-002) carries a frozen, self-verifying evaluator
-(known-positive + known-negative) and can. If the Owner prefers D-13's order, that is
-one line and no file needs rewriting — the two cards' states do not change either way.
-**Filed for ruling as a proposal, not decided here:** `proposals/pr-026-library-and-first-run.md`
-(the arena choice and the first-run order are the two things in it the Owner may pick).
+**A conflict with an earlier decision — named, then resolved in D-13's favour (2026-10-21).**
+D-13 (`anatomy-bridge-arena-candidates.md:16-17`) says *"start with arena 1 (open-source
+tools) — cheapest gate"*; the first version of this board put **arena 5** first. Both were
+agent decisions under the same delegation. **After the adversarial review the board now
+follows D-13** (arena 1 first), and the disagreement is recorded rather than erased: the
+board's earlier reasons (a cheaper *gate* vs a cheaper *verdict*) were weaker than the
+reviewer's cost argument, and the reviewer's own overreach is also recorded — it claimed
+IDEA-001's H1/H2 are "expressible today as a pure re-run script", while the reconciliation
+says the tool cannot express them at all (`research/idea-001-reconciliation.md:21`, `:797`).
+**Filed for ruling as a proposal, not decided here:**
+`proposals/pr-026-library-and-first-run.md`.
 
 ## 4) IDEA-001's state reconciliation (dated; the card itself carries the long form)
 Measured 2026-10-20 with live receipts:

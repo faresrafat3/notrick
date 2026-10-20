@@ -30,7 +30,7 @@
 | `anatomy-library.md` · `idea-002-card-preset-compiler.md` | the library board + the transfer machine (anatomy card → agent preset compiler) | paper-only — parallel anatomy workstream, 2026-10-20 |
 | `idea-001-reconciliation.md` | the 2026-10-20 measurement of IDEA-001's frozen claims H1..H4 + the card's reconciliation (two tool builds, both quoted) | execution record (measurer, receipt-first) |
 | `card-ledger.md` | the library's receipts index (states live in anatomy-library.md §2; this file points to the evidence) | paper-only — index |
-| `pain-census-2026-10-20.md` | the mechanical pain census that chose IDEA-002's angle from counts, with the rejected list | paper-only — evidence for a decision |
+| `pain-census-2026-10-20.md` | the scout's anchor-sha mechanical census of 12 pains (every count re-derives; 12/12 spot-checks green) — the F7 floor ELIGIBLE-filters 8 of 12 away (card #1's own organ), leaving C-12 · C-5 · C-8 · C-11 + the rejected list | paper-only — evidence for a decision |
 
 ## 2) T2.7 demolition-session outputs (documented spine)
 `state-audit` → `claims-v1` → `demolition-log` → `reconstruction-v2` → `assault-plan` → `lineage-audit` → **`verdict-master`** (aggregator — read first) → `FINAL-REPORT` → `HANDBACK-S2` + `hardening-pass` · `limit-sweep` · `session-2026-09-06-closeout`.
@@ -47,3 +47,4 @@ Parallel execution-and-audit record (independent supervisor, sweeps 1-20). Cite 
 
 ## 6) Subdirectories
 `doc-trust-redteam/` (DOC-TRUST attack) · `harness-run/` (run receipts + dossiers).
+| `session-close-audit-2026-10-20.md` | the stranger audit of the 2026-09-10 chain vs today's tree (700 lines, receipt-first, 21:40→02:25) — verdict MIXED: LANDED-BUT-STALE; its headline is a false claim found in a COMMITTED ledger entry (V-005 → V-008) | paper-only — audit |
