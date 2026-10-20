@@ -23,12 +23,12 @@
 | `CANON.md` | the NOTRICK law-compression ladder | reference |
 | `anatomy-reference.md` · `anatomy-bridge.md` · `anatomy-bridge-arena-candidates.md` · `anatomy-card-form.md` | the imported mind-anatomy package + the card form | commissioned synthesis (D-08..D-13) |
 | `foundation-deep.md` | the project's deep foundation (P1..P5 + the descent chain) | commissioned synthesis |
-| `idea-001-anchor-checker.md` | the first execution unit in the anatomy library | paper-only — before P6 · reconciled 2026-10-20 (state ARMED; its named device never existed; its 4 pre-registered claims not yet measured) |
+| `idea-001-anchor-checker.md` | the first execution unit in the anatomy library | paper-only — before P6; ARMED, measured 2026-10-20 (receipt `idea-001-reconciliation.md`): H4 MEASURED · H3 PARTIALLY MEASURED · H1+H2 UNTESTED — the card's evaluator `anchors.py` is unbuilt and the sibling device `tools/citecheck.sh` (2026-09-11) cannot express them; the frozen anchor set now scores 8/15 (7 claims stale: pr-024-A CONTEXT head replacement 2026-09-19 + ONBOARDING regen 2026-09-11) — thresholds unmoved, nothing killed |
 | `ergonomics-tower.md` | tower: 7 layers+entrances · 4 cost pools · 7 diseases w/ live evidence · generator (EN below AR original, R15) | PROPOSED (partially executed + pr-023 ruled/executed 2026-09-11) |
 | `ergonomics-deep.md` | the operating cycle (BOOT→…→RETIRE) + the GENERATE/ROUTE/RECORD invariant + findings F-1..F-7 (39-day delta appended 2026-10-20) | paper + partially executed (pr-024 A C D, 2026-09-19) |
 | `ergonomics-39d-audit.md` | the 39-day audit: two falsifier verdicts (pr-024-A's killer FIRED · the gate's convention violated by its own adopters) + the dormancy finding + the live-writer event | paper + executed instruments (age section · witness register · desk healing) |
 | `anatomy-library.md` · `idea-002-card-preset-compiler.md` | the library board + the transfer machine (anatomy card → agent preset compiler) | paper-only — parallel anatomy workstream, 2026-10-20 |
-| `idea-001-reconciliation.md` | the 2026-10-20 measurement of IDEA-001: what the card claims, what was actually measured, what is still UNTESTED | paper-only — measurement receipt (never executed) |
+| `idea-001-reconciliation.md` | the 2026-10-20 measurement of IDEA-001's frozen claims H1..H4 + the card's reconciliation (two tool builds, both quoted) | execution record (measurer, receipt-first) |
 | `card-ledger.md` | the library's receipts index (states live in anatomy-library.md §2; this file points to the evidence) | paper-only — index |
 | `pain-census-2026-10-20.md` | the mechanical pain census that chose IDEA-002's angle from counts, with the rejected list | paper-only — evidence for a decision |
 
