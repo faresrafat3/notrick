@@ -253,3 +253,59 @@ obituary registry and its heir starts from a measurement, not from this paper.
   with byte costs, not self-applied. pr-021's expiry filing writes into an Owner-by-right
   ruling field, so it is named, dated and flagged, not filled. The lanes are foreign
   writers' territory, so the register is staged rather than imposed.
+
+---
+
+## §9 — CORRECTION (2026-10-21, forced by a context-isolated audit of the two approved-docs moments)
+
+A read-only auditor that reconstructed both moments from `git archive` extractions
+reproduced the sweeps at every commit — and **corrected my §3-F-2 conclusion**. The
+correction is filed here in full because the wrong version was mine, and the project's
+habit is to correct fast and in the open.
+
+**What I wrote in §3-F-2:** "the gate caught its own adopters' quotations and reported them
+as failures — the gate cried wolf on 4 of 14 findings."
+
+**What the audit establishes (and it is right):**
+1. **The gate did NOT cry wolf — every one of the 14 findings was a true positive.** The
+   refs really are broken: AGENTS.md has 75 lines (so 74-77 is invalid) and VERSION.md has
+   25 (so 26-27 is invalid). The tool was sound; `--self-test` passes; there were **zero
+   false positives**.
+2. **What cried wolf was the LEDGER.** 5 of the 14 findings (36%) were never filed with
+   their moment, and 4 of them are the *same two broken refs* repeated by the rule's own
+   authors (INTEGRITY.md's Rule text, CONTEXT.md's own record, LOG.md, and the 2026-09-11
+   entry). The rule says *"files any new drift with the moment"* — the moment filed 2.
+3. **The ordering settles it:** the M1 sweep ran **before** the text it was policing was
+   written (782f2bd sweeps to 13 drifts; abdb2ae to 14 — the 2 sheet drifts were
+   backticked away and 3 M1-authored ones appeared). The 2026-09-19 record's claim
+   *"the new Rule's first application, applied to its authors first"* is therefore
+   **self-claimed and its accounting is falsified**: 13 seen, 2 filed.
+4. **M2 (2026-09-21) did run the sweep** — independently corroborated by an external
+   incident record and reproduced exactly at all three of its commits (14 / 14 / 14); its
+   own writes added **zero** drift, so "no new drift" is literally true. Two caveats worth
+   keeping: M2 left **no LOG.md entry at all** (LOG.md ends at M1's ADOPT line), and the
+   witness path it cites (`~/local/compliance/…`) **does not resolve** — there is no
+   `~/local`.
+5. **V-004 was recorded after the revert** (detection → revert → record; not hidden, but
+   post-hoc, and the revert was never its own logged moment). The 38 broken citations it
+   names **were** checked after the revert (the tree sweeps to 14 with zero AGENTS-range
+   drifts; pins 44 OK / 0 FAILED — AGENTS.md restored intact) — but **the number "38" is
+   not reproducible**: reproduced in a scratch tree, the tool reports **69** broken refs.
+   The filed magnitude understates the tool's own output by 31.
+
+**What this changes in this audit's own claims:**
+- §3-F-2's attribution is corrected above: the defect was **filing discipline and record
+  hygiene, not detector noise**. The instrument I added (the witness register) addresses
+  the *presentation* problem the tool genuinely has — it cannot tell a quotation of a
+  broken ref from a claim about a live one — and it does not hide anything: the tool
+  prints every declared witness on every run, in its own block. The deeper fix is the
+  filing discipline (pr-025-D's convention plus the rule's own "files any new drift with
+  the moment", which was not honored by the moment that installed it).
+- The **witness register is therefore a presentation fix, not an accuracy fix** — stated
+  plainly, because the difference matters: the tool's DRIFT count falling from 14 to 9
+  reflects 5 *declared classifications*, not 5 *fixed defects*. The defects (the unfiled
+  drifts) remain on the record, and the 9 that remain are still true positives.
+- **The "records are not sound" verdict is the session's real finding** — and it lands on
+  the same class as everything else in this audit: a rule that was written, adopted, and
+  then never *exercised* by the moment that adopted it. A falsifier that only a reader can
+  evaluate is a wish; so is a filing rule that only a reader can perform.
