@@ -223,3 +223,51 @@ not from this design.
   part carries its killer; an independent stranger (SANAD pattern) is advised before the
   Owner rules; and the Owner can void the whole pass, including this paper's standing,
   with one line.
+
+---
+
+# 39-DAY DELTA (appended 2026-10-20 — the record of what happened to this paper's claims)
+
+> This section is appended, never a rewrite: the claims above stand as filed, and this is
+> what the disk says about them now. The full audit: research/ergonomics-39d-audit.md.
+
+## What the disk says about §6's metrics (the killer fired)
+
+| §6 metric as filed | measured now | verdict |
+|---|---|---|
+| Audit-side boot tax 80,645 B → ≤ ~11 KB (audit.sh §7, first post-adoption boot) | **88,979 B** (head-scoped 10,294 B) | **FAILED — the part's own killer fired at its first application and was not executed.** Two independent read-only forensics runs over 36 commits: the first post-adoption boot measured 87,716 B (+7,071 vs the 80,645 B baseline, +797 vs the same-day card). The only post-adoption figure on record (84,767 B) was taken mid-moment *before* the 2,949-byte adoption entry was appended — the kill condition was never evaluated on its own instrument |
+| Citation drifts → 0 live | 9 real drifts (8 historical cited-as-land + 1 live) | as filed — the live one is `research/harness-run/BOOT.md:21` |
+| Lanes with a root-surface niche line → 8 | 4 (the pulse board only) | **Part B withheld** — re-proposed as pr-025-B (generated status) |
+| HOLDS-line compliance → measured each pulse | **0 of 8** | unchanged; the convention is still unheld by every lane |
+| Runbook pre-flight truth → box 1 = [x] with source | **done** (pr-024-D, 2026-09-19) | met |
+
+## Why the boot-tax target failed (the structural finding)
+
+Part A slimmed the **head** of CONTEXT.md (5,954 → 1,392 B) while the **decision log in
+the same file** is 78,685 B — **98.26%** of the file, 88.43% of the whole boot chain, and
+it grows on every append (+46,876 B over the project's life). The head was byte-frozen at
+5,954 B from the first commit until 2026-09-19: **100% of the tax's rise was log appends**,
+never the hand-written head. So the mechanism the paper proposed could save at most 4,562 B
+of an 80 KB bill, while the proposal printed "≈11 KB" — a figure reachable only on a
+head-scoped read. **This paper's mechanism was structurally insufficient and its own
+number was overstated by ~15×; the killer that should have caught it was never bound to
+an instrument.** The fix (staged as pr-025-A) is not another slim: the log leaves the
+boot-chain file, or the boot contract becomes a bounded read.
+
+## What the 39 days added to the paper's own frame
+
+- **The WAIT phase has no entrance.** The paper's cycle (§2) has a WAIT phase whose
+  failure mode is "pending decisions scatter and rot" — and 39 days proved the mechanism
+  itself: counts were generated (R14) but **ages never were**, so 29 days of silence, a
+  proposal dead 15 days by its own terms, and a desk lying for 35 days all looked healthy.
+  The card's AGE section (live 2026-10-20) is the entrance; the law candidate is R16
+  (pr-025-C).
+- **The GENERATE/ROUTE/RECORD invariant earned its keep.** The two failures of the 39
+  days were both invariant violations: a ROUTE surface (the desk) restating stale state
+  instead of pointing at the record, and a RECORD (a log entry) written in the form of a
+  GENERATE claim (a boot-tax number that was unreproducible from the committed tree).
+- **A gate must be checked by someone other than its author.** The citation gate's own
+  convention was violated by the moment that adopted it; two truth defects in the card
+  ("32 unruled", "19 undated headers") were found by a context-isolated auditor, not by
+  the author. The stranger-test is not ceremony — it is the only thing that caught the
+  author's own instruments.

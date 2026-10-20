@@ -1,6 +1,8 @@
 # research/ — the records map (a navigation index, not law)
 
-> 2026-09-11 · 76 files + `doc-trust-redteam/` · `harness-run/` (live: `find research -maxdepth 1 -name '*.md' | wc -l`).
+> Index since 2026-09-11 · `doc-trust-redteam/` · `harness-run/` · **the file count is not
+> stated here** (it rots — a snapshot count said 76 against 86 live on 2026-10-20): live
+> `find research -maxdepth 1 -name '*.md' | wc -l` (R14: no hand-kept counts).
 > Records — **added, never erased**; titles = verbatim file first-lines (Arabic H1s = legacy, R15-exempt).
 > Statuses: [active law] · [CANDIDATE] · [PROPOSED] · [execution record] · [commissioned synthesis — revocable R8].
 
@@ -23,6 +25,9 @@
 | `foundation-deep.md` | the project's deep foundation (P1..P5 + the descent chain) | commissioned synthesis |
 | `idea-001-anchor-checker.md` | the first execution unit in the anatomy library | paper-only — before P6 |
 | `ergonomics-tower.md` | tower: 7 layers+entrances · 4 cost pools · 7 diseases w/ live evidence · generator (EN below AR original, R15) | PROPOSED (partially executed + pr-023 ruled/executed 2026-09-11) |
+| `ergonomics-deep.md` | the operating cycle (BOOT→…→RETIRE) + the GENERATE/ROUTE/RECORD invariant + findings F-1..F-7 (39-day delta appended 2026-10-20) | paper + partially executed (pr-024 A C D, 2026-09-19) |
+| `ergonomics-39d-audit.md` | the 39-day audit: two falsifier verdicts (pr-024-A's killer FIRED · the gate's convention violated by its own adopters) + the dormancy finding + the live-writer event | paper + executed instruments (age section · witness register · desk healing) |
+| `anatomy-library.md` · `idea-002-card-preset-compiler.md` | the library board + the transfer machine (anatomy card → agent preset compiler) | paper-only — parallel anatomy workstream, 2026-10-20 |
 
 ## 2) T2.7 demolition-session outputs (documented spine)
 `state-audit` → `claims-v1` → `demolition-log` → `reconstruction-v2` → `assault-plan` → `lineage-audit` → **`verdict-master`** (aggregator — read first) → `FINAL-REPORT` → `HANDBACK-S2` + `hardening-pass` · `limit-sweep` · `session-2026-09-06-closeout`.

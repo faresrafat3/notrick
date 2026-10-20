@@ -1,0 +1,30 @@
+# tools/witness.list — DECLARED WITNESS QUOTATIONS (citecheck's second class)
+#
+# WHAT: a reference that a document is TALKING ABOUT — a quotation of a citation
+# (a drift report, a rule's worked example, a decision-log entry describing the
+# very ref it quotes) — rather than a live pointer an agent is expected to follow.
+#
+# WHY DECLARED INSTEAD OF EDITED IN: the surfaces that carry these quotations are
+# append-only records or pinned doctrine (INTEGRITY.md is a pin file; LOG.md and
+# CONTEXT.md are append-only by rule), so the quotation cannot be rewritten in place.
+# Declaring it is the lawful move — and the tool CHECKS this list every run: an
+# entry whose line no longer carries the ref is reported as register rot, never
+# auto-dropped (R14: no silent fixes; a hand-maintained index must be verified too).
+#
+# FORMAT: one entry per line —  <file>:<srcline>  <ref>  —  <why it is a witness>
+#   (leading '#' and blank lines are ignored)
+#
+# THE CONVENTION (why these exist at all): a live citation is written in plain
+# prose; a quotation of a citation is written in backticks or a code fence. The
+# tool strips those before matching. These four entries were written as PLAIN
+# PROSE by the 2026-09-19 adoption moment — the tool's own rule was not applied
+# to the tool's own authors, so the gate cried wolf on 4 of 14 findings
+# (research/ergonomics-39d-audit.md §3-F-2). Declaring them restores the gate's
+# signal; the deeper fix (a witness-marking convention in doctrine) is staged in
+# proposals/pr-025.
+#
+./CONTEXT.md:704 AGENTS.md:74-77 — the 2026-09-11 ergonomics-deep entry quotes the drift it found (a description of a citation, not a pointer to it)
+./CONTEXT.md:706 VERSION.md:26-27 — the 2026-09-19 adoption entry quotes the drift the sweep caught in that moment
+./CONTEXT.md:706 AGENTS.md:74-77 — the 2026-09-19 adoption entry quotes the same drift it re-anchored
+./INTEGRITY.md:55 AGENTS.md:74-77 — the citecheck Rule's worked example (the live case the rule was written for)
+./LOG.md:324 AGENTS.md:74-77 — the LOG entry for the 2026-09-19 moment, quoting the same worked example
