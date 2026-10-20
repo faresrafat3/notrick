@@ -10,7 +10,17 @@
 #
 # Usage:
 #   tools/audit.sh               → full card (~10 lines)
-#   tools/audit.sh --proposals   → proposals box table (regenerates proposals/README.md per pr-023-F)
+#   tools/audit.sh --proposals   → proposals box table (prints it; write it to
+#                                  proposals/README.md yourself — this tool never writes)
+#   tools/audit.sh --lanes       → the lane register: every subtree's generated status
+#                                  (files · state file · pulse age · the lane's OWN status
+#                                  words · HOLDS-line compliance) + the hand-written niche
+#                                  line that only a reader can choose
+#
+# The --lanes mode exists because LANES.md's own rule is "the board is displayed by
+# tools/audit.sh, never hand-maintained (R14)" — a hand-written status column rots, and
+# it did: bore and hept were listed as live partners while their own state files said
+# COMPLETE/frozen (measured 2026-10-20, research/ergonomics-39d-audit.md §4-F-2).
 
 cd "$(dirname "$0")/.." || exit 1   # project root, from anywhere
 
@@ -31,6 +41,41 @@ age_days_of_file(){
   [ -n "$t" ] || { echo UNKNOWN; return; }
   echo $(( (now - t) / 86400 ))
 }
+
+# ── --lanes: the generated lane register ─────────────────────────────────────
+# Every column here is recomputed from disk at read time (R14). The ONLY hand-written
+# column is the niche sentence, and it lives in LANES.md (a reader chooses it once,
+# from the lane's own self-description) — this tool never invents a niche.
+if [ "${1:-}" = "--lanes" ]; then
+  line "# lanes/ — the generated register (tools/audit.sh --lanes · $today · not law)"
+  line "> Status is generated from disk: files · state file · pulse age · the lane's OWN status"
+  line "> words · HOLDS-line compliance. The niche column is hand-written in LANES.md (quoted"
+  line "> from each lane's self-description). A lane without a state file has no measurable"
+  line "> pulse — by LANES.md's own rule it is an artifact, not a live partner."
+  line ""
+  line "| Lane | Files | State file | Pulse | The lane's own status words | HOLDS: |"
+  line "|---|---|---|---|---|---|"
+  for d in RUN bore hept mill well phantom protocols research/harness-run; do
+    [ -d "$d" ] || continue
+    n=$(find "$d" -type f 2>/dev/null | wc -l)
+    sf=$(find "$d" -maxdepth 2 -type f -name 'STATE.md' 2>/dev/null | head -1)
+    if [ -z "$sf" ]; then
+      line "| $d/ | $n | (no state file) | — | no measurable pulse — artifact by LANES.md's rule | n/a |"
+      continue
+    fi
+    age=$(( (now - $(stat -c %Y "$sf")) / 3600 ))
+    # the lane's own words about itself: the first status-ish line of its state file
+    st=$(grep -m1 -oiE '(status|day|wave|current_op|current_quantum|core_complete|site_status|next_round|one_line_note)[^|]{0,60}' "$sf" 2>/dev/null | head -1 | cut -c1-72)
+    [ -n "$st" ] || st="(no status field — read $sf)"
+    last=$(grep -n . "$sf" 2>/dev/null | tail -1 | cut -d: -f2-)
+    if printf '%s' "$last" | grep -qE '^[[:space:]]*HOLDS:'; then h="yes"; else h="NO"; fi
+    line "| $d/ | $n | $sf | ${age}h | $st | $h |"
+  done
+  line ""
+  total_holds=$(grep -rl '^HOLDS:' --include='*.md' . 2>/dev/null | grep -v '^./.git' | wc -l)
+  line "── HOLDS-line compliance: ${total_holds} file(s) hold a HOLDS: line (LANES.md:10-11 asks every lane to) — 0 of 7 lanes, 2026-10-20"
+  exit 0
+fi
 
 if [ "${1:-}" = "--proposals" ]; then
   line "# proposals/ — the proposals box (generated: tools/audit.sh --proposals · $today · not law)"
@@ -82,8 +127,11 @@ ppend=$(grep -l -iE 'status: ?\**\**(PENDING|proposed-in-file|proposed-in-chat)'
 line "5. PROPOSALS : $ptotal files · $ppend awaiting ruling · live index: tools/audit.sh --proposals"
 
 # 6) Lane pulses — mtime is the pulse, touching is the announcement (stigmergy, zero extra writes)
-line "6. LANES     : (pulse = state-file mtime · >24h = an artifact, not a live partner)"
-for f in RUN/STATE.md bore/runtime/STATE.md hept/runtime/STATE.md research/harness-run/STATE.md; do
+# All 8 subtrees with a state file are listed (the board used to show 4, and 2 of those 4
+# were artifacts — their own state files said COMPLETE/frozen; the generated register
+# `tools/audit.sh --lanes` is the full version).
+line "6. LANES     : (pulse = state-file mtime · >24h = an artifact, not a live partner · full register: tools/audit.sh --lanes)"
+for f in RUN/STATE.md bore/runtime/STATE.md hept/runtime/STATE.md mill/STATE.md well/STATE.md phantom/STATE.md research/harness-run/STATE.md; do
   if [ -f "$f" ]; then
     age=$(( (now - $(stat -c %Y "$f")) / 3600 ))
     line "   · $f — last pulse ${age}h ago$([ "$age" -ge 24 ] && echo ' · STALE')"
@@ -91,6 +139,8 @@ for f in RUN/STATE.md bore/runtime/STATE.md hept/runtime/STATE.md research/harne
     line "   · $f — no state file (lane without a measurable pulse)"
   fi
 done
+holds=$(grep -rl '^HOLDS:' --include='*.md' . 2>/dev/null | grep -v '^\./\.git' | wc -l)
+line "   · HOLDS-line compliance: $holds of 7 lanes (LANES.md:10-11 asks every lane; 0 of 7 measured 2026-10-20)"
 
 # 7) Boot cost — the ruled boot chain (README:5-6 · CONTEXT:5-6)
 cb=$(wc -c < CONTEXT.md); ab=$(wc -c < AGENTS.md); fb=$(wc -c < FOUNDATIONAL-BRIEF.md)

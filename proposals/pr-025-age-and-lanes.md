@@ -42,7 +42,18 @@ The system counted things but never aged them: 29 days passed with no commit, pr
 **Files:** `LANES.md` (declared-exempt living surface) · `tools/audit.sh` (adds a `--lanes` mode).
 **The two-column rule:** the **status** column is GENERATED from disk (mtime age · file count · the lane's own last state-file line) and can never rot; the **niche** column is the one hand-written line per lane, quoted from the lane's own self-description (a lane that does not describe itself gets "SELF-DESCRIPTION ABSENT", never a guess).
 
-**Proposed LANES.md table — the niche column quoted VERBATIM from each lane's own
+> **STATUS: EXECUTED in the free lane on 2026-10-20** — the board is an exempt living
+> surface, and the register's status column is GENERATED (`tools/audit.sh --lanes`), so the
+> mechanism needs no ruling. `LANES.md` is now the MAP (8 subtrees, every niche quoted
+> from the lane's own self-description with file:line) and the card's §6 pulses all 7
+> state files with the HOLDS-compliance number. **The one decision this leaves the Owner:
+> the HOLDS convention — enforce it on the lane-runners, or retire it** (0 of 7 lanes have
+> held it for 41+ days; the board now reports the number on every boot instead of
+> assuming it). The two mis-classified rows (bore/hept listed live while their own state
+> files said COMPLETE/frozen) are gone by construction: the status is generated, not
+> asserted.
+
+**The proposed LANES.md table — the niche column quoted VERBATIM from each lane's own
 self-description (read-only survey, 2026-10-20 23:10; every quote carries file:line), the
 status column generated from disk:**
 
