@@ -689,6 +689,19 @@ its distinctive text (not its line number), plus the 2 repaired negative anchors
 (distinctive text → live line → compare with the claimed span). The script is reproduced in full in §6.2 so any
 stranger can re-run it.
 
+> **PROBE-vs-VERDICT — dated 2026-10-21 04:45 (a stranger found this; the note is the fix, declared).**
+> The stranger verification (`research/session-close-verification-2026-10-20.md`, check **B**) re-ran the script published here and got
+> **8 PASS · 6 DRIFT · 2 DEAD**, while the table below says **8 PASS · 5 DRIFT · 2 DEAD**. The stranger re-derived all five divergent rows by
+> hand: **the TABLE is right in every one of them** — the script's probes fail, not the hand verdicts. The divergences, with the reason:
+> - **R09** — the witness wraps across `CONTEXT.md:424-425`, so a single-line grep misses it → PASS (table) vs DRIFT (script).
+> - **R11** — the frozen and the live wall text are byte-identical, so the witness moved without changing → PASS (table) vs DRIFT (script).
+> - **R12** — "DS carries the K-line field" is genuinely absent → DEAD (table); the script's loose `K-line` probe false-positives.
+> - **R13** — the seed-MICs passage is genuinely gone → DEAD (table); the script's probe false-positives.
+> - **R15** — the heading is present → PASS (table); the script truncates it at the `;`.
+> **The script's bytes are NOT rewritten here**: they are a published artifact that a dated verdict already quotes, so editing them in place
+> would make THAT verdict non-reproducible too. The table is the verdict of record; this note makes the disagreement auditable instead of
+> silent. **Conclusion unchanged: 8/15, not 15/15.**
+
 ### 6.1 Row-by-row, 2026-10-20
 
 | row | target : span (frozen) | witness today | verdict today | note |

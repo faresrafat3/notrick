@@ -48,3 +48,4 @@ Parallel execution-and-audit record (independent supervisor, sweeps 1-20). Cite 
 ## 6) Subdirectories
 `doc-trust-redteam/` (DOC-TRUST attack) · `harness-run/` (run receipts + dossiers).
 | `session-close-audit-2026-10-20.md` | the stranger audit of the 2026-09-10 chain vs today's tree (700 lines, receipt-first, 21:40→02:25) — verdict MIXED: LANDED-BUT-STALE; its headline is a false claim found in a COMMITTED ledger entry (V-005 → V-008) | paper-only — audit |
+| `session-close-verification-2026-10-20.md` | the R6 stranger verification of the session-close artifacts — **VERDICT: PASS WITH NOTATIONS** (6 notations · 1 blocking, both now fixed and re-frozen) | paper-only — verification |

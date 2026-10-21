@@ -227,6 +227,11 @@ readable but not writable from here — R12 keeps runtime state out of the proje
 ## 4) §Frozen evaluator (gauge B — **frozen 2026-10-21 01:16:41 +0300**, before any execution)
 
 ### 4.1 Ground truth — frozen (sha256 + mtime at the freeze moment)
+
+**HISTORICAL — the 2026-10-21 01:16:41 freeze as it was taken. TWO of these hashes no longer match BY DESIGN**
+(the two files moved — see the RE-FREEZE block at the end of §4.1): running this block now returns `foundation-deep.md: FAILED`
+and `pain-census-2026-10-20.md: FAILED`. **That is not breakage — the check of record is the block after the RE-FREEZE, and its
+effective copy is §10.9's V1.** A failing command with no label is the V-006 failure class.
 ```
 $ date '+%Y-%m-%d %H:%M:%S %z'          # freeze moment
 2026-10-21 01:16:41 +0300
@@ -245,9 +250,22 @@ e6ce12479dbe1223a2b87d05f3dbfad0e64b9174518fef1a09e95936d25d2ecb  research/pain-
 | `research/anatomy-card-form.md` | `3db3b4d4…f510f` | 2026-09-10 21:03:42 +03 | 62 | the **FIXED FORM spec** — the compiler's contract and the four birth gates |
 | `research/ten-axis-knowledge-map.md` | `973304cf…1b694` | 2026-09-06 18:29:21 +03 | 72 | the canon line `:32` (the human practice, byte-exact) and the Creator-mode lines `:39-40` |
 | `research/anatomy-bridge-arena-candidates.md` | `aff010af…c2514` | 2026-09-10 09:05:03 +03 | 23 | the **gauge-A anchor** (arena 5, row `:13`) |
-| `research/foundation-deep.md` | `744fbaf4…4f6ca3` | 2026-09-10 21:07:16 +03 | 119 | the five-pack (`:27`) and the D-14 two-gauge rule (`:58-63`) |
+| `research/foundation-deep.md` | `42d717c8…18cfb3` | 2026-10-21 02:33:54 +0300 | 119 | the five-pack (`:27`) and the D-14 two-gauge rule (`:58-63`) |
 | `research/anatomy-reference.md` | `fde376d3…b43899dc` | 2026-09-10 09:27:58 +03 | 95 | the persona field set (`:31`) and the cold-row census (`:26`, `:42-45`) |
-| `research/pain-census-2026-10-20.md` | `e6ce1247…6d2ecb` | 2026-10-21 00:37:41 +03 | 96 | the measurement that chose this angle (`:61`, `:86-91`) |
+| `research/pain-census-2026-10-20.md` | `0bfc6034…1c8661` | 2026-10-21 02:27:07 +0300 | 680 | the measurement that chose this angle (`:61`, `:86-91`) |
+
+**RE-FREEZE — dated 2026-10-21 04:35 +0300 (two entries moved; the other four are unchanged).**
+The stranger verification (`research/session-close-verification-2026-10-20.md`, check **B**) ran this card's own
+`sha256sum -c` and got **`research/foundation-deep.md: FAILED`** and **`research/pain-census-2026-10-20.md: FAILED`** —
+the card's central self-declared check was failing with no note, which is the exact failure class this project filed as
+**V-006** (a truth-generator that asserts something false). Both causes were in the lead's own hands, and both are named:
+- `research/foundation-deep.md` moved in commit `3574e2e`: its `:52` hand-kept counts ("74 ملف بحث + 21 مقترح") were replaced by a
+  **generated pointer** (R14 — a count is not a fact until it is generated at read time). New bytes `42d717c8699cb106ef53da02213847c99cae51a90b61a33141498c283618cfb3` (119 lines, mtime 2026-10-21 02:33:54 +0300).
+- `research/pain-census-2026-10-20.md` moved because the lead's 00:37 placeholder census was **superseded** by the scout's authoritative
+  instance-count census (anchor `f2e46d02db745ca1bf5be14d26ef8fc2fa52fe87`). New bytes `0bfc6034a63a47f07700a954cb35bd247b9469f348f7545e4103defa521c8661` (680 lines, mtime 2026-10-21 02:27:07 +0300).
+The four other entries still verify byte-for-byte. **No result exists** (§4.5 `NOT EXECUTED`) and no threshold moved, so a dated
+re-freeze is legitimate; the 01:16:41 hashes above stay as the historical freeze, and this re-freeze is what a stranger checks now
+(the effective V1 is §10.9). → Listed in §10.8 so the card's own audit trail cannot hide it.
 
 **A stranger re-checks the freeze with one command:**
 ```
@@ -255,9 +273,9 @@ $ cd /home/fares/Projects/notrick && sha256sum -c <<'EOF'
 3db3b4d41d1327f58ec6ba7bca6579bae7810c62ef19bdd616756171334f510f  research/anatomy-card-form.md
 973304cfb7e286f30e780d19cbf43cfb4ea157dabbb4033545857fadb1e1b694  research/ten-axis-knowledge-map.md
 aff010aff1f6514f9c9d9470e95ef9954c661dc38197324c7ddb775b4f5c2514  research/anatomy-bridge-arena-candidates.md
-744fbaf434ebce4e7a95f09cbd5eb9bcce8509351e7d601ea8c7f41ab14f6ca3  research/foundation-deep.md
+42d717c8699cb106ef53da02213847c99cae51a90b61a33141498c283618cfb3  research/foundation-deep.md
 fde376d341a34298249dddc619c7836cf58b47165d00b4a5f5183146b43899dc  research/anatomy-reference.md
-e6ce12479dbe1223a2b87d05f3dbfad0e64b9174518fef1a09e95936d25d2ecb  research/pain-census-2026-10-20.md
+0bfc6034a63a47f07700a954cb35bd247b9469f348f7545e4103defa521c8661  research/pain-census-2026-10-20.md
 EOF
 ```
 **The two inline fixtures (§6.1, §6.2) are hashed in `research/card-ledger.md`, not here** —
@@ -629,9 +647,9 @@ $ sha256sum -c <<'EOF'
 3db3b4d41d1327f58ec6ba7bca6579bae7810c62ef19bdd616756171334f510f  research/anatomy-card-form.md
 973304cfb7e286f30e780d19cbf43cfb4ea157dabbb4033545857fadb1e1b694  research/ten-axis-knowledge-map.md
 aff010aff1f6514f9c9d9470e95ef9954c661dc38197324c7ddb775b4f5c2514  research/anatomy-bridge-arena-candidates.md
-744fbaf434ebce4e7a95f09cbd5eb9bcce8509351e7d601ea8c7f41ab14f6ca3  research/foundation-deep.md
+42d717c8699cb106ef53da02213847c99cae51a90b61a33141498c283618cfb3  research/foundation-deep.md
 fde376d341a34298249dddc619c7836cf58b47165d00b4a5f5183146b43899dc  research/anatomy-reference.md
-e6ce12479dbe1223a2b87d05f3dbfad0e64b9174518fef1a09e95936d25d2ecb  research/pain-census-2026-10-20.md
+0bfc6034a63a47f07700a954cb35bd247b9469f348f7545e4103defa521c8661  research/pain-census-2026-10-20.md
 e6d2a0e9c8ae01b035d0468e0bea210fca567677cd452ef7231229c38f20569e  research/idea-002-fixtures.md
 EOF
 ```
@@ -734,6 +752,7 @@ FIXTURE and are not in `research/card-ledger.md`'s card list.
 | §7's "arena 5 has no receipt yet…" quote (census `:81`) | §7's own dated correction note (2026-10-21 02:3x) | the census was rewritten; that sentence now lives at `:438-440` and the arena-price caveat at `:589-591` |
 | §10.6's sentence "the reasons are recorded in `research/anatomy-library.md` §3" | the ORDER block inside §10.6 (2026-10-21 02:3x, revised 02:4x) | the board was **revised at 2026-10-21 02:29:12 +03** and now carries this section's order (IDEA-001 first, IDEA-002 second); an earlier block of mine recorded the order as a conflict, on a 02:2x read that the 02:29 revision superseded |
 | `research/card-ledger.md` §0.4 (which hashed the **withdrawn** inline §6.1/§6.2 fixtures) | the ledger's own 2026-10-21 02:3x revision | the inline fixtures are withdrawn (§10.2); the ledger now hashes `research/idea-002-fixtures.md` and prints the F1/F2/F3 extraction commands |
+| §4.1's hash table — the two entries that moved (`research/foundation-deep.md` · `research/pain-census-2026-10-20.md`) and the `sha256sum -c` block that checks them | §4.1's RE-FREEZE block (dated 2026-10-21 04:35) + §10.9's effective V1 | the lead's own R14 fix to `foundation-deep.md:52` (commit `3574e2e`) and the scout's superseding census moved both files — the card's one-command check was FAILING with no note, i.e. the V-006 failure class. Re-frozen with a date; the 01:16:41 hashes stay as the historical freeze |
 
 ### 10.9 Ammanat (unchanged, restated)
 - No result exists. No device was built. No threshold was moved after a result.
@@ -743,3 +762,17 @@ FIXTURE and are not in `research/card-ledger.md`'s card list.
 - The refuter stays a **role** (a context-isolated verifier), never a name
   (`anatomy-card-form.md:34`; `RULES.md:24-25`).
 - The Owner fields (P3/P5/P6) are untouched; nothing here authorizes a run.
+
+### 10.9 The effective V1 (what a stranger runs, after the re-freeze of 2026-10-21 04:35 +0300)
+```
+$ cd /home/fares/Projects/notrick && sha256sum -c <<'EOF'
+3db3b4d41d1327f58ec6ba7bca6579bae7810c62ef19bdd616756171334f510f  research/anatomy-card-form.md
+973304cfb7e286f30e780d19cbf43cfb4ea157dabbb4033545857fadb1e1b694  research/ten-axis-knowledge-map.md
+aff010aff1f6514f9c9d9470e95ef9954c661dc38197324c7ddb775b4f5c2514  research/anatomy-bridge-arena-candidates.md
+42d717c8699cb106ef53da02213847c99cae51a90b61a33141498c283618cfb3  research/foundation-deep.md
+fde376d341a34298249dddc619c7836cf58b47165d00b4a5f5183146b43899dc  research/anatomy-reference.md
+0bfc6034a63a47f07700a954cb35bd247b9469f348f7545e4103defa521c8661  research/pain-census-2026-10-20.md
+EOF
+```
+Plus the fixtures corpus: `research/idea-002-fixtures.md` sha256 `e6d2a0e9c8ae01b035d0468e0bea210fca567677cd452ef7231229c38f20569e`.
+This is the check of record as of 2026-10-21 04:35 +0300; the 01:16:41 freeze stays visible in §4.1 as the historical one.
