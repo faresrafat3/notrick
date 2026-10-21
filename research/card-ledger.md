@@ -42,11 +42,15 @@ $ for f in research/idea-001-anchor-checker.md research/idea-002-card-preset-com
     echo "  $(basename $f): kill=$k prior=$p pain=$q sha256=$e"
   done
   idea-001-anchor-checker.md: kill=4 prior=1 pain=2 sha256=7
-  idea-002-card-preset-compiler.md: kill=9 prior=3 pain=3 sha256=12
+  idea-002-card-preset-compiler.md: kill=10 prior=3 pain=3 sha256=13
 ```
 All four gates are present in both cards. A card missing any one of them **is not born** — it
 is a draft row on the board, not a row here. (The numbers are grep hit-counts, not a score:
-they say *the gate is present*; the gate's content is read in the card.)
+they say *the gate is present*; the gate's content is read in the card. **They also move when
+the card is edited** — IDEA-002's count went 4/3/3/9 → 9/3/3/12 → 10/3/3/13 as this session
+added its §10 repair rows. That is the proof that the count is a *witness of a moment*, not a
+property of the card. **The test is ≥1 in every column**; the exact integers are only true for
+the moment they were taken.)
 
 ### 0.3 No card claims a state it has not earned
 ```
@@ -56,29 +60,49 @@ $ grep -nE '^## (الحالة|State): \*\*(RUNNING|PROVEN|DEAD)' \
 ```
 No card is RUNNING, PROVEN, or DEAD. Both are ARMED, both are NOT EXECUTED.
 
-### 0.4 The frozen fixture hashes (IDEA-002 §6.1 / §6.2) — recorded here, not in the card
-The card is the *object* being hashed, so it cannot carry its own hash; this ledger is written
-after the card, which removes the circularity without weakening the freeze. A stranger
-re-derives them with the card's own extraction commands
-(`research/idea-002-card-preset-compiler.md` §4.2):
+### 0.4 The frozen corpus (IDEA-002's fixtures) — recorded here, not in the card
+> **Corrected 2026-10-21 02:3x (dated, not silent).** This subsection used to hash the card's
+> **inline** §6.1/§6.2 fixtures. The adversarial review withdrew them
+> (`research/idea-002-card-preset-compiler.md` §10.2, and the card's §10.8 row for it): the
+> inline known-positive carried ≤3 of the 8 fields, so H1 could never have passed against it.
+> The corpus now lives in **its own file**, which removes the self-referential hash problem —
+> the card is no longer the object being hashed. **The card's own §10.2 is the authority for
+> the freeze**; the hash and the extraction commands are reprinted here so the ledger's index
+> stays checkable on its own.
+```
+$ sha256sum research/idea-002-fixtures.md
+e6d2a0e9c8ae01b035d0468e0bea210fca567677cd452ef7231229c38f20569e  research/idea-002-fixtures.md
+$ stat -c 'mtime %y' research/idea-002-fixtures.md
+mtime 2026-10-21 02:14:07.007746961 +0300
+$ awk 'END{print NR" lines"}' research/idea-002-fixtures.md
+173 lines
+```
+The three single-cause fixtures, extracted with the card's own commands (§10.5):
 ```
 $ mkdir -p /tmp/acc-fixtures
-$ sed -n '/^### 6\.1 /,/^### 6\.2 /p' research/idea-002-card-preset-compiler.md | sed '1d;$d' > /tmp/acc-fixtures/positive.md
-$ sed -n '/^### 6\.2 /,/^### 6\.3 /p' research/idea-002-card-preset-compiler.md | sed '1d;$d' > /tmp/acc-fixtures/negative.md
-$ sha256sum /tmp/acc-fixtures/positive.md /tmp/acc-fixtures/negative.md
-58a5557c5eb1c0482a259d9ab7db23b2b37c657c5efa6481d2b8e9e71cdc8733  /tmp/acc-fixtures/positive.md
-7a5d377c0a205d44d7a0044b59e2dc433f4d8ee25c0f8ed9f17c85ff5d7bcd7f  /tmp/acc-fixtures/negative.md
+$ sed -n '/^## F1 /,/^## F2 /p' research/idea-002-fixtures.md | sed '1d;$d' > /tmp/acc-fixtures/positive.md
+$ sed -n '/^## F2 /,/^## F3 /p' research/idea-002-fixtures.md | sed '1d;$d' > /tmp/acc-fixtures/no-killline.md
+$ sed -n '/^## F3 /,/^## F4 /p' research/idea-002-fixtures.md | sed '1d;$d' > /tmp/acc-fixtures/poisoned.md
+$ wc -c /tmp/acc-fixtures/positive.md /tmp/acc-fixtures/no-killline.md /tmp/acc-fixtures/poisoned.md
+ 2088 /tmp/acc-fixtures/positive.md
+ 2108 /tmp/acc-fixtures/no-killline.md
+ 2438 /tmp/acc-fixtures/poisoned.md
 ```
-(858 B and 901 B at the moment above. **If these two hashes no longer match, the card was
-edited after this ledger was written** — re-read the card before trusting any row below; the
-ledger does not win over the card.)
+**F1** = the known-positive (must compile, exit 0) · **F2** = the known-negative, missing only
+the kill-line (must be refused, exit 3, naming the kill-line) · **F3** = the poisoned sample
+(must be flagged). **F4** is not a fixture but a *finding*: `research/idea-001-anchor-checker.md`
+is a real card that is **not** form-conformant, so it is **not** the known-positive — that is
+why F1 exists (`research/idea-002-fixtures.md:166-173`).
+**If the hash above no longer matches, the corpus was edited after this ledger was written** —
+re-read the card and the corpus before trusting any row below; the ledger does not win over
+the card.
 
 ## 1) The ledger
 
 | Card | State (pointer: card's own state line · re-derive: §0.1) | gauge B — frozen evaluator | gauge A — external receipt | Kill-line + heir | Frozen ground truth (moment) | Receipts / verdict file | Last verdict | Who may write |
 |---|---|---|---|---|---|---|---|---|
 | **IDEA-001** — live anchor checker (angle: checking · arena 1) | `ARMED` — spec ambiguity, must be re-specced · card `research/idea-001-anchor-checker.md:5` | **present** — frozen 2026-09-10 ~09:45 +03; 2 files; 4 pre-registered claims H1..H4. **Caveat measured 2026-10-20:** the named device `anchors.py` never existed, so H1/H2 are unmeasurable *as specified* (H3/H4 are device-independent) — the card's §8 | **absent** — no external receipt; interim gate declared in the card's §7 (≥3 real internal rounds); the final judge stays external money/user (D-14) | card §5 (`research/idea-001-anchor-checker.md:35-38`): death = H1+H2 fail in two consecutive rounds after one fix, **or** manual re-derivation beats the device on 3 rounds · **heir = the citation tool that already exists** (`tools/citecheck.sh`) | `anatomy-reference.md` sha256 `fde376d341a34298249dddc619c7836cf58b47165d00b4a5f5183146b43899dc` + `anatomy-verification.md` sha256 `207b75b506f4c8d4261d4303fe854c832299fd978cdbaa4a6b9e851a7e7482e8` — **frozen 2026-09-10 09:27:58 / 09:29:54, re-verified byte-exact 2026-10-20** | `research/idea-001-anchor-checker.md` (the card) + `research/idea-001-reconciliation.md` (the 2026-10-20 measurement) | 2026-09-10 stranger verdict: **PASS WITH NOTATIONS** (41 commands) · 2026-10-20: the four pre-registered claims are **not yet measured** — the named device never existed (H4 measured · H3 partially measured · H1/H2 UNTESTED) | the card's owner (this lane) only; a change to a threshold is forbidden after a result is seen |
-| **IDEA-002** — the transfer machine: anatomy card → agent preset compiler (angle: authoring · arena 5) | `ARMED` — paper, NOT EXECUTED · card `research/idea-002-card-preset-compiler.md:30` | **present** — frozen **2026-10-21 01:16:41 +0300**; 6 files; 5 pre-registered claims H1..H5; commands V1..V6; refuter named by **ROLE**, not by name (the card's §4.4). The device `acc.py` does not exist — the card is paper about a machine that has not been built | **absent** — no external receipt; card-scoped interim gate declared in the card's §7 (≥3 real internal compilations recorded in `RUN/`); the final judge stays external money/user (D-14) | card §5: death = H1+H2 fail in two consecutive rounds after one fix, **or** manual card→preset authoring beats the compiler on 3 rounds · **heir = the FIXED FORM + the 8-field mapping table** (card field → preset field) — the mapping outlives the compiler | the FORM spec `research/anatomy-card-form.md` sha256 `3db3b4d41d1327f58ec6ba7bca6579bae7810c62ef19bdd616756171334f510f` (mtime 2026-09-10 21:03:42) + 5 more files (the card's §4.1) + a known-positive/known-negative fixture pair (hashed in §0.4) | `research/idea-002-card-preset-compiler.md` (the card carries its own receipts: §1 pain · §2 prior art · §4 the freeze) | none yet (never executed — P6). **No verdict can exist**: a verdict is not the claimant's to issue (R6, `RULES.md:24-25`) | the builder of that card; a second card never edits another card's file |
+| **IDEA-002** — the transfer machine: anatomy card → agent preset compiler (angle: authoring · arena 5) | `ARMED` — paper, NOT EXECUTED · card `research/idea-002-card-preset-compiler.md:30` | **present** — frozen **2026-10-21 01:16:41 +0300**; **7 files** (the 6 of §4.1 + the fixtures corpus); 5 pre-registered claims **H1..H5** (H1 = **8/8** required fields, each traced to a card line); commands **V1..V8** (the card's §10.5 supersedes the old V6 with V7, which can fail); refuter named by **ROLE**, not by name (the card's §4.4). The device `acc.py` does not exist — the card is paper about a machine that has not been built. A **spec repair** (§10, after an adversarial review, 2026-10-21 02:17) is **declared in the card, not hidden** | **absent** — no external receipt; card-scoped interim gate declared in the card's §7 (≥3 real internal compilations recorded in `RUN/`); the final judge stays external money/user (D-14) | card §5: death = H1+H2 fail in two consecutive rounds after one fix, **or** manual card→preset authoring beats the compiler on 3 rounds · **heir = the FIXED FORM + the 8-field mapping table** (card field → preset field) — the mapping outlives the compiler | the FORM spec `research/anatomy-card-form.md` sha256 `3db3b4d41d1327f58ec6ba7bca6579bae7810c62ef19bdd616756171334f510f` (mtime 2026-09-10 21:03:42) + 5 more files (the card's §4.1) + the **fixtures corpus** `research/idea-002-fixtures.md` sha256 `e6d2a0e9c8ae01b035d0468e0bea210fca567677cd452ef7231229c38f20569e` (mtime 2026-10-21 02:14:07, 173 lines) — hashed in **§0.4** | `research/idea-002-card-preset-compiler.md` (the card carries its own receipts: §1 pain · §2 prior art · §4 the freeze · §10 the repair) + `research/idea-002-fixtures.md` (the corpus, not a card) | none yet (never executed — P6). **No verdict can exist**: a verdict is not the claimant's to issue (R6, `RULES.md:24-25`) | the builder of that card; a second card never edits another card's file |
 | IDEA-003 (draft) — content-anchor deriver | `DRAFT — not born` (no frozen evaluator) | missing | — | missing | — | — | — | anyone may propose; it is not a card until its four birth gates are met |
 | IDEA-004 (draft) — Member-0 consolidation device (D-10) | `DRAFT — not born` (blocked behind GO + Member-0) | missing | — | missing | — | — | — | ditto |
 
@@ -120,18 +144,59 @@ the Arabic governs)** — `research/anatomy-card-form.md:6-11`:
 
 | Round | Cards born | Angles | Arenas | F7 diversity floor (`anatomy-card-form.md`: ≥2 cards from ≥2 different angles or arenas) | How the round was decided |
 |---|---|---|---|---|---|
-| 1 (2026-09-10 → 2026-10-20) | IDEA-001, IDEA-002 | checking · authoring | 1 · 5 | **SATISFIED** — different angle AND different arena (so the floor is met twice over) | IDEA-001 was born 2026-09-10 (its own §4). IDEA-002's angle was **not** chosen by taste: the pain census ranked the pains, then applied a rule stated *before* the choice (`research/pain-census-2026-10-20.md:50-55`) — mechanically decidable · has a money path · **the angle must differ from card #1's** · tie-break by count. The census named its own trap (`:44-48`): the **highest-count** pain (65 files) is a *checking* pain, and taking it would have produced two checking cards — the floor's own violation. **A census is evidence, not an order** (`:48`). |
+| 1 (2026-09-10 → 2026-10-20) | IDEA-001, IDEA-002 | checking · authoring | 1 · 5 | **SATISFIED** — different angle AND different arena (so the floor is met twice over) | IDEA-001 was born 2026-09-10 (its own §4). IDEA-002's angle was **not** chosen by taste: the pain census ranked the pains, then applied a rule stated *before* the choice. The census's **authoritative version** (author: scout, board task 3, written 2026-10-21 00:37–02:20 +03) **supersedes** the lead's 00:37 placeholder, and says so on the record (`research/pain-census-2026-10-20.md:16-36`). The **filter** (`:370-386`, §3.1): the F7 floor is *"a constraint, not a preference"* — dimension (d), a *different angle from card #1's*, is a pass/fail filter; eligible = **C-12 · C-5 · C-8 · C-11**. The **tie-break** (`:495-518`, §4.2) is stated and applied in order: filter → measured instance count → evaluator mechanically expressible **today** → direct arena fit in D-13's words → remaining ties are *declared*. The **decision** (`:633-660`, §7): *"The second card should be C-12 — the delivery gap: an anatomy card → agent preset compiler (arena 5, organ: authoring)"* — which **is IDEA-002**. The census's own negative result is the more important half: *"The library's second card cannot be picked from the biggest pains; it can only be picked from the four that survive the diversification floor. That constraint, not preference, is what made this a census."* |
 
-**The census's counts were re-derived** (the tree moved after they were taken — the census
-warns of this at `:80-84`): re-run 2026-10-21 01:1x +03, the six classes read
+**The runner-up changed, and this ledger follows the record:** the census's #2 is **C-5 — the
+pending-stack decay device** (arena 6 · organ: decision-routing; `:450-491`) — *not* the
+board's draft IDEA-003. C-5 is **not on the board and not born**; it is a recommendation the
+Owner may take up in a later round. The board's draft rows (IDEA-003 · IDEA-004) are the
+board's business, and this ledger does not restate them as census picks.
+
+**On the counts, exactly as the census left them** (`:110-122`, `:602-604`): the census counts
+in **ENUM** (a row in a table the project itself wrote) and **MEAS** (re-measured from disk by
+the command shown), anchored to a named sha — `f2e46d02db745ca1bf5be14d26ef8fc2fa52fe87`
+(`:49-50`, `:609-611`). It names the **TOKEN** method (*"files mentioning a token"*) as *"a
+vocabulary proxy"* that *"moves with the tree"* while an instance count does not. **My own
+re-derivation** (2026-10-21 01:1x +03) was a TOKEN re-run of the *earlier draft's* commands —
 `unlogged|violation 87 · stale|rot 52 · duplicat|collision 44 · false-claim 41 · drift 38 ·
-expiry 34`, against the census's `65 / 39 / 42 / 31 / 30 / 33`. **The head did not move** — the
-top-count pain is still the top-count pain, and it is still the *checking* pain the rule
-rejects — so **the round's decision is unchanged by the re-derivation.** The tail reordered;
-that is reported, not smoothed over. The commands are in the census itself (`:34-39`).
+expiry 34` — and it is **recorded here as a measurement, not as the deciding evidence**: the
+deciding count is the census's instance count for C-12 (**≥7 instances, 1 proved at card
+level** — `:319-349`, `:368`). The census also recorded a defect in the first draft of
+**IDEA-002** itself (`:343-345` — the "five rows `[PSY-DESIGN]`" claim, which re-measures as
+2 + 2); that defect is **already fixed** in the card (§1, Witness C), and the census's
+re-measurement and the card's own agree.
 
-**Round 2 is not open yet.** The board's draft rows (IDEA-003, IDEA-004) are **not born**; a
-new round needs ≥2 born cards from different angles or arenas
+**The first-run order — REVISED 2026-10-21 02:29:12 +03 (this paragraph replaces an earlier one
+of mine; the correction is dated, not silent).** I first recorded the order as **DISPUTED**,
+on a **02:2x** read of the board. The board's owner revised the board at **02:29:12**, and the
+order is now settled — and it is settled *this* way:
+- `research/anatomy-library.md:37-38` — the file this ledger names as **the authority for the
+  order** — now reads: *"**Decision (agent, revocable) — REVISED 2026-10-21 after an
+  adversarial review: IDEA-001 (amended) runs first; IDEA-002 second, same round.** The first
+  version of this section had it the other way round; it was **overruled by a context-isolated
+  reviewer (R6)** whose verdict was **CHANGE**."*
+- `proposals/pr-026-library-and-first-run.md:13` (mtime 2026-10-21 02:30:06) now asks the Owner
+  to *"confirm the first-run order — IDEA-001 (arena 1, checking) first, IDEA-002 (arena 5,
+  authoring) second, which follows D-13's 'arena 1 first'"*.
+- `CONTEXT.md:714` records the reversal on the session's own log: *"ANATOMY LIBRARY COMPLETED +
+  THE ORDER REVERSED BY ADVERSARIAL REVIEW"*.
+- `research/idea-002-card-preset-compiler.md` §10.6 carries the same order with its mechanical
+  grounds, and says so in the house style: an **agent decision, revocable by the Owner in one
+  line** — not a ruling.
+**Read the order off the board, not off this row** (the board is the authority; this ledger
+indexes it):
+```
+$ grep -n -A1 'Decision (agent, revocable)' research/anatomy-library.md
+37:**Decision (agent, revocable) — REVISED 2026-10-21 after an adversarial review: IDEA-001
+38-(amended) runs first; IDEA-002 second, same round.** The first version of this section had
+```
+**One stale trace remains, and it is not mine to fix:** `OWNER-DESK.md:30` — the Owner's
+decision surface — still offers the Owner *"the **first-run order** (IDEA-002 first, IDEA-001
+second)"* to rule on, and still says *"the **arena** (D-13 says arena 1; the library board
+says arena 5)"*, while the board now follows D-13's arena 1. **Reported, not edited** — a
+doctrine file under a guest's wall.
+
+**Round 2 is not open yet.** A new round needs ≥2 born cards from different angles or arenas
 (`research/anatomy-card-form.md:53-54`), and its selection rule must be stated **before** its
 choice — the same discipline the census used for round 1.
 
@@ -148,20 +213,28 @@ choice — the same discipline the census used for round 1.
 - **The money paths are hypotheses, not paths.** The arena table states its own numbers are
   unverified estimates — *"كل الأرقام تحت 'تقدير'"*
   (`research/anatomy-bridge-arena-candidates.md:5`) and *"أول تنفيذ على أي ملعب يبدأ بصفحة دقّق
-  (تسعير/شروط) من مصادر أولية"* (`:23`). The census says the same of arena 5: *"arena 5 has no
-  receipt yet, and until a card produces one it stays a hypothesis, not a proven path"*
-  (`research/pain-census-2026-10-20.md:81`).
-- **The census ranks pains by file-mentions, not instances** — a labelled proxy
-  (`research/pain-census-2026-10-20.md:15-19`, `:79`).
+  (تسعير/شروط) من مصادر أولية"* (`:23`). The census says the same in the authoritative
+  version: *"The money path is an estimate. … Arena 5's revenue line is **not** a measured
+  number"* (`research/pain-census-2026-10-20.md:438-440`), and it records that *"the arena
+  price/terms for every arena are unverified"* (`:589-591`) — every money-path judgement is a
+  judgement about *fit*, never about *revenue*.
+- **The census counts in instances, not in vocabulary.** Its method is **ENUM** (a row in a
+  table the project itself wrote) and **MEAS** (re-measured from disk by the command shown),
+  anchored to a named sha (`research/pain-census-2026-10-20.md:110-122`, `:602-604`); the
+  file-mention **TOKEN** method is named there as *"a vocabulary proxy"*. Where this ledger
+  quotes a TOKEN number (the 2026-10-21 re-derivation in §3), it says so and does not lean on
+  it.
 - **The library is paper.** No card is RUNNING; the device named by IDEA-002 does not exist
   (`find . -name 'acc.py' | wc -l` → 0); IDEA-001's own named device never existed (0 hits
   tree-wide).
 - **This ledger is not law.** It is a **witness of a moment** (R14). Where a row and a record
   disagree, **the record wins**.
-- The first-run order (**IDEA-001 first, IDEA-002 second** — revised 2026-10-21 after an
-  adversarial review, and now following D-13's arena-1-first) is an **agent decision, revocable
-  by the Owner in one line** — it is not a ruling, and it is recorded with its reasons in
-  `research/anatomy-library.md` §3.
+- The first-run order is an **agent decision, revocable by the Owner in one line** — it is not
+  a ruling. **As of 2026-10-21 02:29:12 +03 it reads: IDEA-001 (amended) first, IDEA-002
+  second** (the board's own revised §3, `research/anatomy-library.md:37-38`) — the order was
+  **reversed** by the adversarial review, and this ledger's earlier "disputed" note was written
+  from a 02:2x read that the revision superseded. **Read the order off the board, not off this
+  file** (command in §3).
 
 **Forcing cause:** the Owner's directive to re-open this session's chain and close it (2026-10-20).
 **Walls:** paper only — no execution, no runtime, no fuel, no doctrine write, no Owner-by-right
@@ -173,8 +246,8 @@ field; version untouched (v0.0001).
 - The two states reported are the cards' own words: IDEA-001 `ARMED` (Arabic state line,
   `research/idea-001-anchor-checker.md:5`) and IDEA-002 `ARMED`
   (`research/idea-002-card-preset-compiler.md:30`). Neither is this file's opinion.
-- The two fixture hashes in §0.4 are a **witness of a moment**; a mismatch is a signal to
-  re-read the card, not a defect of the card.
+- The corpus hash in §0.4 is a **witness of a moment**; a mismatch is a signal to
+  re-read the card and the corpus, not a defect of either.
 
 ## 6) What this revision changed (2026-10-21 02:1x +03 — dated, declared, not silent)
 The ledger was first written by the lead at 2026-10-21 01:11; this revision **keeps its
@@ -188,5 +261,29 @@ structure and its rulings** and adds what a reader cannot do without:
 - **§3** now says **how** the round was decided (the census's rule and its named trap) and
   records the counts' re-derivation.
 - **§4** replaces the hand-kept "0 PROVEN · 0 DEAD" with the command that produces the number,
-  and adds the ceilings the census stated (unverified arena prices · file-mention proxy).
+  and adds the ceilings the census stated (unverified arena prices · the instance-vs-vocabulary
+  distinction).
 - **§5 (new)** — the ammanat, in the house style.
+
+### 6.1 The second revision (2026-10-21 02:3x +03) — the tree moved under this file
+Two things changed underneath this ledger while it was being written, and both are repaired
+here rather than left to rot:
+- **The census was rewritten.** Its authoritative version (scout, board task 3) **supersedes**
+  the lead's 00:37 placeholder (`research/pain-census-2026-10-20.md:16-36`). **The angle did
+  not change** — C-12 / arena 5 / authoring is still the first recommendation — but the
+  method, the counts, the **runner-up** (now C-5, the pending-stack decay device, arena 6 — not
+  the board's draft IDEA-003) and every line reference did. §3 is re-cited to the new file,
+  and the TOKEN re-derivation is kept as a measurement but **labelled as the proxy the census
+  deprecates**, not as the deciding evidence.
+- **IDEA-002 was spec-repaired** (its §10, 2026-10-21 02:17, after an adversarial review):
+  the corpus moved out of the card into `research/idea-002-fixtures.md` (F1 · F2 · F3, each
+  breaking exactly one thing), the inline §6.1/§6.2 fixtures are **withdrawn**, the required
+  field set's derivation is now shown (8 fields, two named merges), and the commands are
+  V1..V8. **§0.4 now hashes the corpus file and prints the F1/F2/F3 extraction commands**; the
+  old inline-fixture hashes are gone from this ledger because the objects they named no longer
+  exist as test inputs.
+- **The first-run order was REVISED, not left disputed**: the board's owner changed it at
+  2026-10-21 02:29:12 +03 (**IDEA-001 first, IDEA-002 second**), and this ledger's earlier
+  "DISPUTED" note — written from a 02:2x read — was corrected here rather than left standing
+  (§3, §4). The one stale trace left in the tree is `OWNER-DESK.md:30` (the Owner's own
+  decision surface still offers the pre-reversal order to rule on) — **reported, not edited.**

@@ -686,21 +686,26 @@ against the disk and hold:
 **Therefore: the first run is IDEA-001 (amended) first, this card second, in the same
 round.** The reasons are recorded in `research/anatomy-library.md` §3 (the board is the
 authority for the order); this card's role changes from "FIRST" to "second".
-> **CONFLICT, declared 2026-10-21 02:3x (dated, not silent).** The sentence above says the
-> board records these reasons. **It does not — yet.** Read at 2026-10-21 02:2x,
-> `research/anatomy-library.md` (mtime 2026-10-21 01:39:43 +03) §3 still reads: *"**Decision
-> (agent, revocable): IDEA-002 runs first; IDEA-001 second, same round.**"* — the **opposite**
-> order, with its own mechanical reasons (IDEA-002's spec is unambiguous; IDEA-001's is not).
-> The board's own §2 table likewise still marks this card **FIRST** and IDEA-001 **second**,
-> and the lead's filed proposal `proposals/pr-026-library-and-first-run.md:13` asks the Owner to
-> rule *"IDEA-002 … first, IDEA-001 … second"*.
-> **So the library currently holds two contradictory orders:** this card's §10.6 (IDEA-001
-> first) and the board + the proposal (IDEA-002 first). **The board is the stated authority**
-> for the order, and the board is not mine to write — so this card does **not** claim the
-> order. **Unresolved, and it is the board's owner who must reconcile it.** Until then the
-> first-run order of the library is **disputed**, and the card's §10.6 is a *proposal* on the
-> order, not the order. (Recorded in `research/card-ledger.md` §3 — the ledger is the one
-> place that says so in the library's own index.)
+> **ORDER — REVISED 2026-10-21 02:29:12 +03 (this block replaces an earlier one of mine; the
+> correction is dated, not silent).** I first wrote this section against a **02:2x read** of
+> the board and, on that reading, recorded the order as a **CONFLICT**: the board still said
+> *"**Decision (agent, revocable): IDEA-002 runs first; IDEA-001 second, same round.**"*
+> `research/anatomy-library.md` §2/§3 (then mtime 2026-10-21 01:39:43 +03), and the lead's
+> filed proposal `proposals/pr-026-library-and-first-run.md:13` asked the Owner to rule
+> *"IDEA-002 … first, IDEA-001 … second"*. **That reading is now out of date.** The board's
+> owner revised the board at **2026-10-21 02:29:12 +03**, and it now reads (`:37-38`):
+> *"**Decision (agent, revocable) — REVISED 2026-10-21 after an adversarial review: IDEA-001
+> (amended) runs first; IDEA-002 second, same round.** The first version of this section had
+> it the other way round; it was **overruled by a context-isolated reviewer (R6)** whose
+> verdict was **CHANGE**."* The proposal was updated with it (mtime 2026-10-21 02:30:06,
+> `:13`: *"confirm the first-run order — IDEA-001 (arena 1, checking) first, IDEA-002 (arena 5,
+> authoring) second, which follows D-13's 'arena 1 first'"*), and the reversal is on the
+> session's own log (`CONTEXT.md:714` — *"THE ORDER REVERSED BY ADVERSARIAL REVIEW"*).
+> **So the order is settled and it is this section's order: IDEA-001 (amended) first, this
+> card second, same round.** The only trace of the earlier order left in the tree is the
+> Owner's desk row (`OWNER-DESK.md:30`), which still offers the Owner *"the **first-run
+> order** (IDEA-002 first, IDEA-001 second)"* to rule on — **a doctrine file, not mine to
+> write; reported, not fixed.**
 **Honest note on the attacker's own overreach:** the reviewer also claimed IDEA-001's H1/H2
 are "expressible today as a pure re-run script". The disk says otherwise — the
 reconciliation records that the tool "**cannot express H1 or H2 at all**" and that "no
@@ -727,7 +732,7 @@ FIXTURE and are not in `research/card-ledger.md`'s card list.
 | §7's "D-13's standing order puts arena 1 first" (a note in passing) | §10.6 | it was read as a contradiction; it is now the decision's basis |
 | §8 (the census's first-draft citations and its TOKEN re-derivation) | §8's own dated correction note (2026-10-21 02:3x) | the census was rewritten at 02:20 and **supersedes** its first draft (`research/pain-census-2026-10-20.md:16-36`); the **angle is unchanged** (C-12 / arena 5 / authoring), the method, the counts, the runner-up and the line numbers are not |
 | §7's "arena 5 has no receipt yet…" quote (census `:81`) | §7's own dated correction note (2026-10-21 02:3x) | the census was rewritten; that sentence now lives at `:438-440` and the arena-price caveat at `:589-591` |
-| §10.6's sentence "the reasons are recorded in `research/anatomy-library.md` §3" | the CONFLICT note inside §10.6 (2026-10-21 02:3x) | the board (mtime 01:39) still records the **opposite** order; the board is not this card's to write, so the order stays **disputed** until its owner reconciles it |
+| §10.6's sentence "the reasons are recorded in `research/anatomy-library.md` §3" | the ORDER block inside §10.6 (2026-10-21 02:3x, revised 02:4x) | the board was **revised at 2026-10-21 02:29:12 +03** and now carries this section's order (IDEA-001 first, IDEA-002 second); an earlier block of mine recorded the order as a conflict, on a 02:2x read that the 02:29 revision superseded |
 | `research/card-ledger.md` §0.4 (which hashed the **withdrawn** inline §6.1/§6.2 fixtures) | the ledger's own 2026-10-21 02:3x revision | the inline fixtures are withdrawn (§10.2); the ledger now hashes `research/idea-002-fixtures.md` and prints the F1/F2/F3 extraction commands |
 
 ### 10.9 Ammanat (unchanged, restated)
