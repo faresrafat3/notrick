@@ -1,5 +1,11 @@
 # INTEGRITY — doctrine hash pins (L5 of the supervision stack)
 
+> **re-pinned 2026-10-29 (pin repair moment — Owner line, verbatim: "fix notrick's pin"):**
+> `6c25d79` (unslop, 2026-10-26) changed AGENTS.md without a re-pin; the mismatch is
+> filed as V-010 in violations.md. AGENTS.md's hash refreshed 498833c6… → 721cd42e…; the
+> diff is punctuation-only (18+/18−), line count unchanged at 75, no citation target
+> moved. No other pinned file touched. Verify: 43 OK / 0 FAILED; citecheck DRIFTS=9
+> (no new drift).
 > **pin-set amended 2026-09-21 (delegated decision — Owner line, verbatim: "القرارات عندك continue"):**
 > `violations.md` is EXEMPTED from the pin set by rule — pr-013 option A, the CONTEXT.md precedent
 > (a record the law orders every agent to append to cannot hold a stable hash; pr-013 evidence 4).
@@ -57,7 +63,7 @@ cd ~/Projects/notrick && sha256sum -c <(grep -E "^[0-9a-f]{64}" INTEGRITY.md)
 
 ## Pinned hashes (sha256) — 43 files
 ```
-498833c6625c224c27fc227807c6bb55ea09f7933f0de086c99b6aeebe1106e6  ./AGENTS.md
+721cd42ec925a73939fec96215a238fdfa469976ac40f74f105e14f83ec37c35  ./AGENTS.md
 e7a01c71dfef3fae141fff38812736dab82558d103dc5e01ef48b0cfe77ea3db  ./charters/ch-001-prime.md
 8bd514021432127c22426def9567c3d21e1e73009b13c64f7e1bdc21cfefa037  ./charters/ch-002-council.md
 d73107dd8c6d4c3b5fa30f8ddddf26d31f1e5c77dcb277e9012324e3956d365b  ./charters/ch-003-maker.md
